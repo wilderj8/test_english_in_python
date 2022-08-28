@@ -1,8 +1,9 @@
 def main_theory():
     abecedary()
+    basic_sentence_structure()
 
-def recorrer_lista_abecedary(list_test):
-    print("correct words")
+def recorrer_lista(list_test):
+    print("correct words/structure")
     for x in list_test:
         print(x)
 
@@ -36,6 +37,10 @@ def list_correct_abecedary():
     print("Y--uai")
     print("Z--set")
 
+def list_correct_basic_sentence_strcture():
+    print()
+    print("question---answer")
+    print("what the basic sentence structure?---subject+verb+object")
 
 def abecedary():
     good=0
@@ -253,7 +258,7 @@ def abecedary():
             print("incorrect")
         
         print("Answers:")
-        recorrer_lista_abecedary(vec_abe)
+        recorrer_lista(vec_abe)
         print(f"result: {good}/26")
         print()
         print("¿you want to see the list of answers, but if you see them the test is over?yes/not")
@@ -266,7 +271,38 @@ def abecedary():
             print("¿you want to leave the abecedary test yes/not?")
             see_ans=input()
             if(see_ans=="yes"):
-                see_ans="yes"
+                exit="yes"
             elif(see_ans=="not"):
-                see_ans="not"
+                exit="not"
 
+def basic_sentence_structure():
+    print()
+    print("BASIC SENTENCE STRUCTURE")
+    vec_bas_sen_str=["------"]
+    good_bas_sen_str=0
+    answer_bas_sen_str=input("what the basic sentence structure?: ")
+    if(answer_bas_sen_str=="subject+verb+object"):
+        print("correct")
+        good_bas_sen_str+=1
+        vec_bas_sen_str[0]="what the basic sentence structure"
+    else:
+        print("incorrect")
+
+    print()    
+    print("Answers:")
+    recorrer_lista(vec_bas_sen_str)
+    print(f"result: {good_bas_sen_str}/26")
+    print()
+    print("¿you want to see the list of answers, but if you see them the test is over?yes/not")
+    see_ans=input()
+    if(see_ans=="yes"):
+        list_correct_basic_sentence_strcture()
+        exit="yes"
+    elif(see_ans=="not"):
+        print()            
+        print("¿you want to leave the basic sentense structure test yes/not?")
+        see_ans=input()
+        if(see_ans=="yes"):
+            exit="yes"
+        elif(see_ans=="not"):
+            exit="not"

@@ -17,6 +17,9 @@ if(tho_or_wor=="words"):
     var_test1=words.test1()
     if(var_test1==1):
         print("test#2")
+        var_test_2=words.test2()
+        if(var_test_2==1):
+            print("test #3")
 elif(tho_or_wor=="theory"):
     #you choose theory        
     theory.main_theory()

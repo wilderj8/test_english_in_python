@@ -5,6 +5,7 @@ def recorrer_lista_test(list_test):
         print(x)
 
 def correct_list_test_1():
+    print()
     print('lista correcta del test 1')
     print('spanish--english--pronunciation')
     print('común--common--kamen')
@@ -18,6 +19,19 @@ def correct_list_test_1():
     print('tonelada--ton--ton')
     print('agoviado--overwhelmed--over-welt')
 
+def correct_list_test_2():
+    print('lista correcta del test 2')
+    print('spanish--english--pronunciation')
+    print('mejoras--improvements--in-pru-ments')
+    print('debe/obligación/necesario--must--most')
+    print('subsidios/becas--grants--grents')
+    print('disponible--available--abei-lobo')
+    print('algunos--some--som')
+    print('cuidado--care--ker')
+    print('mismo/igual--same--seim')
+    print('proveer/prestar/disponer/suministrar--provide--pro-va-it')
+    print('revelar/divulgar--disclose--dis-cous')
+    print('liberado/publicado--released--ruilist')
 
 def test1():
     list_test_1=["---------","---------","---------","---------","---------","---------","---------","---------","---------","---------"]
@@ -162,6 +176,146 @@ def test1():
             exit="yes"
         
         print("")
+    return 1
 
+def test2():
+    list_test_2=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+    good=0
+    exit='not'
+    while (good<10 and exit=='not'):        
+        print('write mejoras in english')
+        improvements_word=input()
+        print('write the pronunciation of mejoras in english')
+        improvements_pronunciation=input()
+        if(improvements_word=='improvements' and improvements_pronunciation=='in-pru-ments'):
+            print('correct')
+            good=good+1
+            list_test_2[0]='improvements'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write debe/obligación/necesario in english')
+        must_word=input()
+        print('write the pronunciation of debe/obligación/necesario in english')
+        must_pronunciation=input()
+        if(must_word=='must' and must_pronunciation=='most'):
+            print('correct')
+            good=good+1
+            list_test_2[1]='must'
+        else:
+            print('incorrect')
+        print('')
+        
+        print('write subsidios/becas in english')
+        grants_word=input()
+        print('write the pronunciation of subsidios/becas in english')
+        grants_pronunciation=input()
+        if(grants_word=='grants' and grants_pronunciation=='grents'):
+            print('correct')
+            good=good+1
+            list_test_2[2]='grants'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write disponible in english')
+        available_word=input()
+        print('write the pronunciation of disponible in english')
+        available_pronunciation=input()
+        if(available_word=='available' and available_pronunciation=='abei-lobo'):
+            print('correct')
+            good=good+1
+            list_test_2[3]='available'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write algunos in english')
+        some_word=input()
+        print('write the pronunciation of algunos in english')
+        some_pronunciation=input()
+        if(some_word=='some' and some_pronunciation=='som'):
+            print('correct')
+            good=good+1
+            list_test_2[4]='some'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write cuidado in english')
+        care_word=input()
+        print('write the pronunciation of cuidado in english')
+        care_pronunciation=input()
+        if(care_word=='care' and care_pronunciation=='ker'):
+            print('correct')
+            good=good+1
+            list_test_2[5]='care'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write mismo/igual in english')
+        same_word=input()
+        print('write the pronunciation of mismo/igual in english')
+        same_pronunciation=input()
+        if(same_word=='same' and same_pronunciation=='seim'):
+            print('correct')
+            good=good+1
+            list_test_2[6]='same'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write proveer/prestar/disponer/suministrar in english')
+        provide_word=input()
+        print('write the pronunciation of proveer/prestar/disponer/suministrar in english')
+        provide_pronunciation=input()
+        if(provide_word=='provide' and provide_pronunciation=='pro-va-it'):
+            print('correct')
+            good=good+1
+            list_test_2[7]='provide'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write revelar/divulgar in english')
+        disclose_word=input()
+        print('write the pronunciation of revelar/divulgar in english')
+        disclose_pronunciation=input()
+        if(disclose_word=='disclose' and disclose_pronunciation=='dis-cous'):
+            print('correct')
+            good=good+1
+            list_test_2[8]='disclose'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write liberado/publicado in english')
+        released_word=input()
+        print('write the pronunciation of liberado/publicado in english')
+        released_pronunciation=input()
+        if(released_word=='released' and released_pronunciation=='ruilist'):
+            print('correct')
+            good=good+1
+            list_test_2[9]='released'
+        else:
+            print('incorrect')
+        print('')
+
+        recorrer_lista_test(list_test_2)
+        print(f'{good}/10')
+        print('')
+        print('¿you want to leave the test#2 yes/not?')
+        exit=input()
+        if(exit=='not'):
+            list_test_2=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+            good=0
+            print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
+            see_answers_test_2=input()
+            if(see_answers_test_2=='yes'):
+                correct_list_test_2()
+                exit='yes'
+            print('')
     return 1
 
