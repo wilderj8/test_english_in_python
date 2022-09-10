@@ -50,6 +50,7 @@ def abecedary():
     print("ABECEDARY")
     exit="not"
     while(exit=="not"):
+        good=0
         letter_abe=input("write the letter [A] in english: ")
         if(letter_abe=="ei"):
             print("correct")
