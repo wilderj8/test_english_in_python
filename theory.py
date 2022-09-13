@@ -1,5 +1,5 @@
 def main_theory():
-    abecedary()
+    #abecedary()
     basic_sentence_structure()
 
 def recorrer_lista(list_test):
@@ -277,6 +277,28 @@ def abecedary():
             elif(see_ans=="not"):
                 exit="not"
 
+def noun_subject():
+    list_test_noun_subject=["----","----","----","----","----","----",]
+    print('write esquina in english')
+    corner_word=input()    
+    if(corner_word=='corner'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[0]='corner'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Esposo in english')
+    cousin_word=input()    
+    if(cousin_word=='cousin'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[1]='cousin'
+    else:
+        print('incorrect')
+    print('')
+
 def basic_sentence_structure():
     print()
     print("BASIC SENTENCE STRUCTURE")
@@ -298,6 +320,7 @@ def basic_sentence_structure():
         vec_bas_sen_str[1]="what is a subject"
     else: 
         print("incorrect")
+
 
     print()    
     print("Answers:")
