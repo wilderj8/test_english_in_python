@@ -1,5 +1,5 @@
 def main_theory():
-    #abecedary()
+    abecedary()
     basic_sentence_structure()
 
 def recorrer_lista(list_test):
@@ -298,6 +298,141 @@ def noun_subject():
     else:
         print('incorrect')
     print('')
+
+    print('write Sombrilla in english')
+    umbrella_word=input()    
+    if(umbrella_word=='umbrella'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[2]='umbrella'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Basura(first) in english')
+    trash_word=input()
+    print('write Basura(second) in english')
+    rubbish_word=input()
+    if(trash_word=='trash' and rubbish_word=='rubbish'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[3]='trash'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Gafas in english')
+    glasses_word=input()    
+    if(glasses_word=='glasses'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[4]='glasses'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Vidrio/Vaso/copa in english')
+    glass_word=input()    
+    if(glass_word=='glass'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[5]='glass'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Aro in english')
+    rings_word=input()    
+    if(rings_word=='rings'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[6]='rings'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Campo in english')
+    countryside_word=input()    
+    if(countryside_word=='countryside'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[7]='countryside'
+    else:
+        print('incorrect')
+    print('')
+    
+    print('write Sequía in english')
+    drought_word=input()    
+    if(drought_word=='drought'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[8]='drought'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Reliquias in english')
+    relics_word=input()    
+    if(relics_word=='relics'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[9]='relics'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Huellas in english')
+    footprints_word=input()    
+    if(footprints_word=='footprints'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[10]='footprints'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Capas in english')
+    layers_word=input()    
+    if(layers_word=='layers'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[11]='layers'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Sedimento in english')
+    sediment_word=input()    
+    if(sediment_word=='sediment'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[12]='sediment'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Arcilla in english')
+    clay_word=input()    
+    if(clay_word=='clay'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[13]='clay'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write Centro in english')
+    downtown_word=input()    
+    if(downtown_word=='downtown'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[14]='downtown'
+    else:
+        print('incorrect')
+    print('')
+
+
+
 
 def basic_sentence_structure():
     print()
