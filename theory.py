@@ -278,7 +278,9 @@ def abecedary():
                 exit="not"
 
 def noun_subject():
-    list_test_noun_subject=["----","----","----","----","----","----",]
+    point=False
+    list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----",]
+    good=0
     print('write esquina in english')
     corner_word=input()    
     if(corner_word=='corner'):
@@ -430,6 +432,17 @@ def noun_subject():
     else:
         print('incorrect')
     print('')
+    
+    if(good==15):
+        point=True
+        print("Congratulations, you have a point")
+    else:
+        print("you not have point")
+
+    return point
+
+
+
 
 
 
@@ -437,7 +450,7 @@ def noun_subject():
 def basic_sentence_structure():
     print()
     print("BASIC SENTENCE STRUCTURE")
-    vec_bas_sen_str=["------","------"]
+    vec_bas_sen_str=["------","------","------"]
     good_bas_sen_str=0
     answer_bas_sen_str=input("what the basic sentence structure?: ")
     if(answer_bas_sen_str=="subject+verb+object"):
@@ -456,6 +469,12 @@ def basic_sentence_structure():
     else: 
         print("incorrect")
 
+    print()
+    
+    point_noun_subject=noun_subject()
+    if(point_noun_subject):
+        good_bas_sen_str+=1
+        vec_bas_sen_str[2]="subjects/nouns words"
 
     print()    
     print("Answers:")
