@@ -1,0 +1,61 @@
+"agregar palabra al text":{
+		"prefix": "sni.py.add_word",
+		"body": ["print('write $1 in english')",
+        "$2_word=input()",
+        "print('write the pronunciation of $1 in english')",
+        "$2_pronunciation=input()",
+        "if($2_word=='$2' and $2_pronunciation=='$3'):",
+            "print('correct')",
+            "good=good+1",
+            "list_test_$4[$5]='$2'",
+        "else:",
+            "print('incorrect')",
+        "print('')"]
+	},
+
+	"agregar funcion test":{
+		"prefix": "sni.py.add_function_test",
+		"body": ["def test$1():",
+			"list_test_$1=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']",
+			"good=0",
+			"exit='not'",
+			"while (good<10 and exit=='not'):",
+			
+				"recorrer_lista_test(list_test_$1)",
+				"print(f'{good}/10')",
+					
+				"print('')",
+				"print('¿you want to leave the test#$1 yes/not?')",
+				"exit=input()",
+			
+				"if(exit=='not'):",
+					"list_test_$1=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']",
+					"good=0",            
+	
+				"print('¿you want to see the list of answers, but if you see them the test is over?yes/not')",
+				"see_answers_test_$1=input()",
+				"if(see_answers_test_$1=='yes'):",
+					"correct_list_test_$1()",
+					"exit='yes'",
+					"print('')",
+					"return 1"
+				]
+	},
+
+	"lista correct del test":{
+	"prefix": "sni.py.add_list_correct_test",
+	"body": ["def correct_list_test_$1():",
+    	"print('lista correcta del test $1')",
+    	"print('spanish--english--pronunciation')",
+    	"print('$3--$4--$5')",
+    	"print('$6--$7--$8')",
+    	"print('$9--$10--$11')",
+    	"print('$12--$13--$14')",
+    	"print('$15--$16--$17')",
+    	"print('$18--$19--$20')",
+    	"print('$21--$22--$23')",
+    	"print('$24--$25--$26')",
+    	"print('$27--$28--$29')",
+    	"print('$30--$31--$32')"]
+	}
+}
