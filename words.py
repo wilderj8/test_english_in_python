@@ -33,6 +33,20 @@ def correct_list_test_2():
     print('revelar/divulgar--disclose--dis-cous')
     print('liberado/publicado--released--ruilist')
 
+def correct_list_test_3():
+    print('lista correcta del test 3')
+    print('spanish--english--pronunciation')
+    print('Ejecutando--performing--per-for-ming')
+    print('conciencia--awareness--o-wer-ness')
+    print('entrenador/ra--trainer--trei-ner')
+    print('rendimiento--performance--per-for-mens')
+    print('debilidad--weakness--wik-ness')
+    print('señora/dama--lady--ley-dii')
+    print('poesía--poetry--pou-trii')
+    print('coraje/valor/valentía--courage--co-ruich')
+    print('bienes/inmuebles/finca--estate--steit')
+    print('critica--criticism--cri-sici-um')
+
 def test1():
     list_test_1=["---------","---------","---------","---------","---------","---------","---------","---------","---------","---------"]
     good=0
@@ -319,3 +333,145 @@ def test2():
             print('')
     return 1
 
+
+def test3():
+    list_test_3=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+    good=0
+    exit='not'
+    while (good<10 and exit=='not'):
+        print('write ejecutando in english')
+        performing_word=input()
+        print('write the pronunciation of ejecutando in english')
+        performing_pronunciation=input()
+        if(performing_word=='performing' and performing_pronunciation=='per-for-ming'):
+            print('correct')
+            good=good+1
+            list_test_3[0]='performing'
+        else:
+            print('incorrect')
+        print('')
+        
+        print('write conciencia  in english')
+        awareness_word=input()
+        print('write the pronunciation of conciencia  in english')
+        awareness_pronunciation=input()
+        if(awareness_word=='awareness' and awareness_pronunciation=='o-wer-ness'):
+            print('correct')
+            good=good+1
+            list_test_3[1]='awareness'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write entrenador/ra in english')
+        trainer_word=input()
+        print('write the pronunciation of entrenador/ra in english')
+        trainer_pronunciation=input()
+        if(trainer_word=='trainer' and trainer_pronunciation=='trei-ner'):
+            print('correct')
+            good=good+1
+            list_test_3[2]='trainer'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write rendimiento/desempeño in english')
+        performance_word=input()
+        print('write the pronunciation of rendimiento/desempeño in english')
+        performance_pronunciation=input()
+        if(performance_word=='performance' and performance_pronunciation=='per-for-mens'):
+            print('correct')
+            good=good+1
+            list_test_3[3]='performance'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write debilidad in english')
+        weakness_word=input()
+        print('write the pronunciation of debilidad in english')
+        weakness_pronunciation=input()
+        if(weakness_word=='weakness' and weakness_pronunciation=='wik-ness'):
+            print('correct')
+            good=good+1
+            list_test_3[4]='weakness'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write señora/dama in english')
+        lady_word=input()
+        print('write the pronunciation of señora/dama in english')
+        lady_pronunciation=input()
+        if(lady_word=='lady' and lady_pronunciation=='ley-dii'):
+            print('correct')
+            good=good+1
+            list_test_3[5]='lady'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write poesía in english')
+        poetry_word=input()
+        print('write the pronunciation of poesía in english')
+        poetry_pronunciation=input()
+        if(poetry_word=='poetry' and poetry_pronunciation=='pou-trii'):
+            print('correct')
+            good=good+1
+            list_test_3[6]='poetry'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write coraje/valor/valentía in english')
+        courage_word=input()
+        print('write the pronunciation of coraje/valor/valentía in english')
+        courage_pronunciation=input()
+        if(courage_word=='courage' and courage_pronunciation=='co-ruich'):
+            print('correct')
+            good=good+1
+            list_test_3[7]='courage'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write bienes/inmuebles/finca in english')
+        estate_word=input()
+        print('write the pronunciation of bienes/inmuebles/finca in english')
+        estate_pronunciation=input()
+        if(estate_word=='estate' and estate_pronunciation=='steit'):
+            print('correct')
+            good=good+1
+            list_test_3[8]='estate'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write critica in english')
+        criticism_word=input()
+        print('write the pronunciation of critica in english')
+        criticism_pronunciation=input()
+        if(criticism_word=='criticism' and criticism_pronunciation=='cri-sici-um'):
+            print('correct')
+            good=good+1
+            list_test_3[9]='criticism'
+        else:
+            print('incorrect')
+        print('')
+
+        recorrer_lista_test(list_test_3)
+        print(f'{good}/10')
+        print('')
+        print('¿you want to leave the test#3 yes/not?')
+        exit=input()
+        if(exit=='not'):
+            list_test_3=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+            good=0
+            print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
+            see_answers_test_3=input()
+            if(see_answers_test_3=='yes'):
+                correct_list_test_3()
+                exit='yes'
+            
+            print("")
+    return 1
