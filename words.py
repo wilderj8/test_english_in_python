@@ -325,16 +325,17 @@ def test2():
         if(exit=='not'):
             list_test_2=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
             good=0
-            print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
-            see_answers_test_2=input()
-            if(see_answers_test_2=='yes'):
-                correct_list_test_2()
-                exit='yes'
-            print('')
+        print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
+        see_answers_test_2=input()
+        if(see_answers_test_2=='yes'):
+            correct_list_test_2()
+            exit='yes'
+        print('')
     return 1
 
 
 def test3():
+    print()
     list_test_3=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
     good=0
     exit='not'
@@ -467,11 +468,11 @@ def test3():
         if(exit=='not'):
             list_test_3=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
             good=0
-            print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
-            see_answers_test_3=input()
-            if(see_answers_test_3=='yes'):
-                correct_list_test_3()
-                exit='yes'
+        print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
+        see_answers_test_3=input()
+        if(see_answers_test_3=='yes'):
+            correct_list_test_3()
+            exit='yes'
             
-            print("")
+        print("")
     return 1

@@ -37,11 +37,38 @@ def list_correct_abecedary():
     print("Y--uai")
     print("Z--set")
 
+def correct_list_test_noun_subject():
+    print()
+    print('lista correcta del test noun_subject')
+    print('spanish--english--pronunciation')
+    print('corner--esquina')
+    print('cousin--esposo')
+    print('umbrella--sombrilla')
+    print('rubbish--basura')
+    print('trash--basura(music)')
+    print('glasses--gafas')
+    print('glass--vidrio/vaso/copa')
+    print('rings--aro')
+    print('countryside--campo')
+    print('drought--sequía')
+    print('relics--reliquias')
+    print('footprints--huellas')
+    print('layers--capas')
+    print('sediment--sedimiento')
+    print('clay--arcilla')
+    print('downtown--centro')
+    print()
+
 def list_correct_basic_sentence_strcture():
     print()
     print("question---answer")
     print("what the basic sentence structure?---subject+verb+object")
     print("what is a subject?---a subject is a part of a sentence that contains the person or thing performing the action in a sentence")
+    correct_list_test_noun_subject()
+    print("what are pronouns?--pronouns are the words we often use to talk about a person when we are not using their name")
+
+
+
 
 def abecedary():
     good=0
@@ -311,9 +338,9 @@ def noun_subject():
         print('incorrect')
     print('')
 
-    print('write Basura(first) in english')
+    print('write Basura(music) in english')
     trash_word=input()
-    print('write Basura(second) in english')
+    print('write Basura in english')
     rubbish_word=input()
     if(trash_word=='trash' and rubbish_word=='rubbish'):
         print('correct')
@@ -441,16 +468,10 @@ def noun_subject():
 
     return point
 
-
-
-
-
-
-
 def basic_sentence_structure():
     print()
     print("BASIC SENTENCE STRUCTURE")
-    vec_bas_sen_str=["------","------","------"]
+    vec_bas_sen_str=["------","------","------","------"]
     good_bas_sen_str=0
     answer_bas_sen_str=input("what the basic sentence structure?: ")
     if(answer_bas_sen_str=="subject+verb+object"):
@@ -470,16 +491,23 @@ def basic_sentence_structure():
         print("incorrect")
 
     print()
-    
+        
     point_noun_subject=noun_subject()
     if(point_noun_subject):
         good_bas_sen_str+=1
         vec_bas_sen_str[2]="subjects/nouns words"
 
+    print()
+    answer_wh_ar_pro=input("what are pronouns?: ")
+    if(answer_wh_ar_pro=="pronouns are the words we often use to talk about a person when we are not using their name"):
+        print("correct")
+        good_bas_sen_str+=1
+        vec_bas_sen_str[3]="what are pronouns"
+
     print()    
     print("Answers:")
     recorrer_lista(vec_bas_sen_str)
-    print(f"result: {good_bas_sen_str}/26")
+    print(f"result: {good_bas_sen_str}/27")
     print()
     print("¿you want to see the list of answers, but if you see them the test is over?yes/not")
     see_ans=input()
