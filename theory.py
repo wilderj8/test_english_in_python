@@ -1,3 +1,7 @@
+from asyncore import write
+from ctypes import pointer
+
+
 def main_theory():
     abecedary()
     basic_sentence_structure()
@@ -467,6 +471,59 @@ def noun_subject():
         print("you not have point")
 
     return point
+
+def pronouns():    
+    good_pro=0
+    point=False
+    print("write the pronouns")
+    i_var=input("write yo: ")
+    if(i_var=="i"):
+        print("correct")
+        good_pro+=1
+
+    you_sing_var=input("write tu: ")
+    if(you_sing_var=="you"):
+        print("correct")
+        good_pro+=1
+
+    he_var=input("write él: ")
+    if(he_var=="he"):
+        print("correct")
+        good_pro+=1
+
+    she_var=input("write ella: ")
+    if(she_var=="she"):
+        print("correct")
+        good_pro+=1
+
+    it_var=input("write eso: ")
+    if(it_var=="it"):
+        print("correct")
+        good_pro+=1
+
+    we_var=input("write nosotros/as: ")
+    if(we_var=="we"):
+        print("correct")
+        good_pro+=1
+
+    you_plu_var=input("write ustedes: ")
+    if(you_plu_var=="you"):
+        print("correct")
+        good_pro+=1
+
+    they_var=input("write ellas/ellos: ")
+    if(they_var=="they"):
+        print("correct")
+        good_pro+=1
+    
+    if(good_pro==8):
+        print("Congratulations, you have a point")
+        point=True
+    else:
+        print("you not have point")
+        
+    return point
+
 
 def basic_sentence_structure():
     print()

@@ -330,12 +330,11 @@ def test2():
         if(see_answers_test_2=='yes'):
             correct_list_test_2()
             exit='yes'
-        print('')
+    print('')
     return 1
 
 
-def test3():
-    print()
+def test3():    
     list_test_3=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
     good=0
     exit='not'
