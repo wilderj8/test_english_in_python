@@ -516,7 +516,81 @@ def pronouns():
         print("correct")
         good_pro+=1
     
-    if(good_pro==8):
+    print("write object pronouns")
+    me_var_obj_pro=input("write conmigo/a mi: ")
+    if(me_var_obj_pro=="me"):
+        print("correct")
+        good_pro+=1
+
+    you_sin_var_obj_pro=input("write conmigo/a ti: ")
+    if(you_sin_var_obj_pro=="you"):
+        print("correct")
+        good_pro+=1
+
+    him_var_obj_pro=input("write el/a el: ")
+    if(him_var_obj_pro=="him"):
+        print("correct")
+        good_pro+=1
+
+    her_var_obj_pro=input("write a ella: ")
+    if(her_var_obj_pro=="her"):
+        print("correct")
+        good_pro+=1
+
+    it_var_obj_pro=input("write a eso/esa: ")
+    if(it_var_obj_pro=="it"):
+        print("correct")
+        good_pro+=1
+
+    us_var_obj_pro=input("write a nosotros/no: ")
+    if(us_var_obj_pro=="us"):
+        print("correct")
+        good_pro+=1
+
+    you_plu_var_obj_pro=input("write a ustedes: ")
+    if(you_plu_var_obj_pro=="you"):
+        print("correct")
+        good_pro+=1
+
+    them_var_obj_pro=input("write ellos/ellas: ")
+    if(them_var_obj_pro=="them"):
+        print("correct")
+        good_pro+=1
+    
+    print()
+    print("examples object pronouns:")
+    exa_1_obj_pro=input("how would the sentence with object pronoun? [susan calls sexilio]")
+    if(exa_1_obj_pro=="she calls him"):
+        print("correct")
+        good_pro+=1
+
+    exa_2_obj_pro=input("how would the sentence with object pronoun? [paul works with kelly]")
+    if(exa_2_obj_pro=="he works with her"):
+        print("correct")
+        good_pro+=1
+    
+    exa_3_obj_pro=input("how would the sentence with object pronoun? [peter and victor play with their friend]")
+    if(exa_3_obj_pro=="they play with them"):
+        print("correct")
+        good_pro+=1
+    
+    exa_4_obj_pro=input("how would the sentence with object pronoun? [mr.gonzales feeds the dog]")
+    if(exa_4_obj_pro=="she feed it"):
+        print("correct")
+        good_pro+=1
+    
+    exa_5_obj_pro=input("how would the sentence with object pronouns? [mr.smith feeds the cats]")
+    if(exa_5_obj_pro=="he feeds them"):
+        print("correct")
+        good_pro+=1
+
+    exa_6_obj_pro=input("how would the sentence with object pronouns? [mary and charlie talk to my sister and me]")
+    if(exa_6_obj_pro=="they talk to us"):
+        print("correct")
+        good_pro+=1
+
+    
+    if(good_pro==22):
         print("Congratulations, you have a point")
         point=True
     else:
