@@ -8,7 +8,7 @@ if(rules=="yes"):
     print("#1: Todo en minuscula")
 
 print()
-print("do you want proof of [theory] or [words]?")
+print("do you want the test of [theory] or [words]?")
 tho_or_wor=input()
 if(tho_or_wor=="words"):
     #you choose words

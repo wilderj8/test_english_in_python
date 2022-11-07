@@ -61,7 +61,12 @@ def correct_list_test_noun_subject():
     print('sediment--sedimiento')
     print('clay--arcilla')
     print('downtown--centro')
-    print()
+    print('integers--enteros')
+    print('current--actual')
+    print('lot--lote/terreno')
+    print('everything--todo')
+    print('parent--padre/progenitor')
+    print('--')
 
 def list_correct_basic_sentence_strcture():
     print()
@@ -310,7 +315,7 @@ def abecedary():
 
 def noun_subject():
     point=False
-    list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----",]
+    list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
     good=0
     print('write esquina in english')
     corner_word=input()    
@@ -463,8 +468,58 @@ def noun_subject():
     else:
         print('incorrect')
     print('')
-    
-    if(good==15):
+
+    print('write enteros in english')
+    integers_word=input()
+    if(integers_word=='integers'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[15]='integers'
+    else:
+        print('incorrect')
+    print('')
+
+    print("wirte actual in english")
+    current_word=input()
+    if(current_word=="current"):
+        print("correct")
+        good=good+1
+        list_test_noun_subject[16]='current'
+    else:
+        print("incorrect")
+    print("")
+
+    print("write lote/terreno in english")
+    lot_word=input()
+    if(lot_word=="lot"):
+        print("correct")
+        good=good+1
+        list_test_noun_subject[17]="lot"
+    else:
+        print("incorrect")
+    print("")
+
+    print("wirte todo in english")
+    everything_word=input()    
+    if(everything_word=="everything"):
+        print("correct")
+        good=good+1
+        list_test_noun_subject[18]="everything"
+    else:
+        print("incorrect")
+    print("")
+
+    print("write padre/progenitor in englis")
+    parent_word=input()
+    if(parent_word=="parent"):
+        print("correct")
+        good=good+1
+        list_test_noun_subject[19]="parent"
+    else:
+        print("incorrect")
+    print("")
+
+    if(good==20):
         point=True
         print("Congratulations, you have a point")
     else:
@@ -480,82 +535,114 @@ def pronouns():
     if(i_var=="i"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     you_sing_var=input("write tu: ")
     if(you_sing_var=="you"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     he_var=input("write él: ")
     if(he_var=="he"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     she_var=input("write ella: ")
     if(she_var=="she"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     it_var=input("write eso: ")
     if(it_var=="it"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     we_var=input("write nosotros/as: ")
     if(we_var=="we"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     you_plu_var=input("write ustedes: ")
     if(you_plu_var=="you"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     they_var=input("write ellas/ellos: ")
     if(they_var=="they"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
     
     print("write object pronouns")
     me_var_obj_pro=input("write conmigo/a mi: ")
     if(me_var_obj_pro=="me"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     you_sin_var_obj_pro=input("write conmigo/a ti: ")
     if(you_sin_var_obj_pro=="you"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     him_var_obj_pro=input("write el/a el: ")
     if(him_var_obj_pro=="him"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     her_var_obj_pro=input("write a ella: ")
     if(her_var_obj_pro=="her"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     it_var_obj_pro=input("write a eso/esa: ")
     if(it_var_obj_pro=="it"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     us_var_obj_pro=input("write a nosotros/no: ")
     if(us_var_obj_pro=="us"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     you_plu_var_obj_pro=input("write a ustedes: ")
     if(you_plu_var_obj_pro=="you"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     them_var_obj_pro=input("write ellos/ellas: ")
     if(them_var_obj_pro=="them"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
     
     print()
     print("examples object pronouns:")
@@ -563,34 +650,104 @@ def pronouns():
     if(exa_1_obj_pro=="she calls him"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
 
     exa_2_obj_pro=input("how would the sentence with object pronoun? [paul works with kelly]")
     if(exa_2_obj_pro=="he works with her"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
     
     exa_3_obj_pro=input("how would the sentence with object pronoun? [peter and victor play with their friend]")
     if(exa_3_obj_pro=="they play with them"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
     
     exa_4_obj_pro=input("how would the sentence with object pronoun? [mr.gonzales feeds the dog]")
     if(exa_4_obj_pro=="she feed it"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
     
     exa_5_obj_pro=input("how would the sentence with object pronouns? [mr.smith feeds the cats]")
     if(exa_5_obj_pro=="he feeds them"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
+
 
     exa_6_obj_pro=input("how would the sentence with object pronouns? [mary and charlie talk to my sister and me]")
     if(exa_6_obj_pro=="they talk to us"):
         print("correct")
         good_pro+=1
+    else:
+        print("incorrect")
+
+    wh_ar_pos_adj=input("what are possessive adjectives?")
+    if(wh_ar_pos_adj=="a possessive adjective is an adjective that modifies a noun by identifying who was ownership or possession of it"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    print("write possessive adjective")
+    my_var_pos_adj=input("write mi/mis: ")
+    if(my_var_pos_adj=="my"):
+        print("correct")
+    else:
+        print("incorrect")
+
+    your_sin_var_pos_adj=input("write su(de usted): ")
+    if(your_sin_var_pos_adj=="your"):
+        print("correct")
+    else:
+        print("incorrect")
+
+    his_var_pos_adj=input("write su/sus(de el): ")
+    if(his_var_pos_adj=="his"):
+        print("correct")
+    else:
+        print("incorrect")
+    
+    her_var_pos_adj=print("write su/sus(de ella): ")
+    if(her_var_pos_adj=="her"):
+        print("correct")
+    else:
+        print("incorrect")
+
+    its_var_pos_adj=print("write su/sus(de eso(animal o cosa)): ")
+    if(its_var_pos_adj=="its"):
+        print("correct")
+    else:
+        print("incorrect")
+    
+    our_var_pos_adj=print("wirte nuestro/a/as: ")
+    if(our_var_pos_adj=="our"):
+        print("correct")
+    else:
+        print("incorrect")
+    
+    your_plu_var_pos_adj=print("write sus(de ustedes): ")
+    if(your_plu_var_pos_adj=="your"):
+        print("correct")
+    else:
+        print("incorrect")
+
+    their_var_pos_adj=input("write su/sus(de ellos): ")
+    if(their_var_pos_adj=="their"):
+        print("correct")
+    else:
+        print("incorrect")
+
 
     
-    if(good_pro==22):
+    if(good_pro==23):
         print("Congratulations, you have a point")
         point=True
     else:
@@ -634,6 +791,8 @@ def basic_sentence_structure():
         print("correct")
         good_bas_sen_str+=1
         vec_bas_sen_str[3]="what are pronouns"
+    else:
+        print("incorrect")
 
     print()    
     print("Answers:")
