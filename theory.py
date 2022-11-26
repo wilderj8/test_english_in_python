@@ -1,3 +1,6 @@
+#possesive adjective pasa algo raro=)
+#possesive adjective organizar examples=)
+#possesive pronouns organizar examples =)
 from asyncore import write
 from ctypes import pointer
 
@@ -66,7 +69,83 @@ def correct_list_test_noun_subject():
     print('lot--lote/terreno')
     print('everything--todo')
     print('parent--padre/progenitor')
+    print('ownership--propiedad/posesión')
+    print('constraint--restrinción/limitación')
+    print('target--objetivo/proposito/meta')
+    print('frame--marco/estructura')
+    print('patterns--patrones/estampados/adorno')
+    print('chart--gráfica/historia medica/ranking')
+    print('layout--diseño')
     print('--')
+
+def list_correct_pronouns():
+    print("")
+    print("Pronouns:")
+    print("i--yo")
+    print("you--tú")
+    print("he --él")
+    print("she--ella")
+    print("it--eso")
+    print("we--nosotros/as")
+    print("you--ustedes")
+    print("they--ellas/ellos")
+    print()
+
+    print("Object pronouns:")
+    print("me--conmigo/a mi")
+    print("you--contigo/a ti")
+    print("him--el/a el")
+    print("her--a ella")
+    print("it--a eso/esa")
+    print("us--nosotros/nos")
+    print("you--a ustedes")
+    print("them--ellos/ellas")
+    print()
+    print("examples object pronouns")
+    print("susan calls sexilio--she calls him")
+    print("paul works with kelly--he works with her")
+    print("peter and victor play with their friend--they play with them")
+    print("mr.gonzales feeds the dog--she feed it")
+    print("mr.smith feeds the cats--he feed them")
+    print("mary and charlie talk to my sister and me--they talk to us")
+
+    print()
+    print("possessive adjective")
+    print("what are possessive adjectives?--a possessive adjective is an adjective that modifies a noun by identidying who has ownership or possession of it")
+    print()
+    print("my--mi/mis")
+    print("your--su(de usted)")
+    print("his--su/sus(de el)")
+    print("her--su/sus(de ella)")
+    print("its--su/sus(de eso(animal o cosa))")
+    print("our--nuestro/a/as")
+    print("your--sus(de ustedes)")
+    print("their--su/sus(de ellos)")
+    print()
+    print("Examples possessive adjective")
+    print("i'm beushing __ teeth--my")
+    print("pablo is cleaning __ bedroom--his")
+    print("gloria is feeding __ dog--her")
+    print("you are painting __ living room--your")
+    print("the monkey is reading __ book--its")
+    print("Mr and Mrs melgar are cooking __ dinner--their")
+    print("My sister and i are eating __ lunch--our")
+
+    print()
+    print("possessive pronouns")
+    print("mine--mía/mío(s)")
+    print("yours--tuya/tuyo(s)/suyo(s)")
+    print("his--de él/suyo(s)")
+    print("hers--de ella/suyo(s)")
+    print("ours--nuestra/nuestro(s)")
+    print("yours--ustedes")
+    print("theirs--ellos/suyo(s)")
+    print()
+    print("Examples possessive pronouns")
+    print("La casa es tuya--the house is yours")
+    print("La casa es de él--the house is his")
+    print("La casa es de ella--the house is hers")
+    print()
 
 def list_correct_basic_sentence_strcture():
     print()
@@ -75,7 +154,8 @@ def list_correct_basic_sentence_strcture():
     print("what is a subject?---a subject is a part of a sentence that contains the person or thing performing the action in a sentence")
     correct_list_test_noun_subject()
     print("what are pronouns?--pronouns are the words we often use to talk about a person when we are not using their name")
-
+    list_correct_pronouns()
+    
 def abecedary():
     good=0
     vec_abe=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------",]
@@ -312,7 +392,7 @@ def abecedary():
 
 def noun_subject():
     point=False
-    list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
+    list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
     good=0
     print('write esquina in english')
     corner_word=input()    
@@ -516,7 +596,77 @@ def noun_subject():
         print("incorrect")
     print("")
 
-    if(good==20):
+    print('write propiedad/posesión in english')
+    ownership_word=input()
+    if(ownership_word=='ownership'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[20]='ownership'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write restrinción/limitación in english')
+    constraint_word=input()
+    if(constraint_word=='constraint'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[21]='constraint'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write objetivo/meta/proposito in english')
+    target_word=input()
+    if(target_word=='target'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[22]='target'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write marco/estructura in english')
+    frame_word=input()
+    if(frame_word=='frame'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[23]='frame'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write patrones/estampados/adorno in english')
+    patterns_word=input()
+    if(patterns_word=='patterns'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[24]='patterns'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write gráfica/historia medica/ranking in english')
+    chart_word=input()    
+    if(chart_word=='chart'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[25]='chart'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write diseño in english')
+    layout_word=input()
+    if(layout_word=='layout'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[26]='layout'
+    else:
+        print('incorrect')
+    print('')
+
+    if(good==27):
         point=True
         print("Congratulations, you have a point")
     else:
@@ -644,43 +794,43 @@ def pronouns():
     
     print()
     print("examples object pronouns:")
-    exa_1_obj_pro=input("how would the sentence with object pronoun? [susan calls sexilio]")
+    exa_1_obj_pro=input("how would the sentence with object pronoun? [susan calls sexilio]: ")
     if(exa_1_obj_pro=="she calls him"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_2_obj_pro=input("how would the sentence with object pronoun? [paul works with kelly]")
+    exa_2_obj_pro=input("how would the sentence with object pronoun? [paul works with kelly]: ")
     if(exa_2_obj_pro=="he works with her"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
     
-    exa_3_obj_pro=input("how would the sentence with object pronoun? [peter and victor play with their friend]")
+    exa_3_obj_pro=input("how would the sentence with object pronoun? [peter and victor play with their friend]: ")
     if(exa_3_obj_pro=="they play with them"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
     
-    exa_4_obj_pro=input("how would the sentence with object pronoun? [mr.gonzales feeds the dog]")
+    exa_4_obj_pro=input("how would the sentence with object pronoun? [mr.gonzales feeds the dog]: ")
     if(exa_4_obj_pro=="she feed it"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
     
-    exa_5_obj_pro=input("how would the sentence with object pronouns? [mr.smith feeds the cats]")
-    if(exa_5_obj_pro=="he feeds them"):
+    exa_5_obj_pro=input("how would the sentence with object pronouns? [mr.smith feeds the cats]: ")
+    if(exa_5_obj_pro=="he feed them"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
 
-    exa_6_obj_pro=input("how would the sentence with object pronouns? [mary and charlie talk to my sister and me]")
+    exa_6_obj_pro=input("how would the sentence with object pronouns? [mary and charlie talk to my sister and me]: ")
     if(exa_6_obj_pro=="they talk to us"):
         print("correct")
         good_pro+=1
@@ -688,7 +838,8 @@ def pronouns():
         print("incorrect")
 
     print()
-    wh_ar_pos_adj=input("what are possessive adjectives?")
+    print("possessive adjective")
+    wh_ar_pos_adj=input("what are possessive adjectives?: ")
     if(wh_ar_pos_adj=="a possessive adjective is an adjective that modifies a noun by identifying who was ownership or possession of it"):
         print("correct")
         good_pro+=1
@@ -718,28 +869,28 @@ def pronouns():
     else:
         print("incorrect")
     
-    her_var_pos_adj=print("write su/sus(de ella): ")
+    her_var_pos_adj=input("write su/sus(de ella): ")
     if(her_var_pos_adj=="her"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    its_var_pos_adj=print("write su/sus(de eso(animal o cosa)): ")
+    its_var_pos_adj=input("write su/sus(de eso(animal o cosa)): ")
     if(its_var_pos_adj=="its"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
     
-    our_var_pos_adj=print("wirte nuestro/a/as: ")
+    our_var_pos_adj=input("wirte nuestro/a/as: ")
     if(our_var_pos_adj=="our"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
     
-    your_plu_var_pos_adj=print("write sus(de ustedes): ")
+    your_plu_var_pos_adj=input("write sus(de ustedes): ")
     if(your_plu_var_pos_adj=="your"):
         print("correct")
         good_pro+=1
@@ -755,49 +906,49 @@ def pronouns():
 
     print()
     print("examples possessive adjective")
-    exa_1_pos_adj=input("i'm brushing ___ teeth")
+    exa_1_pos_adj=input("i'm brushing ___ teeth: ")
     if(exa_1_pos_adj=="my"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_2_pos_adj=input("pablo is cleaning ___ bedroom")
+    exa_2_pos_adj=input("pablo is cleaning ___ bedroom: ")
     if(exa_2_pos_adj=="his"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
     
-    exa_3_pos_adj=input("gloria is feeding __ dog")
+    exa_3_pos_adj=input("gloria is feeding __ dog: ")
     if(exa_3_pos_adj=="her"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_4_pos_adj=input("you are painting ___ living room")
+    exa_4_pos_adj=input("you are painting ___ living room: ")
     if(exa_4_pos_adj=="your"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_5_pos_adj=input("the monkey is reading ___ book")
+    exa_5_pos_adj=input("the monkey is reading ___ book: ")
     if( exa_5_pos_adj=="its"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_6_pos_adj=input("Mr and Mrs melgar are cooking ___ dinner")
+    exa_6_pos_adj=input("Mr and Mrs melgar are cooking ___ dinner: ")
     if(exa_6_pos_adj=="their"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_7_pos_adj=input("my sister and i are eating ___ lunch")
+    exa_7_pos_adj=input("my sister and i are eating ___ lunch: ")
     if(exa_7_pos_adj=="our"):
         print("correct")
         good_pro+=1
@@ -857,21 +1008,21 @@ def pronouns():
 
     print()
     print("examples possessive pronouns")
-    exa_1_pos_pro=input("write in english:[La casa es tuya]")
+    exa_1_pos_pro=input("write in english:[La casa es tuya]: ")
     if(exa_1_pos_pro=="the house is yours"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_2_pos_pro=input("write in english:[La casa es de él]")
+    exa_2_pos_pro=input("write in english:[La casa es de él]: ")
     if(exa_2_pos_pro=="the house is his"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
 
-    exa_3_pos_pro=input("write in english:[La casa es de ella]")
+    exa_3_pos_pro=input("write in english:[La casa es de ella]: ")
     if(exa_3_pos_pro=="the house is hers"):
         print("correct")
         good_pro+=1
@@ -885,7 +1036,6 @@ def pronouns():
         print("you not have point")
         
     return point
-
 
 def basic_sentence_structure():
     print()
@@ -925,6 +1075,7 @@ def basic_sentence_structure():
     else:
         print("incorrect")
 
+    print()
     pronouns_var=pronouns()
     if(pronouns_var=="True"):
         print("do you have 1 point")
