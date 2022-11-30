@@ -1,6 +1,4 @@
-#possesive adjective pasa algo raro=)
-#possesive adjective organizar examples=)
-#possesive pronouns organizar examples =)
+#hay un problema de conteo de correctas en la parte de pronouns.
 from asyncore import write
 from ctypes import pointer
 
@@ -111,7 +109,7 @@ def list_correct_pronouns():
 
     print()
     print("possessive adjective")
-    print("what are possessive adjectives?--a possessive adjective is an adjective that modifies a noun by identidying who has ownership or possession of it")
+    print("what are possessive adjectives?--a possessive adjective is an adjective that modifies a noun by identifying who has ownership or possession of it")
     print()
     print("my--mi/mis")
     print("your--su(de usted)")
@@ -840,7 +838,7 @@ def pronouns():
     print()
     print("possessive adjective")
     wh_ar_pos_adj=input("what are possessive adjectives?: ")
-    if(wh_ar_pos_adj=="a possessive adjective is an adjective that modifies a noun by identifying who was ownership or possession of it"):
+    if(wh_ar_pos_adj=="a possessive adjective is an adjective that modifies a noun by identifying who has ownership or possession of it"):
         print("correct")
         good_pro+=1
     else:
@@ -1077,7 +1075,7 @@ def basic_sentence_structure():
 
     print()
     pronouns_var=pronouns()
-    if(pronouns_var=="True"):
+    if(pronouns_var):
         print("do you have 1 point")
         good_bas_sen_str+=1
         vec_bas_sen_str[4]="Pronouns"
