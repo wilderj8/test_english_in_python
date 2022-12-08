@@ -1,14 +1,15 @@
-#hay un problema de conteo de correctas en la parte de pronouns.
+#falto poner en [list_correct] los diías  de los meses
+#al final del possession pronouns, cuando se dan los resultados quedan muy juntos
 from asyncore import write
 from ctypes import pointer
 
 
 def main_theory():
     abecedary()
+    months()
     basic_sentence_structure()
 
-def recorrer_lista(list_test):
-    print("correct words/structure")
+def recorrer_lista(list_test):    
     for x in list_test:
         print(x)
 
@@ -154,6 +155,22 @@ def list_correct_basic_sentence_strcture():
     print("what are pronouns?--pronouns are the words we often use to talk about a person when we are not using their name")
     list_correct_pronouns()
     
+def list_correct_months():
+    print()
+    print("Months:")
+    print("january--enero")
+    print("february--febrero")
+    print("march--marzo")
+    print("april--abril")
+    print("may--mayo")
+    print("june--junio")
+    print("july--julio")
+    print("august--agosto")
+    print("september--septiembre")
+    print("october--octubre")
+    print("november--noviembre")
+    print("december--diciembre")
+
 def abecedary():
     good=0
     vec_abe=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------",]
@@ -374,7 +391,7 @@ def abecedary():
         recorrer_lista(vec_abe)
         print(f"result: {good}/26")
         print()
-        print("¿you want to see the list of answers, but if you see them the test is over?yes/not")
+        print("you want to see the list of answers, but if you see them the test is over?yes/not")
         see_ans=input()
         if(see_ans=="yes"):
             list_correct_abecedary()
@@ -387,6 +404,151 @@ def abecedary():
                 exit="yes"
             elif(see_ans=="not"):
                 exit="not"
+
+def months():
+    good=0
+    vec_mon=["------","------","------","------","------","------","------","------","------","------","------","------","------"]
+    print()
+    print("MONTHS")
+    exit=True
+    while(exit):
+        good=0
+        ene_in_eng=input("enero in english: ")
+        day_of_ene=input("how many days are there in enero: ")
+        if(ene_in_eng=="january" and day_of_ene=="31 days"):
+            print("correct")
+            good+=1
+            vec_mon[0]="january"
+        else:
+            print("incorrect")
+        print()
+        
+        feb_in_eng=input("febrero in english: ")
+        day_of_feb=input("how many days are there in febrero: ")
+        day_of_feb_lep=input("how many days are the in febrero when is leap-year: ")
+        if(feb_in_eng=="february" and day_of_feb=="28 days" and day_of_feb_lep=="29 days"):
+            print("correct")
+            good+=1
+            vec_mon[1]="february"
+        else:
+            print("incorrect")
+        print()
+
+        mar_in_eng=input("marzo in english: ")
+        day_of_mar=input("how many days are ther in marzo: ")
+        if(mar_in_eng=="march" and day_of_mar=="31 days"):
+            print("correct")
+            good+=1
+            vec_mon[2]="march"
+        else:
+            print("incorrect")
+        print()
+
+        apr_in_eng=input("abril in english: ")
+        day_of_apr=input("how many days are there in abril: ")
+        if(apr_in_eng=="april" and day_of_apr=="30 days"):
+            print("correct")
+            good+=1
+            vec_mon[3]="april"
+        else:
+            print("incorrect")
+        print()
+
+        may_in_eng=input("mayo in english: ")
+        day_of_may=input("how many days are their in mayo: ")
+        if(may_in_eng=="may" and day_of_may=="31 days"):
+            print("correct")
+            good+=1
+            vec_mon[4]="may"
+        else:
+            print("incorrect")
+        print()
+
+        jun_in_eng=input("junio in english: ")
+        day_of_jun=input("how many days are there in junio: ")
+        if(jun_in_eng=="june" and day_of_jun=="30 days"):
+            print("correct")
+            good+=1
+            vec_mon[5]="june"
+        else:
+            print("incorrect")
+        print()
+
+        jul_in_eng=input("julio in english: ")
+        day_of_jul=input("how many days are their in julio: ")
+        if(jul_in_eng=="july" and day_of_jul=="31 days"):
+            print("correct")
+            good+=1
+            vec_mon[6]="july"
+        else:
+            print("incorrect")
+        print()
+        
+        aug_in_eng=input("agosto in english: ")
+        day_of_agu=input("how many days are their in agosto: ")
+        if(aug_in_eng=="august" and day_of_agu=="31 days"):
+            print("correct")
+            good+=1
+            vec_mon[7]="august"
+        else:
+            print("incorrect")
+        print()
+
+        sep_in_eng=input("septiembre in english: ")
+        day_of_sep=input("how many days are their in septiembre: ")
+        if(sep_in_eng=="september" and day_of_sep=="30 days"):
+            print("correct")
+            good+=1
+            vec_mon[8]="september"
+        else:
+            print("incorrect")
+        print()
+        
+        oct_in_eng=input("octubre in english: ")
+        day_of_oct=input("how many days are their in octubre: ")
+        if(oct_in_eng=="october" and day_of_oct=="31 days"):
+            print("correct")
+            good+=1
+            vec_mon[9]="october"
+        else:
+            print("incorrect")
+        print()
+
+        nov_in_eng=input("noviembre in english: ")
+        day_of_nov=input("how many days are their in noviembre: ")
+        if(nov_in_eng=="november" and day_of_nov=="30 days"):
+            print("correct")
+            good+=1
+            vec_mon[10]="november"
+        else:
+            print("incorrect")
+        print()
+
+        dec_in_eng=input("diciembre in english: ")
+        day_of_dec=input("how many days are their in diciembre: ")
+        if(dec_in_eng=="december" and day_of_dec=="31 days"):
+            print("correct")
+            good+=1
+            vec_mon[11]="december"
+        else:
+            print("incorrect")
+        print()
+    
+        print("Answers:")
+        recorrer_lista(vec_mon)
+        print(f"result: {good}/12")
+        print()
+        see_ans=input("you want to see the list of answers, but if you see them the test is over?yes/not: ")
+        if(see_ans=="yes"):
+            list_correct_months()
+            exit=False
+        elif(see_ans=="not"):
+            print()
+            see_ans=input("you want to leave the months test yes/not?: ")
+            if(see_ans=="yes"):
+                exit=False
+            elif(see_ans=="not"):
+                exit=True
 
 def noun_subject():
     point=False
