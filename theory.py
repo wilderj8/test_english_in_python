@@ -1,5 +1,3 @@
-#falto poner en [list_correct] los diías  de los meses
-#al final del possession pronouns, cuando se dan los resultados quedan muy juntos
 from asyncore import write
 from ctypes import pointer
 
@@ -150,6 +148,9 @@ def list_correct_basic_sentence_strcture():
     print()
     print("question---answer")
     print("what the basic sentence structure?---subject+verb+object")
+    print()
+    list_correct_simple_rules()
+    print()
     print("what is a subject?---a subject is a part of a sentence that contains the person or thing performing the action in a sentence")
     correct_list_test_noun_subject()
     print("what are pronouns?--pronouns are the words we often use to talk about a person when we are not using their name")
@@ -170,6 +171,27 @@ def list_correct_months():
     print("october--octubre-->31 days")
     print("november--noviembre-->30 days")
     print("december--diciembre-->31 days")
+
+def list_correct_simple_rules():
+    print("SIMPLE RULES:")
+    print("noun--object/place/personal name")
+    print("pronouns--i/you/he/she/it/we/you/they")
+    print("adjective-- quality-characteristic/color-form-size-origin")
+    print("article--define the noun --> a/an/the")
+    print("noun and adjective rule--adjective+noun=")
+    print("noun and article rule--article+noun=subject")
+    print("types of verb--regulars and irregulars")
+    print("#1 rule of the verb in the past--ed is never pronounced")
+    print("infinitive verb structure--to+verb")
+    print("gerund verb structure--verb+ing")
+    print("auxiliary verbs--be/do/modals/have(perfec tenses)")
+    print("adverbs--describes the verb")
+    print("frecuency adverb--intensity/quantity --> always/normally/never/often/sometimes")
+    print("prepositions--time/place --> in/on/at/with/of/that/than/against")
+    print("time expresion--today/tomorrow/yesterdaylast night")
+    print("conjunctions/coordinators--fanboys(for/and/nor/but/or/yet/so)")
+    print("connectors--preposition/conjunctions-coordinators(fanboys)")
+    print("separate structures--,/preposition/conjunctions-coordinators(fanboys)")
 
 def abecedary():
     good=0
@@ -407,7 +429,7 @@ def abecedary():
 
 def months():
     good=0
-    vec_mon=["------","------","------","------","------","------","------","------","------","------","------","------","------"]
+    vec_mon=["------","------","------","------","------","------","------","------","------","------","------","------"]
     print()
     print("MONTHS")
     exit=True
@@ -1194,13 +1216,196 @@ def pronouns():
         point=True
     else:
         print("you not have point")
-        
+    
+    print()
     return point
+
+def simple_rules():
+    vec_sim_rul=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
+    good_sim_rul=0
+    bin_sim_rul=False
+    noun_ans_sim_rul=input("how to identify the noun?: ")
+    if(noun_ans_sim_rul=="object/place/animal/personal name"):
+        print("correct")
+        vec_sim_rul[0]="noun"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    pro_ans_sim_rul=input("what are the pronouns?: ")
+    if(pro_ans_sim_rul=="i/you/he/she/it/we/you/they"):
+        print("correct")
+        vec_sim_rul[1]="pronouns"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    adj_ide_ans_sim_rul=input("how to identify the adjective?: ")
+    adj_wha_ans_sim_rul=input("what are the those characteristics and qualities?: ")
+    if(adj_ide_ans_sim_rul=="quality/characteristic" and adj_wha_ans_sim_rul=="color/form/size/origin"):
+        print("correct")
+        vec_sim_rul[2]="adjective"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    art_ide_ans_sim_rul=input("how to identify the article?: ")
+    art_wh_ans_sim_rul=input("what are the articles?: ")
+    if(art_wh_ans_sim_rul=="a/an/the" and art_ide_ans_sim_rul=="define the noun"):
+        print("correct")
+        vec_sim_rul[3]="article"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    nou_and_adj_rul_ans_sim_rul=input("what is the rule of nouns and adjectives?: ")
+    if(nou_and_adj_rul_ans_sim_rul=="adjective+noun"):
+        print("correct")
+        vec_sim_rul[4]="rule[noun and adjective]"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    nou_and_art_ans_sim_rul=input("what is the rule of noun and article?: ")
+    if(nou_and_art_ans_sim_rul=="article+noun=subject"):
+        print("correct")
+        vec_sim_rul[5]="rule[noun and article]"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    typ_of_ver_ans_sim_rul=input("what are the types of verbs?: ")
+    if(typ_of_ver_ans_sim_rul=="regulars and irregulars"):
+        print("correct")
+        vec_sim_rul[6]="types of verbs"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    rul_ver_pas_ans_sim_rul=input("write #1 rule of the verb in the past: ")
+    if(rul_ver_pas_ans_sim_rul=="ed is never pronounced"):
+        print("correct")
+        vec_sim_rul[7]="rule of the verb in past"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    inf_ver_ans_sim_rul=input("what is the rule of the infinitive verb?: ")
+    if(inf_ver_ans_sim_rul=="to+verb"):
+        print("correct")
+        vec_sim_rul[8]="infinitive verb"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    ger_ver_ans_sim_rul=input("what is the rule of the gerund verb?: ")
+    if(ger_ver_ans_sim_rul=="verb+ing"):
+        print("correct")
+        vec_sim_rul[9]="gerund verb"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    aux_ver_ans_sim_rul=input("what are the auxiliary verbs?: ")
+    if(aux_ver_ans_sim_rul=="be/do/modals/have(perfect tenses)"):
+        print("correct")
+        vec_sim_rul[10]="auxiliary verbs"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    adv_ans_sim_rul=input("how to identify adverbs?: ")
+    if(adv_ans_sim_rul=="describes the verb"):
+        print("correct")
+        vec_sim_rul[11]="adverbs"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    fre_adv_ide_ans_sim_rul=input("how to idenfify the frequency adverbs?: ")
+    fre_adv_wha_ans_sim_rul=input("what are the frequency adverbs?: ")
+    if(fre_adv_ide_ans_sim_rul=="intensity/quantity" and fre_adv_wha_ans_sim_rul=="always/normally/never/often/sometimes"):
+        print("correct")
+        vec_sim_rul[12]="frequency adverbs"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    prep_ide_ans_sim_rul=input("how to identify the prepositions?: ")
+    prep_wha_ans_sim_rul=input("what are the prepositions?: ")
+    if(prep_ide_ans_sim_rul=="time/place" and prep_wha_ans_sim_rul=="in/on/at/with/of/that/than/against"):
+        print("correct")
+        vec_sim_rul[13]="prepositions"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    tim_exp_ans_sim_rul=input("what are the time expresions?: ")
+    if(tim_exp_ans_sim_rul=="today/tomorrow/yesterday/last night"):
+        print("correct")
+        vec_sim_rul[14]="time expresion"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    con_coo_ans_sim_rul=input("what are the [conjunctions/coordinators]?: ")
+    if(con_coo_ans_sim_rul=="fanboys(for/and/nor/but/or/yet/so)"):
+        print("correct")
+        vec_sim_rul[15]="conjunctions/coordinators"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    con_ans_sim_rul=input("what are the connectors?: ")
+    if(con_ans_sim_rul=="preposition/conjunctions-coordinators(fanboys)"):
+        print("correct")
+        vec_sim_rul[16]="connectors"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    sep_str_ans_sim_rul=input("what are the separate structures? [________[?]_______]: ")
+    if(sep_str_ans_sim_rul==",/preposition/conjunctions-coordinators(fanboys)"):
+        print("correct")
+        vec_sim_rul[17]="separate structures"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    print()
+    print("Answers:")
+    recorrer_lista(vec_sim_rul)
+    print(f"result: {good_sim_rul}/16")
+    if(good_sim_rul==16):
+        print("Congratulations, do you have 1 point")
+        bin_sim_rul=True
+    else:
+        print("keep trying")
+    
+    return bin_sim_rul
 
 def basic_sentence_structure():
     print()
     print("BASIC SENTENCE STRUCTURE")
-    vec_bas_sen_str=["------","------","------","------","------"]
+    vec_bas_sen_str=["------","------","------","------","------","------"]
     good_bas_sen_str=0
     answer_bas_sen_str=input("what the basic sentence structure?: ")
     if(answer_bas_sen_str=="subject+verb+object"):
@@ -1209,13 +1414,23 @@ def basic_sentence_structure():
         vec_bas_sen_str[0]="what the basic sentence structure"
     else:
         print("incorrect")
+    print()
 
+    print("SIMPLE RULES")
+    var_sim_rul=simple_rules()
+    if(var_sim_rul):
+        print("Correct do you have 1 point")
+        good_bas_sen_str+=1
+        vec_bas_sen_str[1]="simple rules"
+    else:
+        print("Do you not have point")
+    
     print()
     answer_wh_sub=input("what is a subject?: ")
     if(answer_wh_sub=="a subject is a part of a sentence that contains the person or thing performing the action in a sentence"):
         print("correct")
         good_bas_sen_str+=1
-        vec_bas_sen_str[1]="what is a subject"
+        vec_bas_sen_str[2]="what is a subject"
     else: 
         print("incorrect")
 
@@ -1224,25 +1439,22 @@ def basic_sentence_structure():
     point_noun_subject=noun_subject()
     if(point_noun_subject):
         good_bas_sen_str+=1
-        vec_bas_sen_str[2]="subjects/nouns words"
+        vec_bas_sen_str[3]="subjects/nouns words"
 
     print()
     answer_wh_ar_pro=input("what are pronouns?: ")
     if(answer_wh_ar_pro=="pronouns are the words we often use to talk about a person when we are not using their name"):
         print("correct")
         good_bas_sen_str+=1
-        vec_bas_sen_str[3]="what are pronouns"
+        vec_bas_sen_str[4]="what are pronouns"
     else:
         print("incorrect")
 
     print()
     pronouns_var=pronouns()
-    if(pronouns_var):
-        print("do you have 1 point")
+    if(pronouns_var):        
         good_bas_sen_str+=1
-        vec_bas_sen_str[4]="Pronouns"
-    else:
-        print("incorrect")
+        vec_bas_sen_str[5]="Pronouns"        
 
     print()    
     print("Answers:")
