@@ -1,7 +1,6 @@
 from asyncore import write
 from ctypes import pointer
 
-
 def main_theory():
     abecedary()
     months()
@@ -73,7 +72,37 @@ def correct_list_test_noun_subject():
     print('patterns--patrones/estampados/adorno')
     print('chart--gráfica/historia medica/ranking')
     print('layout--diseño')
-    print('--')
+    print('wheel--rueda')
+    print('lightness--claridad')
+    print('shade--sombra/oscuridad')
+    print('degree--grado')
+    print('light--luz')
+    print('sense--sentido/juicio/sentido(rational thinking)/presentimiento/sensación')
+    print('edge--borde/ventaja')
+    print('account--cuenta')
+    print('nuance--matiz/tonalidad')
+    print('bulb--bombilla/canaleta')
+    print('landscape--panorma/vista/paisaje')
+    print('deal--acuerdo/trato')
+    print('gutter--alcantarilla/canaleta')
+    print('brethren--hermanos')
+    print('vendor--comerciante/vendedor(a)')
+    print('draft--borrador/boceto/bosquejo/corriente/cerveza de barril/caña/jarra')
+    print('nast--nido')
+    print('feature--característica/distintivo/rasgo')
+    print('parther--socio/socia/pareja/compañero(a)')
+    print('bunch--racismo')
+    print('ellipsis--puntos suspensivos')
+    print('spot--mancha/granito/lugar(informal)/sitio(informal)/roncha')
+    print('stitch--punto/puntada/pinchazo')
+    print('sitting--sesión/horario/turno/periodo')
+    print('brunch--almuerzo/desayuno armuerzo')
+    print('portrait--retrato')
+    print('couple--par/pareja')
+    print('gap--hueco/espacio/intervalo/interrupción/lapso')
+    print('spring--primavera')
+    print('heir--heredero')
+    print("--")
 
 def list_correct_pronouns():
     print("")
@@ -574,7 +603,7 @@ def months():
 
 def noun_subject():
     point=False
-    list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
+    list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
     good=0
     print('write esquina in english')
     corner_word=input()    
@@ -848,7 +877,307 @@ def noun_subject():
         print('incorrect')
     print('')
 
-    if(good==27):
+    print('write rueda in english')
+    wheel_word=input()    
+    if(wheel_word=='wheel'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[27]='wheel'
+    else:
+        print('incorrect')
+    print('')
+
+    print("write claridad in english")
+    lightness_word=input()
+    if(lightness_word=="lightness"):
+        print("correct")
+        good=good+1
+        list_test_noun_subject[28]="lightness"
+    else:
+        print("incorrect")
+    print()        
+
+    print('write sombra/oscuridad in english')
+    shade_word=input()    
+    if(shade_word=='shade'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[29]='shade'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write grado in english')
+    degree_word=input()    
+    if(degree_word=='degree'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[30]='degree'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write luz in english')
+    light_word=input()    
+    if(light_word=='light'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[31]='light'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write sentido/juicio/sentido(rational thinking)/presentimiento/sensación in english')
+    sense_word=input()    
+    if(sense_word=='sense'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[32]='sense'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write borde/ventaja in english')
+    edge_word=input()    
+    if(edge_word=='edge'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[33]='edge'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write cuenta in english')
+    account_word=input()    
+    if(account_word=='account'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[34]='account'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write matiz/tonalidad in english')
+    nuance_word=input()    
+    if(nuance_word=='nuance'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[35]='nuance'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write bombilla/canaleta in english')
+    bulb_word=input()    
+    if(bulb_word=='bulb'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[36]='bulb'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write panorama/vista/paisaje in english')
+    landscape_word=input()    
+    if(landscape_word=='landscape'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[37]='landscape'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write acuerdo/trato in english')
+    deal_word=input()    
+    if(deal_word=='deal'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[38]='deal'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write alcantarilla/canaleta in english')
+    gutter_word=input()    
+    if(gutter_word=='gutter'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[39]='gutter'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write hermanos in english')
+    brethren_word=input()    
+    if(brethren_word=='brethren'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[40]='brethren'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write comerciante/vendedor(a) in english')
+    vendor_word=input()    
+    if(vendor_word=='vendor'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[41]='vendor'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write borrador/boceto/bosquejo/corriente/cerveza de barril/caña/jarra in english')
+    draft_word=input()    
+    if(draft_word=='draft'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[42]='draft'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write nido in english')
+    nast_word=input()    
+    if(nast_word=='nast'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[43]='nast'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write característica/distintivo/rasgo/ in english')
+    feature_word=input()    
+    if(feature_word=='feature'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[44]='feature'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write socia/socio/pareja/compañero(a) in english')
+    parther_word=input()    
+    if(parther_word=='partner'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[45]='partner'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write racismo in english')
+    bunch_word=input()    
+    if(bunch_word=='bunch'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[46]='bunch'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write puntos suspensivos in english')
+    ellipsis_word=input()    
+    if(ellipsis_word=='ellipsis'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[47]='ellipsis'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write mancha/granito/lugar(informal)/sitio(informal)/roncha in english')
+    spot_word=input()    
+    if(spot_word=='spot'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[48]='spot'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write punto/puntada/pinchazo in english')
+    stitch_word=input()    
+    if(stitch_word=='stitch'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[49]='stitch'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write sesión/horario/turno/periodo in english')
+    sitting_word=input()    
+    if(sitting_word=='sitting'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[50]='sitting'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write armuerzo/desayuno armuerzo in english')
+    brunch_word=input()    
+    if(brunch_word=='brunch'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[51]='brunch'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write retrato in english')
+    portrait_word=input()
+    if(portrait_word=='portrait'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[52]='portrait'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write par/pareja in english')
+    couple_word=input()    
+    if(couple_word=='couple'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[53]='couple'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write hueco/espacio/intervalo/interrupción/lapso in english')
+    gap_word=input()    
+    if(gap_word=='gap'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[54]='gap'
+    else:
+        print('incorrect')
+    print('')   
+
+    print('write primavera in english')
+    spring_word=input()    
+    if(spring_word=='spring'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[55]='spring'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write heredero in english')
+    heir_word=input()    
+    if(heir_word=='heir'):
+        print('correct')
+        good=good+1
+        list_test_noun_subject[56]='heir'
+    else:
+        print('incorrect')
+    print('')
+
+    if(good==57):
         point=True
         print("Congratulations, you have a point")
     else:
