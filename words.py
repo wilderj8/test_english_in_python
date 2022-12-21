@@ -1,3 +1,4 @@
+#hay algo raro en firefighter
 #funciones
 def recorrer_lista_test(list_test):
     print("correct words")
@@ -46,6 +47,18 @@ def correct_list_test_3():
     print('coraje/valor/valentía--courage--co-ruich')
     print('bienes/inmuebles/finca--estate--steit')
     print('critica--criticism--cri-sici-um')
+
+def correct_list_test_4():
+    print("crown--corona--cra-un")
+    print("interrrupt--interrumpir--inter-rrapt")
+    print("clearance--despeje/autorización--cle-rens")
+    print("cower--acobardarce--cli-rens")
+    print("firefighter--bombero--fair-or-faider")
+    print("still--aún/todavía--ss-tel")
+    print("mistake--error/equivocación--miss-tik")
+    print("against--en contra de/contra--ege-nst")
+    print("trait--caracteristica/cualidad/rasgo/atributo--trueit")
+    print("chest--cofre/baúl/tetas/pecho/--chest")    
 
 def test1():
     list_test_1=["---------","---------","---------","---------","---------","---------","---------","---------","---------","---------"]
@@ -333,7 +346,6 @@ def test2():
     print('')
     return 1
 
-
 def test3():    
     list_test_3=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
     good=0
@@ -474,4 +486,145 @@ def test3():
             exit='yes'
             
         print("")
+    return 1
+
+def test4():
+    list_test_4=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+    good=0
+    exit='not'
+    while (good<10 and exit=='not'):
+        print('write corona in english')
+        crown_word=input()
+        print('write the pronunciation of corona in english')
+        crown_pronunciation=input()
+        if(crown_word=='crown' and crown_pronunciation=='cra-un'):
+            print('correct')
+            good=good+1
+            list_test_4[0]='crown'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write interrumpir in english')
+        interrupt_word=input()
+        print('write the pronunciation of interrumpir in english')
+        interrupt_pronunciation=input()
+        if(interrupt_word=='interrupt' and interrupt_pronunciation=='inter-rrapt'):
+            print('correct')
+            good=good+1
+            list_test_4[1]='interrupt'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write autorización/despeje in english')
+        clearance_word=input()
+        print('write the pronunciation of autorización/despeje in english')
+        clearance_pronunciation=input()
+        if(clearance_word=='clearance' and clearance_pronunciation=='cle-rens'):
+            print('correct')
+            good=good+1
+            list_test_4[2]='clearance'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write acobardarce in english')
+        cower_word=input()
+        print('write the pronunciation of acobardarce in english')
+        cower_pronunciation=input()
+        if(cower_word=='cower' and cower_pronunciation=='cli-rens'):
+            print('correct')
+            good=good+1
+            list_test_4[3]='cower'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write bombero in english')
+        firefighter_word=input()
+        print('write the pronunciation of bombero in english')
+        firefighter_pronunciation=input()
+        if(firefighter_word=='firefighter' and firefighter_pronunciation=='fair-or-faider'):
+            print('correct')
+            good=good+1
+            list_test_4[4]='firefighter'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write aún/todavía in english')
+        still_word=input()
+        print('write the pronunciation of aún/todavía in english')
+        still_pronunciation=input()
+        if(still_word=='still' and still_pronunciation=='ss-tel'):
+            print('correct')
+            good=good+1
+            list_test_4[5]='still'
+        else:
+            print('incorrect')
+        print('')   
+
+        print('write error/equivocarce in english')
+        mistake_word=input()
+        print('write the pronunciation of error/equivocarce in english')
+        mistake_pronunciation=input()
+        if(mistake_word=='mistake' and mistake_pronunciation=='miss-tik'):
+            print('correct')
+            good=good+1
+            list_test_4[6]='mistake'
+        else:
+            print('incorrect')
+        print('') 
+
+        print('write en contra de/contra in english')
+        against_word=input()
+        print('write the pronunciation of en contra de/contra in english')
+        against_pronunciation=input()
+        if(against_word=='against' and against_pronunciation=='ege-nst'):
+            print('correct')
+            good=good+1
+            list_test_4[7]='against'
+        else:
+            print('incorrect')
+        print('')   
+
+        print('write rasgo/atributo/caracteristica/cualidad in english')
+        trait_word=input()
+        print('write the pronunciation of rasgo/atributo/caracteristica/cualidad in english')
+        trait_pronunciation=input()
+        if(trait_word=='trait' and trait_pronunciation=='trueit'):
+            print('correct')
+            good=good+1
+            list_test_4[8]='trait'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write pecho/tetas/baúl/cofre in english')
+        chest_word=input()
+        print('write the pronunciation of pecho/tetas/baúl/cofre in english')
+        chest_pronunciation=input()
+        if(chest_word=='chest' and chest_pronunciation=='chest'):
+            print('correct')
+            good=good+1
+            list_test_4[9]='chest'
+        else:
+            print('incorrect')
+        print('')
+
+        recorrer_lista_test(list_test_4)
+        print(f'{good}/10')
+        print('')
+        print('¿you want to leave the test#4 yes/not?')
+        exit=input()
+        if(exit=='not'):
+            list_test_4=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+            good=0
+        print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
+        see_answers_test_4=input()
+        if(see_answers_test_4=='yes'):
+            correct_list_test_4()
+            exit='yes'
+        print('')
     return 1

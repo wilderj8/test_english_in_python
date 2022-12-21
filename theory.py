@@ -173,6 +173,29 @@ def list_correct_pronouns():
     print("La casa es de ella--the house is hers")
     print()
 
+    print("reflexives pronouns")
+    print("what are reflexives pronouns--these pronouns are used whe we want to refer to ourselves or to something itself")
+    print()
+    print("myself--yo mismo/a mi")
+    print("yourself--tu mismo(a tí)/usted mismo(a usted)")
+    print("himself--él mismo/a sí mismo")
+    print("herself--ella misma/a sí misma")
+    print("itself--él mismo/a sí mismo")
+    print("ourselves--nosotros mismos")
+    print("yourselves--vosotros mismos/ustedes mismos")
+    print("themselves--ellos mismos")
+    print()
+    print("examples reflexives pronouns")
+    print("él viaja solo--he travles by himself")
+    print("mé corte con un cuchillo--i cut myself with a knife")
+    print("te vas a lastimar--you are going to hurt yourself")
+    print("él mismo preparó todo--he prepared everything himself")
+    print("ella misma reparo su carro--she fixed her car herself")
+    print("ellos quieren crear un robot que se mueva por sí mismo--they wanto to create a robot that can move by itself")
+    print("nos pusimos en gran riesgo en esta situación--we put orselves at great risk in that situation")
+    print("ellos se encontraron en serios problemas--they found themselves in serious trouble")
+    print("como ustedes mismos pueden ver, esto ha sido muy fácil--as you yourselves can see, this has been very easy")
+
 def list_correct_basic_sentence_strcture():
     print()
     print("question---answer")
@@ -1540,7 +1563,149 @@ def pronouns():
     else:
         print("incorrect")
 
-    if(good_pro==48):
+    print()
+    print("Reflexives pronouns")
+    wha_ref_pro=input("what are reflexives pronouns?: ")
+    if(wha_ref_pro=="these pronouns are used when we want to refer to ourselves or to something itself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    print()
+    print("write reflexives pronouns")
+    mys_var_ref_pro=input("write yo mismo/a mi: ")
+    if(mys_var_ref_pro=="myself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    you_var_ref_pro=input("write tu mismo(a tí)/usted mismo(a usted): ")
+    if(you_var_ref_pro=="yourself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    him_var_ref_pro=input("write él mismo/a sí mismo: ")
+    if(him_var_ref_pro=="himself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    her_var_ref_pro=input("write ella misma/a sí misma: ")
+    if(her_var_ref_pro=="herself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    its_var_ref_pro=input("write él mismo/a sí mismo: ")
+    if(its_var_ref_pro=="itself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    our_var_ref_pro=input("write nosotros mismos: ")
+    if(our_var_ref_pro=="ourselves"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    you_var_ref_pro=input("write vosotros mismos/ustedes mismos: ")
+    if(you_var_ref_pro=="yourselves"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    the_var_ref_pro=input("write ellos mismos: ")
+    if(the_var_ref_pro=="themselves"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+
+    print()
+    print("examples reflexives pronouns")
+    exa_1_ref_pro=input("how would the sentence with reflexive pronouns? [él viaja solo]: ")
+    if(exa_1_ref_pro=="he travels by himself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+    
+    exa_4_ref_pro=input("how would the sentence with reflexive pronouns? [mé corte con un cuchillo]: ")
+    if(exa_4_ref_pro=="i cut myself with a knife"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_5_ref_pro=input("how would the sentence with reflexive pronouns? [te vas a lastimar]: ")
+    if(exa_5_ref_pro=="you are going to hurt yourself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_6_ref_pro=input("how would the sentence with reflexive pronouns? [él mismo preparó todo]: ")
+    if(exa_6_ref_pro=="he prepared everything himself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_7_ref_pro=input("how would the sentence with reflexive pronouns? [ella misma reparo su carro]: ")
+    if(exa_7_ref_pro=="she fixed her car herself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_8_ref_pro=input("how would the sentence with reflexive pronouns? [ellos quieren crear un robot que se mueva por sí mismo]: ")
+    if(exa_8_ref_pro=="they want to create a robot that can move by itself"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    print("how would the sentence with reflexive pronouns? [nos pusimos en gran riesgo en esta situación]: ")
+    exa_9_ref_pro=input()
+    if(exa_9_ref_pro=="we put ourselves at great risk in that situation"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_10_ref_pro=input("how would the sentence with reflexive pronouns? [ellos se encontraron en serios problemas]: ")
+    if(exa_10_ref_pro=="they found themselves in serious trouble"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_11_ref_pro=input("how would the sentence with reflexive pronouns? [como ustedes mismos pueden ver, esto ha sido muy fácil]: ")
+    if(exa_11_ref_pro=="as you yourselves can see, this has been very easy"):
+        print("correct")
+        good_pro+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(good_pro==66):
         print("Congratulations, you have a point")
         point=True
     else:
