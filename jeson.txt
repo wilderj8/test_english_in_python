@@ -57,5 +57,18 @@
     	"print('$24--$25--$26')",
     	"print('$27--$28--$29')",
     	"print('$30--$31--$32')"]
+	},
+
+	"agregar palabra al text #2":{
+		"prefix":"sni.py.add_word_2",
+		"body":["print('write $1 in english')",
+    	"$2_word=input()",
+    	"if($2_word=='$2'):",
+        "	print('correct')",
+        "	good=good+1",
+        "	list_test_adjective[0]='$2'",
+    	"else:",
+        "	print('incorrect')",
+    	"print('')"]
 	}
 }
