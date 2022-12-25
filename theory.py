@@ -199,7 +199,7 @@ def list_correct_pronouns():
 def list_correct_adjective():
     print("what is a adjective--an adjective is a word that describes the traits,qualities or number of a noun")
     print()
-    print("words")
+    print("Adjectives:")
     print("angry--enojado")
     print("happy--feliz")
     print("sad--triste")
@@ -255,6 +255,57 @@ def list_correct_adjective():
     print("gato--male cat")
     print("i like the green car--me gusta el carro verde")
 
+def list_correct_adverb():
+    print()
+    print("Adverb place")
+    print("aquí--here")
+    print("ahí--there")
+    print("allí--there")
+    print("cerca--near")
+    print("lejos--far")
+    print("arriba--up")
+    print("abajo--down")
+    print("adentro--inside")
+    print("afuera--outside")
+    print("")
+    print("Adverb time")
+    print("ahora--now")
+    print("luego--then")
+    print("después--after")
+    print("pronto--promptly")
+    print("tarde--late")
+    print("ayer--yesterday")
+    print("hoy--today")
+    print("mañana--tomorrow")
+    print("")
+    print("Adverb mode")
+    print("bien--well")
+    print("mal--wrong")
+    print("así--so")
+    print("deprisa--fast")
+    print("despacio--slowly")
+    print("")
+    print("Adverb amount")
+    print("mucho--much")
+    print("poco--little")
+    print("bastante--quite")
+    print("casi--almost")
+    print("más--more")
+    print("menos--less")
+    print("muy--very")
+    print("")
+    print("Adverb affirmation")
+    print("sí--yes")
+    print("also--también")
+    print("")
+    print("Adverb denial")
+    print("no--no")
+    print("tampoco--either")
+    print("")
+    print("Adverb doubt")
+    print("quizás--possibly/maybe")
+    print("acaso--perhaps")
+
 def list_correct_basic_sentence_strcture():
     print()
     print("question---answer")
@@ -268,6 +319,9 @@ def list_correct_basic_sentence_strcture():
     list_correct_pronouns()
     print()
     list_correct_adjective()
+    print()
+    print("what is a adverb?--an adverb is a word that modifies or describes a verb")
+    list_correct_adverb()
     
 def list_correct_months():
     print()
@@ -2303,6 +2357,381 @@ def adjective_example():
 
     return point
 
+def adverb():
+    point=False
+    list_test_adverb_place=["------","------","------","------","------","------","------","------","------"]
+    list_test_adverb_time=["------","------","------","------","------","------","------","------","------"]
+    list_test_adverb_mode=["------","------","------","------","------",]
+    list_test_adverb_amount=["------","------","------","------","------","------","------",]
+    list_test_adverb_affirmation=["------","------"]
+    list_test_adverb_denial=["------","------"]
+    list_test_adverb_doubt=["------","------"]
+    good=0
+    print("Adverb place")
+    print('write aquí in english')
+    here_word=input()
+    if(here_word=='here'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[0]='here'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write ahí in english')
+    there_word=input()
+    if(there_word=='there'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[1]='there'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write allí in english')
+    there_word=input()
+    if(there_word=='there'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[2]='there'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write cerca in english')
+    near_word=input()
+    if(near_word=='near'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[3]='near'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write lejos in english')
+    far_word=input()
+    if(far_word=='far'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[4]='far'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write arriba in english')
+    up_word=input()
+    if(up_word=='up'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[5]='up'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write abajo in english')
+    down_word=input()
+    if(down_word=='down'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[6]='down'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write adentro in english')
+    inside_word=input()
+    if(inside_word=='inside'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[7]='inside'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write afuera in english')
+    outside_word=input()
+    if(outside_word=='outside'):
+        print('correct')
+        good=good+1
+        list_test_adverb_place[8]='outside'
+    else:
+        print('incorrect')
+    print('')
+    
+    print("Adverb time")
+    print('write ahora in english')
+    now_word=input()
+    if(now_word=='now'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[0]='now'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write luego in english')
+    then_word=input()
+    if(then_word=='then'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[1]='then'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write después in english')
+    after_word=input()
+    if(after_word=='after'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[2]='after'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write pronto in english')
+    promptly_word=input()
+    if(promptly_word=='promptly'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[3]='promptly'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write tarde in english')
+    late_word=input()
+    if(late_word=='late'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[4]='late'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write ayer in english')
+    yesterday_word=input()
+    if(yesterday_word=='yesterday'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[5]='yesterday'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write hoy in english')
+    today_word=input()
+    if(today_word=='today'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[6]='today'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write mañana in english')
+    tomorrow_word=input()
+    if(tomorrow_word=='tomorrow'):
+        print('correct')
+        good=good+1
+        list_test_adverb_time[7]='tomorrow'
+    else:
+        print('incorrect')
+    print('')
+
+    print("Adverb mode")
+    print('write bien in english')
+    well_word=input()
+    if(well_word=='well'):
+        print('correct')
+        good=good+1
+        list_test_adverb_mode[0]='well'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write mal in english')
+    wrong_word=input()
+    if(wrong_word=='wrong'):
+        print('correct')
+        good=good+1
+        list_test_adverb_mode[1]='wrong'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write así in english')
+    so_word=input()
+    if(so_word=='so'):
+        print('correct')
+        good=good+1
+        list_test_adverb_mode[2]='so'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write deprisa in english')
+    fast_word=input()
+    if(fast_word=='fast'):
+        print('correct')
+        good=good+1
+        list_test_adverb_mode[3]='fast'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write despacio in english')
+    slowly_word=input()
+    if(slowly_word=='slowly'):
+        print('correct')
+        good=good+1
+        list_test_adverb_mode[4]='slowly'
+    else:
+        print('incorrect')
+    print('')
+
+    print("Adverb amount")
+    print('write mucho in english')
+    much_word=input()
+    if(much_word=='much'):
+        print('correct')
+        good=good+1
+        list_test_adverb_amount[0]='much'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write poco in english')
+    little_word=input()
+    if(little_word=='little'):
+        print('correct')
+        good=good+1
+        list_test_adverb_amount[1]='little'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write bastante in english')
+    quite_word=input()
+    if(quite_word=='quite'):
+        print('correct')
+        good=good+1
+        list_test_adverb_amount[2]='quite'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write casi in english')
+    almost_word=input()
+    if(almost_word=='almost'):
+        print('correct')
+        good=good+1
+        list_test_adverb_amount[3]='almost'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write más in english')
+    more_word=input()
+    if(more_word=='more'):
+        print('correct')
+        good=good+1
+        list_test_adverb_amount[4]='more'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write menos in english')
+    less_word=input()
+    if(less_word=='less'):
+        print('correct')
+        good=good+1
+        list_test_adverb_amount[5]='less'
+    else:
+        print('incorrect')
+    print('')       
+
+    print('write muy in english')
+    very_word=input()
+    if(very_word=='very'):
+        print('correct')
+        good=good+1
+        list_test_adverb_amount[6]='very'
+    else:
+        print('incorrect')
+    print('')
+
+    print("Adverb affirmation")
+    print('write sí in english')
+    yes_word=input()
+    if(yes_word=='yes'):
+        print('correct')
+        good=good+1
+        list_test_adverb_affirmation[0]='yes'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write también in english')
+    also_word=input()
+    if(also_word=='also'):
+        print('correct')
+        good=good+1
+        list_test_adverb_affirmation[1]='also'
+    else:
+        print('incorrect')
+    print('')
+
+    print("Adverb denial")
+    print('write no in english')
+    no_word=input()
+    if(no_word=='no'):
+        print('correct')
+        good=good+1
+        list_test_adverb_denial[0]='no'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write tampoco in english')
+    either_word=input()
+    if(either_word=='either'):
+        print('correct')
+        good=good+1
+        list_test_adverb_denial[1]='either'
+    else:
+        print('incorrect')
+    print('')
+
+    print("Adverb doubt")
+    print('write quizás in english')
+    possibly_maybe_word=input()
+    if(possibly_maybe_word=='possibly/maybe'):
+        print('correct')
+        good=good+1
+        list_test_adverb_doubt[0]='possibly/maybe'
+    else:
+        print('incorrect')
+    print('')
+
+    print('write acaso in english')
+    perhaps_word=input()
+    if(perhaps_word=='perhaps'):
+        print('correct')
+        good=good+1
+        list_test_adverb_doubt[1]='perhaps'
+    else:
+        print('incorrect')
+    print('')
+
+    if(good==35):
+        point=True
+        print("congratulations")
+    else:
+        print("you not have point")
+
+    return point
+            
 def simple_rules():
     vec_sim_rul=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
     good_sim_rul=0
@@ -2488,7 +2917,7 @@ def simple_rules():
 def basic_sentence_structure():
     print()
     print("BASIC SENTENCE STRUCTURE")
-    vec_bas_sen_str=["------","------","------","------","------","------","------","------","------"]
+    vec_bas_sen_str=["------","------","------","------","------","------","------","------","------","------","------"]
     good_bas_sen_str=0
     answer_bas_sen_str=input("what the basic sentence structure?: ")
     if(answer_bas_sen_str=="subject+verb+object"):
@@ -2540,7 +2969,7 @@ def basic_sentence_structure():
         vec_bas_sen_str[5]="Pronouns"        
 
     print()
-    answer_wh_adj=input("what is a adjective: ")
+    answer_wh_adj=input("what is a adjective?: ")
     if(answer_wh_adj=="an adjective is a word that describes the traits,qualities or number of a noun"):
         print("correct")
         good_bas_sen_str+=1
@@ -2560,6 +2989,21 @@ def basic_sentence_structure():
     if(point_adjective_example):
         good_bas_sen_str+=1
         vec_bas_sen_str[8]="example adjective"
+    print()
+
+    answer_wh_adv=input("what is adverb?: ")
+    if(answer_wh_adv=="an adverb is a word that modifies or describes a verb"):
+        print("correct ")
+        good_bas_sen_str+=1
+        vec_bas_sen_str[9]="what is a adverb"
+    else:
+        print("incorrect")
+    print()
+
+    point_adverb=adverb()
+    if(point_adverb):
+        good_bas_sen_str+=1
+        vec_bas_sen_str[10]="adverb"
 
     print()    
     print("Answers:")
