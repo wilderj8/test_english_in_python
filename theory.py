@@ -341,7 +341,7 @@ def list_correct_months():
 
 def list_correct_simple_rules():
     print("SIMPLE RULES:")
-    print("noun--object/place/personal name")
+    print("noun--object/place/animal/personal name")
     print("pronouns--i/you/he/she/it/we/you/they")
     print("adjective-- quality-characteristic/color-form-size-origin")
     print("article--define the noun --> a/an/the")
