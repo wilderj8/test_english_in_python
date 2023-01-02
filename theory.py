@@ -343,7 +343,7 @@ def list_correct_simple_rules():
     print("SIMPLE RULES:")
     print("noun--object/place/animal/personal name")
     print("pronouns--i/you/he/she/it/we/you/they")
-    print("adjective-- quality-characteristic/color-form-size-origin")
+    print("adjective-- quality-characteristic/form-size-color-origin")
     print("article--define the noun --> a/an/the")
     print("noun and adjective rule--adjective+noun=")
     print("noun and article rule--article+noun=subject")
@@ -2756,7 +2756,7 @@ def simple_rules():
 
     adj_ide_ans_sim_rul=input("how to identify the adjective?: ")
     adj_wha_ans_sim_rul=input("what are the those characteristics and qualities?: ")
-    if(adj_ide_ans_sim_rul=="quality/characteristic" and adj_wha_ans_sim_rul=="color/form/size/origin"):
+    if(adj_ide_ans_sim_rul=="quality/characteristic" and adj_wha_ans_sim_rul=="form/size/color/origin"):
         print("correct")
         vec_sim_rul[2]="adjective"
         good_sim_rul+=1
