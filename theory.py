@@ -341,24 +341,24 @@ def list_correct_months():
 
 def list_correct_simple_rules():
     print("SIMPLE RULES:")
-    print("noun--object/place/animal/personal name")
-    print("pronouns--i/you/he/she/it/we/you/they")
-    print("adjective-- quality-characteristic/form-size-color-origin")
-    print("article--define the noun --> a/an/the")
-    print("noun and adjective rule--adjective+noun=")
-    print("noun and article rule--article+noun=subject")
-    print("types of verb--regulars and irregulars")
-    print("#1 rule of the verb in the past--ed is never pronounced")
-    print("infinitive verb structure--to+verb")
-    print("gerund verb structure--verb+ing")
-    print("auxiliary verbs--be/do/modals/have(perfec tenses)")
-    print("adverbs--describes the verb")
+    print("noun-->object/place/animal/personal name")
+    print("pronouns-->i/you/he/she/it/we/you/they")
+    print("adjective-->quality-characteristic/form-size-color-origin")
+    print("article-->define the noun--> a/an/the")
+    print("noun and adjective rule-->adjective+noun")
+    print("noun and article rule-->article+noun=subject")
+    print("types of verb-->regulars and irregulars")
+    print("#1 rule of the verb in the past-->ed is never pronounced")
+    print("infinitive verb structure-->to+verb")
+    print("gerund verb structure-->verb+ing")
+    print("auxiliary verbs-->be/do/modals/have(perfec tenses)")
+    print("adverbs-->describes the verb")
     print("frecuency adverb--intensity/quantity --> always/normally/never/often/sometimes")
-    print("prepositions--time/place --> in/on/at/with/of/that/than/against")
-    print("time expresion--today/tomorrow/yesterdaylast night")
-    print("conjunctions/coordinators--fanboys(for/and/nor/but/or/yet/so)")
-    print("connectors--preposition/conjunctions-coordinators(fanboys)")
-    print("separate structures--,/preposition/conjunctions-coordinators(fanboys)")
+    print("prepositions-->time/place --> in/on/at/with/of/that/than/against")
+    print("time expresion-->today/tomorrow/yesterdaylast night")
+    print("conjunctions/coordinators-->fanboys(for/and/nor/but/or/yet/so)")
+    print("connectors-->preposition/conjunctions-coordinators(fanboys)")
+    print("separate structures-->,/preposition/conjunctions-coordinators(fanboys)")
 
 def abecedary():
     good=0
@@ -1392,7 +1392,7 @@ def pronouns():
     else:
         print("incorrect")
 
-    you_sin_var_obj_pro=input("write conmigo/a ti: ")
+    you_sin_var_obj_pro=input("write contigo/a ti: ")
     if(you_sin_var_obj_pro=="you"):
         print("correct")
         good_pro+=1
@@ -1420,7 +1420,7 @@ def pronouns():
     else:
         print("incorrect")
 
-    us_var_obj_pro=input("write a nosotros/no: ")
+    us_var_obj_pro=input("write a nosotros/nos: ")
     if(us_var_obj_pro=="us"):
         print("correct")
         good_pro+=1
