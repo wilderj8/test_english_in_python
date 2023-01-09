@@ -62,7 +62,7 @@ else:
 print()
 fre_adv_ide_ans_sim_rul=input("how to idenfify the frequency adverbs?: ")
 fre_adv_wha_ans_sim_rul=input("what are the frequency adverbs?: ")
-if(fre_adv_ide_ans_sim_rul=="intensity/quantity" and fre_adv_wha_ans_sim_rul=="always/normally/never/often/sometimes"):
+if(fre_adv_ide_ans_sim_rul=="intensity/quantity" and fre_adv_wha_ans_sim_rul=="always/often/normally/sometimes/never"):
     print("correct")    
 else:
     print("incorrect")

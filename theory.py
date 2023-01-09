@@ -353,7 +353,7 @@ def list_correct_simple_rules():
     print("gerund verb structure-->verb+ing")
     print("auxiliary verbs-->be/do/modals/have(perfec tenses)")
     print("adverbs-->describes the verb")
-    print("frecuency adverb--intensity/quantity --> always/normally/never/often/sometimes")
+    print("frequency adverb--intensity/quantity --> always/often/normally/sometimes/never")
     print("prepositions-->time/place --> in/on/at/with/of/that/than/against")
     print("time expresion-->today/tomorrow/yesterdaylast night")
     print("conjunctions/coordinators-->fanboys(for/and/nor/but/or/yet/so)")
@@ -2848,7 +2848,7 @@ def simple_rules():
 
     fre_adv_ide_ans_sim_rul=input("how to idenfify the frequency adverbs?: ")
     fre_adv_wha_ans_sim_rul=input("what are the frequency adverbs?: ")
-    if(fre_adv_ide_ans_sim_rul=="intensity/quantity" and fre_adv_wha_ans_sim_rul=="always/normally/never/often/sometimes"):
+    if(fre_adv_ide_ans_sim_rul=="intensity/quantity" and fre_adv_wha_ans_sim_rul=="always/often/normally/sometimes/never"):
         print("correct")
         vec_sim_rul[12]="frequency adverbs"
         good_sim_rul+=1
