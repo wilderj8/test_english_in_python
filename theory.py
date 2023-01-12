@@ -354,7 +354,7 @@ def list_correct_simple_rules():
     print("auxiliary verbs-->be/do/modals/have(perfec tenses)")
     print("adverbs-->describes the verb")
     print("frequency adverb--intensity/quantity --> always/often/normally/sometimes/never")
-    print("prepositions-->time/place --> in/on/at/with/of/that/than/against")
+    print("prepositions-->time/place --> at/in/on/of/with/that/than/against")
     print("time expresion-->today/tomorrow/yesterdaylast night")
     print("conjunctions/coordinators-->fanboys(for/and/nor/but/or/yet/so)")
     print("connectors-->preposition/conjunctions-coordinators(fanboys)")
@@ -2858,7 +2858,7 @@ def simple_rules():
 
     prep_ide_ans_sim_rul=input("how to identify the prepositions?: ")
     prep_wha_ans_sim_rul=input("what are the prepositions?: ")
-    if(prep_ide_ans_sim_rul=="time/place" and prep_wha_ans_sim_rul=="in/on/at/with/of/that/than/against"):
+    if(prep_ide_ans_sim_rul=="time/place" and prep_wha_ans_sim_rul=="at/in/on/of/with/that/than/against"):
         print("correct")
         vec_sim_rul[13]="prepositions"
         good_sim_rul+=1
@@ -2905,8 +2905,8 @@ def simple_rules():
     print()
     print("Answers:")
     recorrer_lista(vec_sim_rul)
-    print(f"result: {good_sim_rul}/16")
-    if(good_sim_rul==16):
+    print(f"result: {good_sim_rul}/18")
+    if(good_sim_rul==18):
         print("Congratulations, do you have 1 point")
         bin_sim_rul=True
     else:
