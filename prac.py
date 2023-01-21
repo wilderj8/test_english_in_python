@@ -118,7 +118,7 @@ if(parther_word=='partner'):
 else:
     print('incorrect')
 print('')
-print('write racismo in english')
+print('write racismo/agrupar/amontonar in english')
 bunch_word=input()    
 if(bunch_word=='bunch'):
     print('correct')

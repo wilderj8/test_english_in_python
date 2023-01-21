@@ -91,7 +91,7 @@ def correct_list_test_noun_subject():
     print('nast--nido')
     print('feature--característica/distintivo/rasgo')
     print('parther--socio/socia/pareja/compañero(a)')
-    print('bunch--racismo')
+    print('bunch--racismo/agrupar/amontonar')
     print('ellipsis--puntos suspensivos')
     print('spot--mancha/granito/lugar(informal)/sitio(informal)/roncha')
     print('stitch--punto/puntada/pinchazo')
@@ -245,8 +245,7 @@ def list_correct_adjective():
     print("complex--complicado/complejo")
     print("those--aquellos/esos/esas")
     print("shortest--mas bajo/más corto")
-    print("subtle--sutil/disimulado/desimulada")
-    print("remaining--restante")
+    print("subtle--sutil/disimulado/desimulada")    
     print()
     print("examples")
     print("red car--carro rojo")
@@ -1205,7 +1204,7 @@ def noun_subject():
         print('incorrect')
     print('')
 
-    print('write racismo in english')
+    print('write racismo/agrupar/amontonar in english')
     bunch_word=input()    
     if(bunch_word=='bunch'):
         print('correct')
@@ -2291,19 +2290,9 @@ def adjective():
         list_test_adjective[45]='subtle'
     else:
         print('incorrect')
-    print('')
+    print('')   
 
-    print('write restante in english')
-    remaining_word=input()
-    if(remaining_word=='remaining'):
-        print('correct')
-        good=good+1
-        list_test_adjective[46]='remaining'
-    else:
-        print('incorrect')
-    print('')
-
-    if(good==45):
+    if(good==44):
         point=True 
         print("congratulations")        
     else:
