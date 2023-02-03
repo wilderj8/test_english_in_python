@@ -1811,8 +1811,9 @@ def pronouns():
         print("incorrect")
     print()
 
-    exa_11_ref_pro=input("how would the sentence with reflexive pronouns? [como ustedes mismos pueden ver, esto ha sido muy fácil]: ")
-    if(exa_11_ref_pro=="as you yourselves can see, this has been very easy"):
+    print("how would the sentence with reflexive pronouns? [como ustedes mismos pueden ver, esto ha sido muy fácil]: ")
+    exa_11_ref_pro=input()
+    if(exa_11_ref_pro=="as you yourselves can see,this has been very easy"):
         print("correct")
         good_pro+=1
     else:

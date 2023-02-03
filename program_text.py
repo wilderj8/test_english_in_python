@@ -6,6 +6,7 @@ print("quieres ver las reglas ¿yes or not?")
 rules=input()
 if(rules=="yes"):
     print("#1: Todo en minuscula")
+    print("#2: Si la respuesta lleva una [,] no hacer el espacio [texto,texto]")
 
 print()
 print("do you want the test of [theory] or [words]?")
