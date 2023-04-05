@@ -131,8 +131,8 @@ def list_correct_pronouns():
     print("susan calls sexilio--she calls him")
     print("paul works with kelly--he works with her")
     print("peter and victor play with their friend--they play with them")
-    print("mr.gonzales feeds the dog--she feed it")
-    print("mr.smith feeds the cats--he feed them")
+    print("mrs.gonzales feeds the dog--she feeds it")
+    print("mr.smith feeds the cats--he feeds them")
     print("mary and charlie talk to my sister and me--they talk to us")
 
     print()
@@ -213,7 +213,7 @@ def list_correct_adjective():
     print("sweet--dulce")
     print("sour--agrio/ácido")
     print("remaining--restante")
-    print("lightwight--liviano/ligero/peso ligero/de poco peso/persona que se emborracha fácilmente/pelagatos/don nadie")
+    print("lightweight--liviano/ligero/peso ligero/de poco peso/persona que se emborracha fácilmente/pelagatos/don nadie")
     print("wanting--deficiente/insuficiente")
     print("spent--gastado/vacío/usado")
     print("able--poder/capaz/talenotos(a)")
@@ -1463,15 +1463,15 @@ def pronouns():
     else:
         print("incorrect")
     
-    exa_4_obj_pro=input("how would the sentence with object pronoun? [mr.gonzales feeds the dog]: ")
-    if(exa_4_obj_pro=="she feed it"):
+    exa_4_obj_pro=input("how would the sentence with object pronoun? [mrs.gonzales feeds the dog]: ")
+    if(exa_4_obj_pro=="she feeds it"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
     
     exa_5_obj_pro=input("how would the sentence with object pronouns? [mr.smith feeds the cats]: ")
-    if(exa_5_obj_pro=="he feed them"):
+    if(exa_5_obj_pro=="he feeds them"):
         print("correct")
         good_pro+=1
     else:
@@ -1964,11 +1964,11 @@ def adjective():
     print('')
 
     print('write liviano/ligero/peso ligero/de poco peso/persona que se emborracha fácilmente/pelagatos/don nadie in english')
-    lightwight_word=input()
-    if(lightwight_word=='lightwight'):
+    lightweight_word=input()
+    if(lightweight_word=='lightweight'):
         print('correct')
         good=good+1
-        list_test_adjective[13]='lightwight'
+        list_test_adjective[13]='lightweight'
     else:
         print('incorrect')
     print('')
@@ -2203,22 +2203,12 @@ def adjective():
         print('incorrect')
     print('')
 
-    print('write entero(a)/todo(a) in english')
-    entire_word=input()
-    if(entire_word=='entire'):
-        print('correct')
-        good=good+1
-        list_test_adjective[37]='entire'
-    else:
-        print('incorrect')
-    print('')
-
     print('write varios/varias in english')
     several_word=input()
     if(several_word=='several'):
         print('correct')
         good=good+1
-        list_test_adjective[38]='several'
+        list_test_adjective[37]='several'
     else:
         print('incorrect')
     print('')
@@ -2228,7 +2218,7 @@ def adjective():
     if(readable_word=='readable'):
         print('correct')
         good=good+1
-        list_test_adjective[39]='readable'
+        list_test_adjective[38]='readable'
     else:
         print('incorrect')
     print('')
@@ -2238,7 +2228,7 @@ def adjective():
     if(another_word=='another'):
         print('correct')
         good=good+1
-        list_test_adjective[40]='another'
+        list_test_adjective[39]='another'
     else:
         print('incorrect')
     print('')
@@ -2248,7 +2238,7 @@ def adjective():
     if(whole_word=='whole'):
         print('correct')
         good=good+1
-        list_test_adjective[41]='whole'
+        list_test_adjective[40]='whole'
     else:
         print('incorrect')
     print('')
@@ -2258,7 +2248,7 @@ def adjective():
     if(complex_word=='complex'):
         print('correct')
         good=good+1
-        list_test_adjective[42]='complex'
+        list_test_adjective[41]='complex'
     else:
         print('incorrect')
     print('')
@@ -2268,7 +2258,7 @@ def adjective():
     if(those_word=='those'):
         print('correct')
         good=good+1
-        list_test_adjective[43]='those'
+        list_test_adjective[42]='those'
     else:
         print('incorrect')
     print('')
@@ -2278,7 +2268,7 @@ def adjective():
     if(shortest_word=='shortest'):
         print('correct')
         good=good+1
-        list_test_adjective[44]='shortest'
+        list_test_adjective[43]='shortest'
     else:
         print('incorrect')
     print('')
@@ -2288,12 +2278,12 @@ def adjective():
     if(subtle_word=='subtle'):
         print('correct')
         good=good+1
-        list_test_adjective[45]='subtle'
+        list_test_adjective[44]='subtle'
     else:
         print('incorrect')
     print('')   
 
-    if(good==44):
+    if(good==45):
         point=True 
         print("congratulations")        
     else:
