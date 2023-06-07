@@ -341,7 +341,15 @@ def list_correct_months():
 def list_correct_simple_rules():
     print("SIMPLE RULES:")
     print("noun-->object/place/animal/personal name")
+    print("Mr-->señor/Sr")
+    print("Mrs-->señora/Sra")
     print("pronouns-->i/you/he/she/it/we/you/they")
+    print("pronoun 1st person singular-->i")
+    print("pronoun 1st person plural-->we")
+    print("pronoun 2nd person singular-->you")
+    print("pronoun 2nd person plural-->you")
+    print("pronoun 3rd person singular-->he/she/it")
+    print("pronoun 3rd person plural-->they")
     print("adjective-->quality-characteristic/form-size-color-origin")
     print("article-->define the noun--> a/an/the")
     print("noun and adjective rule-->adjective+noun")
@@ -354,10 +362,16 @@ def list_correct_simple_rules():
     print("adverbs-->describes the verb")
     print("frequency adverb--intensity/quantity --> always/often/normally/sometimes/never")
     print("prepositions-->time/place --> at/in/on/of/with/that/than/against")
+    print("structure of the phrasal verb-->verb+preposition")
     print("time expresion-->today/tomorrow/yesterdaylast night")
     print("conjunctions/coordinators-->fanboys(for/and/nor/but/or/yet/so)")
     print("connectors-->preposition/conjunctions-coordinators(fanboys)")
     print("separate structures-->,/preposition/conjunctions-coordinators(fanboys)")
+    print("rule voz pasiva--><--voz activa: passive voice to active voice and active voice to passive voice")
+    print("structure of the simple present-->is/am/are+p.p(verb past participle)")
+    print("structure of the simple past-->was/were+p.p(verb past participle)")
+    print("structure of the simple future-->will be+p.p(verb past participle)")
+    print("structure of the present perfect-->have/has been+p.p(verb past participle)")
 
 def abecedary():
     good=0
@@ -1786,7 +1800,8 @@ def pronouns():
         print("incorrect")
     print()
 
-    exa_8_ref_pro=input("how would the sentence with reflexive pronouns? [ellos quieren crear un robot que se mueva por sí mismo]: ")
+    print("how would the sentence with reflexive pronouns? [ellos quieren crear un robot que se mueva por sí mismo]: ")
+    exa_8_ref_pro=input()
     if(exa_8_ref_pro=="they want to create a robot that can move by itself"):
         print("correct")
         good_pro+=1
@@ -2713,13 +2728,31 @@ def adverb():
     return point
             
 def simple_rules():
-    vec_sim_rul=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
+    vec_sim_rul=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
     good_sim_rul=0
     bin_sim_rul=False
     noun_ans_sim_rul=input("how to identify the noun?: ")
     if(noun_ans_sim_rul=="object/place/animal/personal name"):
         print("correct")
         vec_sim_rul[0]="noun"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    mr_senor=input("how do you say señor: ")
+    if(mr_senor=="mr"):
+        print("correct")
+        vec_sim_rul[1]="mr/señor"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    mr_senora=input("how do you say señora: ")
+    if(mr_senora=="mrs"):
+        print("correct")
+        vec_sim_rul[2]="mrs/señora"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2734,11 +2767,66 @@ def simple_rules():
         print("incorrect")
     print()
 
+    pro_fir_sin_ans=input("what are the pronouns in 1st person singular: ")
+    if(pro_fir_sin_ans=="i"):
+        print("correct")
+        vec_sim_rul[2]="Pronouns 1st singular"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    pro_fir_plu_ans=input("what are the pronouns in 1st person plural: ")
+    if(pro_fir_plu_ans=="we"):
+        print("correct")
+        vec_sim_rul[3]="pronouns 1st plural"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    pro_sec_sin_ans=input("what are the pronouns in 2nd person singular: ")
+    if(pro_sec_sin_ans=="you"):
+        print("correct")
+        vec_sim_rul[4]="pronouns 2nd singular"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    pro_sec_plu_ans=input("what are the pronouns in 2nd person plural: ")
+    if(pro_sec_plu_ans=="you"):
+        print("correct")
+        vec_sim_rul[5]="pronouns 2nd plural"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    pro_thi_sin_ans=input("what are the pronouns in 3rd person singular: ")
+    if(pro_thi_sin_ans=="he/she/it"):
+        print("correct")
+        vec_sim_rul[6]="pronouns 3rd singular"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+
+    pro_thi_plu_ans=input("what are the pronouns in 3rd person plural: ")
+    if(pro_thi_plu_ans=="they"):
+        print("correct")
+        vec_sim_rul[7]="pronouns 3rd plural"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
     adj_ide_ans_sim_rul=input("how to identify the adjective?: ")
     adj_wha_ans_sim_rul=input("what are the those characteristics and qualities?: ")
     if(adj_ide_ans_sim_rul=="quality/characteristic" and adj_wha_ans_sim_rul=="form/size/color/origin"):
         print("correct")
-        vec_sim_rul[2]="adjective"
+        vec_sim_rul[8]="adjective"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2748,7 +2836,7 @@ def simple_rules():
     art_wh_ans_sim_rul=input("what are the articles?: ")
     if(art_wh_ans_sim_rul=="a/an/the" and art_ide_ans_sim_rul=="define the noun"):
         print("correct")
-        vec_sim_rul[3]="article"
+        vec_sim_rul[9]="article"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2757,7 +2845,7 @@ def simple_rules():
     nou_and_adj_rul_ans_sim_rul=input("what is the rule of nouns and adjectives?: ")
     if(nou_and_adj_rul_ans_sim_rul=="adjective+noun"):
         print("correct")
-        vec_sim_rul[4]="rule[noun and adjective]"
+        vec_sim_rul[10]="rule[noun and adjective]"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2766,7 +2854,7 @@ def simple_rules():
     nou_and_art_ans_sim_rul=input("what is the rule of noun and article?: ")
     if(nou_and_art_ans_sim_rul=="article+noun=subject"):
         print("correct")
-        vec_sim_rul[5]="rule[noun and article]"
+        vec_sim_rul[11]="rule[noun and article]"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2775,7 +2863,7 @@ def simple_rules():
     typ_of_ver_ans_sim_rul=input("what are the types of verbs?: ")
     if(typ_of_ver_ans_sim_rul=="regulars and irregulars"):
         print("correct")
-        vec_sim_rul[6]="types of verbs"
+        vec_sim_rul[12]="types of verbs"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2784,7 +2872,7 @@ def simple_rules():
     rul_ver_pas_ans_sim_rul=input("write #1 rule of the verb in the past: ")
     if(rul_ver_pas_ans_sim_rul=="ed is never pronounced"):
         print("correct")
-        vec_sim_rul[7]="rule of the verb in past"
+        vec_sim_rul[13]="rule of the verb in past"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2793,7 +2881,7 @@ def simple_rules():
     inf_ver_ans_sim_rul=input("what is the rule of the infinitive verb?: ")
     if(inf_ver_ans_sim_rul=="to+verb"):
         print("correct")
-        vec_sim_rul[8]="infinitive verb"
+        vec_sim_rul[14]="infinitive verb"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2802,16 +2890,16 @@ def simple_rules():
     ger_ver_ans_sim_rul=input("what is the rule of the gerund verb?: ")
     if(ger_ver_ans_sim_rul=="verb+ing"):
         print("correct")
-        vec_sim_rul[9]="gerund verb"
+        vec_sim_rul[15]="gerund verb"
         good_sim_rul+=1
     else:
         print("incorrect")
     print()
 
     aux_ver_ans_sim_rul=input("what are the auxiliary verbs?: ")
-    if(aux_ver_ans_sim_rul=="be/do/modals/have(perfect tenses)"):
+    if(aux_ver_ans_sim_rul=="be/do/modals/have(perfect tenses)/verb to-be"):
         print("correct")
-        vec_sim_rul[10]="auxiliary verbs"
+        vec_sim_rul[16]="auxiliary verbs"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2820,7 +2908,7 @@ def simple_rules():
     adv_ans_sim_rul=input("how to identify adverbs?: ")
     if(adv_ans_sim_rul=="describes the verb"):
         print("correct")
-        vec_sim_rul[11]="adverbs"
+        vec_sim_rul[17]="adverbs"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2830,7 +2918,7 @@ def simple_rules():
     fre_adv_wha_ans_sim_rul=input("what are the frequency adverbs?: ")
     if(fre_adv_ide_ans_sim_rul=="intensity/quantity" and fre_adv_wha_ans_sim_rul=="always/often/normally/sometimes/never"):
         print("correct")
-        vec_sim_rul[12]="frequency adverbs"
+        vec_sim_rul[18]="frequency adverbs"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2840,7 +2928,16 @@ def simple_rules():
     prep_wha_ans_sim_rul=input("what are the prepositions?: ")
     if(prep_ide_ans_sim_rul=="time/place" and prep_wha_ans_sim_rul=="at/in/on/of/with/that/than/against"):
         print("correct")
-        vec_sim_rul[13]="prepositions"
+        vec_sim_rul[19]="prepositions"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    phr_ver_ans=input("what is the rule of phrasal verbs?: ")
+    if(phr_ver_ans=="verb+preposition"):
+        print("correct")
+        vec_sim_rul[20]="phrasal verbs"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2849,7 +2946,7 @@ def simple_rules():
     tim_exp_ans_sim_rul=input("what are the time expresions?: ")
     if(tim_exp_ans_sim_rul=="today/tomorrow/yesterday/last night"):
         print("correct")
-        vec_sim_rul[14]="time expresion"
+        vec_sim_rul[21]="time expresion"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2858,7 +2955,7 @@ def simple_rules():
     con_coo_ans_sim_rul=input("what are the [conjunctions/coordinators]?: ")
     if(con_coo_ans_sim_rul=="fanboys(for/and/nor/but/or/yet/so)"):
         print("correct")
-        vec_sim_rul[15]="conjunctions/coordinators"
+        vec_sim_rul[22]="conjunctions/coordinators"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2867,7 +2964,7 @@ def simple_rules():
     con_ans_sim_rul=input("what are the connectors?: ")
     if(con_ans_sim_rul=="preposition/conjunctions-coordinators(fanboys)"):
         print("correct")
-        vec_sim_rul[16]="connectors"
+        vec_sim_rul[23]="connectors"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2876,7 +2973,52 @@ def simple_rules():
     sep_str_ans_sim_rul=input("what are the separate structures? [________[?]_______]: ")
     if(sep_str_ans_sim_rul==",/preposition/conjunctions-coordinators(fanboys)"):
         print("correct")
-        vec_sim_rul[17]="separate structures"
+        vec_sim_rul[24]="separate structures"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    voz_pass_voz_act=input("Rule: voz pasiva --><-- voz activa: ")
+    if(voz_pass_voz_act=="passive voice to active voice and active voice to passive voice"):
+        print("correct")
+        vec_sim_rul[25]="voz passive and active"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+    
+    str_sim_pre_ans=input("what is the structure of the simple present: ")
+    if(str_sim_pre_ans=="is/am/are+p.p(verb past participle)"):
+        print("correct")
+        vec_sim_rul[26]="simple present"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    str_sim_pas_ans=input("what is the structure of the simple past: ")
+    if(str_sim_pas_ans=="was/were+p.p(verb past participle)"):
+        print("correct")
+        vec_sim_rul[27]="simple past"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    str_sim_fut_ans=input("what is the structure of the simple future: ")
+    if(str_sim_fut_ans=="will be+p.p(verb past participle)"):
+        print("correct")
+        vec_sim_rul[28]="simple future"
+        good_sim_rul+=1
+    else:
+        print("incorrect")
+    print()
+
+    str_pre_per_ans=input("what is the structure of the present perfect: ")
+    if(str_pre_per_ans=="have/has been+p.p(verb past participle)"):
+        print("correct")
+        vec_sim_rul[29]="present perfect"
         good_sim_rul+=1
     else:
         print("incorrect")
@@ -2885,8 +3027,8 @@ def simple_rules():
     print()
     print("Answers:")
     recorrer_lista(vec_sim_rul)
-    print(f"result: {good_sim_rul}/18")
-    if(good_sim_rul==18):
+    print(f"result: {good_sim_rul}/32")
+    if(good_sim_rul==32):
         print("Congratulations, do you have 1 point")
         bin_sim_rul=True
     else:
