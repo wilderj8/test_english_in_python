@@ -3,6 +3,7 @@ from ctypes import pointer
 
 def main_theory():
     abecedary()
+    numbers()
     months()
     basic_sentence_structure()
 
@@ -39,6 +40,90 @@ def list_correct_abecedary():
     print("X--ex")
     print("Y--uai")
     print("Z--set")
+
+def list_correct_numbers():
+    print()
+    print("#--número--number")
+    print("0--cero--zero")
+    print("1--uno--one")
+    print("2--dos--two")
+    print("3--tres--three")
+    print("4--cuatro--four")
+    print("5--cinco--five")
+    print("6--seis--six")
+    print("7--siete--seven")
+    print("8--ocho--eight")
+    print("9--nueve--nine")
+    print("10--diez--ten")
+    print("11--once--eleven")
+    print("12--doce--twelve")
+    print("13--trece--thirteen")
+    print("14--catorce--fourteen")
+    print("15--quince--fiveteen")
+    print("16--diesiseis--sixteen")
+    print("17--diesisiete--seventeen")
+    print("18--diesiocho--eighteen")
+    print("19--diesinueve--nineteen")
+    print("20--veinte--twenty")
+    print("25--veinticinco--twenty-five")
+    print("30--treinta--thirty")
+    print("35--teinta y cinco--thirty-five")
+    print("40--cuarenta--forty")
+    print("45--cuarenta y cinco--forty-five")
+    print("50--cincuenta--fifty")
+    print("55--cincuenta y cinco--fifty-five")
+    print("60--sesenta--sixty")
+    print("65--sesenta y cinco--sixty-five")
+    print("70--setenta--seventy")
+    print("75--setenta y cinco--seventy-five")
+    print("80--ochenta--eighty")
+    print("85--ochenta y cinco--eighty-five")
+    print("90--noventa--ninety")
+    print("95--noventa y cinco--ninety-five")
+    print("100--cien--one hundred")
+    print("105--ciento cinco--one hundred and five")
+    print("110--ciento diez--one hundred and ten")
+    print("200--docientos--two hundred")
+    print("205--docientos cinco--two hundred and five")
+    print("210--docientos diez--two hundred and ten")
+    print("300--trecientos--three hundred")
+    print("305--trecientos cinco--three hundred and five")
+    print("310--trecientos diez--three hundred and ten")
+    print("400--cuatrocientos--four hundred")
+    print("405--cuatrocientos cinco--four hundred and five")
+    print("410--cuatrocientos diez--four hundred and ten")
+    print("500--quinientos--five hundred")
+    print("505--quinientos cinco--five hundred and five")
+    print("510--quinientos diez--five hundred and ten")
+    print("600--seisientos--six hundred")
+    print("605--seisientos cinco--six hundred and five")
+    print("610--seisientos diez--six hundred and ten")
+    print("700--setecientos--seven hundred")
+    print("705--setecientos cinco--seven hundred and five")
+    print("710--setecientos diez--seven hundred and ten")
+    print("800--ochocientos--eight hundred")
+    print("805--ochocientos cinco--eight hundred and five")
+    print("810--ochocientos diez--eight hundred and ten")
+    print("900--novecientos--nine hundred ")
+    print("905--novecientos cinco--nine hundred and five")
+    print("910--novecientos diez--nine hundred and ten")
+    print("1.000--mil--one thousand")
+    print("1.005--mil cinco--one thousand five")
+    print("1.010--mil diez--one thousand ten")
+    print("1.100--mil cien--one thousand one hundred")
+    print("10.000--diez mil--ten thousand")
+    print("10.005--diez mil cinco--ten thousand and five")
+    print("10.010--diez mil diez--ten thousand and ten")
+    print("10.100--diez mil cien--the thousand and one hundred")
+    print("100.000--cien mil--one hundred thousand")
+    print("100.005--cien mil cinco--one hundred thousand and five")
+    print("100.010--cien mil diez--one hundred thousand and ten")
+    print("100.100--cien mil cien--one hndred thousand one hundred")
+    print("1.000.000--un millon--one million")
+    print("10.000.000--diez millones--ten million")
+    print("100.000.000--cien millones--one hundred million")
+    print("1.000.000.000--mil millones(Col)/un billon(usa)--one billion")
+    print()
 
 def correct_list_test_noun_subject():
     print()
@@ -606,6 +691,777 @@ def abecedary():
                 exit="yes"
             elif(see_ans=="not"):
                 exit="not"
+
+def numbers():
+    print()
+    var_num=0
+    vec_num=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----",]
+    print("The numbers")
+    str_13_to_19=input("What is structure of the numbers from 13 to 19?: ")
+    if(str_13_to_19=="number+teen"):
+        print("perfect")
+        vec_num[0]="Structure 13 to 19"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    str_rou_num=input("what is the structure of round numbers? ")
+    if(str_rou_num=="number+ty"):
+        print("correct")
+        vec_num[1]="round numbers"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    str_100_to_999=input("what is the structure of the numbers from 100 to 999?: ")
+    if(str_100_to_999=="number+hundred"):
+        print("correct")
+        vec_num[2]="structure 100 to 999"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    str_1000_to_999000=input("what is the structure of the numbers from 1.000 to 999.000?: ")
+    if(str_1000_to_999000=="number+thousand"):
+        print("correct")
+        vec_num[3]="structure 1.000 to 999.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    str_1000000_to_999000000=input("what is the structure of the numbers from 1.000.000 to 999.000.000?: ")
+    if(str_1000000_to_999000000=="number+million"):
+        print("correct")
+        vec_num[4]="structure 1.000.000 to 999.000.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+    
+    num_zer=input("0 in english: ")
+    if(num_zer=="zero"):
+        print("correct")
+        vec_num[5]="0"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one=input("1 in english: ")
+    if(num_one=="one"):
+        print("correct")
+        vec_num[6]="1"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_two=input("2 in english: ")
+    if(num_two=="two"):
+        print("correct")
+        vec_num[7]="2"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_three=input("3 in english: ")
+    if(num_three=="three"):
+        print("correct")
+        vec_num[8]="3"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fou=input("4 in english: ")
+    if(num_fou=="four"):
+        print("correct")
+        vec_num[9]="4"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fiv=input("5 in english: ")
+    if(num_fiv=="five"):
+        print("correct")
+        vec_num[10]="5"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_six=input("6 in english: ")
+    if(num_six=="six"):
+        print("correct")
+        vec_num[11]="6"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_sev=input("7 in english: ")
+    if(num_sev=="seven"):
+        print("correct")
+        vec_num[12]="7"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_eig=input("8 in english: ")
+    if(num_eig=="eight"):
+        print("correct")
+        vec_num[13]="8"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_nin=input("9 in english: ")
+    if(num_nin=="nine"):
+        print("correct")
+        vec_num[14]="9"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_ten=input("10 in english: ")
+    if(num_ten=="ten"):
+        print("correct")
+        vec_num[15]="10"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_ele=input("11 in english: ")
+    if(num_ele=="eleven"):
+        print("correct")
+        vec_num[16]="11"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_twe=input("12 in english: ")
+    if(num_twe=="twelve"):
+        print("correct")
+        vec_num[17]="12"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_thi_t=input("13 in english: ")
+    if(num_thi_t=="thirteen"):
+        print("correct")
+        vec_num[18]="13"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fou_t=input("14 in english: ")
+    if(num_fou_t=="fourteen"):
+        print("correct")
+        vec_num[19]="14"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fif_t=input("15 in english: ")
+    if(num_fif_t=="fiveteen"):
+        print("correct")
+        vec_num[20]="15"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_six_t=input("16 in english: ")
+    if(num_six_t=="sixteen"):
+        print("correct")
+        vec_num[21]="16"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_sev_t=input("17 in english: ")
+    if(num_sev_t=="seventeen"):
+        print("correct")
+        vec_num[22]="17"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_eig_t=input("18 in english: ")
+    if(num_eig_t=="eighteen"):
+        print("correct")
+        vec_num[23]="18"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_nin_t=input("19 in english: ")
+    if(num_nin_t=="nineteen"):
+        print("correct")
+        vec_num[24]="19"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_twe_ty=input("20 in english: ")
+    if(num_twe_ty=="twenty"):
+        print("correct")
+        vec_num[25]="20"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_twe_ty_fiv=input("25 in english: ")
+    if(num_twe_ty_fiv=="twenty-five"):
+        print("correct")
+        vec_num[26]="25"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_thi_ty=input("30 in english: ")
+    if(num_thi_ty=="thirty"):
+        print("correct")
+        vec_num[27]="30"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_thi_ty_fiv=input("35 in english: ")
+    if(num_thi_ty_fiv=="thirty-five"):
+        print("correct")
+        vec_num[28]="35"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_for_ty=input("40 in english: ")
+    if(num_for_ty=="forty"):
+        print("correct")
+        vec_num[29]="40"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_for_ty_fiv=input("45 in english: ")
+    if(num_for_ty_fiv=="forty-five"):
+        print("correct")
+        vec_num[30]="45"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fif_ty=input("50 in english: ")
+    if(num_fif_ty=="fifty"):
+        print("correct")
+        vec_num[31]="50"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fif_ty_fiv=input("55 in english: ")
+    if(num_fif_ty_fiv=="fifty-five"):
+        print("correct")
+        vec_num[32]="55"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_six_ty=input("60 in english: ")
+    if(num_six_ty=="sixty"):
+        print("correct")
+        vec_num[33]="60"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_six_ty_fiv=input("65 in english: ")
+    if(num_six_ty_fiv=="sixty-five"):
+        print("correct")
+        vec_num[34]="65"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+    
+    num_sev_ty=input("70 in english: ")
+    if(num_sev_ty=="seventy"):
+        print("correct")
+        vec_num[35]="70"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_sev_ty_fiv=input("75 in english: ")
+    if(num_sev_ty_fiv=="seventy-five"):
+        print("correct")
+        vec_num[36]="75"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+    
+    num_eig_ty=input("80 in english: ")
+    if(num_eig_ty=="eighty"):
+        print("correct")
+        vec_num[37]="80"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_eig_ty_fiv=input("85 in english: ")
+    if(num_eig_ty_fiv=="eighty-five"):
+        print("correct")
+        vec_num[38]="85"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+    
+    num_nin_ty=input("90 in english: ")
+    if(num_nin_ty=="ninety"):
+        print("correct")
+        vec_num[39]="90"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_nin_ty_fiv=input("95 in english: ")
+    if(num_nin_ty_fiv=="ninety-five"):
+        print("correct")
+        vec_num[40]="95"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun=input("100 in english: ")
+    if(num_one_hun=="one hundred"):
+        print("correct")
+        vec_num[41]="100"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun_and_fiv=input("105 in english: ")
+    if(num_one_hun_and_fiv=="one hundred and five" or num_one_hun_and_fiv=="one hundred five"):
+        print("correct")
+        vec_num[42]="105"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun_and_ten=input("110 in english: ")
+    if(num_one_hun_and_ten=="one hundred and ten" or num_one_hun_and_ten=="one hundred ten"):
+        print("correct")
+        vec_num[43]="110"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_two_hun=input("200 in english: ")
+    if(num_two_hun=="two hundred"):
+        print("correct")
+        vec_num[44]="200"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_two_hun_and_fiv=input("205 in english: ")
+    if(num_two_hun_and_fiv=="two hundred and five" or num_two_hun_and_fiv=="two hundred five"):
+        print("correct")
+        vec_num[45]="205"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_two_hun_and_ten=input("210 in english: ")
+    if(num_two_hun_and_ten=="two hundred and ten" or num_two_hun_and_ten=="two hundred ten"):
+        print("correct")
+        vec_num[46]="210"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_thr_hun=input("300 in english: ")
+    if(num_thr_hun=="three hundred"):
+        print("correct")
+        vec_num[47]="300"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_three_hun_and_fiv=input("305 in english: ")
+    if(num_three_hun_and_fiv=="three hundred and five" or num_three_hun_and_fiv=="three hundred five"):
+        print("correct")
+        vec_num[48]="305"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_three_hun_and_ten=input("310 in english: ")
+    if(num_three_hun_and_ten=="three hundred and ten" or num_three_hun_and_ten=="three hundred ten"):
+        print("correct")
+        vec_num[49]="310"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fou_hun=input("400 in english: ")
+    if(num_fou_hun=="four hundred"):
+        print("correct")
+        vec_num[50]="400"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fou_hun_and_fiv=input("405 in english: ")
+    if(num_fou_hun_and_fiv=="four hundred and five" or num_fou_hun_and_fiv=="four hundred five"):
+        print("correct")
+        vec_num[51]="405"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fou_hun_and_ten=input("410 in english: ")
+    if(num_fou_hun_and_ten=="four hundred and ten" or num_fou_hun_and_ten=="four hundred ten"):
+        print("correct")
+        vec_num[52]="410"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fiv_hun=input("500 in english: ")
+    if(num_fiv_hun=="five hundred"):
+        print("correct")
+        vec_num[53]="500"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fiv_hun_and_fiv=input("505 in english: ")
+    if(num_fiv_hun_and_fiv=="five hundred and five" or num_fiv_hun_and_fiv=="five hundred five"):
+        print("correct")
+        vec_num[54]="505"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_fiv_hun_and_ten=input("510 in english: ")
+    if(num_fiv_hun_and_ten=="five hundred and ten" or num_fiv_hun_and_ten=="five hundred ten"):
+        print("correct")
+        vec_num[55]="510"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_six_hun=input("600 in english: ")
+    if(num_six_hun=="six hundred"):
+        print("correct")
+        vec_num[56]="600"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_six_hun_and_fiv=input("605 in english: ")
+    if(num_six_hun_and_fiv=="six hundred and five" or num_six_hun_and_fiv=="six hundred five"):
+        print("correct")
+        vec_num[57]="605"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_six_hun_and_ten=input("610 in english: ")
+    if(num_six_hun_and_ten=="six hundred and ten" or num_six_hun_and_ten=="six hundred ten"):
+        print("correct")
+        vec_num[58]="610"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_sev_hun=input("700 in english: ")
+    if(num_sev_hun=="seven hundred"):
+        print("correct")
+        vec_num[59]="700"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_sev_hun_and_fiv=input("705 in english: ")
+    if(num_sev_hun_and_fiv=="seven hundred and five" or num_sev_hun_and_fiv=="seven hundred five"):
+        print("correct")
+        vec_num[60]="705"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_sev_hun_and_ten=input("710 in english: ")
+    if(num_sev_hun_and_ten=="seven hundred and ten" or num_sev_hun_and_ten=="seven hundred ten"):
+        print("correct")
+        vec_num[61]="710"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_eig_hun=input("800 in english: ")
+    if(num_eig_hun=="eight hundred"):
+        print("correct")
+        vec_num[62]="800"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_eig_hun_and_fiv=input("805 in english: ")
+    if(num_eig_hun_and_fiv=="eight hundred and five" or num_eig_hun_and_fiv=="eight hundred five"):
+        print("correct")
+        vec_num[63]="805"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_eig_hun_and_ten=input("810 in english: ")
+    if(num_eig_hun_and_ten=="eight hundred and ten" or num_eig_hun_and_ten=="eight hundred ten"):
+        print("correct")
+        vec_num[64]="810"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_nin_hun=input("900 in english: ")
+    if(num_nin_hun=="nine hundred"):
+        print("correct")
+        vec_num[65]="900"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_nin_hun_and_fiv=input("905 in english: ")
+    if(num_nin_hun_and_fiv=="nine hundred and five" or num_nin_hun_and_fiv=="nine hundred five"):
+        print("correct")
+        vec_num[66]="905"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_nin_hun_and_ten=input("910 in english: ")
+    if(num_nin_hun_and_ten=="nine hundred and ten" or num_nin_hun_and_ten=="nine hundred ten"):
+        print("correct")
+        vec_num[67]="910"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_tho=input("1.000 in english: ")
+    if(num_one_tho=="one thousand"):
+        print("correct")
+        vec_num[68]="1.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_tho_fiv=input("1.005 in english: ")
+    if(num_one_tho_fiv=="one thousand five"):
+        print("correct")
+        vec_num[69]="1.005"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_tho_ten=input("1.010 in english: ")
+    if(num_one_tho_ten=="one thousand ten"):
+        print("correct")
+        vec_num[70]="1.010"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_tho_one_hun=input("1.100 in english: ")
+    if(num_one_tho_one_hun=="one thousand one hundred"):
+        print("correct")
+        vec_num[71]="1.100"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_ten_tho=input("10.000 in english: ")
+    if(num_ten_tho=="ten thousand"):
+        print("correct")
+        vec_num[72]="10.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_ten_tho_fiv=input("10.005 in english: ")
+    if(num_ten_tho_fiv=="ten thousand five" or num_ten_tho_fiv=="ten thousand and five"):
+        print("correct")
+        vec_num[73]="10.005"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_ten_tho_ten=input("10.010 in english: ")
+    if(num_ten_tho_ten=="ten thousand ten" or num_ten_tho_ten=="ten thousand and ten"):
+        print("correct")
+        vec_num[74]="10.010"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_ten_tho_one_hun=input("10.100 in english: ")
+    if(num_ten_tho_one_hun=="ten thousand one hundred" or num_ten_tho_one_hun=="ten thousand and one hundred"):
+        print("correct")
+        vec_num[75]="10.100"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun_tho=input("100.000 in english: ")
+    if(num_one_hun_tho=="one hundred thousand"):
+        print("correct")
+        vec_num[76]="100.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun_tho_fiv=input("100.005 in english: ")
+    if(num_one_hun_tho_fiv=="one hundred thousand five" or num_ten_tho_fiv=="one hundred thousand and five"):
+        print("correct")
+        vec_num[77]="100.005"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun_tho_ten=input("100.010 in english: ")
+    if(num_one_hun_tho_ten=="one hundred thousand ten" or num_one_hun_tho_ten=="one hundred thousand and ten"):
+        print("correct")
+        vec_num[78]="100.010"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun_tho_one_hun=input("100.100 in english: ")
+    if(num_one_hun_tho_one_hun=="one hundred thousand one hundred" or num_one_hun_tho_one_hun=="one hundred thousand and one hundred"):
+        print("correct")
+        vec_num[79]="100.100"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_mill=input("1.000.000 in english: ")
+    if(num_one_mill=="one million"):
+        print("correct")
+        vec_num[80]="1.000.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_ten_mill=input("10.000.000 in english: ")
+    if(num_ten_mill=="ten million"):
+        print("correct")
+        vec_num[81]="10.000.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_one_hun_mill=input("100.000.000 in english: ")
+    if(num_one_hun_mill=="one hundred million"):
+        print("correct")
+        vec_num[82]="1.000.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    num_bill=input("1.000.000.000 in english: ")
+    if(num_bill=="billion"):
+        print("correct")
+        vec_num[83]="1.000.000.000"
+        var_num+=1
+    else:
+        print("incorrect")
+    print()
+
+    print("Answers:")
+    print(f"result: {var_num}/84")
+    print("List of correct: ")
+    recorrer_lista(vec_num)
+    print()
+    see_ans_num=input("you want to see the list of answers?(yes/not): ")
+    if(see_ans_num=="yes"):
+        list_correct_numbers()
+    print()
 
 def months():
     good=0
