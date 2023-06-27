@@ -3536,6 +3536,1996 @@ def adjective_example():
 
     return point
 
+#función verbs
+
+def test_verbs():
+    var_tes_ver=0
+    cor_or_inc=False
+
+    ver_tes_1=input("preguntar in english:? ")
+    if(ver_tes_1=="ask"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_2=input("ser/estar in english:? ")
+    if(ver_tes_2=="be"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_3=input("romper/quebrar in english:? ")
+    if(ver_tes_3=="break"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_4=input("llevar/traer/jalar/mover/trasladar/transportar in english:? ")
+    if(ver_tes_4=="bring"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_5=input("llamar in english:? ")
+    if(ver_tes_5=="call"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_6=input("llevar/cargar in english:? ")
+    if(ver_tes_6=="carry"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_7=input("chequear/verificar/comprobar/revisar in english:? ")
+    if(ver_tes_7=="check"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_8=input("cortar in english:? ")
+    if(ver_tes_8=="cut"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_9=input("venir/llegar/entrar/acercarse in english:? ")
+    if(ver_tes_9=="come"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_10=input("hacer in english:? ")
+    if(ver_tes_10=="do"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_11=input("caerse/dejar/caer in english:? ")
+    if(ver_tes_11=="drop"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_12=input("caerse/caer in english:? ")
+    if(ver_tes_12=="fall"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_13=input("llenar/rellenar/llenarse in english:? ")
+    if(ver_tes_13=="fill"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_14=input("encontrar/encontrarse in english:? ")
+    if(ver_tes_14=="find"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_15=input("conseguir/obtener/llegar in english:? ")
+    if(ver_tes_15=="get"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_16=input("pasar/dar/alcanzar in english:? ")
+    if(ver_tes_16=="give"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_18=input("irse/partir in english:? ")
+    if(ver_tes_18=="go"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_19=input("crecer in english:? ")
+    if(ver_tes_19=="grown"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_20=input("dar/pasar/entregar in english:? ")
+    if(ver_tes_20=="hand"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_21=input("exponer/colgar/ahorcar in english:? ")
+    if(ver_tes_21=="hang"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_22=input("agarrar/sostener/retener/tener in english:? ")
+    if(ver_tes_22=="hold"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_23=input("guardar/conservar/mantener in english:? ")
+    if(ver_tes_23=="keep"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_24=input("dejar/permitir in english:? ")
+    if(ver_tes_24=="let"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_25=input("registrar/anotar/talar/loguearse in english:? ")
+    if(ver_tes_25=="log"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_26=input("mirar in english:? ")
+    if(ver_tes_26=="look"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_27=input("hacer in english:? ")
+    if(ver_tes_27=="make"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_28=input("pasar in english:? ")
+    if(ver_tes_28=="pass"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_29=input("correr/recorrer in english:? ")
+    if(ver_tes_29=="run"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_31=input("ponerse/poner/colocar/ajustar in english:? ")
+    if(ver_tes_31=="set"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_32=input("poner/colocar in english:? ")
+    if(ver_tes_32=="put"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_33=input("escoger/coger/recolectar/recoger in english:? ")
+    if(ver_tes_33=="pick"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_34=input("pagar in english:? ")
+    if(ver_tes_34=="pay"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_35=input("decir/contar in english:? ")
+    if(ver_tes_35=="tell"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_36=input("girar/rotar in english:? ")
+    if(ver_tes_36=="turn"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_37=input("agarrar/coger/tomar in english:? ")
+    if(ver_tes_37=="take"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_38=input("hablar in english:? ")
+    if(ver_tes_38=="talk"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_39=input("trabajar in english:? ")
+    if(ver_tes_39=="work"):
+        print("correct")
+        var_tes_ver+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(var_tes_ver==39):
+        cor_or_inc=True
+
+def test_verbs_regular():
+    var_tes_ver_reg=0
+    cor_or_inc_reg=False
+
+    ver_tes_reg_1_pre=input("grabar in present in english?: ")
+    ver_tes_reg_1_pas=input("grabar in past in english?: ")
+    ver_tes_reg_1_par=input("grabar in past participle in english?: ")
+    if(ver_tes_reg_1_pre=="record" and ver_tes_reg_1_pas=="recorded" and ver_tes_reg_1_par=="recorded"):
+        print("correct")
+        var_tes_ver_reg+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(var_tes_ver_reg==1):
+        cor_or_inc_reg=True
+
+    return cor_or_inc_reg
+    
+def test_verbs_irregulars():
+    var_tes_ver_irre=0
+    cor_or_inc_irre=False
+
+    ver_tes_irre_1_pre=input("golpear in present in english?: ")
+    ver_tes_irre_1_pas=input("golpear in past in english?: ")
+    ver_tes_irre_1_par=input("golpear in past participle in english?: ")
+    if(ver_tes_irre_1_pre=="hit" and ver_tes_irre_1_pas=="hit" and ver_tes_irre_1_par=="hit"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_2_pre=input("Quedar/servir/entrar/valer in present in english?: ")
+    ver_tes_irre_2_pas=input("Quedar/servir/entrar/valer in past in english?: ")
+    ver_tes_irre_2_par=input("Quedar/servir/entrar/valer in past participle in english?: ")
+    if(ver_tes_irre_2_pre=="fit" and ver_tes_irre_2_pas=="fit" and ver_tes_irre_2_par=="fit"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_3_pre=input("renunciar/dejar/abandonar in present in english?: ")
+    ver_tes_irre_3_pas=input("renunciar/dejar/abandonar in past in english?: ")
+    ver_tes_irre_3_par=input("renunciar/dejar/abandonar in past participle in english?: ")
+    if(ver_tes_irre_3_pre=="quit" and ver_tes_irre_3_pas=="quit" and ver_tes_irre_3_par=="quit"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_4_pre=input("dividir/apartar/partir in present in english?: ")
+    ver_tes_irre_4_pas=input("dividir/apartar/partir in past in english?: ")
+    ver_tes_irre_4_par=input("dividir/apartar/partir in past participle in english?: ")
+    if(ver_tes_irre_4_pre=="split" and ver_tes_irre_4_pas=="split" and ver_tes_irre_4_par=="split"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")    
+    print()
+
+    ver_tes_irre_5_pre=input("cortar in present in english?: ")
+    ver_tes_irre_5_pas=input("cortar in past in english?: ")
+    ver_tes_irre_5_par=input("cortar in past participle in english?: ")
+    if(ver_tes_irre_5_pre=="slit" and ver_tes_irre_5_pas=="slit" and ver_tes_irre_5_par=="slit"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")    
+    print()
+
+    ver_tes_irre_6_pre=input("deshacerse in present in english?: ")
+    ver_tes_irre_6_pas=input("deshacerse in past in english?: ")
+    ver_tes_irre_6_par=input("deshacerse in past participle in english?: ")
+    if(ver_tes_irre_6_pre=="rid" and ver_tes_irre_6_pas=="rid" and ver_tes_irre_6_par=="rid"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")    
+    print()
+
+    ver_tes_irre_7_pre=input("ofrecer/pujar(en una subasta) in present in english?: ")
+    ver_tes_irre_7_pas=input("ofrecer/pujar(en una subasta) in past in english?: ")
+    ver_tes_irre_7_par=input("ofrecer/pujar(en una subasta) in past participle in english?: ")
+    if(ver_tes_irre_7_pre=="bid" and ver_tes_irre_7_pas=="bid" and ver_tes_irre_7_par=="bid"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")    
+    print()
+
+    ver_tes_irre_8_pre=input("dejar in present in english?: ")
+    ver_tes_irre_8_pas=input("dejar in past in english?: ")
+    ver_tes_irre_8_par=input("dejar in past participle in english?: ")
+    if(ver_tes_irre_8_pre=="let" and ver_tes_irre_8_pas=="let" and ver_tes_irre_8_par=="let"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")    
+    print()
+
+    ver_tes_irre_9_pre=input("ubicar/ajustar/cuadremos una cosa in present in english?: ")
+    ver_tes_irre_9_pas=input("ubicar/ajustar/cuadremos una cosa in past in english?: ")
+    ver_tes_irre_9_par=input("ubicar/ajustar/cuadremos una cosa in past participle in english?: ")
+    if(ver_tes_irre_9_pre=="set" and ver_tes_irre_9_pas=="set" and ver_tes_irre_9_par=="set"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")    
+    print()
+
+    ver_tes_irre_10_pre=input("mojar in present in english?: ")
+    ver_tes_irre_10_pas=input("mojar in past in english?: ")
+    ver_tes_irre_10_par=input("mojar in past participle in english?: ")
+    if(ver_tes_irre_10_pre=="wet" and ver_tes_irre_10_pas=="wet" and ver_tes_irre_10_par=="wet"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")    
+    print()
+
+    ver_tes_irre_11_pre=input("apostar in present in english?: ")
+    ver_tes_irre_11_pas=input("apostar in past in english?: ")
+    ver_tes_irre_11_par=input("apostar in past participle in english?: ")
+    if(ver_tes_irre_11_pre=="bet" and ver_tes_irre_11_pas=="bet" and ver_tes_irre_11_par=="bet"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_12_pre=input("esparcir in present in english?: ")
+    ver_tes_irre_12_pas=input("esparcir in past in english?: ")
+    ver_tes_irre_12_par=input("esparcir in past participle in english?: ")
+    if(ver_tes_irre_12_pre=="spread" and ver_tes_irre_12_pas=="spread" and ver_tes_irre_12_par=="spread"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_13_pre=input("sudar in present in english?: ")
+    ver_tes_irre_13_pas=input("sudar in past in english?: ")
+    ver_tes_irre_13_par=input("sudar in past participle in english?: ")
+    if(ver_tes_irre_13_pre=="sweat" and ver_tes_irre_13_pas=="sweat" and ver_tes_irre_13_par=="sweat"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_14_pre=input("golpear in present in english?: ")
+    ver_tes_irre_14_pas=input("golpear in past in english?: ")
+    ver_tes_irre_14_par=input("golpear in past participle in english?: ")
+    if(ver_tes_irre_14_pre=="beat" and ver_tes_irre_14_pas=="beat" and ver_tes_irre_14_par=="beat/beaten"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_15_pre=input("poner in present in english?: ")
+    ver_tes_irre_15_pas=input("poner in past in english?: ")
+    ver_tes_irre_15_par=input("poner in past participle in english?: ")
+    if(ver_tes_irre_15_pre=="put" and ver_tes_irre_15_pas=="put" and ver_tes_irre_15_par=="put"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_16_pre=input("cortar in present in english?: ")
+    ver_tes_irre_16_pas=input("cortar in past in english?: ")
+    ver_tes_irre_16_par=input("cortar in past participle in english?: ")
+    if(ver_tes_irre_16_pre=="cut" and ver_tes_irre_16_pas=="cut" and ver_tes_irre_16_par=="cut"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_17_pre=input("cerrar in present in english?: ")
+    ver_tes_irre_17_pas=input("cerrar in past in english?: ")
+    ver_tes_irre_17_par=input("cerrar in past participle in english?: ")
+    if(ver_tes_irre_17_pre=="shut" and ver_tes_irre_17_pas=="shut" and ver_tes_irre_17_par=="shut"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_18_pre=input("introducir/insertar/meter/penetrar in present in english?: ")
+    ver_tes_irre_18_pas=input("introducir/insertar/meter/penetrar in past in english?: ")
+    ver_tes_irre_18_par=input("introducir/insertar/meter/penetrar in past participle in english?: ")
+    if(ver_tes_irre_18_pre=="thrust" and ver_tes_irre_18_pas=="thrust" and ver_tes_irre_18_par=="thrust"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_19_pre=input("costar in present in english?: ")
+    ver_tes_irre_19_pas=input("costar in past in english?: ")
+    ver_tes_irre_19_par=input("costar in past participle in english?: ")
+    if(ver_tes_irre_19_pre=="cost" and ver_tes_irre_19_pas=="cost" and ver_tes_irre_19_par=="cost"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_20_pre=input("herir in present in english?: ")
+    ver_tes_irre_20_pas=input("herir in past in english?: ")
+    ver_tes_irre_20_par=input("herir in past participle in english?: ")
+    if(ver_tes_irre_20_pre=="hurt" and ver_tes_irre_20_pas=="hurt" and ver_tes_irre_20_par=="hurt"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_21_pre=input("reventar in present in english?: ")
+    ver_tes_irre_21_pas=input("reventar in past in english?: ")
+    ver_tes_irre_21_par=input("reventar in past participle in english?: ")
+    if(ver_tes_irre_21_pre=="burst" and ver_tes_irre_21_pas=="burst" and ver_tes_irre_21_par=="burst"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_22_pre=input("arrojar/lanzar in present in english?: ")
+    ver_tes_irre_22_pas=input("arrojar/lanzar in past in english?: ")
+    ver_tes_irre_22_par=input("arrojar/lanzar in past participle in english?: ")
+    if(ver_tes_irre_22_pre=="cast" and ver_tes_irre_22_pas=="cast" and ver_tes_irre_22_par=="cast"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_23_pre=input("transmitir in present in english?: ")
+    ver_tes_irre_23_pas=input("transmitir in past in english?: ")
+    ver_tes_irre_23_par=input("transmitir in past participle in english?: ")
+    if(ver_tes_irre_23_pre=="broadcast" and ver_tes_irre_23_pas=="broadcast" and ver_tes_irre_23_par=="broadcast"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_24_pre=input("predecir in present in english?: ")
+    ver_tes_irre_24_pas=input("predecir in past in english?: ")
+    ver_tes_irre_24_par=input("predecir in past participle in english?: ")
+    if(ver_tes_irre_24_pre=="forecast" and ver_tes_irre_24_pas=="forecast" and ver_tes_irre_24_par=="forecast"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_25_pre=input("mantener/guardar in present in english?: ")
+    ver_tes_irre_25_pas=input("mantener/guardar in past in english?: ")
+    ver_tes_irre_25_par=input("mantener/guardar in past participle in english?: ")
+    if(ver_tes_irre_25_pre=="keep" and ver_tes_irre_25_pas=="kept" and ver_tes_irre_25_par=="kept"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_26_pre=input("dormir in present in english?: ")
+    ver_tes_irre_26_pas=input("dormir in past in english?: ")
+    ver_tes_irre_26_par=input("dormir in past participle in english?: ")
+    if(ver_tes_irre_26_pre=="sleep" and ver_tes_irre_26_pas=="slept" and ver_tes_irre_26_par=="slept"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_27_pre=input("barrer in present in english?: ")
+    ver_tes_irre_27_pas=input("barrer in past in english?: ")
+    ver_tes_irre_27_par=input("barrer in past participle in english?: ")
+    if(ver_tes_irre_27_pre=="sweep" and ver_tes_irre_27_pas=="swept" and ver_tes_irre_27_par=="swept"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_28_pre=input("llorar in present in english?: ")
+    ver_tes_irre_28_pas=input("llorar in past in english?: ")
+    ver_tes_irre_28_par=input("llorar in past participle in english?: ")
+    if(ver_tes_irre_28_pre=="weep" and ver_tes_irre_28_pas=="wept" and ver_tes_irre_28_par=="wept"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_29_pre=input("sentir in present in english?: ")
+    ver_tes_irre_29_pas=input("sentir in past in english?: ")
+    ver_tes_irre_29_par=input("sentir in past participle in english?: ")
+    if(ver_tes_irre_29_pre=="feel" and ver_tes_irre_29_pas=="felt" and ver_tes_irre_29_par=="felt"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_30_pre=input("arrodillarse in present in english?: ")
+    ver_tes_irre_30_pas=input("arrodillarse in past in english?: ")
+    ver_tes_irre_30_par=input("arrodillarse in past participle in english?: ")
+    if(ver_tes_irre_30_pre=="kneel" and ver_tes_irre_30_pas=="knelt" and ver_tes_irre_30_par=="knelt"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_31_pre=input("alimentar in present in english?: ")
+    ver_tes_irre_31_pas=input("alimentar in past in english?: ")
+    ver_tes_irre_31_par=input("alimentar in past participle in english?: ")
+    if(ver_tes_irre_31_pre=="feed" and ver_tes_irre_31_pas=="fed" and ver_tes_irre_31_par=="fed"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_32_pre=input("sangrar in present in english?: ")
+    ver_tes_irre_32_pas=input("sangrar in past in english?: ")
+    ver_tes_irre_32_par=input("sangrar in past participle in english?: ")
+    if(ver_tes_irre_32_pre=="bleed" and ver_tes_irre_32_pas=="bled" and ver_tes_irre_32_par=="bled"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_33_pre=input("crear/procrear in present in english?: ")
+    ver_tes_irre_33_pas=input("crear/procrear in past in english?: ")
+    ver_tes_irre_33_par=input("crear/procrear in past participle in english?: ")
+    if(ver_tes_irre_33_pre=="breed" and ver_tes_irre_33_pas=="bred" and ver_tes_irre_33_par=="bred"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_34_pre=input("acelerar in present in english?: ")
+    ver_tes_irre_34_pas=input("acelerar in past in english?: ")
+    ver_tes_irre_34_par=input("acelerar in past participle in english?: ")
+    if(ver_tes_irre_34_pre=="speed" and ver_tes_irre_34_pas=="sped" and ver_tes_irre_34_par=="sped"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_35_pre=input("conocer in present in english?: ")
+    ver_tes_irre_35_pas=input("conocer in past in english?: ")
+    ver_tes_irre_35_par=input("conocer in past participle in english?: ")
+    if(ver_tes_irre_35_pre=="meet" and ver_tes_irre_35_pas=="met" and ver_tes_irre_35_par=="met"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_36_pre=input("guiar in present in english?: ")
+    ver_tes_irre_36_pas=input("guiar in past in english?: ")
+    ver_tes_irre_36_par=input("guiar in past participle in english?: ")
+    if(ver_tes_irre_36_pre=="lead" and ver_tes_irre_36_pas=="let" and ver_tes_irre_36_par=="let"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_37_pre=input("repartir/dar in present in english?: ")
+    ver_tes_irre_37_pas=input("repartir/dar in past in english?: ")
+    ver_tes_irre_37_par=input("repartir/dar in past participle in english?: ")
+    if(ver_tes_irre_37_pre=="deal" and ver_tes_irre_37_pas=="dealt" and ver_tes_irre_37_par=="dealt"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_38_pre=input("inclinarse in present in english?: ")
+    ver_tes_irre_38_pas=input("inclinarse in past in english?: ")
+    ver_tes_irre_38_par=input("inclinarse in past participle in english?: ")
+    if(ver_tes_irre_38_pre=="lean" and ver_tes_irre_38_pas=="leant" and ver_tes_irre_38_par=="leant"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_39_pre=input("aprender/memorizar in present in english?: ")
+    ver_tes_irre_39_pas=input("aprender/memorizar in past in english?: ")
+    ver_tes_irre_39_par=input("aprender/memorizar in past participle in english?: ")
+    if(ver_tes_irre_39_pre=="learn" and ver_tes_irre_39_pas=="learnt/learned" and ver_tes_irre_39_par=="learnt/learned"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_40_pre=input("querer decir/significar in present in english?: ")
+    ver_tes_irre_40_pas=input("querer decir/significar in past in english?: ")
+    ver_tes_irre_40_par=input("querer decir/significar in past participle in english?: ")
+    if(ver_tes_irre_40_pre=="mean" and ver_tes_irre_40_pas=="meant" and ver_tes_irre_40_par=="meant"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_41_pre=input("saltar/brincar in present in english?: ")
+    ver_tes_irre_41_pas=input("saltar/brincar in past in english?: ")
+    ver_tes_irre_41_par=input("saltar/brincar in past participle in english?: ")
+    if(ver_tes_irre_41_pre=="leap" and ver_tes_irre_41_pas=="leapt" and ver_tes_irre_41_par=="leapt"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_42_pre=input("soñar in present in english?: ")
+    ver_tes_irre_42_pas=input("soñar in past in english?: ")
+    ver_tes_irre_42_par=input("soñar in past participle in english?: ")
+    if(ver_tes_irre_42_pre=="dream" and ver_tes_irre_42_pas=="dreamt" and ver_tes_irre_42_par=="dreamt"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_43_pre=input("oir/escuchar in present in english?: ")
+    ver_tes_irre_43_pas=input("oir/escuchar in past in english?: ")
+    ver_tes_irre_43_par=input("oir/escuchar in past participle in english?: ")
+    if(ver_tes_irre_43_pre=="hear" and ver_tes_irre_43_pas=="heard" and ver_tes_irre_43_par=="heard"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_44_pre=input("leer in present in english?: ")
+    ver_tes_irre_44_pas=input("leer in past in english?: ")
+    ver_tes_irre_44_par=input("leer in past participle in english?: ")
+    if(ver_tes_irre_44_pre=="read" and ver_tes_irre_44_pas=="read" and ver_tes_irre_44_par=="read"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_45_pre=input("encontrar in present in english?: ")
+    ver_tes_irre_45_pas=input("encontrar in past in english?: ")
+    ver_tes_irre_45_par=input("encontrar in past participle in english?: ")
+    if(ver_tes_irre_45_pre=="find" and ver_tes_irre_45_pas=="found" and ver_tes_irre_45_par=="found"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_46_pre=input("atar in present in english?: ")
+    ver_tes_irre_46_pas=input("atar in past in english?: ")
+    ver_tes_irre_46_par=input("atar in past participle in english?: ")
+    if(ver_tes_irre_46_pre=="bind" and ver_tes_irre_46_pas=="bound" and ver_tes_irre_46_par=="bound"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_47_pre=input("moler in present in english?: ")
+    ver_tes_irre_47_pas=input("moler in past in english?: ")
+    ver_tes_irre_47_par=input("moler in past participle in english?: ")
+    if(ver_tes_irre_47_pre=="grind" and ver_tes_irre_47_pas=="ground" and ver_tes_irre_47_par=="ground"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_48_pre=input("darle cuerda in present in english?: ")
+    ver_tes_irre_48_pas=input("darle cuerda in past in english?: ")
+    ver_tes_irre_48_par=input("darle cuerda in past participle in english?: ")
+    if(ver_tes_irre_48_pre=="wind" and ver_tes_irre_48_pas=="wound" and ver_tes_irre_48_par=="wound"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_49_pre=input("desenrollar in present in english?: ")
+    ver_tes_irre_49_pas=input("desenrollar in past in english?: ")
+    ver_tes_irre_49_par=input("desenrollar in past participle in english?: ")
+    if(ver_tes_irre_49_pre=="unwind" and ver_tes_irre_49_pas=="unwound" and ver_tes_irre_49_par=="unwound"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_50_pre=input("desatar/desabrochar in present in english?: ")
+    ver_tes_irre_50_pas=input("desatar/desabrochar in past in english?: ")
+    ver_tes_irre_50_par=input("desatar/desabrochar in past participle in english?: ")
+    if(ver_tes_irre_50_pre=="unbind" and ver_tes_irre_50_pas=="unbound" and ver_tes_irre_50_par=="unbound"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_51_pre=input("enviar in present in english?: ")
+    ver_tes_irre_51_pas=input("enviar in past in english?: ")
+    ver_tes_irre_51_par=input("enviar in past participle in english?: ")
+    if(ver_tes_irre_51_pre=="send" and ver_tes_irre_51_pas=="sent" and ver_tes_irre_51_par=="sent"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_52_pre=input("gastar in present in english?: ")
+    ver_tes_irre_52_pas=input("gastar in past in english?: ")
+    ver_tes_irre_52_par=input("gastar in past participle in english?: ")
+    if(ver_tes_irre_52_pre=="spend" and ver_tes_irre_52_pas=="spent" and ver_tes_irre_52_par=="spent"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_53_pre=input("doblar in present in english?: ")
+    ver_tes_irre_53_pas=input("doblar in past in english?: ")
+    ver_tes_irre_53_par=input("doblar in past participle in english?: ")
+    if(ver_tes_irre_53_pre=="bend" and ver_tes_irre_53_pas=="bent" and ver_tes_irre_53_par=="bent"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_54_pre=input("mezclar in present in english?: ")
+    ver_tes_irre_54_pas=input("mezclar in past in english?: ")
+    ver_tes_irre_54_par=input("mezclar in past participle in english?: ")
+    if(ver_tes_irre_54_pre=="blend" and ver_tes_irre_54_pas=="blent" and ver_tes_irre_54_par=="blent"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_55_pre=input("prestar in present in english?: ")
+    ver_tes_irre_55_pas=input("prestar in past in english?: ")
+    ver_tes_irre_55_par=input("prestar in past participle in english?: ")
+    if(ver_tes_irre_55_pre=="lend" and ver_tes_irre_55_pas=="lent" and ver_tes_irre_55_par=="lent"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_56_pre=input("picar/arder in present in english?: ")
+    ver_tes_irre_56_pas=input("picar/arder in past in english?: ")
+    ver_tes_irre_56_par=input("picar/arder in past participle in english?: ")
+    if(ver_tes_irre_56_pre=="sting" and ver_tes_irre_56_pas=="stung" and ver_tes_irre_56_par=="stung"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_57_pre=input("pegachento in present in english?: ")
+    ver_tes_irre_57_pas=input("pegachento in past in english?: ")
+    ver_tes_irre_57_par=input("pegachento in past participle in english?: ")
+    if(ver_tes_irre_57_pre=="cling" and ver_tes_irre_57_pas=="clung" and ver_tes_irre_57_par=="clung"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_58_pre=input("mecerse in present in english?: ")
+    ver_tes_irre_58_pas=input("mecerse in past in english?: ")
+    ver_tes_irre_58_par=input("mecerse in past participle in english?: ")
+    if(ver_tes_irre_58_pre=="swing" and ver_tes_irre_58_pas=="swung" and ver_tes_irre_58_par=="swung"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+    
+    ver_tes_irre_59_pre=input("escaparse/escabullirse in present in english?: ")
+    ver_tes_irre_59_pas=input("escaparse/escabullirse in past in english?: ")
+    ver_tes_irre_59_par=input("escaparse/escabullirse in past participle in english?: ")
+    if(ver_tes_irre_59_pre=="slink" and ver_tes_irre_59_pas=="slunk" and ver_tes_irre_59_par=="slunk"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_60_pre=input("pegar in present in english?: ")
+    ver_tes_irre_60_pas=input("pegar in past in english?: ")
+    ver_tes_irre_60_par=input("pegar in past participle in english?: ")
+    if(ver_tes_irre_60_pre=="stick" and ver_tes_irre_60_pas=="stuck" and ver_tes_irre_60_par=="stuck"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_61_pre=input("cavar in present in english?: ")
+    ver_tes_irre_61_pas=input("cavar in past in english?: ")
+    ver_tes_irre_61_par=input("cavar in past participle in english?: ")
+    if(ver_tes_irre_61_pre=="dig" and ver_tes_irre_61_pas=="dug" and ver_tes_irre_61_par=="dug"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_62_pre=input("colgar in present in english?: ")
+    ver_tes_irre_62_pas=input("colgar in past in english?: ")
+    ver_tes_irre_62_par=input("colgar in past participle in english?: ")
+    if(ver_tes_irre_62_pre=="hang" and ver_tes_irre_62_pas=="hung" and ver_tes_irre_62_par=="hung"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_63_pre=input("decir in present in english?: ")
+    ver_tes_irre_63_pas=input("decir in past in english?: ")
+    ver_tes_irre_63_par=input("decir in past participle in english?: ")
+    if(ver_tes_irre_63_pre=="say" and ver_tes_irre_63_pas=="said" and ver_tes_irre_63_par=="said"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_64_pre=input("pagar in present in english?: ")
+    ver_tes_irre_64_pas=input("pagar in past in english?: ")
+    ver_tes_irre_64_par=input("pagar in past participle in english?: ")
+    if(ver_tes_irre_64_pre=="pay" and ver_tes_irre_64_pas=="paid" and ver_tes_irre_64_par=="paid"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_65_pre=input("extender/poner in present in english?: ")
+    ver_tes_irre_65_pas=input("extender/poner in past in english?: ")
+    ver_tes_irre_65_par=input("extender/poner in past participle in english?: ")
+    if(ver_tes_irre_65_pre=="lay" and ver_tes_irre_65_pas=="laid" and ver_tes_irre_65_par=="laid"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_66_pre=input("incrustar in present in english?: ")
+    ver_tes_irre_66_pas=input("incrustar in past in english?: ")
+    ver_tes_irre_66_par=input("incrustar in past participle in english?: ")
+    if(ver_tes_irre_66_pre=="inlay" and ver_tes_irre_66_pas=="inlaid" and ver_tes_irre_66_par=="inlaid"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_67_pre=input("decir/contar in present in english?: ")
+    ver_tes_irre_67_pas=input("decir/contar in past in english?: ")
+    ver_tes_irre_67_par=input("decir/contar in past participle in english?: ")
+    if(ver_tes_irre_67_pre=="tell" and ver_tes_irre_67_pas=="told" and ver_tes_irre_67_par=="told"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_68_pre=input("vender in present in english?: ")
+    ver_tes_irre_68_pas=input("vender in past in english?: ")
+    ver_tes_irre_68_par=input("vender in past participle in english?: ")
+    if(ver_tes_irre_68_pre=="sell" and ver_tes_irre_68_pas=="sold" and ver_tes_irre_68_par=="sold"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_69_pre=input("agarrar in present in english?: ")
+    ver_tes_irre_69_pas=input("agarrar in past in english?: ")
+    ver_tes_irre_69_par=input("agarrar in past participle in english?: ")
+    if(ver_tes_irre_69_pre=="hold" and ver_tes_irre_69_pas=="held" and ver_tes_irre_69_par=="held"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_70_pre=input("observar in present in english?: ")
+    ver_tes_irre_70_pas=input("observar in past in english?: ")
+    ver_tes_irre_70_par=input("observar in past participle in english?: ")
+    if(ver_tes_irre_70_pre=="behold" and ver_tes_irre_70_pas=="beheld" and ver_tes_irre_70_par=="beheld"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_71_pre=input("sostener in present in english?: ")
+    ver_tes_irre_71_pas=input("sostener in past in english?: ")
+    ver_tes_irre_71_par=input("sostener in past participle in english?: ")
+    if(ver_tes_irre_71_pre=="uphold" and ver_tes_irre_71_pas=="upheld" and ver_tes_irre_71_par=="upheld"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_72_pre=input("retener in present in english?: ")
+    ver_tes_irre_72_pas=input("retener in past in english?: ")
+    ver_tes_irre_72_par=input("retener in past participle in english?: ")
+    if(ver_tes_irre_72_pre=="withhold" and ver_tes_irre_72_pas=="withheld" and ver_tes_irre_72_par=="withheld"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_73_pre=input("estar de pie/aguantar in present in english?: ")
+    ver_tes_irre_73_pas=input("estar de pie/aguantar in past in english?: ")
+    ver_tes_irre_73_par=input("estar de pie/aguantar in past participle in english?: ")
+    if(ver_tes_irre_73_pre=="stand" and ver_tes_irre_73_pas=="stood" and ver_tes_irre_73_par=="stood"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_74_pre=input("entender in present in english?: ")
+    ver_tes_irre_74_pas=input("entender in past in english?: ")
+    ver_tes_irre_74_par=input("entender in past participle in english?: ")
+    if(ver_tes_irre_74_pre=="understand" and ver_tes_irre_74_pas=="understood" and ver_tes_irre_74_par=="understood"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_75_pre=input("soportar in present in english?: ")
+    ver_tes_irre_75_pas=input("soportar in past in english?: ")
+    ver_tes_irre_75_par=input("soportar in past participle in english?: ")
+    if(ver_tes_irre_75_pre=="withstand" and ver_tes_irre_75_pas=="withstood" and ver_tes_irre_75_par=="withstood"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_76_pre=input("perder in present in english?: ")
+    ver_tes_irre_76_pas=input("perder in past in english?: ")
+    ver_tes_irre_76_par=input("perder in past participle in english?: ")
+    if(ver_tes_irre_76_pre=="lose" and ver_tes_irre_76_pas=="lost" and ver_tes_irre_76_par=="lost"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_77_pre=input("disparar in present in english?: ")
+    ver_tes_irre_77_pas=input("disparar in past in english?: ")
+    ver_tes_irre_77_par=input("disparar in past participle in english?: ")
+    if(ver_tes_irre_77_pre=="shoot" and ver_tes_irre_77_pas=="shot" and ver_tes_irre_77_par=="shot"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_78_pre=input("comprar in present in english?: ")
+    ver_tes_irre_78_pas=input("comprar in past in english?: ")
+    ver_tes_irre_78_par=input("comprar in past participle in english?: ")
+    if(ver_tes_irre_78_pre=="buy" and ver_tes_irre_78_pas=="bought" and ver_tes_irre_78_par=="bought"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_79_pre=input("llevar/traer/jalar/mover/trasladar/transportar in present in english?: ")
+    ver_tes_irre_79_pas=input("llevar/traer/jalar/mover/trasladar/transportar in past in english?: ")
+    ver_tes_irre_79_par=input("llevar/traer/jalar/mover/trasladar/transportar in past participle in english?: ")
+    if(ver_tes_irre_79_pre=="bring" and ver_tes_irre_79_pas=="brought" and ver_tes_irre_79_par=="brought"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_80_pre=input("pensar/considerar/reflexionar/creer in present in english?: ")
+    ver_tes_irre_80_pas=input("pensar/considerar/reflexionar/creer in past in english?: ")
+    ver_tes_irre_80_par=input("pensar/considerar/reflexionar/creer in past participle in english?: ")
+    if(ver_tes_irre_80_pre=="think" and ver_tes_irre_80_pas=="thought" and ver_tes_irre_80_par=="thought"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_81_pre=input("luchar/pelear in present in english?: ")
+    ver_tes_irre_81_pas=input("luchar/pelear in past in english?: ")
+    ver_tes_irre_81_par=input("luchar/pelear in past participle in english?: ")
+    if(ver_tes_irre_81_pre=="fight" and ver_tes_irre_81_pas=="fought" and ver_tes_irre_81_par=="fought"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_82_pre=input("enseñar in present in english?: ")
+    ver_tes_irre_82_pas=input("enseñar in past in english?: ")
+    ver_tes_irre_82_par=input("enseñar in past participle in english?: ")
+    if(ver_tes_irre_82_pre=="teach" and ver_tes_irre_82_pas=="taught" and ver_tes_irre_82_par=="taught"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_83_pre=input("coger/pillar/cachar/atrapar in present in english?: ")
+    ver_tes_irre_83_pas=input("coger/pillar/cachar/atrapar in past in english?: ")
+    ver_tes_irre_83_par=input("coger/pillar/cachar/atrapar in past participle in english?: ")
+    if(ver_tes_irre_83_pre=="catch" and ver_tes_irre_83_pas=="caught" and ver_tes_irre_83_par=="caught"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_84_pre=input("escupir in present in english?: ")
+    ver_tes_irre_84_pas=input("escupir in past in english?: ")
+    ver_tes_irre_84_par=input("escupir in past participle in english?: ")
+    if(ver_tes_irre_84_pre=="spit" and ver_tes_irre_84_pas=="spit" and ver_tes_irre_84_par=="spit"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_85_pre=input("tener in present in english?: ")
+    ver_tes_irre_85_pas=input("tener in past in english?: ")
+    ver_tes_irre_85_par=input("tener in past participle in english?: ")
+    if(ver_tes_irre_85_pre=="have" and ver_tes_irre_85_pas=="had" and ver_tes_irre_85_par=="had"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_86_pre=input("hacer in present in english?: ")
+    ver_tes_irre_86_pas=input("hacer in past in english?: ")
+    ver_tes_irre_86_par=input("hacer in past participle in english?: ")
+    if(ver_tes_irre_86_pre=="make" and ver_tes_irre_86_pas=="made" and ver_tes_irre_86_par=="made"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_87_pre=input("escribir in present in english?: ")
+    ver_tes_irre_87_pas=input("escribir in past in english?: ")
+    ver_tes_irre_87_par=input("escribir in past participle in english?: ")
+    if(ver_tes_irre_87_pre=="write" and ver_tes_irre_87_pas=="wrote" and ver_tes_irre_87_par=="written"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_88_pre=input("ir en/montar en/conducir/manejar in present in english?: ")
+    ver_tes_irre_88_pas=input("ir en/montar en/conducir/manejar in past in english?: ")
+    ver_tes_irre_88_par=input("ir en/montar en/conducir/manejar in past participle in english?: ")
+    if(ver_tes_irre_88_pre=="ride" and ver_tes_irre_88_pas=="rode" and ver_tes_irre_88_par=="ridden"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_89_pre=input("conducir/manejar in present in english?: ")
+    ver_tes_irre_89_pas=input("conducir/manejar in past in english?: ")
+    ver_tes_irre_89_par=input("conducir/manejar in past participle in english?: ")
+    if(ver_tes_irre_89_pre=="drive" and ver_tes_irre_89_pas=="drove" and ver_tes_irre_89_par=="driven"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_90_pre=input("subir in present in english?: ")
+    ver_tes_irre_90_pas=input("subir in past in english?: ")
+    ver_tes_irre_90_par=input("subir in past participle in english?: ")
+    if(ver_tes_irre_90_pre=="rise" and ver_tes_irre_90_pas=="rose" and ver_tes_irre_90_par=="risen"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_91_pre=input("tratar de/esforzarse por in present in english?: ")
+    ver_tes_irre_91_pas=input("tratar de/esforzarse por in past in english?: ")
+    ver_tes_irre_91_par=input("tratar de/esforzarse por in past participle in english?: ")
+    if(ver_tes_irre_91_pre=="strive" and ver_tes_irre_91_pas=="strove" and ver_tes_irre_91_par=="striven"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_92_pre=input("dar zancadas/caminar con pasos largos in present in english?: ")
+    ver_tes_irre_92_pas=input("dar zancadas/caminar con pasos largos in past in english?: ")
+    ver_tes_irre_92_par=input("dar zancadas/caminar con pasos largos in past participle in english?: ")
+    if(ver_tes_irre_92_pre=="stride" and ver_tes_irre_92_pas=="strode" and ver_tes_irre_92_par=="stridden"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_93_pre=input("aniquilar/destruir/golpear/batir in present in english?: ")
+    ver_tes_irre_93_pas=input("aniquilar/destruir/golpear/batir in past in english?: ")
+    ver_tes_irre_93_par=input("aniquilar/destruir/golpear/batir in past participle in english?: ")
+    if(ver_tes_irre_93_pre=="smite" and ver_tes_irre_93_pas=="smote" and ver_tes_irre_93_par=="smitten"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_94_pre=input("hablar in present in english?: ")
+    ver_tes_irre_94_pas=input("hablar in past in english?: ")
+    ver_tes_irre_94_par=input("hablar in past participle in english?: ")
+    if(ver_tes_irre_94_pre=="speak" and ver_tes_irre_94_pas=="spoke" and ver_tes_irre_94_par=="spoken"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_95_pre=input("robar in present in english?: ")
+    ver_tes_irre_95_pas=input("robar in past in english?: ")
+    ver_tes_irre_95_par=input("robar in past participle in english?: ")
+    if(ver_tes_irre_95_pre=="steal" and ver_tes_irre_95_pas=="stole" and ver_tes_irre_95_par=="stolen"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_96_pre=input("romper/quebrar in present in english?: ")
+    ver_tes_irre_96_pas=input("romper/quebrar in past in english?: ")
+    ver_tes_irre_96_par=input("romper/quebrar in past participle in english?: ")
+    if(ver_tes_irre_96_pre=="break" and ver_tes_irre_96_pas=="broke" and ver_tes_irre_96_par=="broken"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_97_pre=input("despertarse in present in english?: ")
+    ver_tes_irre_97_pas=input("despertarse in past in english?: ")
+    ver_tes_irre_97_par=input("despertarse in past participle in english?: ")
+    if(ver_tes_irre_97_pre=="wake" and ver_tes_irre_97_pas=="woke" and ver_tes_irre_97_par=="woken"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_98_pre=input("empezar/comenzar/iniciar in present in english?: ")
+    ver_tes_irre_98_pas=input("empezar/comenzar/iniciar in past in english?: ")
+    ver_tes_irre_98_par=input("empezar/comenzar/iniciar in past participle in english?: ")
+    if(ver_tes_irre_98_pre=="begin" and ver_tes_irre_98_pas=="began" and ver_tes_irre_98_par=="begun"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_99_pre=input("tomar/beber in present in english?: ")
+    ver_tes_irre_99_pas=input("tomar/beber in past in english?: ")
+    ver_tes_irre_99_par=input("tomar/beber in past participle in english?: ")
+    if(ver_tes_irre_99_pre=="drink" and ver_tes_irre_99_pas=="drank" and ver_tes_irre_99_par=="drunk"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_100_pre=input("hundir in present in english?: ")
+    ver_tes_irre_100_pas=input("hundir in past in english?: ")
+    ver_tes_irre_100_par=input("hundir in past participle in english?: ")
+    if(ver_tes_irre_100_pre=="sink" and ver_tes_irre_100_pas=="sank" and ver_tes_irre_100_par=="sunk"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_101_pre=input("apestar in present in english?: ")
+    ver_tes_irre_101_pas=input("apestar in past in english?: ")
+    ver_tes_irre_101_par=input("apestar in past participle in english?: ")
+    if(ver_tes_irre_101_pre=="stink" and ver_tes_irre_101_pas=="stank" and ver_tes_irre_101_par=="stunk"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_102_pre=input("nadar in present in english?: ")
+    ver_tes_irre_102_pas=input("nadar in past in english?: ")
+    ver_tes_irre_102_par=input("nadar in past participle in english?: ")
+    if(ver_tes_irre_102_pre=="swim" and ver_tes_irre_102_pas=="swam" and ver_tes_irre_102_par=="swum"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_103_pre=input("brotar/florecer in present in english?: ")
+    ver_tes_irre_103_pas=input("brotar/florecer in past in english?: ")
+    ver_tes_irre_103_par=input("brotar/florecer in past participle in english?: ")
+    if(ver_tes_irre_103_pre=="spring" and ver_tes_irre_103_pas=="sprang" and ver_tes_irre_103_par=="sprung"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_104_pre=input("encogido in present in english?: ")
+    ver_tes_irre_104_pas=input("encogido in past in english?: ")
+    ver_tes_irre_104_par=input("encogido in past participle in english?: ")
+    if(ver_tes_irre_104_pre=="shrink" and ver_tes_irre_104_pas=="shrank" and ver_tes_irre_104_par=="shrunk"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_105_pre=input("llamar a/hacer sonar/sonar/timbrar/repicar in present in english?: ")
+    ver_tes_irre_105_pas=input("llamar a/hacer sonar/sonar/timbrar/repicar in past in english?: ")
+    ver_tes_irre_105_par=input("llamar a/hacer sonar/sonar/timbrar/repicar in past participle in english?: ")
+    if(ver_tes_irre_105_pre=="ring" and ver_tes_irre_105_pas=="rang" and ver_tes_irre_105_par=="rung"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_106_pre=input("recorrer/correr/operar/hacer funcionar/ejecutar in present in english?: ")
+    ver_tes_irre_106_pas=input("recorrer/correr/operar/hacer funcionar/ejecutar in past in english?: ")
+    ver_tes_irre_106_par=input("recorrer/correr/operar/hacer funcionar/ejecutar in past participle in english?: ")
+    if(ver_tes_irre_106_pre=="run" and ver_tes_irre_106_pas=="ran" and ver_tes_irre_106_par=="run"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_107_pre=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in present in english?: ")
+    ver_tes_irre_107_pas=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in past in english?: ")
+    ver_tes_irre_107_par=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in past participle in english?: ")
+    if(ver_tes_irre_107_pre=="wear" and ver_tes_irre_107_pas=="wore" and ver_tes_irre_107_par=="worn"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_108_pre=input("maldecir/jurar/decir groserias/decir malas palabras in present in english?: ")
+    ver_tes_irre_108_pas=input("maldecir/jurar/decir groserias/decir malas palabras in past in english?: ")
+    ver_tes_irre_108_par=input("maldecir/jurar/decir groserias/decir malas palabras in past participle in english?: ")
+    if(ver_tes_irre_108_pre=="swear" and ver_tes_irre_108_pas=="swore" and ver_tes_irre_108_par=="sworn"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_109_pre=input("tolerar in present in english?: ")
+    ver_tes_irre_109_pas=input("tolerar in past in english?: ")
+    ver_tes_irre_109_par=input("tolerar in past participle in english?: ")
+    if(ver_tes_irre_109_pre=="bear" and ver_tes_irre_109_pas=="bore" and ver_tes_irre_109_par=="born"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_110_pre=input("rasgar in present in english?: ")
+    ver_tes_irre_110_pas=input("rasgar in past in english?: ")
+    ver_tes_irre_110_par=input("rasgar in past participle in english?: ")
+    if(ver_tes_irre_110_pre=="tear" and ver_tes_irre_110_pas=="tore" and ver_tes_irre_110_par=="torn"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_111_pre=input("agarrar/coger in present in english?: ")
+    ver_tes_irre_111_pas=input("agarrar/coger in past in english?: ")
+    ver_tes_irre_111_par=input("agarrar/coger in past participle in english?: ")
+    if(ver_tes_irre_111_pre=="take" and ver_tes_irre_111_pas=="took" and ver_tes_irre_111_par=="taken"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_112_pre=input("emprender/comenzar/empezar in present in english?: ")
+    ver_tes_irre_112_pas=input("emprender/comenzar/empezar in past in english?: ")
+    ver_tes_irre_112_par=input("emprender/comenzar/empezar in past participle in english?: ")
+    if(ver_tes_irre_112_pre=="undertake" and ver_tes_irre_112_pas=="undertook" and ver_tes_irre_112_par=="undertaken"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_113_pre=input("participar in present in english?: ")
+    ver_tes_irre_113_pas=input("participar in past in english?: ")
+    ver_tes_irre_113_par=input("participar in past participle in english?: ")
+    if(ver_tes_irre_113_pre=="partake" and ver_tes_irre_113_pas=="partook" and ver_tes_irre_113_par=="partaken"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_114_pre=input("menear in present in english?: ")
+    ver_tes_irre_114_pas=input("menear in past in english?: ")
+    ver_tes_irre_114_par=input("menear in past participle in english?: ")
+    if(ver_tes_irre_114_pre=="shake" and ver_tes_irre_114_pas=="shook" and ver_tes_irre_114_par=="shaken"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_115_pre=input("conseguir in present in english?: ")
+    ver_tes_irre_115_pas=input("conseguir in past in english?: ")
+    ver_tes_irre_115_par=input("conseguir in past participle in english?: ")
+    if(ver_tes_irre_115_pre=="get" and ver_tes_irre_115_pas=="got" and ver_tes_irre_115_par=="gotten"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_116_pre=input("olvidar in present in english?: ")
+    ver_tes_irre_116_pas=input("olvidar in past in english?: ")
+    ver_tes_irre_116_par=input("olvidar in past participle in english?: ")
+    if(ver_tes_irre_116_pre=="forget" and ver_tes_irre_116_pas=="forgot" and ver_tes_irre_116_par=="forgotten"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_117_pre=input("dar in present in english?: ")
+    ver_tes_irre_117_pas=input("dar in past in english?: ")
+    ver_tes_irre_117_par=input("dar in past participle in english?: ")
+    if(ver_tes_irre_117_pre=="give" and ver_tes_irre_117_pas=="gave" and ver_tes_irre_117_par=="given"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_118_pre=input("perdoname in present in english?: ")
+    ver_tes_irre_118_pas=input("perdoname in past in english?: ")
+    ver_tes_irre_118_par=input("perdoname in past participle in english?: ")
+    if(ver_tes_irre_118_pre=="forgive" and ver_tes_irre_118_pas=="forgave" and ver_tes_irre_118_par=="forgiven"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_119_pre=input("prohibir in present in english?: ")
+    ver_tes_irre_119_pas=input("prohibir in past in english?: ")
+    ver_tes_irre_119_par=input("prohibir in past participle in english?: ")
+    if(ver_tes_irre_119_pre=="forbid" and ver_tes_irre_119_pas=="forbade" and ver_tes_irre_119_par=="forbidden"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_120_pre=input("conocer/saber in present in english?: ")
+    ver_tes_irre_120_pas=input("conocer/saber in past in english?: ")
+    ver_tes_irre_120_par=input("conocer/saber in past participle in english?: ")
+    if(ver_tes_irre_120_pre=="know" and ver_tes_irre_120_pas=="knew" and ver_tes_irre_120_par=="known"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_121_pre=input("crecer/hacerse más alto/expandirse/aumentar/desarrollarse in present in english?: ")
+    ver_tes_irre_121_pas=input("crecer/hacerse más alto/expandirse/aumentar/desarrollarse in past in english?: ")
+    ver_tes_irre_121_par=input("crecer/hacerse más alto/expandirse/aumentar/desarrollarse in past participle in english?: ")
+    if(ver_tes_irre_121_pre=="grow" and ver_tes_irre_121_pas=="grew" and ver_tes_irre_121_par=="grown"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_122_pre=input("tirar/lanzar in present in english?: ")
+    ver_tes_irre_122_pas=input("tirar/lanzar in past in english?: ")
+    ver_tes_irre_122_par=input("tirar/lanzar in past participle in english?: ")
+    if(ver_tes_irre_122_pre=="throw" and ver_tes_irre_122_pas=="threw" and ver_tes_irre_122_par=="thrown"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_123_pre=input("soplar/explotar in present in english?: ")
+    ver_tes_irre_123_pas=input("soplar/explotar in past in english?: ")
+    ver_tes_irre_123_par=input("soplar/explotar in past participle in english?: ")
+    if(ver_tes_irre_123_pre=="blow" and ver_tes_irre_123_pas=="blew" and ver_tes_irre_123_par=="blown"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_124_pre=input("dibujar in present in english?: ")
+    ver_tes_irre_124_pas=input("dibujar in past in english?: ")
+    ver_tes_irre_124_par=input("dibujar in past participle in english?: ")
+    if(ver_tes_irre_124_pre=="draw" and ver_tes_irre_124_pas=="drew" and ver_tes_irre_124_par=="drawn"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_125_pre=input("retirar(de un cajero) in present in english?: ")
+    ver_tes_irre_125_pas=input("retirar(de un cajero) in past in english?: ")
+    ver_tes_irre_125_par=input("retirar(de un cajero) in past participle in english?: ")
+    if(ver_tes_irre_125_pre=="withdraw" and ver_tes_irre_125_pas=="withdrew" and ver_tes_irre_125_par=="withdrawn"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_126_pre=input("excederse in present in english?: ")
+    ver_tes_irre_126_pas=input("excederse in past in english?: ")
+    ver_tes_irre_126_par=input("excederse in past participle in english?: ")
+    if(ver_tes_irre_126_pre=="overdraw" and ver_tes_irre_126_pas=="overdrew" and ver_tes_irre_126_par=="overdrawn"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_127_pre=input("volar in present in english?: ")
+    ver_tes_irre_127_pas=input("volar in past in english?: ")
+    ver_tes_irre_127_par=input("volar in past participle in english?: ")
+    if(ver_tes_irre_127_pre=="fly" and ver_tes_irre_127_pas=="flew" and ver_tes_irre_127_par=="flown"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_128_pre=input("llego/vengo in present in english?: ")
+    ver_tes_irre_128_pas=input("llego/vengo in past in english?: ")
+    ver_tes_irre_128_par=input("llego/vengo in past participle in english?: ")
+    if(ver_tes_irre_128_pre=="come" and ver_tes_irre_128_pas=="came" and ver_tes_irre_128_par=="come"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_129_pre=input("volverse/convertirse en/hacerse in present in english?: ")
+    ver_tes_irre_129_pas=input("volverse/convertirse en/hacerse in past in english?: ")
+    ver_tes_irre_129_par=input("volverse/convertirse en/hacerse in past participle in english?: ")
+    if(ver_tes_irre_129_pre=="become" and ver_tes_irre_129_pas=="became" and ver_tes_irre_129_par=="become"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_130_pre=input("superar/vencer in present in english?: ")
+    ver_tes_irre_130_pas=input("superar/vencer in past in english?: ")
+    ver_tes_irre_130_par=input("superar/vencer in past participle in english?: ")
+    if(ver_tes_irre_130_pre=="overcome" and ver_tes_irre_130_pas=="overcame" and ver_tes_irre_130_par=="overcome"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_131_pre=input("ver in present in english?: ")
+    ver_tes_irre_131_pas=input("ver in past in english?: ")
+    ver_tes_irre_131_par=input("ver in past participle in english?: ")
+    if(ver_tes_irre_131_pre=="see" and ver_tes_irre_131_pas=="saw" and ver_tes_irre_131_par=="seen"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_132_pre=input("predecir/prever/anticipar in present in english?: ")
+    ver_tes_irre_132_pas=input("predecir/prever/anticipar in past in english?: ")
+    ver_tes_irre_132_par=input("predecir/prever/anticipar in past participle in english?: ")
+    if(ver_tes_irre_132_pre=="foresee" and ver_tes_irre_132_pas=="foresaw" and ver_tes_irre_132_par=="foreseen"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_133_pre=input("supervisar/monitorear/monitorizar in present in english?: ")
+    ver_tes_irre_133_pas=input("supervisar/monitorear/monitorizar in past in english?: ")
+    ver_tes_irre_133_par=input("supervisar/monitorear/monitorizar in past participle in english?: ")
+    if(ver_tes_irre_133_pre=="oversee" and ver_tes_irre_133_pas=="oversaw" and ver_tes_irre_133_par=="overseen"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_134_pre=input("termine in present in english?: ")
+    ver_tes_irre_134_pas=input("termine in past in english?: ")
+    ver_tes_irre_134_par=input("termine in past participle in english?: ")
+    if(ver_tes_irre_134_pre=="do" and ver_tes_irre_134_pas=="did" and ver_tes_irre_134_par=="done"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_135_pre=input("irse/partir in present in english?: ")
+    ver_tes_irre_135_pas=input("irse/partir in past in english?: ")
+    ver_tes_irre_135_par=input("irse/partir in past participle in english?: ")
+    if(ver_tes_irre_135_pre=="go" and ver_tes_irre_135_pas=="went" and ver_tes_irre_135_par=="gone"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_136_pre=input("deshacer in present in english?: ")
+    ver_tes_irre_136_pas=input("deshacer in past in english?: ")
+    ver_tes_irre_136_par=input("deshacer in past participle in english?: ")
+    if(ver_tes_irre_136_pre=="undo" and ver_tes_irre_136_pas=="undid" and ver_tes_irre_136_par=="undone"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_137_pre=input("hacer de mas in present in english?: ")
+    ver_tes_irre_137_pas=input("hacer de mas in past in english?: ")
+    ver_tes_irre_137_par=input("hacer de mas in past participle in english?: ")
+    if(ver_tes_irre_137_pre=="overdo" and ver_tes_irre_137_pas=="overdid" and ver_tes_irre_137_par=="overdone"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_138_pre=input("pasar por dificultades/sufrir in present in english?: ")
+    ver_tes_irre_138_pas=input("pasar por dificultades/sufrir in past in english?: ")
+    ver_tes_irre_138_par=input("pasar por dificultades/sufrir in past participle in english?: ")
+    if(ver_tes_irre_138_pre=="undergo" and ver_tes_irre_138_pas=="underwent" and ver_tes_irre_138_par=="undergone"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_139_pre=input("comer/alimentarse in present in english?: ")
+    ver_tes_irre_139_pas=input("comer/alimentarse in past in english?: ")
+    ver_tes_irre_139_par=input("comer/alimentarse in past participle in english?: ")
+    if(ver_tes_irre_139_pre=="eat" and ver_tes_irre_139_pas=="ate" and ver_tes_irre_139_par=="eaten"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_140_pre=input("caerse/caer in present in english?: ")
+    ver_tes_irre_140_pas=input("caerse/caer in past in english?: ")
+    ver_tes_irre_140_par=input("caerse/caer in past participle in english?: ")
+    if(ver_tes_irre_140_pre=="fall" and ver_tes_irre_140_pas=="fell" and ver_tes_irre_140_par=="fallen"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_141_pre=input("ser/estar/tener in present in english?: ")
+    ver_tes_irre_141_pas=input("ser/estar/tener in past in english?: ")
+    ver_tes_irre_141_par=input("ser/estar/tener in past participle in english?: ")
+    if(ver_tes_irre_141_pre=="be" and ver_tes_irre_141_pas=="was/were" and ver_tes_irre_141_par=="been"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    ver_tes_irre_142_pre=input("cantar in present in english?: ")
+    ver_tes_irre_142_pas=input("cantar in past in english?: ")
+    ver_tes_irre_142_par=input("cantar in past participle in english?: ")
+    if(ver_tes_irre_142_pre=="sing" and ver_tes_irre_142_pas=="sang" and ver_tes_irre_142_par=="sung"):
+        print("correct")
+        var_tes_ver_irre+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(var_tes_ver_irre==142):
+        cor_or_inc_irre=True
+    
+    return cor_or_inc_irre
+
+def verb():
+    var_verb=0
+    vec_verb=["----","----","----","----"]
+    corr_or_inco=False
+    wh_ver=input("what is verb?: ")
+    if(wh_ver=="a verb is a word expressing action or state"):
+        print("correct")
+        var_verb+=1
+        vec_verb[0]="what is a verb"
+    else:
+        print("incorrect")
+    print()
+
+    print("test verbs")
+    var_tes_ver=test_verbs()
+    if(var_tes_ver):
+        print("correct")
+        var_verb+=1
+        vec_verb[1]="test verbs"
+    else:
+        print("incorrect")    
+    print()
+
+    print("test verbs regulars")
+    var_tes_ver_reg=test_verbs_regular()
+    if(var_tes_ver_reg):
+        print("correct")
+        var_verb+=1
+        vec_verb[2]="test verbs regular"
+    else:
+        print("incorrect")
+    print()
+    
+    print("test verbs irregulars")
+    var_tes_ver_irr=test_verbs_irregulars()
+    if(var_tes_ver_irr):
+        print("correct")
+        var_verb+=1
+        vec_verb[3]="test verbs irregulars"
+    else:
+        print("incorrect")
+    
+    if(var_verb==4):
+        corr_or_inco=True
+
+    recorrer_lista(vec_verb)
+
+    return corr_or_inco
+
+def simple_test():
+    good_sim_tes=0
+    tru_or_fal_sim=False
+    exa_1_sim=input("Yo comí in past: ")
+    exa_2_sim=input("yo como in present: ")
+    exa_3_sim=input("voy a comer in future: ")
+    if(exa_1_sim=="i ate" and exa_2_sim=="i eat" and exa_3_sim=="i will eat"):
+        print("perfect")
+        good_sim_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_4_sim=input("Yo como in affirmative and present simple: ")
+    exa_5_sim=input("Él come in affirmative and present simple: ")
+    exa_6_sim=input("Tú comes in affirmative and present simple: ")
+    if(exa_4_sim=="i eat" and exa_5_sim=="he eats" and exa_6_sim=="you eat"):
+        print("correct")
+        good_sim_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_7_sim=input("tú no comes in negative and present simple: ")
+    exa_8_sim=input("no comistes in negative and past simple: ")
+    if(exa_7_sim=="you don't eat" and exa_8_sim=="you didn't eat"):
+        print("correct")
+        good_sim_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_9_sim=input("¿tú comes?/¿comes? in interrogative and present simple: ")
+    exa_10_sim=input("¿comiste? in interrogative and past simple: ")
+    if(exa_9_sim=="do you eat?" and exa_10_sim=="did you eat?"):
+        print("correct")
+        good_sim_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(good_sim_tes==4):        
+        tru_or_fal_sim=True
+
+    return tru_or_fal_sim
+
+def continuo_test():
+    good_con_tes=0
+    tru_or_fal_con=False
+
+    exa_1_con=input("estaba comiendo in past and continuos: ")
+    exa_2_con=input("estoy comiendo in present and continuos: ")
+    exa_3_con=input("estaré comiendo in future and continuos: ")
+    if(exa_1_con=="i was eating" and exa_2_con=="i am eating" and exa_3_con=="i will be eating"):
+        print("correct")
+        good_con_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_4_con=input("yo estoy comiendo in affirmative and present continuos: ")
+    exa_5_con=input("tú estás comiendo in affirmative and present continuos: ")
+    if((exa_4_con=="i am eating" or exa_4_con=="i'm eating") and (exa_5_con=="you are eating" or exa_5_con=="you're eating") ):
+        print("correct")
+        good_con_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(good_con_tes==2):
+        tru_or_fal_con=True
+
+    return tru_or_fal_con
+
+def perfect_test():
+    good_per_tes=0
+    tru_or_fal=False
+
+    exa_1_per=input("tuve in past and perfect: ")
+    exa_2_per=input("tengo in present and perfect: ")
+    exa_3_per=input("tendré in past and perfect: ")
+    if(exa_1_per=="i had" and exa_2_per=="i have" and exa_3_per=="i will have"):
+        print("correct")
+        good_per_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    exa_4_per=input("yo he comido in affirmative and present perfect: ")
+    exa_5_per=input("nosotros hemos comido in affirmative and present perfect: ")
+    exa_6_per=input("ella ha comido in affirmative and present perfect: ")
+    if(exa_4_per=="i have eaten" and exa_5_per=="we have eaten" and exa_6_per=="she has eaten"):
+        print("correct")
+        good_per_tes+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(good_per_tes==2):
+        tru_or_fal=True
+
+    return tru_or_fal
+
+def aux_verb():
+    good_aux_verb=0
+    tru_or_fal_aux_ver=False
+
+    tim_ver=input("tell me the tenses in english: ")
+    if(tim_ver=="past/present/future"):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    asp_ver=input("what are the aspects of each tense: ")
+    if(asp_ver=="simple/continuous/perfect/continuous perfect"):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    aux_sim_str=input("how is the structure of the simple: ")
+    if(aux_sim_str=="to do"):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    aux_con_str=input("how is the structure of the continuo: ")
+    if(aux_con_str=="to be+gerundio"):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    aux_per_str=input("how is the structure of the perfect: ")
+    if(aux_per_str=="to have+past participle"):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    aux_con_per_str=input("how is the structure of the continuo perfect: ")
+    if(aux_con_per_str=="to be+to have"):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    print("simple test:")
+    tes_sim=simple_test()
+    if(tes_sim):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    print("continuo test:")
+    tes_con=continuo_test()
+    if(tes_con):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    print("perfect test:")
+    tes_per=perfect_test()
+    if(tes_per):
+        print("correct")
+        good_aux_verb+=1
+    else:
+        print("incorrect")
+    print()
+
+    if(good_aux_verb==9):
+        tru_or_fal_aux_ver=True
+        print("correct")
+
+    return tru_or_fal_aux_ver
+
 def adverb():
     point=False
     list_test_adverb_place=["------","------","------","------","------","------","------","------","------"]
@@ -4223,7 +6213,7 @@ def simple_rules():
 def basic_sentence_structure():
     print()
     print("BASIC SENTENCE STRUCTURE")
-    vec_bas_sen_str=["------","------","------","------","------","------","------","------","------","------","------","------"]
+    vec_bas_sen_str=["----","----","----","----","----","----","----","----","----","----","----","----","----"]
     good_bas_sen_str=0
     answer_bas_sen_str=input("what the basic sentence structure?: ")
     if(answer_bas_sen_str=="subject+verb+object"):
@@ -4303,11 +6293,29 @@ def basic_sentence_structure():
         vec_bas_sen_str[9]="example adjective"
     print()
 
+    print("verbs")
+    point_verb=verb()
+    if(point_verb):
+        good_bas_sen_str+=1
+        vec_bas_sen_str[10]="verb"
+    else:
+        print("incorrect")
+    print()
+    
+    print("auxiliary verbs")
+    point_verb=aux_verb()
+    if(point_verb):
+        good_bas_sen_str+=1
+        vec_bas_sen_str[11]="auxiliary verb"
+    else:
+        print("incorrect")
+    print()
+
     answer_wh_adv=input("what is adverb?: ")
     if(answer_wh_adv=="an adverb is a word that modifies or describes a verb"):
         print("correct ")
         good_bas_sen_str+=1
-        vec_bas_sen_str[10]="what is a adverb"
+        vec_bas_sen_str[11]="what is a adverb"
     else:
         print("incorrect")
     print()
@@ -4315,7 +6323,7 @@ def basic_sentence_structure():
     point_adverb=adverb()
     if(point_adverb):
         good_bas_sen_str+=1
-        vec_bas_sen_str[11]="adverb"
+        vec_bas_sen_str[12]="adverb"
 
     print()    
     print("Answers:")

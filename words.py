@@ -21,6 +21,7 @@ def correct_list_test_1():
     print('agoviado--overwhelmed--over-welt')
 
 def correct_list_test_2():
+    print()
     print('lista correcta del test 2')
     print('spanish--english--pronunciation')
     print('mejoras--improvements--in-pru-ments')
@@ -35,6 +36,7 @@ def correct_list_test_2():
     print('liberado/publicado--released--ruilist')
 
 def correct_list_test_3():
+    print()
     print('lista correcta del test 3')
     print('spanish--english--pronunciation')
     print('Ejecutando--performing--per-for-ming')
@@ -49,6 +51,8 @@ def correct_list_test_3():
     print('critica--criticism--cri-sici-um')
 
 def correct_list_test_4():
+    print()
+    print('lista correcta del test 4')
     print("crown--corona--cra-un")
     print("interrrupt--interrumpir--inter-rrapt")
     print("clearance--despeje/autorización--cle-rens")
@@ -59,6 +63,20 @@ def correct_list_test_4():
     print("against--en contra de/contra--ege-nst")
     print("trait--caracteristica/cualidad/rasgo/atributo--trueit")
     print("chest--cofre/baúl/tetas/pecho/--chest")    
+
+def correct_list_test_5():
+    print()
+    print('lista correcta del test 5')
+    print("Acuerdo/convenio/tratado--agreement--a-gra-ment")
+    print("llegada/aterrizaje--arrival--a-rai-bol")
+    print("parecio--seemed--sit")
+    print("aparentemente/supuestamente--seemingly--si-mi-li")
+    print("embarazada/preñada--pregnant--pre-nent")
+    print("algo de/alguna/algún/cualquier--any--eny")
+    print("aún/incluso/hasta/todavía--even--i-ven")
+    print("alguna vez/de todos los tiempos/nunca/sin duda--ever--ever")
+    print("expedir/emitir/publicar/problema--issue--i-shu")
+    print("alguna vez/antes/una vez/hace tiempo--once--wons")
 
 def test1():
     list_test_1=["---------","---------","---------","---------","---------","---------","---------","---------","---------","---------"]
@@ -628,3 +646,157 @@ def test4():
             exit='yes'
         print('')
     return 1
+
+def test5():
+    list_test_5=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+    good=0
+    exit='not'
+    while (good<10 and exit=='not'):
+        print('write Acuerdo/convenio/tratado in english')
+        agreement_word=input()
+        print('write the pronunciation of Acuerdo/convenio/tratado in english')
+        agreement_pronunciation=input()
+        if(agreement_word=='agreement' and agreement_pronunciation=='a-gra-ment'):
+            print('correct')
+            good=good+1
+            list_test_5[0]='agreement'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write llegada/aterrizaje in english')
+        arrival_word=input()
+        print('write the pronunciation of llegada/aterrizaje in english')
+        arrival_pronunciation=input()
+        if(arrival_word=='arrival' and arrival_pronunciation=='a-rai-bol'):
+            print('correct')
+            good=good+1
+            list_test_5[1]='arrival'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write parecio in english')
+        seemed_word=input()
+        print('write the pronunciation of parecio in english')
+        seemed_pronunciation=input()
+        if(seemed_word=='seemed' and seemed_pronunciation=='sit'):
+            print('correct')
+            good=good+1
+            list_test_5[2]='seemed'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write aparentemente/supuestamente in english')
+        seemingly_word=input()
+        print('write the pronunciation of aparentemente/supuestamente in english')
+        seemingly_pronunciation=input()
+        if(seemingly_word=='seemingly' and seemingly_pronunciation=='si-mi-li'):
+            print('correct')
+            good=good+1
+            list_test_5[3]='seemingly'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write embarazada/preñada in english')
+        pregnant_word=input()
+        print('write the pronunciation of embarazada/preñada in english')
+        pregnant_pronunciation=input()
+        if(pregnant_word=='pregnant' and pregnant_pronunciation=='pre-nent'):
+            print('correct')
+            good=good+1
+            list_test_5[4]='pregnant'
+        else:
+            print('incorrect')
+        print('')
+        
+        print('write algo de/alguna/algún/cualquier in english')
+        any_word=input()
+        print('write the pronunciation of algo de/alguna/algún/cualquier in english')
+        any_pronunciation=input()
+        if(any_word=='any' and any_pronunciation=='eny'):
+            print('correct')
+            good=good+1
+            list_test_5[5]='any'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write aún/incluso/hasta/todavía in english')
+        even_word=input()
+        print('write the pronunciation of aún/incluso/hasta/todavía in english')
+        even_pronunciation=input()
+        if(even_word=='even' and even_pronunciation=='i-ven'):
+            print('correct')
+            good=good+1
+            list_test_5[6]='even'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write alguna vez/de todos los tiempos/nunca/sin duda in english')
+        ever_word=input()
+        print('write the pronunciation of alguna vez/de todos los tiempos/nunca/sin duda in english')
+        ever_pronunciation=input()
+        if(ever_word=='ever' and ever_pronunciation=='ever'):
+            print('correct')
+            good=good+1
+            list_test_5[7]='ever'
+        else:
+            print('incorrect')
+        print('')
+        
+        print('write expedir/emitir/publicar/problema in english')
+        issue_word=input()
+        print('write the pronunciation of expedir/emitir/publicar/problema in english')
+        issue_pronunciation=input()
+        if(issue_word=='issue' and issue_pronunciation=='i-shu'):
+            print('correct')
+            good=good+1
+            list_test_5[8]='issue'
+        else:
+            print('incorrect')
+        print('')
+
+        print('write alguna vez/antes/una vez/hace tiempo in english')
+        once_word=input()
+        print('write the pronunciation of alguna vez/antes/una vez/hace tiempo in english')
+        once_pronunciation=input()
+        if(once_word=='once' and once_pronunciation=='wons'):
+            print('correct')
+            good=good+1
+            list_test_5[9]='once'
+        else:
+            print('incorrect')
+        print('')
+
+        recorrer_lista_test(list_test_5)
+        print(f'{good}/10')
+        print('')
+        print('¿you want to leave the test#5 yes/not?')
+        exit=input()
+        if(exit=='not'):
+            list_test_5=['---------','---------','---------','---------','---------','---------','---------','---------','---------','---------']
+            good=0
+        print('¿you want to see the list of answers, but if you see them the test is over?yes/not')
+        see_answers_test_5=input()
+        if(see_answers_test_5=='yes'):
+            correct_list_test_5()
+            exit='yes'
+        print('')
+    return 1
+
+#main
+def main():
+    print("Test#1")
+    test_1=test1()
+    print("Test#2")
+    test_2=test2()
+    print("Test#3")
+    test_3=test3()
+    print("Test#4")
+    test_4=test4()
+    print("Test#5")
+    test_5=test5()

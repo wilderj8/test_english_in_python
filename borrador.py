@@ -1,342 +1,202 @@
-#de theory
-def recorrer_lista(list_test):    
-    for x in list_test:
-        print(x)
-
+#main
 good_bas_sen_str=0
-vec_bas_sen_str=["----"]
+vec_bas_sen_str=["----","----","----","----","----","----","----","----","----","----","----","----",]
+
 #borrador
-
-def examples_articles_ind():
-    var_art_exa=0
-    example=False
-    exa_1_ind_art=input("tell me [un gato] in english: ")
-    if(exa_1_ind_art=="a cat"):
-        print("correct")
-        var_art_exa+=1
+def simple_test():
+    good_sim_tes=0
+    tru_or_fal_sim=False
+    exa_1_sim=input("Yo comí in past: ")
+    exa_2_sim=input("yo como in present: ")
+    exa_3_sim=input("voy a comer in future: ")
+    if(exa_1_sim=="i ate" and exa_2_sim=="i eat" and exa_3_sim=="i will eat"):
+        print("perfect")
+        good_sim_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_2_ind_art=input("tell me [un perro] in english: ")
-    if(exa_2_ind_art=="a dog"):
+    exa_4_sim=input("Yo como in affirmative and present simple: ")
+    exa_5_sim=input("Él come in affirmative and present simple: ")
+    exa_6_sim=input("Tú comes in affirmative and present simple: ")
+    if(exa_4_sim=="i eat" and exa_5_sim=="he eats" and exa_6_sim=="you eat"):
         print("correct")
-        var_art_exa+=1
+        good_sim_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_3_ind_art=input("tell me [una foto] in english: ")
-    if(exa_3_ind_art=="a picture"):
+    exa_7_sim=input("tú no comes in negative and present simple: ")
+    exa_8_sim=input("no comistes in negative and past simple: ")
+    if(exa_7_sim=="you don't eat" and exa_8_sim=="you didn't eat"):
         print("correct")
-        var_art_exa+=1
+        good_sim_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_4_ind_art=input("tell me [una mesa] in english: ")
-    if(exa_4_ind_art=="a table"):
+    exa_9_sim=input("¿tú comes?/¿comes? in interrogative and present simple: ")
+    exa_10_sim=input("¿comiste? in interrogative and past simple: ")
+    if(exa_9_sim=="do you eat?" and exa_10_sim=="did you eat?"):
         print("correct")
-        var_art_exa+=1
-    else:
-        print("incorrect")
-    print()        
-
-    exa_5_ind_art=input("tell me [un elefante] in english: ")
-    if(exa_5_ind_art=="an elephant"):
-        print("correct")
-        var_art_exa+=1
+        good_sim_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_6_ind_art=input("tell me [una sombrilla] in english: ")
-    if(exa_6_ind_art=="an umbrella"):
+    if(good_sim_tes==4):        
+        tru_or_fal_sim=True
+
+    return tru_or_fal_sim
+
+def continuo_test():
+    good_con_tes=0
+    tru_or_fal_con=False
+
+    exa_1_con=input("estaba comiendo in past and continuos: ")
+    exa_2_con=input("estoy comiendo in present and continuos: ")
+    exa_3_con=input("estaré comiendo in future and continuos: ")
+    if(exa_1_con=="i was eating" and exa_2_con=="i am eating" and exa_3_con=="i will be eating"):
         print("correct")
-        var_art_exa+=1
+        good_con_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_7_ind_art=input("tell me [una manzana] in english: ")
-    if(exa_7_ind_art=="an apple"):
+    exa_4_con=input("yo estoy comiendo in affirmative and present continuos: ")
+    exa_5_con=input("tú estás comiendo in affirmative and present continuos: ")
+    if((exa_4_con=="i am eating" or exa_4_con=="i'm eating") and (exa_5_con=="you are eating" or exa_5_con=="you're eating") ):
         print("correct")
-        var_art_exa+=1
+        good_con_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_8_ind_art=input("tell me [un perros] in english: ")
-    if(exa_8_ind_art==""):
+    if(good_con_tes==2):
+        tru_or_fal_con=True
+
+    return tru_or_fal_con
+
+def perfect_test():
+    good_per_tes=0
+    tru_or_fal=False
+
+    exa_1_per=input("tuve in past and perfect: ")
+    exa_2_per=input("tengo in present and perfect: ")
+    exa_3_per=input("tendré in past and perfect: ")
+    if(exa_1_per=="i had" and exa_2_per=="i have" and exa_3_per=="i will have"):
         print("correct")
-        var_art_exa+=1
+        good_per_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_9_ind_art=input("tell me [un uniforme] in english: ")
-    if(exa_9_ind_art=="a uniform"):
+    exa_4_per=input("yo he comido in affirmative and present perfect: ")
+    exa_5_per=input("nosotros hemos comido in affirmative and present perfect: ")
+    exa_6_per=input("ella ha comido in affirmative and present perfect: ")
+    if(exa_4_per=="i have eaten" and exa_5_per=="we have eaten" and exa_6_per=="she has eaten"):
         print("correct")
-        var_art_exa+=1
+        good_per_tes+=1
     else:
         print("incorrect")
     print()
 
-    exa_10_ind_art=input("tell me [una universidad] in english: ")
-    if(exa_10_ind_art=="a university"):
+    if(good_per_tes==2):
+        tru_or_fal=True
+
+    return tru_or_fal
+
+def aux_verb():
+    good_aux_verb=0
+    tru_or_fal_aux_ver=False
+
+    tim_ver=input("tell me the tenses in english: ")
+    if(tim_ver=="past/present/future"):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_11_ind_art=input("tell me [un europeo] in english: ")
-    if(exa_11_ind_art=="a european"):
+    asp_ver=input("what are the aspects of each tense: ")
+    if(asp_ver=="simple/continuous/perfect/continuous perfect"):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_12_ind_art=input("tell me [un euro] in english: ")
-    if(exa_12_ind_art=="a euro"):
+    aux_sim_str=input("how is the structure of the simple: ")
+    if(aux_sim_str=="to do"):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_13_ind_art=input("tell me [un tio] in english: ")
-    if(exa_13_ind_art=="an uncle"):
+    aux_con_str=input("how is the structure of the continuo: ")
+    if(aux_con_str=="to be+gerundio"):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_14_ind_art=input("tell me [un imperio] in english: ")
-    if(exa_14_ind_art=="an empire"):
+    aux_per_str=input("how is the structure of the perfect: ")
+    if(aux_per_str=="to have+past participle"):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_15_ind_art=input("tell me [un hospital] in english: ")
-    if(exa_15_ind_art=="a hospital"):
+    aux_con_per_str=input("how is the structure of the continuo perfect: ")
+    if(aux_con_per_str=="to be+to have"):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_16_ind_art=input("tell me [una hora] in english: ")
-    if(exa_16_ind_art=="an hour"):
+    print("simple test:")
+    tes_sim=simple_test()
+    if(tes_sim):
         print("correct")
-        var_art_exa+=1
-    else:
-        print("incorrect")
-    print()
-    
-    exa_17_ind_art=input("tell me [una casa] in english: ")
-    if(exa_17_ind_art=="a home"):
-        print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_18_ind_art=input("tell me [un agujero] in english: ")
-    if(exa_18_ind_art=="a hole"):
+    print("continuo test:")
+    tes_con=continuo_test()
+    if(tes_con):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_19_ind_art=input("tell me [un honor] in english: ")
-    if(exa_19_ind_art=="an honor"):
+    print("perfect test:")
+    tes_per=perfect_test()
+    if(tes_per):
         print("correct")
-        var_art_exa+=1
+        good_aux_verb+=1
     else:
         print("incorrect")
     print()
 
-    exa_20_ind_art=input("tell me [un sombrero] in english: ")
-    if(exa_20_ind_art=="a hat"):
+    if(good_aux_verb==9):
+        tru_or_fal_aux_ver=True
         print("correct")
-        var_art_exa+=1
-    else:
-        print("incorrect")
-    print()
 
-    exa_21_ind_art=input("tell me [un/una honest@] in english: ")
-    if(exa_21_ind_art=="an honest"):
-        print("correct")
-        var_art_exa+=1
-    else:
-        print("incorrect")
-    print()
+    return tru_or_fal_aux_ver
 
-    exa_22_ind_art=input("tell me [un honorario] in english: ")
-    if(exa_22_ind_art=="an honorary"):
-        print("correct")
-        var_art_exa+=1
-    else:
-        print("incorrect")
-    print()
-
-    if(var_art_exa==22):
-        example=True
-    
-    return(example)
-
-def examples_articles_def():
-    var_def_art=0
-    example=False
-    exa_1_art_def=input("tell me [el gato] in english: ")
-    if(exa_1_art_def=="the cat"):
-        print("correct")
-        var_def_art+=1
-    else:
-        print("incorrect")
-    print()
-    
-    exa_2_art_def=input("tell me [el elefante] in english: ")
-    if(exa_2_art_def=="the elephant"):
-        print("correct")
-        var_def_art+=1
-    else:
-        print("incorrect")
-    print()
-    
-    exa_3_art_def=input("tell me [los gatos] in english: ")
-    if(exa_3_art_def=="the cats"):
-        print("correct")
-        var_def_art+=1
-    else:
-        print("incorrect")
-    print()
-
-    exa_4_art_def=input("tell me [los elefantes] in english: ")
-    if(exa_4_art_def=="the elephants"):
-        print("correct")
-        var_def_art+=1
-    else:
-        print("incorrect")
-    print()
-
-    exa_5_art_def=input("tell me [los estados unidos] in english: ")
-    if(exa_5_art_def=="the united states"):
-        print("correct")
-        var_def_art+=1
-    else:
-        print("incorrect")
-    print()
-
-    exa_6_art_def=input("tell me [la republica dominicana] in english: ")
-    if(exa_6_art_def=="the dominican republic"):
-        print("correct")
-        var_def_art+=1
-    else:
-        print("incorrect")
-    print()
-
-    if(exa_6_art_def==6):
-        print("correct")
-        example=True
-    
-    return example
-    
-def articles():
-    articles_var=False
-    var_art=0
-    vec_art=["----","----","----","----","----","----","----"]
-    print("indefinite articles")
-
-    rul_1_ind_art=input("Rule #1: when should it be used the (a)?: ")
-    if(rul_1_ind_art=="the (a) is used when the noun begins with a consonant"):
-        print("correct")
-        var_art+=1
-        vec_art[0]="rule #1 indefinite articles"
-    else:
-        print("incorrect")
-    print()
-
-    rul_2_ind_art=input("Rule #2: when should it be used the (an)?: ")
-    if(rul_2_ind_art=="the (an) is used when the noun begins with a vowel (a/e/i/o/u)"):
-        print("correct")
-        var_art+=1
-        vec_art[1]="rule #2 indefinite articles"
-    else:
-        print("incorrect")
-    print()
-
-    rul_3_ind_art=input("rule #3: where is the indefinite article located?: ")
-    if(rul_3_ind_art=="the article is put before singular nouns"):
-        print("correct")
-        var_art+=1
-        vec_art[2]="rule #3 indefinite articles"
-    else:
-        print("incorrect")
-    print()
-
-    art_ind=input("what are the indefinite articles?: ")
-    if(art_ind=="a/an"):
-        print("correct")
-        var_art+=1
-        vec_art[3]="indefinite articles"
-    else:
-        print("incorrect")
-    print()
-
-    example_ind=examples_articles_ind()
-    if(example_ind):
-        print("correct")
-        var_art+=1
-        vec_art[4]="examples indefinite articles"
-    else:
-        print("incorrect")
-    print()
-    
-    print("defined articles")
-    def_art_wha=input("what are the definite articles?: ")
-    def_art_spa=input("what does (the) mean in spanish?: ")
-    if(def_art_wha=="the" and def_art_spa=="el/la/los/las"):
-        print("correct")
-        var_art+=1
-        vec_art[5]="definite articles"
-    else:
-        print("incorrect")
-    print()
-
-    example_def=examples_articles_def()
-    if(example_def):
-        print("correct")
-        var_art+=1
-        vec_art[6]="examples defined"
-    else:
-        print("incorrect")
-    print()
-
-    if(var_art==7):
-        print("correct you have a point")
-        articles_var=True
-    else:
-        print("incorrect you have not point")
-
-    print("answers")
-    print(f"results: {var_art}/7")
-    print()
-    recorrer_lista(vec_art)
-    print()
-
-    return articles_var
-
-
-#para llamarlo desde basic sentence structure
-print()
-articles_var_var=articles()
-if(articles_var_var):        
+#llamar en main
+print("auxiliary verbs")
+point_verb=aux_verb()
+if(point_verb):
     good_bas_sen_str+=1
-    vec_bas_sen_str[0]="articles" 
+    vec_bas_sen_str[11]="auxiliary verb"
+else:
+    print("incorrect")
+print()
