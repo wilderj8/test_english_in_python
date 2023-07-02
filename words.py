@@ -54,7 +54,7 @@ def correct_list_test_4():
     print()
     print('lista correcta del test 4')
     print("crown--corona--cra-un")
-    print("interrrupt--interrumpir--inter-rrapt")
+    print("interrupt--interrumpir--inter-rrapt")
     print("clearance--despeje/autorización--cle-rens")
     print("cower--acobardarce--cli-rens")
     print("firefighter--bombero--fair-or-faider")

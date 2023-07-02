@@ -424,7 +424,7 @@ def list_correct_months():
     print("december--diciembre-->31 days")
 
 def list_correct_simple_rules():
-    print("SIMPLE RULES:")
+    print("SIMPLE RULES:")    
     print("noun-->object/place/animal/personal name")
     print("Mr-->señor/Sr")
     print("Mrs-->señora/Sra")
@@ -435,7 +435,7 @@ def list_correct_simple_rules():
     print("pronoun 2nd person plural-->you")
     print("pronoun 3rd person singular-->he/she/it")
     print("pronoun 3rd person plural-->they")
-    print("adjective-->quality-characteristic/form-size-color-origin")
+    print("adjective-->quality/characteristic --> form/size/color/origin")
     print("article-->define the noun--> a/an/the")
     print("noun and adjective rule-->adjective+noun")
     print("noun and article rule-->article+noun=subject")
@@ -443,7 +443,7 @@ def list_correct_simple_rules():
     print("#1 rule of the verb in the past-->ed is never pronounced")
     print("infinitive verb structure-->to+verb")
     print("gerund verb structure-->verb+ing")
-    print("auxiliary verbs-->be/do/modals/have(perfec tenses)")
+    print("auxiliary verbs-->be/do/modals/have(perfect tenses)/verb to-be")
     print("adverbs-->describes the verb")
     print("frequency adverb--intensity/quantity --> always/often/normally/sometimes/never")
     print("prepositions-->time/place --> at/in/on/of/with/that/than/against")
@@ -3536,8 +3536,6 @@ def adjective_example():
 
     return point
 
-#función verbs
-
 def test_verbs():
     var_tes_ver=0
     cor_or_inc=False
@@ -6206,7 +6204,10 @@ def simple_rules():
         print("Congratulations, do you have 1 point")
         bin_sim_rul=True
     else:
-        print("keep trying")
+        print("Incorrect: keep trying")
+    
+    print()
+    list_correct_simple_rules()
     
     return bin_sim_rul
 
@@ -6230,8 +6231,6 @@ def basic_sentence_structure():
         print("Correct do you have 1 point")
         good_bas_sen_str+=1
         vec_bas_sen_str[1]="simple rules"
-    else:
-        print("Do you not have point")
     
     print()
     answer_wh_sub=input("what is a subject?: ")
