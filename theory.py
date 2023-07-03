@@ -2190,6 +2190,10 @@ def noun_subject():
     else:
         print("you not have point")
 
+    print()
+    correct_list_test_noun_subject()
+    print()
+
     return point
 
 def pronouns():    
@@ -6241,6 +6245,8 @@ def basic_sentence_structure():
     else: 
         print("incorrect")
 
+    print()
+    print("what is a subject?---a subject is a part of a sentence that contains the person or thing performing the action in a sentence")
     print()
         
     point_noun_subject=noun_subject()
