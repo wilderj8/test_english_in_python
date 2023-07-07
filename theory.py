@@ -2700,6 +2700,8 @@ def pronouns():
         point=True
     else:
         print("you not have point")
+
+    list_correct_pronouns()
     
     print()
     return point
@@ -6264,6 +6266,9 @@ def basic_sentence_structure():
         print("incorrect")
 
     print()
+    print("what are pronouns?--pronouns are the words we often use to talk about a person when we are not using their name")
+    print()
+
     pronouns_var=pronouns()
     if(pronouns_var):        
         good_bas_sen_str+=1
