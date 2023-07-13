@@ -279,6 +279,46 @@ def list_correct_pronouns():
     print("ellos se encontraron en serios problemas--they found themselves in serious trouble")
     print("como ustedes mismos pueden ver, esto ha sido muy fácil--as you yourselves can see,this has been very easy")
 
+def list_correct_articles():        
+    print("List correct articles")
+    print("what are the indefinite articles? --> a/an")
+    print()
+    print("Examples indefinite articles")
+    print("tell me [un gato] in english --> a cat")
+    print("tell me [un perro] in english --> a dog")
+    print("tell me [una foto] in english --> a picture")
+    print("tell me [una mesa] in english --> a table")
+    print("tell me [un elefante] in english --> an elephant")
+    print("tell me [una sombrilla] in english --> an umbrella")
+    print("tell me [una manzana] in english--> an apple ")
+    print("tell me [un perros] in english --> '[nada]'")
+    print("tell me [un uniforme] in english --> a uniform")
+    print("tell me [una universidad] in english --> a university")
+    print("tell me [un europeo] in english --> a european")
+    print("tell me [un euro] in english --> a euro")
+    print("tell me [un tio] in english --> an uncle")
+    print("tell me [un imperio] in english --> an empire")
+    print("tell me [un hospital] in english --> a hospital")
+    print("tell me [una hora] in english --> an hour")
+    print("tell me [una casa] in english --> a home")
+    print("tell me [un agujero] in english --> a hole")
+    print("tell me [un honor] in english --> an honor")
+    print("tell me [un sombrero] in english --> a hat")
+    print("tell me [un/una honest@] in english --> an honest")
+    print("tell me [un honorario] in english --> an honorary")
+    print()
+    print("Defined articles")
+    print("what are the definite articles? --> the ||| what does (the) mean in spanish? --> el/la/los/las")
+    print()
+    print("Examples articles defined")
+    print("tell me [el gato] in english --> the cat")
+    print("tell me [el elefante] in english --> the elephant")
+    print("tell me [los gatos] in english --> the cats")
+    print("tell me [los elefantes] in english --> the elephants")
+    print("tell me [los estados unidos] in english --> the united states")
+    print("tell me [la republica dominicana] in english--> the dominican republic")
+    print()
+
 def list_correct_adjective():
     print("what is a adjective--an adjective is a word that describes the traits,qualities or number of a noun")
     print()
@@ -2968,6 +3008,9 @@ def articles():
         vec_art[0]="rule #1 indefinite articles"
     else:
         print("incorrect")
+    
+    print()
+    print("Rule #1: when should it be used the (a)? --> the (a) is used when the noun begins with a consonant")
     print()
 
     rul_2_ind_art=input("Rule #2: when should it be used the (an)?: ")
@@ -2977,6 +3020,9 @@ def articles():
         vec_art[1]="rule #2 indefinite articles"
     else:
         print("incorrect")
+    
+    print()
+    print("Rule #2: when should it be used the (an)? --> the (an) is used when the noun begins with a vowel (a/e/i/o/u)")
     print()
 
     rul_3_ind_art=input("rule #3: where is the indefinite article located?: ")
@@ -2986,6 +3032,9 @@ def articles():
         vec_art[2]="rule #3 indefinite articles"
     else:
         print("incorrect")
+    
+    print()
+    print("rule #3: where is the indefinite article located? --> the article is put before singular nouns")
     print()
 
     art_ind=input("what are the indefinite articles?: ")
@@ -3037,7 +3086,8 @@ def articles():
     print()
     recorrer_lista(vec_art)
     print()
-
+    list_correct_articles()
+    print()
     return articles_var
 
 def adjective():
