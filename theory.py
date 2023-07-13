@@ -222,7 +222,6 @@ def list_correct_pronouns():
 
     print()
     print("possessive adjective")
-    print("what are possessive adjectives?--a possessive adjective is an adjective that modifies a noun by identifying who has ownership or possession of it")
     print()
     print("my--mi/mis")
     print("your--su(de usted)")
@@ -259,7 +258,6 @@ def list_correct_pronouns():
     print()
 
     print("reflexives pronouns")
-    print("what are reflexives pronouns--these pronouns are used whe we want to refer to ourselves or to something itself")
     print()
     print("myself--yo mismo/a mi")
     print("yourself--tu mismo(a tí)/usted mismo(a usted)")
@@ -276,10 +274,10 @@ def list_correct_pronouns():
     print("te vas a lastimar--you are going to hurt yourself")
     print("él mismo preparó todo--he prepared everything himself")
     print("ella misma reparo su carro--she fixed her car herself")
-    print("ellos quieren crear un robot que se mueva por sí mismo--they wanto to create a robot that can move by itself")
+    print("ellos quieren crear un robot que se mueva por sí mismo--they want to create a robot that can move by itself")
     print("nos pusimos en gran riesgo en esta situación--we put orselves at great risk in that situation")
     print("ellos se encontraron en serios problemas--they found themselves in serious trouble")
-    print("como ustedes mismos pueden ver, esto ha sido muy fácil--as you yourselves can see, this has been very easy")
+    print("como ustedes mismos pueden ver, esto ha sido muy fácil--as you yourselves can see,this has been very easy")
 
 def list_correct_adjective():
     print("what is a adjective--an adjective is a word that describes the traits,qualities or number of a noun")
@@ -2361,12 +2359,17 @@ def pronouns():
 
     print()
     print("possessive adjective")
-    wh_ar_pos_adj=input("what are possessive adjectives?: ")
+    print("what are possessive adjectives?: ")
+    wh_ar_pos_adj=input()
     if(wh_ar_pos_adj=="a possessive adjective is an adjective that modifies a noun by identifying who has ownership or possession of it"):
         print("correct")
         good_pro+=1
     else:
         print("incorrect")
+
+    print()
+    print("what are possessive adjectives?--a possessive adjective is an adjective that modifies a noun by identifying who has ownership or possession of it")
+    print()
 
     print()
     print("write possessive adjective")
@@ -2561,6 +2564,9 @@ def pronouns():
         print("incorrect")
 
     print()
+    print("what are reflexives pronouns--these pronouns are used whe we want to refer to ourselves or to something itself")
+    print()
+
     print("write reflexives pronouns")
     mys_var_ref_pro=input("write yo mismo/a mi: ")
     if(mys_var_ref_pro=="myself"):
