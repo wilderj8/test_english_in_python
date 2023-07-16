@@ -320,7 +320,6 @@ def list_correct_articles():
     print()
 
 def list_correct_adjective():
-    print("what is a adjective--an adjective is a word that describes the traits,qualities or number of a noun")
     print()
     print("Adjectives:")
     print("angry--enojado")
@@ -370,12 +369,6 @@ def list_correct_adjective():
     print("shortest--mas bajo/más corto")
     print("subtle--sutil/disimulado/desimulada")    
     print()
-    print("examples")
-    print("red car--carro rojo")
-    print("red cars--carros rojos")
-    print("gata--female cat")
-    print("gato--male cat")
-    print("i like the green car--me gusta el carro verde")
 
 def list_correct_adverb():
     print()
@@ -3010,8 +3003,6 @@ def articles():
         print("incorrect")
     
     print()
-    print("Rule #1: when should it be used the (a)? --> the (a) is used when the noun begins with a consonant")
-    print()
 
     rul_2_ind_art=input("Rule #2: when should it be used the (an)?: ")
     if(rul_2_ind_art=="the (an) is used when the noun begins with a vowel (a/e/i/o/u)"):
@@ -3022,6 +3013,7 @@ def articles():
         print("incorrect")
     
     print()
+    print("Rule #1: when should it be used the (a)? --> the (a) is used when the noun begins with a consonant")
     print("Rule #2: when should it be used the (an)? --> the (an) is used when the noun begins with a vowel (a/e/i/o/u)")
     print()
 
@@ -6345,18 +6337,28 @@ def basic_sentence_structure():
     else:
         print("incorrect")
     print()
+    print("what is a adjective--an adjective is a word that describes the traits,qualities or number of a noun")
+    print()
         
     point_adjective=adjective()
     if(point_adjective):
         good_bas_sen_str+=1
         vec_bas_sen_str[8]="adjective words"
     print()
-    
+    list_correct_adjective()
+    print()
 
     point_adjective_example=adjective_example()
     if(point_adjective_example):
         good_bas_sen_str+=1
         vec_bas_sen_str[9]="example adjective"
+    print()
+    print("examples")
+    print("red car--carro rojo")
+    print("red cars--carros rojos")
+    print("gata--female cat")
+    print("gato--male cat")
+    print("i like the green car--me gusta el carro verde")
     print()
 
     print("verbs")
