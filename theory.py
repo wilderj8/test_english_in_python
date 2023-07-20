@@ -491,237 +491,201 @@ def list_correct_simple_rules():
 
 def abecedary():
     good=0
-    vec_abe=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------",]
+    vec_abe=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
     print()
-    print("ABECEDARY")
-    exit="not"
-    while(exit=="not"):
-        good=0
-        letter_abe=input("write the letter [A] in english: ")
-        if(letter_abe=="ei"):
-            print("correct")
-            good+=1
-            vec_abe[0]="A"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [B] in english: ")
-        if(letter_abe=="bi"):
-            print("correct")
-            good+=1
-            vec_abe[1]="B"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [C] in english: ")
-        if(letter_abe=="ci"):
-            print("correct")
-            good+=1
-            vec_abe[2]="C"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [D] in english: ")
-        if(letter_abe=="di"):
-            print("correct")
-            good+=1
-            vec_abe[3]="D"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [E] in english: ")
-        if(letter_abe=="i"):
-            print("correct")
-            good+=1
-            vec_abe[4]="E"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [F] in english: ")
-        if(letter_abe=="ef"):
-            print("correct")
-            good+=1
-            vec_abe[5]="F"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [G] in english: ")
-        if(letter_abe=="yi"):
-            print("correct")
-            good+=1
-            vec_abe[6]="G"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [H] in english: ")
-        if(letter_abe=="eich"):
-            print("correct")
-            good+=1
-            vec_abe[7]="H"
-        else:
-            print("incorrect")
+    print("ABECEDARY")    
+    good=0
+    letter_abe=input("write the letter [A] in english: ")
+    if(letter_abe=="ei"):
+        print("correct")
+        good+=1
+        vec_abe[0]="A"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [B] in english: ")
+    if(letter_abe=="bi"):
+        print("correct")
+        good+=1
+        vec_abe[1]="B"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [C] in english: ")
+    if(letter_abe=="ci"):
+        print("correct")
+        good+=1
+        vec_abe[2]="C"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [D] in english: ")
+    if(letter_abe=="di"):
+        print("correct")
+        good+=1
+        vec_abe[3]="D"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [E] in english: ")
+    if(letter_abe=="i"):
+        print("correct")
+        good+=1
+        vec_abe[4]="E"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [F] in english: ")
+    if(letter_abe=="ef"):
+        print("correct")
+        good+=1
+        vec_abe[5]="F"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [G] in english: ")
+    if(letter_abe=="yi"):
+        print("correct")
+        good+=1
+        vec_abe[6]="G"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [H] in english: ")
+    if(letter_abe=="eich"):
+        print("correct")
+        good+=1
+        vec_abe[7]="H"
+    else:
+        print("incorrect")
+    
+    letter_abe=input("write the letter [I] in english: ")
+    if(letter_abe=="ai"):
+        print("correct")
+        good+=1
+        vec_abe[8]="I"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [J] in english: ")
+    if(letter_abe=="jei"):
+        print("correct")
+        good+=1
+        vec_abe[9]="J"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [K] in english: ")
+    if(letter_abe=="kei"):
+        print("correct")
+        good+=1
+        vec_abe[10]="K"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [L] in english: ")
+    if(letter_abe=="el"):
+        print("correct")
+        good+=1
+        vec_abe[11]="L"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [M] in english: ")
+    if(letter_abe=="em"):
+        print("correct")
+        good+=1
+        vec_abe[12]="M"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [N] in english: ")
+    if(letter_abe=="en"):
+        print("correct")
+        good+=1
+        vec_abe[13]="N"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [O] in english: ")
+    if(letter_abe=="ou"):
+        print("correct")
+        good+=1
+        vec_abe[14]="O"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [P] in english: ")
+    if(letter_abe=="pi"):
+        print("correct")
+        good+=1
+        vec_abe[15]="P"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [Q] in english: ")
+    if(letter_abe=="kiu"):
+        print("correct")
+        good+=1
+        vec_abe[16]="Q"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [R] in english: ")
+    if(letter_abe=="ar"):
+        print("correct")
+        good+=1
+        vec_abe[17]="R"
+    else:
+        print("incorrect")
+    
+    letter_abe=input("write the letter [S] in english: ")
+    if(letter_abe=="es"):
+        print("correct")
+        good+=1
+        vec_abe[18]="S"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [T] in english: ")
+    if(letter_abe=="ti"):
+        print("correct")
+        good+=1
+        vec_abe[19]="T"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [U] in english: ")
+    if(letter_abe=="iu"):
+        print("correct")
+        good+=1
+        vec_abe[20]="U"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [V] in english: ")
+    if(letter_abe=="vi"):
+        print("correct")
+        good+=1
+        vec_abe[21]="V"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [W] in english: ")
+    if(letter_abe=="dabliu"):
+        print("correct")
+        good+=1
+        vec_abe[22]="W"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [X] in english: ")
+    if(letter_abe=="ex"):
+        print("correct")
+        good+=1
+        vec_abe[23]="X"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [Y] in english: ")
+    if(letter_abe=="uai"):
+        print("correct")
+        good+=1
+        vec_abe[24]="Y"
+    else:
+        print("incorrect")
+    letter_abe=input("write the letter [Z] in english: ")
+    if(letter_abe=="set"):
+        print("correct")
+        good+=1
+        vec_abe[25]="Z"
+    else:
+        print("incorrect")
         
-        letter_abe=input("write the letter [I] in english: ")
-        if(letter_abe=="ai"):
-            print("correct")
-            good+=1
-            vec_abe[8]="I"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [J] in english: ")
-        if(letter_abe=="jei"):
-            print("correct")
-            good+=1
-            vec_abe[9]="J"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [K] in english: ")
-        if(letter_abe=="kei"):
-            print("correct")
-            good+=1
-            vec_abe[10]="K"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [L] in english: ")
-        if(letter_abe=="el"):
-            print("correct")
-            good+=1
-            vec_abe[11]="L"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [M] in english: ")
-        if(letter_abe=="em"):
-            print("correct")
-            good+=1
-            vec_abe[12]="M"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [N] in english: ")
-        if(letter_abe=="en"):
-            print("correct")
-            good+=1
-            vec_abe[13]="N"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [O] in english: ")
-        if(letter_abe=="ou"):
-            print("correct")
-            good+=1
-            vec_abe[14]="O"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [P] in english: ")
-        if(letter_abe=="pi"):
-            print("correct")
-            good+=1
-            vec_abe[15]="P"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [Q] in english: ")
-        if(letter_abe=="kiu"):
-            print("correct")
-            good+=1
-            vec_abe[16]="Q"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [R] in english: ")
-        if(letter_abe=="ar"):
-            print("correct")
-            good+=1
-            vec_abe[17]="R"
-        else:
-            print("incorrect")
-        
-        letter_abe=input("write the letter [S] in english: ")
-        if(letter_abe=="es"):
-            print("correct")
-            good+=1
-            vec_abe[18]="S"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [T] in english: ")
-        if(letter_abe=="ti"):
-            print("correct")
-            good+=1
-            vec_abe[19]="T"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [U] in english: ")
-        if(letter_abe=="iu"):
-            print("correct")
-            good+=1
-            vec_abe[20]="U"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [V] in english: ")
-        if(letter_abe=="vi"):
-            print("correct")
-            good+=1
-            vec_abe[21]="V"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [W] in english: ")
-        if(letter_abe=="dabliu"):
-            print("correct")
-            good+=1
-            vec_abe[22]="W"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [X] in english: ")
-        if(letter_abe=="ex"):
-            print("correct")
-            good+=1
-            vec_abe[23]="X"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [Y] in english: ")
-        if(letter_abe=="uai"):
-            print("correct")
-            good+=1
-            vec_abe[24]="Y"
-        else:
-            print("incorrect")
-
-        letter_abe=input("write the letter [Z] in english: ")
-        if(letter_abe=="set"):
-            print("correct")
-            good+=1
-            vec_abe[25]="Z"
-        else:
-            print("incorrect")
-        
-        print("Answers:")
-        recorrer_lista(vec_abe)
-        print(f"result: {good}/26")
-        print()
-        print("you want to see the list of answers, but if you see them the test is over?yes/not")
-        see_ans=input()
-        if(see_ans=="yes"):
-            list_correct_abecedary()
-            exit="yes"
-        elif(see_ans=="not"):
-            print()            
-            print("¿you want to leave the abecedary test yes/not?")
-            see_ans=input()
-            if(see_ans=="yes"):
-                exit="yes"
-            elif(see_ans=="not"):
-                exit="not"
+    print("Answers:")
+    recorrer_lista(vec_abe)
+    print(f"result: {good}/26")
+    print()
+    list_correct_abecedary()
+    print()
 
 def numbers():
     print()
@@ -1498,146 +1462,127 @@ def months():
     good=0
     vec_mon=["------","------","------","------","------","------","------","------","------","------","------","------"]
     print()
-    print("MONTHS")
-    exit=True
-    while(exit):
-        good=0
-        ene_in_eng=input("enero in english: ")
-        day_of_ene=input("how many days are there in enero: ")
-        if(ene_in_eng=="january" and day_of_ene=="31 days"):
-            print("correct")
-            good+=1
-            vec_mon[0]="january"
-        else:
-            print("incorrect")
-        print()
-        
-        feb_in_eng=input("febrero in english: ")
-        day_of_feb=input("how many days are there in febrero: ")
-        day_of_feb_lep=input("how many days are the in febrero when is leap-year: ")
-        if(feb_in_eng=="february" and day_of_feb=="28 days" and day_of_feb_lep=="29 days"):
-            print("correct")
-            good+=1
-            vec_mon[1]="february"
-        else:
-            print("incorrect")
-        print()
-
-        mar_in_eng=input("marzo in english: ")
-        day_of_mar=input("how many days are ther in marzo: ")
-        if(mar_in_eng=="march" and day_of_mar=="31 days"):
-            print("correct")
-            good+=1
-            vec_mon[2]="march"
-        else:
-            print("incorrect")
-        print()
-
-        apr_in_eng=input("abril in english: ")
-        day_of_apr=input("how many days are there in abril: ")
-        if(apr_in_eng=="april" and day_of_apr=="30 days"):
-            print("correct")
-            good+=1
-            vec_mon[3]="april"
-        else:
-            print("incorrect")
-        print()
-
-        may_in_eng=input("mayo in english: ")
-        day_of_may=input("how many days are their in mayo: ")
-        if(may_in_eng=="may" and day_of_may=="31 days"):
-            print("correct")
-            good+=1
-            vec_mon[4]="may"
-        else:
-            print("incorrect")
-        print()
-
-        jun_in_eng=input("junio in english: ")
-        day_of_jun=input("how many days are there in junio: ")
-        if(jun_in_eng=="june" and day_of_jun=="30 days"):
-            print("correct")
-            good+=1
-            vec_mon[5]="june"
-        else:
-            print("incorrect")
-        print()
-
-        jul_in_eng=input("julio in english: ")
-        day_of_jul=input("how many days are their in julio: ")
-        if(jul_in_eng=="july" and day_of_jul=="31 days"):
-            print("correct")
-            good+=1
-            vec_mon[6]="july"
-        else:
-            print("incorrect")
-        print()
-        
-        aug_in_eng=input("agosto in english: ")
-        day_of_agu=input("how many days are their in agosto: ")
-        if(aug_in_eng=="august" and day_of_agu=="31 days"):
-            print("correct")
-            good+=1
-            vec_mon[7]="august"
-        else:
-            print("incorrect")
-        print()
-
-        sep_in_eng=input("septiembre in english: ")
-        day_of_sep=input("how many days are their in septiembre: ")
-        if(sep_in_eng=="september" and day_of_sep=="30 days"):
-            print("correct")
-            good+=1
-            vec_mon[8]="september"
-        else:
-            print("incorrect")
-        print()
-        
-        oct_in_eng=input("octubre in english: ")
-        day_of_oct=input("how many days are their in octubre: ")
-        if(oct_in_eng=="october" and day_of_oct=="31 days"):
-            print("correct")
-            good+=1
-            vec_mon[9]="october"
-        else:
-            print("incorrect")
-        print()
-
-        nov_in_eng=input("noviembre in english: ")
-        day_of_nov=input("how many days are their in noviembre: ")
-        if(nov_in_eng=="november" and day_of_nov=="30 days"):
-            print("correct")
-            good+=1
-            vec_mon[10]="november"
-        else:
-            print("incorrect")
-        print()
-
-        dec_in_eng=input("diciembre in english: ")
-        day_of_dec=input("how many days are their in diciembre: ")
-        if(dec_in_eng=="december" and day_of_dec=="31 days"):
-            print("correct")
-            good+=1
-            vec_mon[11]="december"
-        else:
-            print("incorrect")
-        print()
+    print("MONTHS")    
+    good=0
+    ene_in_eng=input("enero in english: ")
+    day_of_ene=input("how many days are there in enero: ")
+    if(ene_in_eng=="january" and day_of_ene=="31 days"):
+        print("correct")
+        good+=1
+        vec_mon[0]="january"
+    else:
+        print("incorrect")
+    print()
     
-        print("Answers:")
-        recorrer_lista(vec_mon)
-        print(f"result: {good}/12")
-        print()
-        see_ans=input("you want to see the list of answers, but if you see them the test is over?yes/not: ")
-        if(see_ans=="yes"):
-            list_correct_months()
-            exit=False
-        elif(see_ans=="not"):
-            print()
-            see_ans=input("you want to leave the months test yes/not?: ")
-            if(see_ans=="yes"):
-                exit=False
-            elif(see_ans=="not"):
-                exit=True
+    feb_in_eng=input("febrero in english: ")
+    day_of_feb=input("how many days are there in febrero: ")
+    day_of_feb_lep=input("how many days are the in febrero when is leap-year: ")
+    if(feb_in_eng=="february" and day_of_feb=="28 days" and day_of_feb_lep=="29 days"):
+        print("correct")
+        good+=1
+        vec_mon[1]="february"
+    else:
+        print("incorrect")
+    print()
+    mar_in_eng=input("marzo in english: ")
+    day_of_mar=input("how many days are ther in marzo: ")
+    if(mar_in_eng=="march" and day_of_mar=="31 days"):
+        print("correct")
+        good+=1
+        vec_mon[2]="march"
+    else:
+        print("incorrect")
+    print()
+    apr_in_eng=input("abril in english: ")
+    day_of_apr=input("how many days are there in abril: ")
+    if(apr_in_eng=="april" and day_of_apr=="30 days"):
+        print("correct")
+        good+=1
+        vec_mon[3]="april"
+    else:
+        print("incorrect")
+    print()
+    may_in_eng=input("mayo in english: ")
+    day_of_may=input("how many days are their in mayo: ")
+    if(may_in_eng=="may" and day_of_may=="31 days"):
+        print("correct")
+        good+=1
+        vec_mon[4]="may"
+    else:
+        print("incorrect")
+    print()
+    jun_in_eng=input("junio in english: ")
+    day_of_jun=input("how many days are there in junio: ")
+    if(jun_in_eng=="june" and day_of_jun=="30 days"):
+        print("correct")
+        good+=1
+        vec_mon[5]="june"
+    else:
+        print("incorrect")
+    print()
+    jul_in_eng=input("julio in english: ")
+    day_of_jul=input("how many days are their in julio: ")
+    if(jul_in_eng=="july" and day_of_jul=="31 days"):
+        print("correct")
+        good+=1
+        vec_mon[6]="july"
+    else:
+        print("incorrect")
+    print()
+    
+    aug_in_eng=input("agosto in english: ")
+    day_of_agu=input("how many days are their in agosto: ")
+    if(aug_in_eng=="august" and day_of_agu=="31 days"):
+        print("correct")
+        good+=1
+        vec_mon[7]="august"
+    else:
+        print("incorrect")
+    print()
+    sep_in_eng=input("septiembre in english: ")
+    day_of_sep=input("how many days are their in septiembre: ")
+    if(sep_in_eng=="september" and day_of_sep=="30 days"):
+        print("correct")
+        good+=1
+        vec_mon[8]="september"
+    else:
+        print("incorrect")
+    print()
+    
+    oct_in_eng=input("octubre in english: ")
+    day_of_oct=input("how many days are their in octubre: ")
+    if(oct_in_eng=="october" and day_of_oct=="31 days"):
+        print("correct")
+        good+=1
+        vec_mon[9]="october"
+    else:
+        print("incorrect")
+    print()
+    nov_in_eng=input("noviembre in english: ")
+    day_of_nov=input("how many days are their in noviembre: ")
+    if(nov_in_eng=="november" and day_of_nov=="30 days"):
+        print("correct")
+        good+=1
+        vec_mon[10]="november"
+    else:
+        print("incorrect")
+    print()
+    dec_in_eng=input("diciembre in english: ")
+    day_of_dec=input("how many days are their in diciembre: ")
+    if(dec_in_eng=="december" and day_of_dec=="31 days"):
+        print("correct")
+        good+=1
+        vec_mon[11]="december"
+    else:
+        print("incorrect")
+    print()
+    
+    print("Answers:")
+    recorrer_lista(vec_mon)
+    print(f"result: {good}/12")
+    print()
+    list_correct_months()
+    print()
 
 def noun_subject():
     point=False
