@@ -489,6 +489,204 @@ def list_correct_simple_rules():
     print("structure of the simple future-->will be+p.p(verb past participle)")
     print("structure of the present perfect-->have/has been+p.p(verb past participle)")
 
+def list_correct_verbs():
+    ("List correct verbs: ")    
+    ("verbo-->verb")
+    print("preguntar --> ask")    
+    print("ser/estar-->be")
+    print("romper/quebrar-->break")
+    print("llevar/traer/jalar/transladar/transportar-->bring")
+    print("llamar-->call")
+    print("llevar/cargar-->carry")
+    print("chequear/verificar/comprobar/revisar-->check")
+    print("cortar-->cut")
+    print("venir/llegar/entrar/acercarse-->come")
+    print("hacer-->do")
+    print("caerse/dejar/caer-->drop")
+    print("caerse/caer-->fall")
+    print("llenar/rellenar/llenarse-->fill")
+    print("encontrar/encontrarse-->find")
+    print("conseguir/obtener/llegar-->get")
+    print("pasar/dar/alcanzar-->give")
+    print("irse/partir-->go")
+    print("crecer-->grown")
+    print("dar/pasar/entregar-->hand")
+    print("exponer/colgar/ahorcar-->hang")
+    print("agarrar/sostener/retener/tener-->hold")
+    print("guardar/conservar/mantener-->keep")
+    print("dejar/permitir-->let")
+    print("registrar/anotar/talar/loguearse-->log")
+    print("mirar-->look")
+    print("hacer-->make")
+    print("pasar-->pass")
+    print("pasar-->pass")
+    print("correr/recorrer-->run")
+    print("ponerse/poner/colocar/ajustar-->set")
+    print("poner/colocar-->put")
+    print("escoger/coger/recolectar/recoger-->pick")
+    print("pagar-->pay")
+    print("decir/contar-->tell")
+    print("girar/rotar-->turn")
+    print("agarrar/coger/tomar-->take")
+    print("hablar-->talk")
+    print("trabajar-->work")
+    print()
+
+def list_correct_verbs_regular():
+    print("List correct verbs regulars: ")
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Grabar-->record-->recorded-->recorded")
+    
+
+def list_correct_verbs_irregulars():
+    print("List correct verbs regulars: ")
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Golpear-->hit-->hit-->hit")
+    print("Quedar/Servir/entrar/valer-->fit-->fit-->fit")
+    print("Renunciar/dejar/abandonar-->quit-->quit-->quit")
+    print("Dividir/apartar/partir-->split-->split-->split")
+    print("Cortar-->slit-->slit-->slit")
+    print("Deshacerse-->rid-->rid-->rid")
+    print("Ofrecer/pujar(en una subasta)-->bid-->bid-->bid")
+    print("dejar-->let-->let-->let")
+    print("ubicar/ajustar/cuadremos una cosa-->set-->set-->set")
+    print("mojar-->wet-->wet-->wet")
+    print("apostar-->bet-->bet-->bet")
+    print("esparcir-->spread-->spread-->spread")
+    print("sudar-->sweat-->sweat-->sweat")
+    print("golpear-->beat-->beat-->beat")
+    print("poner-->put-->put-->put")
+    print("cortar-->cut-->cut-->cut")
+    print("cerrar-->shut-->shut-->shut")
+    print("introducir/insertar/meter/penetrar-->thrust-->thrust-->thrust")
+    print("costar-->cost-->cost-->cost")
+    print("herir-->hurt-->hurt-->hurt")
+    print("reventar-->burst-->burst-->burst")
+    print("arrojar/lanzar-->cast-->cast-->cast")
+    print("transmitir-->broadcast-->broadcast-->broadcast")
+    print("predecir-->forecast-->forecast-->forecast")
+    print("mantener/guardar-->keep-->kept-->kept")
+    print("dormir-->sleep-->slept-->slept")
+    print("barrer-->sweep-->swept-->swept")
+    print("llorar-->weep-->wept-->wept")
+    print("sentir-->feel-->felt-->felt")
+    print("arrodillarse-->kneel-->knelt-->knelt")
+    print("alimentar-->feed-->fed-->fed")
+    print("sangrar-->bleed-->bled-->bled")
+    print("crear/procrear-->breed-->bred-->bred")
+    print("acelerar-->speed-->sped-->sped")
+    print("conocer-->meet-->met-->met")
+    print("guiar-->lead-->let-->let")
+    print("repartir/dar-->deal-->dealt-->dealt")
+    print("inclinarse-->lean-->leant-->leant")
+    print("aprender(memorizar-->learn-->learnt/learned-->learnt/learned")
+    print("querer decir/significar-->mean-->meant-->meant")
+    print("saltar/brincar-->leap-->leapt-->leapt")
+    print("soñar-->dream-->dreamt-->dreamt")
+    print("oir/escuchar-->hear-->heard-->heard")
+    print("leer-->read-->read-->read")
+    print("encontrar-->find-->found-->found")
+    print("atar-->bind-->bound-->bound")
+    print("moler-->grind-->ground-->ground")
+    print("darle cuerda-->wind-->wound-->wound")
+    print("desenrollar-->unwind-->unwound-->unwound")
+    print("desatar/desabrochar-->unbind-->unbound-->unbound")
+    print("enviar-->send-->sent-->sent")
+    print("gastar-->spend-->spent-->spent")
+    print("doblar-->bend-->bent-->bent")
+    print("mezclar-->blend-->blent-->blent")
+    print("prestar-->lend-->lent-->lent")
+    print("picar/arder-->sting-->stung-->stung")
+    print("pegachento-->cling-->clung-->clung")
+    print("mecerse-->swing-->swung-->swung")
+    print("escaparse/escabullirse-->slink-->slunk-->slunk")
+    print("pegar-->stick-->stuck-->stuck")
+    print("cavar-->dig-->dug-->dug")
+    print("colgar-->hang-->hung-->hung")
+    print("decir-->say-->said-->said")
+    print("pagar-->pay-->paid-->paid")
+    print("extender/poner-->lay-->laid-->laid")
+    print("incrustar-->inlay-->inlaid-->inlaid")
+    print("decir/contar-->tell-->told-->told")
+    print("vender-->sell-->sold-->sold")
+    print("agarrar-->hold-->held-->held")
+    print("observar-->behold-->beheld-->beheld")
+    print("sostener-->uphold-->upheld-->upheld")
+    print("retener-->withhold-->withheld-->withheld")
+    print("estar de pie/aguantar-->stand-->stood-->stood")
+    print("entender-->understand-->understood-->understood")
+    print("soportar-->withstand-->withstood-->withstood")
+    print("perder-->lose-->lost-->lost")
+    print("disparar-->shoot-->shot-->shot")
+    print("comprar-->buy-->bought-->bought")
+    print("llevar/traer/jalar/mover/trasladar/transportar-->bring-->brought-->brought")
+    print("pensar/considerar/reflexionar/creer-->think-->thought-->thought")
+    print("luchar/pelear-->fight-->fought-->fought")
+    print("enseñar-->teach-->taught-->taught")
+    print("coger/pillar/cachar/atrapar-->catch-->caught-->caught")
+    print("escupir-->spit-->spit-->spit")
+    print("tener-->have-->had-->had")
+    print("hacer-->make-->made-->made")
+    print("escribir-->write-->wrote-->written")
+    print("ir en/montar/conducir/manejar-->ride-->rode-->ridden")
+    print("conducir/manejar-->drive-->drove-->driven")
+    print("subir-->rise-->rose-->risen")
+    print("tratar de/esforzarse por-->strive-->strove-->striven")
+    print("dar zancadas/caminar con pasos largos-->stride-->strode-->stridden")
+    print("aniquilar/destruir/golpear/batir-->smite-->smote-->smitten")
+    print("hablar-->speak-->spoke-->spoken")
+    print("robar-->steal-->stole-->stolen")
+    print("romper/quebrar-->break-->broke-->broken")
+    print("despertarse-->wake-->woke-->woken")
+    print("empezar/comenzar/iniciar-->begin-->began-->begun")
+    print("tomar/beber-->drink-->drank-->drunk")
+    print("hundir-->sink-->sank-->sunk")
+    print("apestar-->stink-->stank-->stunk")
+    print("nadar-->swim-->swam-->swum")
+    print("brotar/florecer-->spring-->sprang-->sprung")
+    print("encogido-->shrink-->shrank-->shrunk")
+    print("llamar a/hacer sonar/sonar/timbrar/repicar-->ring-->rang-->rung")
+    print("recorrer/correr/operar/hacer funcionar/ejecutar-->run-->ran-->run")
+    print("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar-->wear-->wore-->worn")
+    print("maldecir/jurar/decir groserias/decir malas palabras-->swear-->swore-->sworn")
+    print("tolerar-->bear-->bore-->born")
+    print("rasgar-->tear-->tore-->torn")
+    print("agarrar/coger-->take-->took-->taken")
+    print("emprender/comenzar/empezar-->undertake-->undertook-->undertaken")
+    print("practicar-->partake-->partook-->partaken")
+    print("menear-->shake-->shook-->shaken")
+    print("conseguir-->get-->got-->gotten")
+    print("olvidar-->forget-->forgot-->forgotten")
+    print("dar-->give-->gave-->given")
+    print("perdoname-->forgive-->forgave-->forgiven")
+    print("prohibir-->forbid-->forbade-->forbidden")
+    print("conocer/saber-->know-->knew-->known")
+    print("crecer/hacerse más alto/expandirse/aumentar/desarrollarse-->grow-->grew-->grown")
+    print("tirar/lanzar-->throw-->threw-->thrown")
+    print("soplar/explotar-->blow-->blew-->blown")
+    print("dibujar-->draw-->drew-->drawn")
+    print("retirar(de un cajero)-->withdraw-->withdrew-->withdrawn")
+    print("excederse-->overdraw-->overdrew-->overdrawn")
+    print("volar-->fly-->flew-->flown")
+    print("llego/vengo-->come-->came-->come")
+    print("volverse/convertirse en/hacerse-->become-->became-->become")
+    print("superar/vencer-->overcome-->overcame-->overcome")
+    print("ver-->see-->saw-->seen")
+    print("predecir/prever/anticipar-->foresee-->foresaw-->foreseen")
+    print("supervisar/monitorear/monitorizar-->oversee-->oversaw-->overseen")
+    print("termine-->do-->did-->done")
+    print("irse/partir-->go-->went-->gone")
+    print("deshacer-->undo-->undid-->undone")
+    print("hacer de más-->overdo-->overdid-->overdone")
+    print("pasar por dificultades/sufrir-->undergo-->underwent-->undergone")
+    print("comer/alimentarse-->eat-->ate-->eaten")
+    print("caerse/caer-->fall-->fell-->fallen")
+    print("ser/estar/tener-->be-->was/were-->been")
+    print("cantar-->sing-->sang-->sung")
+    print("-->-->-->")
+    print("-->-->-->")
+
+
 def abecedary():
     good=0
     vec_abe=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
@@ -3545,7 +3743,7 @@ def test_verbs():
         var_tes_ver+=1
     else:
         print("incorrect")
-    print()
+    
 
     ver_tes_2=input("ser/estar in english:? ")
     if(ver_tes_2=="be"):
@@ -3553,7 +3751,7 @@ def test_verbs():
         var_tes_ver+=1
     else:
         print("incorrect")
-    print()
+    
 
     ver_tes_3=input("romper/quebrar in english:? ")
     if(ver_tes_3=="break"):
@@ -3838,6 +4036,9 @@ def test_verbs():
     if(var_tes_ver==39):
         cor_or_inc=True
 
+    list_correct_verbs()
+    print()
+
 def test_verbs_regular():
     var_tes_ver_reg=0
     cor_or_inc_reg=False
@@ -3854,6 +4055,9 @@ def test_verbs_regular():
 
     if(var_tes_ver_reg==1):
         cor_or_inc_reg=True
+
+    list_correct_verbs_regular()
+    print()
 
     return cor_or_inc_reg
     
@@ -5283,6 +5487,10 @@ def test_verbs_irregulars():
 
     if(var_tes_ver_irre==142):
         cor_or_inc_irre=True
+
+    print()
+    list_correct_verbs_irregulars()
+    print()
     
     return cor_or_inc_irre
 
@@ -5297,6 +5505,8 @@ def verb():
         vec_verb[0]="what is a verb"
     else:
         print("incorrect")
+    print()
+    print("what is a verb?-->a verb is a word expressing action or state")
     print()
 
     print("test verbs")
