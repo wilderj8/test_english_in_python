@@ -519,7 +519,6 @@ def list_correct_verbs():
     print("mirar-->look")
     print("hacer-->make")
     print("pasar-->pass")
-    print("pasar-->pass")
     print("correr/recorrer-->run")
     print("ponerse/poner/colocar/ajustar-->set")
     print("poner/colocar-->put")
