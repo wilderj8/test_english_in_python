@@ -536,156 +536,6 @@ def list_correct_verbs_regular():
     print("verbo --> verb in present --> verb in past --> verb in past participle")
     print("Grabar-->record-->recorded-->recorded")
     
-
-def list_correct_verbs_irregulars():
-    print("List correct verbs regulars: ")
-    print("verbo --> verb in present --> verb in past --> verb in past participle")
-    print("Golpear-->hit-->hit-->hit")
-    print("Quedar/Servir/entrar/valer-->fit-->fit-->fit")
-    print("Renunciar/dejar/abandonar-->quit-->quit-->quit")
-    print("Dividir/apartar/partir-->split-->split-->split")
-    print("Cortar-->slit-->slit-->slit")
-    print("Deshacerse-->rid-->rid-->rid")
-    print("Ofrecer/pujar(en una subasta)-->bid-->bid-->bid")
-    print("dejar-->let-->let-->let")
-    print("ubicar/ajustar/cuadremos una cosa-->set-->set-->set")
-    print("mojar-->wet-->wet-->wet")
-    print("apostar-->bet-->bet-->bet")
-    print("esparcir-->spread-->spread-->spread")
-    print("sudar-->sweat-->sweat-->sweat")
-    print("golpear-->beat-->beat-->beat")
-    print("poner-->put-->put-->put")
-    print("cortar-->cut-->cut-->cut")
-    print("cerrar-->shut-->shut-->shut")
-    print("introducir/insertar/meter/penetrar-->thrust-->thrust-->thrust")
-    print("costar-->cost-->cost-->cost")
-    print("herir-->hurt-->hurt-->hurt")
-    print("reventar-->burst-->burst-->burst")
-    print("arrojar/lanzar-->cast-->cast-->cast")
-    print("transmitir-->broadcast-->broadcast-->broadcast")
-    print("predecir-->forecast-->forecast-->forecast")
-    print("mantener/guardar-->keep-->kept-->kept")
-    print("dormir-->sleep-->slept-->slept")
-    print("barrer-->sweep-->swept-->swept")
-    print("llorar-->weep-->wept-->wept")
-    print("sentir-->feel-->felt-->felt")
-    print("arrodillarse-->kneel-->knelt-->knelt")
-    print("alimentar-->feed-->fed-->fed")
-    print("sangrar-->bleed-->bled-->bled")
-    print("crear/procrear-->breed-->bred-->bred")
-    print("acelerar-->speed-->sped-->sped")
-    print("conocer-->meet-->met-->met")
-    print("guiar-->lead-->let-->let")
-    print("repartir/dar-->deal-->dealt-->dealt")
-    print("inclinarse-->lean-->leant-->leant")
-    print("aprender(memorizar-->learn-->learnt/learned-->learnt/learned")
-    print("querer decir/significar-->mean-->meant-->meant")
-    print("saltar/brincar-->leap-->leapt-->leapt")
-    print("soñar-->dream-->dreamt-->dreamt")
-    print("oir/escuchar-->hear-->heard-->heard")
-    print("leer-->read-->read-->read")
-    print("encontrar-->find-->found-->found")
-    print("atar-->bind-->bound-->bound")
-    print("moler-->grind-->ground-->ground")
-    print("darle cuerda-->wind-->wound-->wound")
-    print("desenrollar-->unwind-->unwound-->unwound")
-    print("desatar/desabrochar-->unbind-->unbound-->unbound")
-    print("enviar-->send-->sent-->sent")
-    print("gastar-->spend-->spent-->spent")
-    print("doblar-->bend-->bent-->bent")
-    print("mezclar-->blend-->blent-->blent")
-    print("prestar-->lend-->lent-->lent")
-    print("picar/arder-->sting-->stung-->stung")
-    print("pegachento-->cling-->clung-->clung")
-    print("mecerse-->swing-->swung-->swung")
-    print("escaparse/escabullirse-->slink-->slunk-->slunk")
-    print("pegar-->stick-->stuck-->stuck")
-    print("cavar-->dig-->dug-->dug")
-    print("colgar-->hang-->hung-->hung")
-    print("decir-->say-->said-->said")
-    print("pagar-->pay-->paid-->paid")
-    print("extender/poner-->lay-->laid-->laid")
-    print("incrustar-->inlay-->inlaid-->inlaid")
-    print("decir/contar-->tell-->told-->told")
-    print("vender-->sell-->sold-->sold")
-    print("agarrar-->hold-->held-->held")
-    print("observar-->behold-->beheld-->beheld")
-    print("sostener-->uphold-->upheld-->upheld")
-    print("retener-->withhold-->withheld-->withheld")
-    print("estar de pie/aguantar-->stand-->stood-->stood")
-    print("entender-->understand-->understood-->understood")
-    print("soportar-->withstand-->withstood-->withstood")
-    print("perder-->lose-->lost-->lost")
-    print("disparar-->shoot-->shot-->shot")
-    print("comprar-->buy-->bought-->bought")
-    print("llevar/traer/jalar/mover/trasladar/transportar-->bring-->brought-->brought")
-    print("pensar/considerar/reflexionar/creer-->think-->thought-->thought")
-    print("luchar/pelear-->fight-->fought-->fought")
-    print("enseñar-->teach-->taught-->taught")
-    print("coger/pillar/cachar/atrapar-->catch-->caught-->caught")
-    print("escupir-->spit-->spit-->spit")
-    print("tener-->have-->had-->had")
-    print("hacer-->make-->made-->made")
-    print("escribir-->write-->wrote-->written")
-    print("ir en/montar/conducir/manejar-->ride-->rode-->ridden")
-    print("conducir/manejar-->drive-->drove-->driven")
-    print("subir-->rise-->rose-->risen")
-    print("tratar de/esforzarse por-->strive-->strove-->striven")
-    print("dar zancadas/caminar con pasos largos-->stride-->strode-->stridden")
-    print("aniquilar/destruir/golpear/batir-->smite-->smote-->smitten")
-    print("hablar-->speak-->spoke-->spoken")
-    print("robar-->steal-->stole-->stolen")
-    print("romper/quebrar-->break-->broke-->broken")
-    print("despertarse-->wake-->woke-->woken")
-    print("empezar/comenzar/iniciar-->begin-->began-->begun")
-    print("tomar/beber-->drink-->drank-->drunk")
-    print("hundir-->sink-->sank-->sunk")
-    print("apestar-->stink-->stank-->stunk")
-    print("nadar-->swim-->swam-->swum")
-    print("brotar/florecer-->spring-->sprang-->sprung")
-    print("encogido-->shrink-->shrank-->shrunk")
-    print("llamar a/hacer sonar/sonar/timbrar/repicar-->ring-->rang-->rung")
-    print("recorrer/correr/operar/hacer funcionar/ejecutar-->run-->ran-->run")
-    print("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar-->wear-->wore-->worn")
-    print("maldecir/jurar/decir groserias/decir malas palabras-->swear-->swore-->sworn")
-    print("tolerar-->bear-->bore-->born")
-    print("rasgar-->tear-->tore-->torn")
-    print("agarrar/coger-->take-->took-->taken")
-    print("emprender/comenzar/empezar-->undertake-->undertook-->undertaken")
-    print("practicar-->partake-->partook-->partaken")
-    print("menear-->shake-->shook-->shaken")
-    print("conseguir-->get-->got-->gotten")
-    print("olvidar-->forget-->forgot-->forgotten")
-    print("dar-->give-->gave-->given")
-    print("perdoname-->forgive-->forgave-->forgiven")
-    print("prohibir-->forbid-->forbade-->forbidden")
-    print("conocer/saber-->know-->knew-->known")
-    print("crecer/hacerse más alto/expandirse/aumentar/desarrollarse-->grow-->grew-->grown")
-    print("tirar/lanzar-->throw-->threw-->thrown")
-    print("soplar/explotar-->blow-->blew-->blown")
-    print("dibujar-->draw-->drew-->drawn")
-    print("retirar(de un cajero)-->withdraw-->withdrew-->withdrawn")
-    print("excederse-->overdraw-->overdrew-->overdrawn")
-    print("volar-->fly-->flew-->flown")
-    print("llego/vengo-->come-->came-->come")
-    print("volverse/convertirse en/hacerse-->become-->became-->become")
-    print("superar/vencer-->overcome-->overcame-->overcome")
-    print("ver-->see-->saw-->seen")
-    print("predecir/prever/anticipar-->foresee-->foresaw-->foreseen")
-    print("supervisar/monitorear/monitorizar-->oversee-->oversaw-->overseen")
-    print("termine-->do-->did-->done")
-    print("irse/partir-->go-->went-->gone")
-    print("deshacer-->undo-->undid-->undone")
-    print("hacer de más-->overdo-->overdid-->overdone")
-    print("pasar por dificultades/sufrir-->undergo-->underwent-->undergone")
-    print("comer/alimentarse-->eat-->ate-->eaten")
-    print("caerse/caer-->fall-->fell-->fallen")
-    print("ser/estar/tener-->be-->was/were-->been")
-    print("cantar-->sing-->sang-->sung")
-    print("-->-->-->")
-    print("-->-->-->")
-
-
 def abecedary():
     good=0
     vec_abe=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
@@ -4073,6 +3923,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Golpear-->hit-->hit-->hit")
+    print()
 
     ver_tes_irre_2_pre=input("Quedar/servir/entrar/valer in present in english?: ")
     ver_tes_irre_2_pas=input("Quedar/servir/entrar/valer in past in english?: ")
@@ -4082,6 +3935,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Quedar/Servir/entrar/valer-->fit-->fit-->fit")
     print()
 
     ver_tes_irre_3_pre=input("renunciar/dejar/abandonar in present in english?: ")
@@ -4093,6 +3949,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Renunciar/dejar/abandonar-->quit-->quit-->quit")
+    print()
 
     ver_tes_irre_4_pre=input("dividir/apartar/partir in present in english?: ")
     ver_tes_irre_4_pas=input("dividir/apartar/partir in past in english?: ")
@@ -4102,6 +3961,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")    
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Dividir/apartar/partir-->split-->split-->split")
     print()
 
     ver_tes_irre_5_pre=input("cortar in present in english?: ")
@@ -4113,6 +3975,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")    
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Cortar-->slit-->slit-->slit")
+    print()
 
     ver_tes_irre_6_pre=input("deshacerse in present in english?: ")
     ver_tes_irre_6_pas=input("deshacerse in past in english?: ")
@@ -4122,6 +3987,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")    
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Deshacerse-->rid-->rid-->rid")
     print()
 
     ver_tes_irre_7_pre=input("ofrecer/pujar(en una subasta) in present in english?: ")
@@ -4133,6 +4001,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")    
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("Ofrecer/pujar(en una subasta)-->bid-->bid-->bid")
+    print()
 
     ver_tes_irre_8_pre=input("dejar in present in english?: ")
     ver_tes_irre_8_pas=input("dejar in past in english?: ")
@@ -4143,6 +4014,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")    
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("dejar-->let-->let-->let")
+    print()
+    
 
     ver_tes_irre_9_pre=input("ubicar/ajustar/cuadremos una cosa in present in english?: ")
     ver_tes_irre_9_pas=input("ubicar/ajustar/cuadremos una cosa in past in english?: ")
@@ -4152,6 +4027,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")    
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("ubicar/ajustar/cuadremos una cosa-->set-->set-->set")
     print()
 
     ver_tes_irre_10_pre=input("mojar in present in english?: ")
@@ -4163,6 +4041,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")    
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("mojar-->wet-->wet-->wet")
+    print()
 
     ver_tes_irre_11_pre=input("apostar in present in english?: ")
     ver_tes_irre_11_pas=input("apostar in past in english?: ")
@@ -4172,6 +4053,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("apostar-->bet-->bet-->bet")
     print()
 
     ver_tes_irre_12_pre=input("esparcir in present in english?: ")
@@ -4183,6 +4067,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle") 
+    print("esparcir-->spread-->spread-->spread")
+    print()
 
     ver_tes_irre_13_pre=input("sudar in present in english?: ")
     ver_tes_irre_13_pas=input("sudar in past in english?: ")
@@ -4192,6 +4079,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("sudar-->sweat-->sweat-->sweat")
     print()
 
     ver_tes_irre_14_pre=input("golpear in present in english?: ")
@@ -4203,6 +4093,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("golpear-->beat-->beat-->beat")
+    print()
 
     ver_tes_irre_15_pre=input("poner in present in english?: ")
     ver_tes_irre_15_pas=input("poner in past in english?: ")
@@ -4213,6 +4106,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("poner-->put-->put-->put")
+    print()
+
 
     ver_tes_irre_16_pre=input("cortar in present in english?: ")
     ver_tes_irre_16_pas=input("cortar in past in english?: ")
@@ -4222,6 +4119,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("cortar-->cut-->cut-->cut")
     print()
 
     ver_tes_irre_17_pre=input("cerrar in present in english?: ")
@@ -4233,6 +4133,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("cerrar-->shut-->shut-->shut")
+    print()
 
     ver_tes_irre_18_pre=input("introducir/insertar/meter/penetrar in present in english?: ")
     ver_tes_irre_18_pas=input("introducir/insertar/meter/penetrar in past in english?: ")
@@ -4242,6 +4145,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("introducir/insertar/meter/penetrar-->thrust-->thrust-->thrust")
     print()
 
     ver_tes_irre_19_pre=input("costar in present in english?: ")
@@ -4253,6 +4159,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("costar-->cost-->cost-->cost")
+    print()
 
     ver_tes_irre_20_pre=input("herir in present in english?: ")
     ver_tes_irre_20_pas=input("herir in past in english?: ")
@@ -4262,6 +4171,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("herir-->hurt-->hurt-->hurt")
     print()
 
     ver_tes_irre_21_pre=input("reventar in present in english?: ")
@@ -4273,6 +4185,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("reventar-->burst-->burst-->burst")
+    print()
 
     ver_tes_irre_22_pre=input("arrojar/lanzar in present in english?: ")
     ver_tes_irre_22_pas=input("arrojar/lanzar in past in english?: ")
@@ -4282,6 +4197,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("arrojar/lanzar-->cast-->cast-->cast")
     print()
 
     ver_tes_irre_23_pre=input("transmitir in present in english?: ")
@@ -4293,6 +4211,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("transmitir-->broadcast-->broadcast-->broadcast")
+    print()
 
     ver_tes_irre_24_pre=input("predecir in present in english?: ")
     ver_tes_irre_24_pas=input("predecir in past in english?: ")
@@ -4302,6 +4223,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("predecir-->forecast-->forecast-->forecast")
     print()
 
     ver_tes_irre_25_pre=input("mantener/guardar in present in english?: ")
@@ -4313,6 +4237,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("mantener/guardar-->keep-->kept-->kept")
+    print()
+
 
     ver_tes_irre_26_pre=input("dormir in present in english?: ")
     ver_tes_irre_26_pas=input("dormir in past in english?: ")
@@ -4322,6 +4250,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("dormir-->sleep-->slept-->slept")
     print()
 
     ver_tes_irre_27_pre=input("barrer in present in english?: ")
@@ -4333,6 +4264,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("barrer-->sweep-->swept-->swept")
+    print()
 
     ver_tes_irre_28_pre=input("llorar in present in english?: ")
     ver_tes_irre_28_pas=input("llorar in past in english?: ")
@@ -4342,6 +4276,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("llorar-->weep-->wept-->wept")
     print()
 
     ver_tes_irre_29_pre=input("sentir in present in english?: ")
@@ -4353,6 +4290,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("sentir-->feel-->felt-->felt")
+    print()
 
     ver_tes_irre_30_pre=input("arrodillarse in present in english?: ")
     ver_tes_irre_30_pas=input("arrodillarse in past in english?: ")
@@ -4362,6 +4302,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("arrodillarse-->kneel-->knelt-->knelt")
     print()
 
     ver_tes_irre_31_pre=input("alimentar in present in english?: ")
@@ -4373,6 +4316,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("alimentar-->feed-->fed-->fed")
+    print()
 
     ver_tes_irre_32_pre=input("sangrar in present in english?: ")
     ver_tes_irre_32_pas=input("sangrar in past in english?: ")
@@ -4382,6 +4328,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("sangrar-->bleed-->bled-->bled")
     print()
 
     ver_tes_irre_33_pre=input("crear/procrear in present in english?: ")
@@ -4393,6 +4342,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("crear/procrear-->breed-->bred-->bred")
+    print()
+
 
     ver_tes_irre_34_pre=input("acelerar in present in english?: ")
     ver_tes_irre_34_pas=input("acelerar in past in english?: ")
@@ -4402,6 +4355,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("acelerar-->speed-->sped-->sped")
     print()
 
     ver_tes_irre_35_pre=input("conocer in present in english?: ")
@@ -4413,6 +4369,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("conocer-->meet-->met-->met")
+    print()
+
 
     ver_tes_irre_36_pre=input("guiar in present in english?: ")
     ver_tes_irre_36_pas=input("guiar in past in english?: ")
@@ -4423,6 +4383,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("guiar-->lead-->let-->let")
+    print()
+
 
     ver_tes_irre_37_pre=input("repartir/dar in present in english?: ")
     ver_tes_irre_37_pas=input("repartir/dar in past in english?: ")
@@ -4432,6 +4396,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("repartir/dar-->deal-->dealt-->dealt")
     print()
 
     ver_tes_irre_38_pre=input("inclinarse in present in english?: ")
@@ -4443,6 +4410,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("inclinarse-->lean-->leant-->leant")
+    print()
 
     ver_tes_irre_39_pre=input("aprender/memorizar in present in english?: ")
     ver_tes_irre_39_pas=input("aprender/memorizar in past in english?: ")
@@ -4452,6 +4422,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("aprender(memorizar-->learn-->learnt/learned-->learnt/learned")
     print()
 
     ver_tes_irre_40_pre=input("querer decir/significar in present in english?: ")
@@ -4463,6 +4436,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("querer decir/significar-->mean-->meant-->meant")
+    print()
 
     ver_tes_irre_41_pre=input("saltar/brincar in present in english?: ")
     ver_tes_irre_41_pas=input("saltar/brincar in past in english?: ")
@@ -4472,6 +4448,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("saltar/brincar-->leap-->leapt-->leapt")
     print()
 
     ver_tes_irre_42_pre=input("soñar in present in english?: ")
@@ -4483,6 +4462,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("soñar-->dream-->dreamt-->dreamt")
+    print()
 
     ver_tes_irre_43_pre=input("oir/escuchar in present in english?: ")
     ver_tes_irre_43_pas=input("oir/escuchar in past in english?: ")
@@ -4492,6 +4474,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("oir/escuchar-->hear-->heard-->heard")
     print()
 
     ver_tes_irre_44_pre=input("leer in present in english?: ")
@@ -4503,6 +4488,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("leer-->read-->read-->read")
+    print()
 
     ver_tes_irre_45_pre=input("encontrar in present in english?: ")
     ver_tes_irre_45_pas=input("encontrar in past in english?: ")
@@ -4512,6 +4500,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("encontrar-->find-->found-->found")
     print()
 
     ver_tes_irre_46_pre=input("atar in present in english?: ")
@@ -4523,6 +4514,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("atar-->bind-->bound-->bound")
+    print()
 
     ver_tes_irre_47_pre=input("moler in present in english?: ")
     ver_tes_irre_47_pas=input("moler in past in english?: ")
@@ -4532,6 +4526,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("moler-->grind-->ground-->ground")
     print()
 
     ver_tes_irre_48_pre=input("darle cuerda in present in english?: ")
@@ -4543,6 +4540,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("darle cuerda-->wind-->wound-->wound")
+    print()
 
     ver_tes_irre_49_pre=input("desenrollar in present in english?: ")
     ver_tes_irre_49_pas=input("desenrollar in past in english?: ")
@@ -4552,6 +4552,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("desenrollar-->unwind-->unwound-->unwound")
     print()
 
     ver_tes_irre_50_pre=input("desatar/desabrochar in present in english?: ")
@@ -4563,6 +4566,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("desatar/desabrochar-->unbind-->unbound-->unbound")
+    print()
 
     ver_tes_irre_51_pre=input("enviar in present in english?: ")
     ver_tes_irre_51_pas=input("enviar in past in english?: ")
@@ -4572,6 +4578,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("enviar-->send-->sent-->sent")
     print()
 
     ver_tes_irre_52_pre=input("gastar in present in english?: ")
@@ -4583,6 +4592,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("gastar-->spend-->spent-->spent")
+    print()
 
     ver_tes_irre_53_pre=input("doblar in present in english?: ")
     ver_tes_irre_53_pas=input("doblar in past in english?: ")
@@ -4592,6 +4604,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("doblar-->bend-->bent-->bent")
     print()
 
     ver_tes_irre_54_pre=input("mezclar in present in english?: ")
@@ -4603,6 +4618,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("mezclar-->blend-->blent-->blent")
+    print()
 
     ver_tes_irre_55_pre=input("prestar in present in english?: ")
     ver_tes_irre_55_pas=input("prestar in past in english?: ")
@@ -4612,6 +4630,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("prestar-->lend-->lent-->lent")
     print()
 
     ver_tes_irre_56_pre=input("picar/arder in present in english?: ")
@@ -4623,6 +4644,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("picar/arder-->sting-->stung-->stung")
+    print()
 
     ver_tes_irre_57_pre=input("pegachento in present in english?: ")
     ver_tes_irre_57_pas=input("pegachento in past in english?: ")
@@ -4632,6 +4656,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("pegachento-->cling-->clung-->clung")
     print()
 
     ver_tes_irre_58_pre=input("mecerse in present in english?: ")
@@ -4643,6 +4670,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("mecerse-->swing-->swung-->swung")
+    print()
     
     ver_tes_irre_59_pre=input("escaparse/escabullirse in present in english?: ")
     ver_tes_irre_59_pas=input("escaparse/escabullirse in past in english?: ")
@@ -4652,6 +4682,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("escaparse/escabullirse-->slink-->slunk-->slunk")
     print()
 
     ver_tes_irre_60_pre=input("pegar in present in english?: ")
@@ -4663,6 +4696,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("pegar-->stick-->stuck-->stuck")
+    print()
 
     ver_tes_irre_61_pre=input("cavar in present in english?: ")
     ver_tes_irre_61_pas=input("cavar in past in english?: ")
@@ -4672,6 +4708,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("cavar-->dig-->dug-->dug")
     print()
 
     ver_tes_irre_62_pre=input("colgar in present in english?: ")
@@ -4683,6 +4722,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("colgar-->hang-->hung-->hung")
+    print()
 
     ver_tes_irre_63_pre=input("decir in present in english?: ")
     ver_tes_irre_63_pas=input("decir in past in english?: ")
@@ -4692,6 +4734,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("decir-->say-->said-->said")
     print()
 
     ver_tes_irre_64_pre=input("pagar in present in english?: ")
@@ -4703,6 +4748,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("pagar-->pay-->paid-->paid")
+    print()
 
     ver_tes_irre_65_pre=input("extender/poner in present in english?: ")
     ver_tes_irre_65_pas=input("extender/poner in past in english?: ")
@@ -4712,6 +4760,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("extender/poner-->lay-->laid-->laid")
     print()
 
     ver_tes_irre_66_pre=input("incrustar in present in english?: ")
@@ -4723,6 +4774,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("incrustar-->inlay-->inlaid-->inlaid")
+    print()
 
     ver_tes_irre_67_pre=input("decir/contar in present in english?: ")
     ver_tes_irre_67_pas=input("decir/contar in past in english?: ")
@@ -4732,6 +4786,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("decir/contar-->tell-->told-->told")
     print()
 
     ver_tes_irre_68_pre=input("vender in present in english?: ")
@@ -4743,6 +4800,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("vender-->sell-->sold-->sold")
+    print()
+
 
     ver_tes_irre_69_pre=input("agarrar in present in english?: ")
     ver_tes_irre_69_pas=input("agarrar in past in english?: ")
@@ -4752,6 +4813,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("agarrar-->hold-->held-->held")
     print()
 
     ver_tes_irre_70_pre=input("observar in present in english?: ")
@@ -4763,6 +4827,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("observar-->behold-->beheld-->beheld")
+    print()
 
     ver_tes_irre_71_pre=input("sostener in present in english?: ")
     ver_tes_irre_71_pas=input("sostener in past in english?: ")
@@ -4772,6 +4839,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("sostener-->uphold-->upheld-->upheld")
     print()
 
     ver_tes_irre_72_pre=input("retener in present in english?: ")
@@ -4783,6 +4853,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("retener-->withhold-->withheld-->withheld")
+    print()
 
     ver_tes_irre_73_pre=input("estar de pie/aguantar in present in english?: ")
     ver_tes_irre_73_pas=input("estar de pie/aguantar in past in english?: ")
@@ -4792,6 +4865,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("estar de pie/aguantar-->stand-->stood-->stood")
     print()
 
     ver_tes_irre_74_pre=input("entender in present in english?: ")
@@ -4803,6 +4879,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("entender-->understand-->understood-->understood")
+    print()
 
     ver_tes_irre_75_pre=input("soportar in present in english?: ")
     ver_tes_irre_75_pas=input("soportar in past in english?: ")
@@ -4813,6 +4892,10 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("soportar-->withstand-->withstood-->withstood")
+    print()
+
 
     ver_tes_irre_76_pre=input("perder in present in english?: ")
     ver_tes_irre_76_pas=input("perder in past in english?: ")
@@ -4822,6 +4905,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("perder-->lose-->lost-->lost")
     print()
 
     ver_tes_irre_77_pre=input("disparar in present in english?: ")
@@ -4833,6 +4919,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("disparar-->shoot-->shot-->shot")
+    print()
 
     ver_tes_irre_78_pre=input("comprar in present in english?: ")
     ver_tes_irre_78_pas=input("comprar in past in english?: ")
@@ -4842,6 +4931,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("comprar-->buy-->bought-->bought")
     print()
 
     ver_tes_irre_79_pre=input("llevar/traer/jalar/mover/trasladar/transportar in present in english?: ")
@@ -4853,6 +4945,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("llevar/traer/jalar/mover/trasladar/transportar-->bring-->brought-->brought")
+    print()
 
     ver_tes_irre_80_pre=input("pensar/considerar/reflexionar/creer in present in english?: ")
     ver_tes_irre_80_pas=input("pensar/considerar/reflexionar/creer in past in english?: ")
@@ -4862,6 +4957,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("pensar/considerar/reflexionar/creer-->think-->thought-->thought")
     print()
 
     ver_tes_irre_81_pre=input("luchar/pelear in present in english?: ")
@@ -4873,6 +4971,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("luchar/pelear-->fight-->fought-->fought")
+    print()
 
     ver_tes_irre_82_pre=input("enseñar in present in english?: ")
     ver_tes_irre_82_pas=input("enseñar in past in english?: ")
@@ -4882,6 +4983,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("enseñar-->teach-->taught-->taught")
     print()
 
     ver_tes_irre_83_pre=input("coger/pillar/cachar/atrapar in present in english?: ")
@@ -4893,6 +4997,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("coger/pillar/cachar/atrapar-->catch-->caught-->caught")
+    print()
 
     ver_tes_irre_84_pre=input("escupir in present in english?: ")
     ver_tes_irre_84_pas=input("escupir in past in english?: ")
@@ -4902,6 +5009,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("escupir-->spit-->spit-->spit")
     print()
 
     ver_tes_irre_85_pre=input("tener in present in english?: ")
@@ -4913,6 +5023,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("tener-->have-->had-->had")
+    print()
 
     ver_tes_irre_86_pre=input("hacer in present in english?: ")
     ver_tes_irre_86_pas=input("hacer in past in english?: ")
@@ -4922,6 +5035,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("hacer-->make-->made-->made")
     print()
 
     ver_tes_irre_87_pre=input("escribir in present in english?: ")
@@ -4933,6 +5049,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("escribir-->write-->wrote-->written")
+    print()
 
     ver_tes_irre_88_pre=input("ir en/montar en/conducir/manejar in present in english?: ")
     ver_tes_irre_88_pas=input("ir en/montar en/conducir/manejar in past in english?: ")
@@ -4942,6 +5061,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("ir en/montar/conducir/manejar-->ride-->rode-->ridden")
     print()
 
     ver_tes_irre_89_pre=input("conducir/manejar in present in english?: ")
@@ -4953,6 +5075,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("conducir/manejar-->drive-->drove-->driven")
+    print()
 
     ver_tes_irre_90_pre=input("subir in present in english?: ")
     ver_tes_irre_90_pas=input("subir in past in english?: ")
@@ -4962,6 +5087,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("subir-->rise-->rose-->risen")
     print()
 
     ver_tes_irre_91_pre=input("tratar de/esforzarse por in present in english?: ")
@@ -4973,6 +5101,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("tratar de/esforzarse por-->strive-->strove-->striven")
+    print()
 
     ver_tes_irre_92_pre=input("dar zancadas/caminar con pasos largos in present in english?: ")
     ver_tes_irre_92_pas=input("dar zancadas/caminar con pasos largos in past in english?: ")
@@ -4982,6 +5113,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("dar zancadas/caminar con pasos largos-->stride-->strode-->stridden")
     print()
 
     ver_tes_irre_93_pre=input("aniquilar/destruir/golpear/batir in present in english?: ")
@@ -4993,6 +5127,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("aniquilar/destruir/golpear/batir-->smite-->smote-->smitten")
+    print()
 
     ver_tes_irre_94_pre=input("hablar in present in english?: ")
     ver_tes_irre_94_pas=input("hablar in past in english?: ")
@@ -5002,6 +5139,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("hablar-->speak-->spoke-->spoken")
     print()
 
     ver_tes_irre_95_pre=input("robar in present in english?: ")
@@ -5013,6 +5153,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("robar-->steal-->stole-->stolen")
+    print()
 
     ver_tes_irre_96_pre=input("romper/quebrar in present in english?: ")
     ver_tes_irre_96_pas=input("romper/quebrar in past in english?: ")
@@ -5022,6 +5165,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("romper/quebrar-->break-->broke-->broken")
     print()
 
     ver_tes_irre_97_pre=input("despertarse in present in english?: ")
@@ -5033,6 +5179,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("despertarse-->wake-->woke-->woken")
+    print()
 
     ver_tes_irre_98_pre=input("empezar/comenzar/iniciar in present in english?: ")
     ver_tes_irre_98_pas=input("empezar/comenzar/iniciar in past in english?: ")
@@ -5042,6 +5191,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("empezar/comenzar/iniciar-->begin-->began-->begun")
     print()
 
     ver_tes_irre_99_pre=input("tomar/beber in present in english?: ")
@@ -5053,6 +5205,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("tomar/beber-->drink-->drank-->drunk")
+    print()
 
     ver_tes_irre_100_pre=input("hundir in present in english?: ")
     ver_tes_irre_100_pas=input("hundir in past in english?: ")
@@ -5062,6 +5217,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("hundir-->sink-->sank-->sunk")
     print()
 
     ver_tes_irre_101_pre=input("apestar in present in english?: ")
@@ -5073,6 +5231,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("apestar-->stink-->stank-->stunk")
+    print()
 
     ver_tes_irre_102_pre=input("nadar in present in english?: ")
     ver_tes_irre_102_pas=input("nadar in past in english?: ")
@@ -5082,6 +5243,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("nadar-->swim-->swam-->swum")
     print()
 
     ver_tes_irre_103_pre=input("brotar/florecer in present in english?: ")
@@ -5093,6 +5257,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("brotar/florecer-->spring-->sprang-->sprung")
+    print()
 
     ver_tes_irre_104_pre=input("encogido in present in english?: ")
     ver_tes_irre_104_pas=input("encogido in past in english?: ")
@@ -5102,6 +5269,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("encogido-->shrink-->shrank-->shrunk")
     print()
 
     ver_tes_irre_105_pre=input("llamar a/hacer sonar/sonar/timbrar/repicar in present in english?: ")
@@ -5113,6 +5283,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("llamar a/hacer sonar/sonar/timbrar/repicar-->ring-->rang-->rung")
+    print()
 
     ver_tes_irre_106_pre=input("recorrer/correr/operar/hacer funcionar/ejecutar in present in english?: ")
     ver_tes_irre_106_pas=input("recorrer/correr/operar/hacer funcionar/ejecutar in past in english?: ")
@@ -5122,6 +5295,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("recorrer/correr/operar/hacer funcionar/ejecutar-->run-->ran-->run")
     print()
 
     ver_tes_irre_107_pre=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in present in english?: ")
@@ -5133,6 +5309,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar-->wear-->wore-->worn")
+    print()
 
     ver_tes_irre_108_pre=input("maldecir/jurar/decir groserias/decir malas palabras in present in english?: ")
     ver_tes_irre_108_pas=input("maldecir/jurar/decir groserias/decir malas palabras in past in english?: ")
@@ -5142,6 +5321,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("maldecir/jurar/decir groserias/decir malas palabras-->swear-->swore-->sworn")
     print()
 
     ver_tes_irre_109_pre=input("tolerar in present in english?: ")
@@ -5153,6 +5335,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("tolerar-->bear-->bore-->born")
+    print()
 
     ver_tes_irre_110_pre=input("rasgar in present in english?: ")
     ver_tes_irre_110_pas=input("rasgar in past in english?: ")
@@ -5162,6 +5347,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("rasgar-->tear-->tore-->torn")
     print()
 
     ver_tes_irre_111_pre=input("agarrar/coger in present in english?: ")
@@ -5173,6 +5361,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("agarrar/coger-->take-->took-->taken")
+    print()
 
     ver_tes_irre_112_pre=input("emprender/comenzar/empezar in present in english?: ")
     ver_tes_irre_112_pas=input("emprender/comenzar/empezar in past in english?: ")
@@ -5182,6 +5373,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("emprender/comenzar/empezar-->undertake-->undertook-->undertaken")
     print()
 
     ver_tes_irre_113_pre=input("participar in present in english?: ")
@@ -5193,6 +5387,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("practicar-->partake-->partook-->partaken")
+    print()
 
     ver_tes_irre_114_pre=input("menear in present in english?: ")
     ver_tes_irre_114_pas=input("menear in past in english?: ")
@@ -5202,6 +5399,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("menear-->shake-->shook-->shaken")
     print()
 
     ver_tes_irre_115_pre=input("conseguir in present in english?: ")
@@ -5213,6 +5413,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("conseguir-->get-->got-->gotten")
+    print()
 
     ver_tes_irre_116_pre=input("olvidar in present in english?: ")
     ver_tes_irre_116_pas=input("olvidar in past in english?: ")
@@ -5222,6 +5425,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("olvidar-->forget-->forgot-->forgotten")
     print()
 
     ver_tes_irre_117_pre=input("dar in present in english?: ")
@@ -5233,6 +5439,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("dar-->give-->gave-->given")
+    print()
 
     ver_tes_irre_118_pre=input("perdoname in present in english?: ")
     ver_tes_irre_118_pas=input("perdoname in past in english?: ")
@@ -5242,6 +5451,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("perdoname-->forgive-->forgave-->forgiven")
     print()
 
     ver_tes_irre_119_pre=input("prohibir in present in english?: ")
@@ -5253,6 +5465,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("prohibir-->forbid-->forbade-->forbidden")
+    print()
 
     ver_tes_irre_120_pre=input("conocer/saber in present in english?: ")
     ver_tes_irre_120_pas=input("conocer/saber in past in english?: ")
@@ -5262,6 +5477,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("conocer/saber-->know-->knew-->known")
     print()
 
     ver_tes_irre_121_pre=input("crecer/hacerse más alto/expandirse/aumentar/desarrollarse in present in english?: ")
@@ -5273,6 +5491,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("crecer/hacerse más alto/expandirse/aumentar/desarrollarse-->grow-->grew-->grown")
+    print()
 
     ver_tes_irre_122_pre=input("tirar/lanzar in present in english?: ")
     ver_tes_irre_122_pas=input("tirar/lanzar in past in english?: ")
@@ -5282,6 +5503,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("tirar/lanzar-->throw-->threw-->thrown")
     print()
 
     ver_tes_irre_123_pre=input("soplar/explotar in present in english?: ")
@@ -5293,6 +5517,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("soplar/explotar-->blow-->blew-->blown")
+    print()
 
     ver_tes_irre_124_pre=input("dibujar in present in english?: ")
     ver_tes_irre_124_pas=input("dibujar in past in english?: ")
@@ -5302,6 +5529,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("dibujar-->draw-->drew-->drawn")
     print()
 
     ver_tes_irre_125_pre=input("retirar(de un cajero) in present in english?: ")
@@ -5313,6 +5543,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("retirar(de un cajero)-->withdraw-->withdrew-->withdrawn")
+    print()
 
     ver_tes_irre_126_pre=input("excederse in present in english?: ")
     ver_tes_irre_126_pas=input("excederse in past in english?: ")
@@ -5322,6 +5555,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("excederse-->overdraw-->overdrew-->overdrawn")
     print()
 
     ver_tes_irre_127_pre=input("volar in present in english?: ")
@@ -5333,6 +5569,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("volar-->fly-->flew-->flown")
+    print()
 
     ver_tes_irre_128_pre=input("llego/vengo in present in english?: ")
     ver_tes_irre_128_pas=input("llego/vengo in past in english?: ")
@@ -5342,6 +5581,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("llego/vengo-->come-->came-->come")
     print()
 
     ver_tes_irre_129_pre=input("volverse/convertirse en/hacerse in present in english?: ")
@@ -5353,6 +5595,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("volverse/convertirse en/hacerse-->become-->became-->become")
+    print()
 
     ver_tes_irre_130_pre=input("superar/vencer in present in english?: ")
     ver_tes_irre_130_pas=input("superar/vencer in past in english?: ")
@@ -5362,6 +5607,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("superar/vencer-->overcome-->overcame-->overcome")
     print()
 
     ver_tes_irre_131_pre=input("ver in present in english?: ")
@@ -5373,6 +5621,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("ver-->see-->saw-->seen")
+    print()
 
     ver_tes_irre_132_pre=input("predecir/prever/anticipar in present in english?: ")
     ver_tes_irre_132_pas=input("predecir/prever/anticipar in past in english?: ")
@@ -5382,6 +5633,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("predecir/prever/anticipar-->foresee-->foresaw-->foreseen")
     print()
 
     ver_tes_irre_133_pre=input("supervisar/monitorear/monitorizar in present in english?: ")
@@ -5393,6 +5647,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("supervisar/monitorear/monitorizar-->oversee-->oversaw-->overseen")
+    print()
 
     ver_tes_irre_134_pre=input("termine in present in english?: ")
     ver_tes_irre_134_pas=input("termine in past in english?: ")
@@ -5402,6 +5659,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("termine-->do-->did-->done")
     print()
 
     ver_tes_irre_135_pre=input("irse/partir in present in english?: ")
@@ -5413,6 +5673,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("irse/partir-->go-->went-->gone")
+    print()
 
     ver_tes_irre_136_pre=input("deshacer in present in english?: ")
     ver_tes_irre_136_pas=input("deshacer in past in english?: ")
@@ -5422,6 +5685,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("deshacer-->undo-->undid-->undone")
     print()
 
     ver_tes_irre_137_pre=input("hacer de mas in present in english?: ")
@@ -5433,6 +5699,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("hacer de más-->overdo-->overdid-->overdone")
+    print()
 
     ver_tes_irre_138_pre=input("pasar por dificultades/sufrir in present in english?: ")
     ver_tes_irre_138_pas=input("pasar por dificultades/sufrir in past in english?: ")
@@ -5442,6 +5711,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("pasar por dificultades/sufrir-->undergo-->underwent-->undergone")
     print()
 
     ver_tes_irre_139_pre=input("comer/alimentarse in present in english?: ")
@@ -5453,6 +5725,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("comer/alimentarse-->eat-->ate-->eaten")
+    print()
 
     ver_tes_irre_140_pre=input("caerse/caer in present in english?: ")
     ver_tes_irre_140_pas=input("caerse/caer in past in english?: ")
@@ -5462,6 +5737,9 @@ def test_verbs_irregulars():
         var_tes_ver_irre+=1
     else:
         print("incorrect")
+    print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("caerse/caer-->fall-->fell-->fallen")
     print()
 
     ver_tes_irre_141_pre=input("ser/estar/tener in present in english?: ")
@@ -5473,6 +5751,9 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("ser/estar/tener-->be-->was/were-->been")
+    print()
 
     ver_tes_irre_142_pre=input("cantar in present in english?: ")
     ver_tes_irre_142_pas=input("cantar in past in english?: ")
@@ -5483,12 +5764,12 @@ def test_verbs_irregulars():
     else:
         print("incorrect")
     print()
+    print("verbo --> verb in present --> verb in past --> verb in past participle")
+    print("cantar-->sing-->sang-->sung")
 
     if(var_tes_ver_irre==142):
         cor_or_inc_irre=True
 
-    print()
-    list_correct_verbs_irregulars()
     print()
     
     return cor_or_inc_irre
