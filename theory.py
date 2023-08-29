@@ -4094,7 +4094,7 @@ def test_verbs_irregulars():
         print("incorrect")
     print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
-    print("golpear-->beat-->beat-->beat")
+    print("golpear-->beat-->beat-->beat/beaten")
     print()
 
     ver_tes_irre_15_pre=input("poner in present in english?: ")
