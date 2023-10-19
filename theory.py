@@ -5838,6 +5838,13 @@ def simple_test():
         print("incorrect")
     print()
 
+    #Respuestas
+    print("Answer: ")
+    print("Yo comí in past: i ate")
+    print("yo como in present: i eat ")
+    print("voy a comer in future: i will eat")
+    print()
+
     exa_4_sim=input("Yo como in affirmative and present simple: ")
     exa_5_sim=input("Él come in affirmative and present simple: ")
     exa_6_sim=input("Tú comes in affirmative and present simple: ")
@@ -5865,6 +5872,9 @@ def simple_test():
     else:
         print("incorrect")
     print()
+
+    #RESPUESTAS 
+    #Answers
 
     if(good_sim_tes==4):        
         tru_or_fal_sim=True
@@ -5978,6 +5988,17 @@ def aux_verb():
         good_aux_verb+=1
     else:
         print("incorrect")
+    print()
+
+    
+    #RESPUESTAS
+    print("Answers: ")
+    print("tell me the tenses in english: past/present/future")
+    print("what are the aspects of each tense: simple/continuous/perfect/continuous perfect ")
+    print("how is the structure of the simple: to do")
+    print("how is the structure of the continuo: to be+gerundio")
+    print("how is the structure of the perfect: to have+past participle")
+    print("how is the structure of the continuo perfect: to be+to have")
     print()
 
     print("simple test:")
