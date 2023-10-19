@@ -5838,6 +5838,11 @@ def simple_test():
         print("incorrect")
     print()
 
+    print("Answers: ")
+    print("Yo comí in past: i ate")
+    print("yo como in present: i eat")
+    print("voy a comer in future: i will eat")
+
     exa_4_sim=input("Yo como in affirmative and present simple: ")
     exa_5_sim=input("Él come in affirmative and present simple: ")
     exa_6_sim=input("Tú comes in affirmative and present simple: ")
@@ -5848,6 +5853,12 @@ def simple_test():
         print("incorrect")
     print()
 
+    print("Answers: ")
+    print("Yo como in affirmative and present simple: i eat")
+    print("Él come in affirmative and present simple: he eats ")
+    print("Tú comes in affirmative and present simple: you eat ")
+
+
     exa_7_sim=input("tú no comes in negative and present simple: ")
     exa_8_sim=input("no comistes in negative and past simple: ")
     if(exa_7_sim=="you don't eat" and exa_8_sim=="you didn't eat"):
@@ -5856,6 +5867,11 @@ def simple_test():
     else:
         print("incorrect")
     print()
+
+    print("Answers: ")
+    print("tú no comes in negative and present simple: you don't eat")
+    print("no comistes in negative and past simple: you didn't eat")
+
 
     exa_9_sim=input("¿tú comes?/¿comes? in interrogative and present simple: ")
     exa_10_sim=input("¿comiste? in interrogative and past simple: ")
