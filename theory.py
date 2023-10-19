@@ -5873,6 +5873,7 @@ def simple_test():
     print("Answers: ")
     print("tú no comes in negative and present simple: you don't eat")
     print("no comistes in negative and past simple: you didn't eat")
+    print()
 
 
     exa_9_sim=input("¿tú comes?/¿comes? in interrogative and present simple: ")
@@ -5885,7 +5886,11 @@ def simple_test():
     print()
 
     #RESPUESTAS 
-    #Answers
+    print("Answers: ")
+    print("¿tú comes?/¿comes? in interrogative and present simple: do you eat?")
+    print("¿comiste? in interrogative and past simple: Did you eat?")
+    print()
+
 
     if(good_sim_tes==4):        
         tru_or_fal_sim=True
