@@ -5859,7 +5859,7 @@ def simple_test():
     print("Yo como in affirmative and present simple: i eat")
     print("Él come in affirmative and present simple: he eats ")
     print("Tú comes in affirmative and present simple: you eat ")
-
+    print()
 
     exa_7_sim=input("tú no comes in negative and present simple: ")
     exa_8_sim=input("no comistes in negative and past simple: ")
@@ -5911,6 +5911,12 @@ def continuo_test():
         print("incorrect")
     print()
 
+    print("Answers: ")
+    print("estaba comiendo in past and continuos: i was eating")
+    print("estoy comiendo in present and continuos: i am eating")
+    print("estaré comiendo in future and continuos: i will be")
+    print()
+
     exa_4_con=input("yo estoy comiendo in affirmative and present continuos: ")
     exa_5_con=input("tú estás comiendo in affirmative and present continuos: ")
     if((exa_4_con=="i am eating" or exa_4_con=="i'm eating") and (exa_5_con=="you are eating" or exa_5_con=="you're eating") ):
@@ -5918,6 +5924,11 @@ def continuo_test():
         good_con_tes+=1
     else:
         print("incorrect")
+    print()
+
+    print("Answers: ")
+    print("yo estoy comiendo in affirmative and present continuos: i am eating OR i'm eating")
+    print("tú estás comiendo in affirmative and present continuos: you are eating OR you're eating")
     print()
 
     if(good_con_tes==2):
@@ -5939,6 +5950,12 @@ def perfect_test():
         print("incorrect")
     print()
 
+    print("Answers: ")
+    print("tuve in past and perfect: I had")
+    print("tengo in present and perfect: I have")
+    print("tendré in past and perfect: I will have")
+    print()
+
     exa_4_per=input("yo he comido in affirmative and present perfect: ")
     exa_5_per=input("nosotros hemos comido in affirmative and present perfect: ")
     exa_6_per=input("ella ha comido in affirmative and present perfect: ")
@@ -5949,6 +5966,12 @@ def perfect_test():
         print("incorrect")
     print()
 
+    print("Answers: ")
+    print("yo he comido in affirmative and present perfect: I have eaten")
+    print("nosotros hemos comido in affirmative and present perfect: We have eaten")
+    print("ella ha comido in affirmative and present perfect: She has eaten")
+    print()
+    
     if(good_per_tes==2):
         tru_or_fal=True
 
