@@ -6006,7 +6006,7 @@ def aux_verb():
     print()
 
     aux_con_str=input("how is the structure of the continuo: ")
-    if(aux_con_str=="to be+gerundio"):
+    if(aux_con_str=="to-be+gerundio"):
         print("correct")
         good_aux_verb+=1
     else:
@@ -6022,7 +6022,7 @@ def aux_verb():
     print()
 
     aux_con_per_str=input("how is the structure of the continuo perfect: ")
-    if(aux_con_per_str=="to be+to have"):
+    if(aux_con_per_str=="to-be+to have"):
         print("correct")
         good_aux_verb+=1
     else:
@@ -6035,9 +6035,9 @@ def aux_verb():
     print("tell me the tenses in english: past/present/future")
     print("what are the aspects of each tense: simple/continuous/perfect/continuous perfect ")
     print("how is the structure of the simple: to do")
-    print("how is the structure of the continuo: to be+gerundio")
+    print("how is the structure of the continuo: to-be+gerundio")
     print("how is the structure of the perfect: to have+past participle")
-    print("how is the structure of the continuo perfect: to be+to have")
+    print("how is the structure of the continuo perfect: to-be+to have")
     print()
 
     print("simple test:")
