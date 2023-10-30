@@ -5890,7 +5890,7 @@ def simple_test():
 
     exa_7_sim=input("tú no comes in negative and present simple: ")
     exa_8_sim=input("no comistes in negative and past simple: ")
-    if(exa_7_sim=="you don't eat" and exa_8_sim=="you didn't eat"):
+    if((exa_7_sim=="you don't eat" or exa_7_sim=="you do not eat") and (exa_8_sim=="you didn't eat" or exa_8_sim=="you did not eat") ):
         print("correct")
         good_sim_tes+=1
     else:
@@ -5898,8 +5898,8 @@ def simple_test():
     print()
 
     print("Answers: ")
-    print("tú no comes in negative and present simple: you don't eat")
-    print("no comistes in negative and past simple: you didn't eat")
+    print("tú no comes in negative and present simple: you don't eat OR you do not eat")
+    print("no comistes in negative and past simple: you didn't eat OR you did not eat")
     print()
 
 
@@ -5915,7 +5915,7 @@ def simple_test():
     #RESPUESTAS 
     print("Answers: ")
     print("¿tú comes?/¿comes? in interrogative and present simple: do you eat?")
-    print("¿comiste? in interrogative and past simple: Did you eat?")
+    print("¿comiste? in interrogative and past simple: did you eat?")
     print()
 
 
@@ -5941,7 +5941,7 @@ def continuo_test():
     print("Answers: ")
     print("estaba comiendo in past and continuos: i was eating")
     print("estoy comiendo in present and continuos: i am eating")
-    print("estaré comiendo in future and continuos: i will be")
+    print("estaré comiendo in future and continuos: i will be eating")
     print()
 
     exa_4_con=input("yo estoy comiendo in affirmative and present continuos: ")
