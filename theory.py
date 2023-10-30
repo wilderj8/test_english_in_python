@@ -2,10 +2,29 @@ from asyncore import write
 from ctypes import pointer
 
 def main_theory():
-    abecedary()
-    numbers()
-    months()
-    basic_sentence_structure()
+    print("----------------------------")
+    print("#1: Normal execution")
+    print("#2: Run from the numbers")
+    print("#3: Run from the months")
+    print("#4: Run from the basic sentence structure")
+    print("----------------------------")
+    selection_option=input("selection an option: ")
+
+    if(selection_option=="1"):
+        abecedary()
+        numbers()
+        months()
+        basic_sentence_structure()  
+    elif(selection_option=="2"):
+        numbers()
+        months()
+        basic_sentence_structure()  
+    elif(selection_option=="3"):
+        months()
+        basic_sentence_structure()  
+    elif(selection_option=="4"):
+        basic_sentence_structure()
+        
 
 def recorrer_lista(list_test):    
     for x in list_test:
@@ -782,6 +801,14 @@ def numbers():
         var_num+=1
     else:
         print("incorrect")
+    print()
+
+    print()
+    print("Answers:")
+    print("What is structure of the numbers from 13 to 19?: number+teen")
+    print("what is the structure of round numbers?: number+ty")
+    print("what is the structure of the numbers from 100 to 999?: number+hundred")
+    print("what is the structure of the numbers from 1.000 to 999.000?: number+thousand")
     print()
     
     num_zer=input("0 in english: ")
