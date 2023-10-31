@@ -7,6 +7,13 @@ def main_theory():
     print("#2: Run from the numbers")
     print("#3: Run from the months")
     print("#4: Run from the basic sentence structure")
+    print("#5: Run from the simple rules")
+    print("#6: Run from the noun subject")
+    print("#7: Run from the pronouns")
+    print("#8: Run from the article")
+    print("#9: Run from the adjective")
+    print("#10: Run from the verb")
+    print("#11: Run from the verb auxilary")
     print("----------------------------")
     selection_option=input("selection an option: ")
 
@@ -15,16 +22,78 @@ def main_theory():
         numbers()
         months()
         basic_sentence_structure()  
+        simple_rules()
+        noun_subject()
+        pronouns()
+        articles()
+        adjective()
+        verb()
+        aux_verb()
     elif(selection_option=="2"):
         numbers()
         months()
-        basic_sentence_structure()  
+        basic_sentence_structure() 
+        simple_rules()
+        noun_subject()
+        pronouns()
+        articles()
+        adjective()
+        verb()
+        aux_verb() 
     elif(selection_option=="3"):
         months()
         basic_sentence_structure()  
+        simple_rules()
+        noun_subject()
+        pronouns()
+        articles()
+        adjective()
+        verb()
+        aux_verb()
     elif(selection_option=="4"):
         basic_sentence_structure()
-        
+        simple_rules()
+        noun_subject()
+        pronouns()
+        articles()
+        adjective()
+        verb()
+        aux_verb()
+    elif(selection_option=="5"):
+        simple_rules()
+        noun_subject()
+        pronouns()
+        articles()
+        adjective()
+        verb()
+        aux_verb()
+    elif(selection_option=="6"):
+        noun_subject()
+        pronouns()
+        articles()
+        adjective()
+        verb()
+        aux_verb()
+    elif(selection_option=="7"):
+        pronouns()
+        articles()
+        adjective()
+        verb()
+        aux_verb()
+    elif(selection_option=="8"):
+        articles()
+        adjective()
+        verb()
+        aux_verb()
+    elif(selection_option=="9"):
+        adjective()
+        verb()
+        aux_verb()
+    elif(selection_option=="10"):
+        verb()
+        aux_verb()
+    elif(selection_option=="11"):
+        aux_verb() 
 
 def recorrer_lista(list_test):    
     for x in list_test:
@@ -1659,6 +1728,17 @@ def months():
     print()
 
 def noun_subject():
+    print()
+    answer_wh_sub=input("what is a subject?: ")
+    if(answer_wh_sub=="a subject is a part of a sentence that contains the person or thing performing the action in a sentence"):
+        print("correct")
+    else: 
+        print("incorrect")
+
+    print()
+    print("what is a subject?---a subject is a part of a sentence that contains the person or thing performing the action in a sentence")
+    print()
+
     point=False
     list_test_noun_subject=["----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
     good=0
@@ -2239,14 +2319,23 @@ def noun_subject():
         print("Congratulations, you have a point")
     else:
         print("you not have point")
-
     print()
     correct_list_test_noun_subject()
     print()
 
-    return point
-
 def pronouns():    
+    print()
+    answer_wh_ar_pro=input("what are pronouns?: ")
+    if(answer_wh_ar_pro=="pronouns are the words we often use to talk about a person when we are not using their name"):
+        print("correct")
+    else:
+        print("incorrect")
+
+    print()
+    print("what are pronouns?--pronouns are the words we often use to talk about a person when we are not using their name")
+    print()
+
+
     good_pro=0
     point=False
     print("write the pronouns")
@@ -2762,7 +2851,6 @@ def pronouns():
     list_correct_pronouns()
     
     print()
-    return point
 
 def examples_articles_ind():
     var_art_exa=0
@@ -3102,6 +3190,17 @@ def articles():
     return articles_var
 
 def adjective():
+    print()
+    answer_wh_adj=input("what is a adjective?: ")
+    if(answer_wh_adj=="an adjective is a word that describes the traits,qualities or number of a noun"):
+        print("correct")
+    else:
+        print("incorrect")
+    print()
+    print("what is a adjective--an adjective is a word that describes the traits,qualities or number of a noun")
+    print()
+
+
     point=False
     list_test_adjective=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------""------","------","------","------","------","------","------","------","------","------","------","------""------","------","------","------","------","------","------","------","------","------","------","------","------"]
     good=0
@@ -3561,7 +3660,21 @@ def adjective():
     else:
         print("you not have point")
 
-    return point
+    print()
+    list_correct_adjective()
+    print()
+
+    adjective_example()
+    print()
+    print("examples")
+    print("red car--carro rojo")
+    print("red cars--carros rojos")
+    print("gata--female cat")
+    print("gato--male cat")
+    print("i like the green car--me gusta el carro verde")
+    print()
+
+    
 
 def adjective_example():
     point=False
@@ -6101,6 +6214,16 @@ def aux_verb():
     return tru_or_fal_aux_ver
 
 def adverb():
+    answer_wh_adv=input("what is adverb?: ")
+    if(answer_wh_adv=="an adverb is a word that modifies or describes a verb"):
+        print("correct ")
+    else:
+        print("incorrect")
+    print()
+    print("what is adverb?: -->an adverb is a word that modifies or describes a verb")
+    print()
+
+
     point=False
     list_test_adverb_place=["------","------","------","------","------","------","------","------","------"]
     list_test_adverb_time=["------","------","------","------","------","------","------","------","------"]
@@ -6476,6 +6599,7 @@ def adverb():
     return point
             
 def simple_rules():
+    print("SIMPLE RULES")
     vec_sim_rul=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
     good_sim_rul=0
     bin_sim_rul=False
@@ -6784,155 +6908,17 @@ def simple_rules():
     
     print()
     list_correct_simple_rules()
-    
-    return bin_sim_rul
 
 def basic_sentence_structure():
     print()
     print("BASIC SENTENCE STRUCTURE")
-    vec_bas_sen_str=["----","----","----","----","----","----","----","----","----","----","----","----","----"]
-    good_bas_sen_str=0
     answer_bas_sen_str=input("what the basic sentence structure?: ")
     if(answer_bas_sen_str=="subject+verb+object"):
         print("correct")
-        good_bas_sen_str+=1
-        vec_bas_sen_str[0]="what the basic sentence structure"
     else:
         print("incorrect")
+    print()  
+    print("what the basic sentence structure? -->subject+verb+object")
     print()
 
-    print("SIMPLE RULES")
-    var_sim_rul=simple_rules()
-    if(var_sim_rul):
-        print("Correct do you have 1 point")
-        good_bas_sen_str+=1
-        vec_bas_sen_str[1]="simple rules"
-    
-    print()
-    answer_wh_sub=input("what is a subject?: ")
-    if(answer_wh_sub=="a subject is a part of a sentence that contains the person or thing performing the action in a sentence"):
-        print("correct")
-        good_bas_sen_str+=1
-        vec_bas_sen_str[2]="what is a subject"
-    else: 
-        print("incorrect")
 
-    print()
-    print("what is a subject?---a subject is a part of a sentence that contains the person or thing performing the action in a sentence")
-    print()
-        
-    point_noun_subject=noun_subject()
-    if(point_noun_subject):
-        good_bas_sen_str+=1
-        vec_bas_sen_str[3]="subjects/nouns words"
-
-    print()
-    answer_wh_ar_pro=input("what are pronouns?: ")
-    if(answer_wh_ar_pro=="pronouns are the words we often use to talk about a person when we are not using their name"):
-        print("correct")
-        good_bas_sen_str+=1
-        vec_bas_sen_str[4]="what are pronouns"
-    else:
-        print("incorrect")
-
-    print()
-    print("what are pronouns?--pronouns are the words we often use to talk about a person when we are not using their name")
-    print()
-
-    pronouns_var=pronouns()
-    if(pronouns_var):        
-        good_bas_sen_str+=1
-        vec_bas_sen_str[5]="Pronouns"        
-
-    print()
-    articles_var_var=articles()
-    if(articles_var_var):        
-        good_bas_sen_str+=1
-        vec_bas_sen_str[6]="articles" 
-
-    print()
-    answer_wh_adj=input("what is a adjective?: ")
-    if(answer_wh_adj=="an adjective is a word that describes the traits,qualities or number of a noun"):
-        print("correct")
-        good_bas_sen_str+=1
-        vec_bas_sen_str[7]="what is a adjective"
-    else:
-        print("incorrect")
-    print()
-    print("what is a adjective--an adjective is a word that describes the traits,qualities or number of a noun")
-    print()
-        
-    point_adjective=adjective()
-    if(point_adjective):
-        good_bas_sen_str+=1
-        vec_bas_sen_str[8]="adjective words"
-    print()
-    list_correct_adjective()
-    print()
-
-    point_adjective_example=adjective_example()
-    if(point_adjective_example):
-        good_bas_sen_str+=1
-        vec_bas_sen_str[9]="example adjective"
-    print()
-    print("examples")
-    print("red car--carro rojo")
-    print("red cars--carros rojos")
-    print("gata--female cat")
-    print("gato--male cat")
-    print("i like the green car--me gusta el carro verde")
-    print()
-
-    print("verbs")
-    point_verb=verb()
-    if(point_verb):
-        good_bas_sen_str+=1
-        vec_bas_sen_str[10]="verb"
-    else:
-        print("incorrect")
-    print()
-    
-    print("auxiliary verbs")
-    point_verb=aux_verb()
-    if(point_verb):
-        good_bas_sen_str+=1
-        vec_bas_sen_str[11]="auxiliary verb"
-    else:
-        print("incorrect")
-    print()
-
-    answer_wh_adv=input("what is adverb?: ")
-    if(answer_wh_adv=="an adverb is a word that modifies or describes a verb"):
-        print("correct ")
-        good_bas_sen_str+=1
-        vec_bas_sen_str[11]="what is a adverb"
-    else:
-        print("incorrect")
-    print()
-
-    point_adverb=adverb()
-    if(point_adverb):
-        good_bas_sen_str+=1
-        vec_bas_sen_str[12]="adverb"
-
-    print()    
-    print("Answers:")
-    recorrer_lista(vec_bas_sen_str)
-    print(f"result: {good_bas_sen_str}/12")
-    print()
-    print("¿you want to see the list of answers, but if you see them the test is over?yes/not")
-    see_ans=input()
-    exit="not"
-    while(exit=="not"):
-        if(see_ans=="yes"):
-            list_correct_basic_sentence_strcture()
-            exit="yes"
-        elif(see_ans=="not"):
-            print()            
-            print("¿you want to leave the basic sentense structure test yes/not?")
-            see_ans=input()
-            if(see_ans=="yes"):
-                exit="yes"
-            elif(see_ans=="not"):
-                exit="not"
-   
