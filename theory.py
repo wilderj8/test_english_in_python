@@ -1,3 +1,5 @@
+#Pasar de present perfect a perfect present en la estructuras básicas (confirmar)
+
 from asyncore import write
 from ctypes import pointer
 
@@ -484,7 +486,7 @@ def list_correct_simple_rules():
     print("structure of the simple present-->is/am/are+p.p(verb past participle)")
     print("structure of the simple past-->was/were+p.p(verb past participle)")
     print("structure of the simple future-->will be+p.p(verb past participle)")
-    print("structure of the present perfect-->have/has been+p.p(verb past participle)")
+    print("structure of the perfect present-->have/has been+p.p(verb past participle)")
 
 def list_correct_verbs():
     ("List correct verbs: ")    
@@ -6899,7 +6901,7 @@ def simple_rules():
         print("incorrect")
     print()
 
-    str_pre_per_ans=input("what is the structure of the present perfect: ")
+    str_pre_per_ans=input("what is the structure of the perfect present: ")
     if(str_pre_per_ans=="have/has been+p.p(verb past participle)"):
         print("correct")
         vec_sim_rul[29]="present perfect"
