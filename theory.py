@@ -281,32 +281,8 @@ def correct_list_test_noun_subject():
     
 def list_correct_articles():        
     print("List correct articles")
-    print("what are the indefinite articles? --> a/an")
-    print()
-    print("Examples indefinite articles")
-    print("tell me [un gato] in english --> a cat")
-    print("tell me [un perro] in english --> a dog")
-    print("tell me [una foto] in english --> a picture")
-    print("tell me [una mesa] in english --> a table")
-    print("tell me [un elefante] in english --> an elephant")
-    print("tell me [una sombrilla] in english --> an umbrella")
-    print("tell me [una manzana] in english--> an apple ")
-    print("tell me [un perros] in english --> '[nada]'")
-    print("tell me [un uniforme] in english --> a uniform")
-    print("tell me [una universidad] in english --> a university")
-    print("tell me [un europeo] in english --> a european")
-    print("tell me [un euro] in english --> a euro")
-    print("tell me [un tio] in english --> an uncle")
-    print("tell me [un imperio] in english --> an empire")
-    print("tell me [un hospital] in english --> a hospital")
-    print("tell me [una hora] in english --> an hour")
-    print("tell me [una casa] in english --> a home")
-    print("tell me [un agujero] in english --> a hole")
-    print("tell me [un honor] in english --> an honor")
-    print("tell me [un sombrero] in english --> a hat")
-    print("tell me [un/una honest@] in english --> an honest")
-    print("tell me [un honorario] in english --> an honorary")
-    print()
+    
+   
     print("Defined articles")
     print("what are the definite articles? --> the ||| what does (the) mean in spanish? --> el/la/los/las")
     print()
@@ -3101,6 +3077,32 @@ def examples_articles_def():
         print("incorrect")
     print()
 
+    print()
+    print("Examples indefinite articles")
+    print("tell me [un gato] in english --> a cat")
+    print("tell me [un perro] in english --> a dog")
+    print("tell me [una foto] in english --> a picture")
+    print("tell me [una mesa] in english --> a table")
+    print("tell me [un elefante] in english --> an elephant")
+    print("tell me [una sombrilla] in english --> an umbrella")
+    print("tell me [una manzana] in english--> an apple ")
+    print("tell me [un perros] in english --> '[nada]'")
+    print("tell me [un uniforme] in english --> a uniform")
+    print("tell me [una universidad] in english --> a university")
+    print("tell me [un europeo] in english --> a european")
+    print("tell me [un euro] in english --> a euro")
+    print("tell me [un tio] in english --> an uncle")
+    print("tell me [un imperio] in english --> an empire")
+    print("tell me [un hospital] in english --> a hospital")
+    print("tell me [una hora] in english --> an hour")
+    print("tell me [una casa] in english --> a home")
+    print("tell me [un agujero] in english --> a hole")
+    print("tell me [un honor] in english --> an honor")
+    print("tell me [un sombrero] in english --> a hat")
+    print("tell me [un/una honest@] in english --> an honest")
+    print("tell me [un honorario] in english --> an honorary")
+    print()
+
     if(exa_6_art_def==6):
         print("correct")
         example=True
@@ -3158,6 +3160,8 @@ def articles():
     else:
         print("incorrect")
     print()
+    print("what are the indefinite articles? --> a/an")
+    print()
 
     example_ind=examples_articles_ind()
     if(example_ind):
@@ -3167,6 +3171,8 @@ def articles():
     else:
         print("incorrect")
     print()
+
+
     
     print("defined articles")
     def_art_wha=input("what are the definite articles?: ")
