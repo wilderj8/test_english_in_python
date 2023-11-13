@@ -83,16 +83,18 @@ def validation(letter_test,letter_val):
     
     return result
 
-#Main program            
-word=input("Write a word: ")
-letters=[]
+#Main program    
+def main():    
+    print()    
+    word=input("Write a word: ")
+    letters=[]
 
-for letter in word:
-    letters.append(letter)
+    for letter in word:
+        letters.append(letter)
 
-for letter_test in letters:
-    print("Write the letter in english: " + letter_test)
-    letter_val=input()
-    result=validation(letter_test,letter_val)
-    print(result)
-    print()
+    for letter_test in letters:
+        print("Write the letter in english: " + letter_test)
+        letter_val=input()
+        result=validation(letter_test,letter_val)
+        print(result)
+        print()
