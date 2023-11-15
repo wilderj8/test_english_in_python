@@ -3737,21 +3737,22 @@ def adjective_example():
 def test_verbs():
     var_tes_ver=0
     cor_or_inc=False
-
+    print()
     ver_tes_1=input("preguntar in english:? ")
     if(ver_tes_1=="ask"):
         print("correct")
         var_tes_ver+=1
     else:
         print("incorrect")
+    print()
     
-
     ver_tes_2=input("ser/estar in english:? ")
     if(ver_tes_2=="be"):
         print("correct")
         var_tes_ver+=1
     else:
         print("incorrect")
+    print()
     
 
     ver_tes_3=input("romper/quebrar in english:? ")
