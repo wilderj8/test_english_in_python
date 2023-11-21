@@ -15,6 +15,15 @@ def main_theory():
     print("#8: Run from the article")
     print("#9: Run from the adjective")
     print("#10: Run from the verb")
+    print(" #10.1: Test verb")
+    print(" #10.2: Test verb regular")
+    print(" #10.3: Test verb irregular")
+    print("     #Group 1: ")
+    print("     #10.3.0: list: These are one syllable and end in [T] or [D]")
+    print("     #10.3.1: list: These are made up of one syllable except 2 and end in [T] or [D]")
+    print("     #10.3.2: list: These are made up of one syllable except 2 and end in [T] or [D]")
+    print("     #Group 2: ")
+    print("     #10.3.3: list: ")
     print("#11: Run from the verb auxilary")
     print("----------------------------")
     selection_option=input("selection an option: ")
@@ -30,18 +39,24 @@ def main_theory():
         articles()
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="2"):
         numbers()
         months()
-        basic_sentence_structure() 
+        basic_sentence_structure()  
         simple_rules()
         noun_subject()
         pronouns()
         articles()
         adjective()
         verb()
-        aux_verb() 
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
+        aux_verb()
     elif(selection_option=="3"):
         months()
         basic_sentence_structure()  
@@ -51,15 +66,21 @@ def main_theory():
         articles()
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="4"):
-        basic_sentence_structure()
+        basic_sentence_structure()  
         simple_rules()
         noun_subject()
         pronouns()
         articles()
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="5"):
         simple_rules()
@@ -68,6 +89,9 @@ def main_theory():
         articles()
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="6"):
         noun_subject()
@@ -75,24 +99,51 @@ def main_theory():
         articles()
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="7"):
         pronouns()
         articles()
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="8"):
         articles()
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="9"):
         adjective()
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="10"):
         verb()
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
+        aux_verb()
+    elif(selection_option=="10.1"):
+        test_verbs()
+        test_verbs_regular()
+        test_verbs_irregulars()
+        aux_verb()
+    elif(selection_option=="10.2"):
+        test_verbs_regular()
+        test_verbs_irregulars()
+        aux_verb()
+    elif(selection_option=="10.3"):
+        test_verbs_irregulars()
         aux_verb()
     elif(selection_option=="11"):
         aux_verb() 
@@ -3735,6 +3786,7 @@ def adjective_example():
     return point
 
 def test_verbs():
+    print("test verbs")
     var_tes_ver=0
     cor_or_inc=False
     print()
@@ -4036,12 +4088,15 @@ def test_verbs():
     print()
 
     if(var_tes_ver==39):
-        cor_or_inc=True
+        print("test correct")
+    else:
+        print("test incorrect")
 
     list_correct_verbs()
     print()
 
 def test_verbs_regular():
+    print("test verbs regulars")
     var_tes_ver_reg=0
     cor_or_inc_reg=False
 
@@ -4057,13 +4112,15 @@ def test_verbs_regular():
 
     if(var_tes_ver_reg==1):
         cor_or_inc_reg=True
+        print("Test Correct")
+    else:
+        print("Test Incorrect")
 
     list_correct_verbs_regular()
     print()
-
-    return cor_or_inc_reg
     
 def test_verbs_irregulars():
+    print("test verbs irregulars")
     var_tes_ver_irre=0
     cor_or_inc_irre=False
 
@@ -5922,15 +5979,14 @@ def test_verbs_irregulars():
 
     if(var_tes_ver_irre==142):
         cor_or_inc_irre=True
+        print("Test irregular correct")
+    else:
+        print("Test irregular incorrect")
 
     print()
     
-    return cor_or_inc_irre
 
 def verb():
-    var_verb=0
-    vec_verb=["----","----","----","----"]
-    corr_or_inco=False
     wh_ver=input("what is verb?: ")
     if(wh_ver=="a verb is a word expressing action or state"):
         print("correct")
@@ -5941,42 +5997,6 @@ def verb():
     print()
     print("what is a verb?-->a verb is a word expressing action or state")
     print()
-
-    print("test verbs")
-    var_tes_ver=test_verbs()
-    if(var_tes_ver):
-        print("correct")
-        var_verb+=1
-        vec_verb[1]="test verbs"
-    else:
-        print("incorrect")    
-    print()
-
-    print("test verbs regulars")
-    var_tes_ver_reg=test_verbs_regular()
-    if(var_tes_ver_reg):
-        print("correct")
-        var_verb+=1
-        vec_verb[2]="test verbs regular"
-    else:
-        print("incorrect")
-    print()
-    
-    print("test verbs irregulars")
-    var_tes_ver_irr=test_verbs_irregulars()
-    if(var_tes_ver_irr):
-        print("correct")
-        var_verb+=1
-        vec_verb[3]="test verbs irregulars"
-    else:
-        print("incorrect")
-    
-    if(var_verb==4):
-        corr_or_inco=True
-
-    recorrer_lista(vec_verb)
-
-    return corr_or_inco
 
 def simple_test():
     good_sim_tes=0
