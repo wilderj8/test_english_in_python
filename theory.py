@@ -19,11 +19,38 @@ def main_theory():
     print(" #10.2: Test verb regular")
     print(" #10.3: Test verb irregular")
     print("     #Group 1: ")
-    print("     #10.3.0: list: These are one syllable and end in [T] or [D]")
-    print("     #10.3.1: list: These are made up of one syllable except 2 and end in [T] or [D]")
-    print("     #10.3.2: list: These are made up of one syllable except 2 and end in [T] or [D]")
+    print("     #10.3.0: list: These verbs are one syllable and end in [T] or [D]")
+    print("     #10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D]")
     print("     #Group 2: ")
-    print("     #10.3.3: list: ")
+    print("     #10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L]")
+    print("     #10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding")
+    print("     #10.3.4: list: verbs that have [ea] and end in [d]")
+    print("     #10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M]")
+    print("     #10.3.6: list: verbs that have the vowels [ea] and end with [R]")
+    print("     #10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d]")
+    print("     #10.3.8: list: verbs that end in [-ind]")
+    print("     #10.3.9: list: verbs that end in [-end]")
+    print("     #10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig]")
+    print("     #10.3.11: list: verbs that end in [-ay]")
+    print("     #10.3.12: list: verbs that end in [-ell]")
+    print("     #10.3.13: list: verbs that end in [-old]")
+    print("     #10.3.14: list: verbs that end in [-and]")
+    print("     #10.3.15: list: verbs that end in [-se]")
+    print("     #10.3.16: list: verbs that end in [-oot]")
+    print("     #10.3.17: list: the verbs [ught]")
+    print("     #10.3.18: list: verbs without keys")
+    print("     #Group 3: ")
+    print("     #10.3.19: list: verbs ending in [i-consonant-e]")
+    print("     #10.3.20: list: verbs containing the vowels [ea,e and a]")
+    print("     #10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un]")
+    print("     #10.3.22: list: verbs ending in [-ake]")
+    print("     #10.3.23: list: verbs ending in [-get]")
+    print("     #10.3.24: list: verbs ending in [-ive, -id]")
+    print("     #10.3.25: list: verbs ending in [-ow, -aw, -ly]")
+    print("     #10.3.26: list: verbs ending in [-ome]")
+    print("     #10.3.27: list: verbs ending in [-see]")
+    print("     #10.3.28: list: verbs ending in [-do, -go]")
+    print("     #10.3.29: list: verbs without patterns")
     print("#11: Run from the verb auxilary")
     print("----------------------------")
     selection_option=input("selection an option: ")
@@ -40,8 +67,43 @@ def main_theory():
         adjective()
         verb()
         test_verbs()
-        test_verbs_regular()
-        test_verbs_irregulars()
+        test_verbs_regular()        
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="2"):
         numbers()
@@ -55,7 +117,42 @@ def main_theory():
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="3"):
         months()
@@ -68,7 +165,42 @@ def main_theory():
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="4"):
         basic_sentence_structure()  
@@ -80,7 +212,42 @@ def main_theory():
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="5"):
         simple_rules()
@@ -91,7 +258,42 @@ def main_theory():
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="6"):
         noun_subject()
@@ -101,7 +303,42 @@ def main_theory():
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="7"):
         pronouns()
@@ -110,7 +347,42 @@ def main_theory():
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="8"):
         articles()
@@ -118,32 +390,831 @@ def main_theory():
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="9"):
         adjective()
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="10"):
         verb()
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="10.1"):
         test_verbs()
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="10.2"):
         test_verbs_regular()
-        test_verbs_irregulars()
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
-    elif(selection_option=="10.3"):
-        test_verbs_irregulars()
+    elif(selection_option=="10.3" or selection_option=="10.3.0"):
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_0()
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.1"):
+        #Verb irregular group 1
+        verb_irregular_group1_10_3_1()
+        #Verb irregular group 1
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.2"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_2()
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.3"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_3()
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.4"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_4()
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.5"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_5()
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.6"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_6()
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.7"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_7()
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.8"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_8()
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.9"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_9()
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.10"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_10()
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.11"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_11()
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.12"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_12()
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.13"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_13()
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.14"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_14()
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.15"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_15()
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.16"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_16()
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.17"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_17()
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.18"):
+        #Verb irregular group 2
+        verb_irregular_group2_10_3_18()
+        #Verb irregular group 2
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.19"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_19()
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.20"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_20()
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.21"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_21()
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.22"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_22()
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.23"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_23()
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.24"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_24()
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.25"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_25()
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.26"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_26()
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.27"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_27()
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.28"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_28()
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
+        aux_verb()
+    elif(selection_option=="10.3.29"):
+        #Verb irregular group 3
+        verb_irregular_group3_10_3_29()
+        #Verb irregular group 3
         aux_verb()
     elif(selection_option=="11"):
         aux_verb() 
@@ -3737,8 +4808,6 @@ def adjective():
     print("i like the green car--me gusta el carro verde")
     print()
 
-    
-
 def adjective_example():
     point=False
     good=0
@@ -5984,7 +7053,96 @@ def test_verbs_irregulars():
         print("Test irregular incorrect")
 
     print()
-    
+
+def verb_irregular_group1_10_3_0():
+    print("#10.3.0: list: These verbs are one syllable and end in [T] or [D]")
+
+def verb_irregular_group1_10_3_1():
+    print("#10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D]")
+
+def verb_irregular_group2_10_3_2():
+    print("#10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L]")
+
+def verb_irregular_group2_10_3_3():
+    print("#10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding")
+
+def verb_irregular_group2_10_3_4():
+    print("#10.3.4: list: verbs that have [ea] and end in [d]")
+
+def verb_irregular_group2_10_3_5():
+    print("#10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M]")
+
+def verb_irregular_group2_10_3_6():
+    print("#10.3.6: list: verbs that have the vowels [ea] and end with [R]")
+
+def verb_irregular_group2_10_3_7():
+    print("#10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d]")
+
+def verb_irregular_group2_10_3_8():
+    print("#10.3.8: list: verbs that end in [-ind]")
+
+def verb_irregular_group2_10_3_9():
+    print("#10.3.9: list: verbs that end in [-end]")
+
+def verb_irregular_group2_10_3_10():
+    print("#10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig]")
+
+def verb_irregular_group2_10_3_11():
+    print("#10.3.11: list: verbs that end in [-ay]")
+
+def verb_irregular_group2_10_3_12():
+    print("#10.3.12: list: verbs that end in [-ell]")
+
+def verb_irregular_group2_10_3_13():
+    print("#10.3.13: list: verbs that end in [-old]")
+
+def verb_irregular_group2_10_3_14():
+    print("#10.3.14: list: verbs that end in [-and]")
+
+def verb_irregular_group2_10_3_15():
+    print("#10.3.15: list: verbs that end in [-se]")
+
+def verb_irregular_group2_10_3_16():
+    print("#10.3.16: list: verbs that end in [-oot]")
+
+def verb_irregular_group2_10_3_17():
+    print("#10.3.17: list: the verbs [ught]")
+
+def verb_irregular_group2_10_3_18():
+    print("#10.3.18: list: verbs without keys")
+
+def verb_irregular_group3_10_3_19():
+    print("#10.3.19: list: verbs ending in [i-consonant-e]")
+
+def verb_irregular_group3_10_3_20():
+    print("#10.3.20: list: verbs containing the vowels [ea,e and a]")
+
+def verb_irregular_group3_10_3_21():
+    print("#10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un]")
+
+def verb_irregular_group3_10_3_22():
+    print("#10.3.22: list: verbs ending in [-ake]")
+
+def verb_irregular_group3_10_3_23():
+    print("#10.3.23: list: verbs ending in [-get]")
+
+def verb_irregular_group3_10_3_24():
+    print("#10.3.24: list: verbs ending in [-ive, -id]")
+
+def verb_irregular_group3_10_3_25():
+    print("#10.3.25: list: verbs ending in [-ow, -aw, -ly]")
+
+def verb_irregular_group3_10_3_26():
+    print("#10.3.26: list: verbs ending in [-ome]")
+
+def verb_irregular_group3_10_3_27():
+    print("#10.3.27: list: verbs ending in [-see]")
+
+def verb_irregular_group3_10_3_28():
+    print("#10.3.28: list: verbs ending in [-do, -go]")
+
+def verb_irregular_group3_10_3_29():
+    print("#10.3.29: list: verbs without patterns")
 
 def verb():
     wh_ver=input("what is verb?: ")
