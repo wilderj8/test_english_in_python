@@ -18,39 +18,6 @@ def main_theory():
     print(" #10.1: Test verb")
     print(" #10.2: Test verb regular")
     print(" #10.3: Test verb irregular")
-    print("     #Group 1: ")
-    print("     #10.3.0: list: These verbs are one syllable and end in [T] or [D]")
-    print("     #10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D]")
-    print("     #Group 2: ")
-    print("     #10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L]")
-    print("     #10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding")
-    print("     #10.3.4: list: verbs that have [ea] and end in [d]")
-    print("     #10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M]")
-    print("     #10.3.6: list: verbs that have the vowels [ea] and end with [R]")
-    print("     #10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d]")
-    print("     #10.3.8: list: verbs that end in [-ind]")
-    print("     #10.3.9: list: verbs that end in [-end]")
-    print("     #10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig]")
-    print("     #10.3.11: list: verbs that end in [-ay]")
-    print("     #10.3.12: list: verbs that end in [-ell]")
-    print("     #10.3.13: list: verbs that end in [-old]")
-    print("     #10.3.14: list: verbs that end in [-and]")
-    print("     #10.3.15: list: verbs that end in [-se]")
-    print("     #10.3.16: list: verbs that end in [-oot]")
-    print("     #10.3.17: list: the verbs [ught]")
-    print("     #10.3.18: list: verbs without keys")
-    print("     #Group 3: ")
-    print("     #10.3.19: list: verbs ending in [i-consonant-e]")
-    print("     #10.3.20: list: verbs containing the vowels [ea,e and a]")
-    print("     #10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un]")
-    print("     #10.3.22: list: verbs ending in [-ake]")
-    print("     #10.3.23: list: verbs ending in [-get]")
-    print("     #10.3.24: list: verbs ending in [-ive, -id]")
-    print("     #10.3.25: list: verbs ending in [-ow, -aw, -ly]")
-    print("     #10.3.26: list: verbs ending in [-ome]")
-    print("     #10.3.27: list: verbs ending in [-see]")
-    print("     #10.3.28: list: verbs ending in [-do, -go]")
-    print("     #10.3.29: list: verbs without patterns")
     print("#11: Run from the verb auxilary")
     print("----------------------------")
     selection_option=input("selection an option: ")
@@ -589,7 +556,52 @@ def main_theory():
         verb_irregular_group3_10_3_29()
         #Verb irregular group 3
         aux_verb()
-    elif(selection_option=="10.3" or selection_option=="10.3.0"):
+    elif(selection_option=="10.3"):
+        menu_verb_irregular()
+    elif(selection_option=="11"):
+        aux_verb() 
+    
+def menu_verb_irregular():
+    print()
+    print("MENU TEST VERB IRREGULAR")
+    print("----------------------------")
+    print("     #Group 1: ")
+    print("     #10.3.0: list: These verbs are one syllable and end in [T] or [D]")
+    print("     #10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D]")
+    print("     #Group 2: ")
+    print("     #10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L]")
+    print("     #10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding")
+    print("     #10.3.4: list: verbs that have [ea] and end in [d]")
+    print("     #10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M]")
+    print("     #10.3.6: list: verbs that have the vowels [ea] and end with [R]")
+    print("     #10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d]")
+    print("     #10.3.8: list: verbs that end in [-ind]")
+    print("     #10.3.9: list: verbs that end in [-end]")
+    print("     #10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig]")
+    print("     #10.3.11: list: verbs that end in [-ay]")
+    print("     #10.3.12: list: verbs that end in [-ell]")
+    print("     #10.3.13: list: verbs that end in [-old]")
+    print("     #10.3.14: list: verbs that end in [-and]")
+    print("     #10.3.15: list: verbs that end in [-se]")
+    print("     #10.3.16: list: verbs that end in [-oot]")
+    print("     #10.3.17: list: the verbs [ught]")
+    print("     #10.3.18: list: verbs without keys")
+    print("     #Group 3: ")
+    print("     #10.3.19: list: verbs ending in [i-consonant-e]")
+    print("     #10.3.20: list: verbs containing the vowels [ea,e and a]")
+    print("     #10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un]")
+    print("     #10.3.22: list: verbs ending in [-ear]")
+    print("     #10.3.23: list: verbs ending in [-ake]")
+    print("     #10.3.24: list: verbs ending in [-get]")
+    print("     #10.3.25: list: verbs ending in [-ive, -id]")
+    print("     #10.3.26: list: verbs ending in [-ow, -aw, -ly]")
+    print("     #10.3.27: list: verbs ending in [-ome]")
+    print("     #10.3.28: list: verbs ending in [-see]")
+    print("     #10.3.29: list: verbs ending in [-do, -go]")
+    print("     #10.3.30: list: verbs without patterns")
+    print("----------------------------")
+    selection_option=input("selection an option: ")
+    if(selection_option=="10.3" or selection_option=="10.3.0"):
         #Verb irregular group 1
         verb_irregular_group1_10_3_0()
         verb_irregular_group1_10_3_1()
@@ -1216,10 +1228,8 @@ def main_theory():
         verb_irregular_group3_10_3_29()
         #Verb irregular group 3
         aux_verb()
-    elif(selection_option=="11"):
-        aux_verb() 
 
-def recorrer_lista(list_test):    
+def recorrer_lista(list_test):
     for x in list_test:
         print(x)
 
@@ -5188,17 +5198,14 @@ def test_verbs_regular():
     list_correct_verbs_regular()
     print()
     
-def test_verbs_irregulars():
-    print("test verbs irregulars")
-    var_tes_ver_irre=0
-    cor_or_inc_irre=False
-
+def verb_irregular_group1_10_3_0():
+    print("#10.3.0: list: These verbs are one syllable and end in [T] or [D]")
+    print()
     ver_tes_irre_1_pre=input("golpear in present in english?: ")
     ver_tes_irre_1_pas=input("golpear in past in english?: ")
     ver_tes_irre_1_par=input("golpear in past participle in english?: ")
     if(ver_tes_irre_1_pre=="hit" and ver_tes_irre_1_pas=="hit" and ver_tes_irre_1_par=="hit"):
-        print("correct")
-        var_tes_ver_irre+=1
+        print("correct")        
     else:
         print("incorrect")
     print()
@@ -5211,7 +5218,7 @@ def test_verbs_irregulars():
     ver_tes_irre_2_par=input("Quedar/servir/entrar/valer in past participle in english?: ")
     if(ver_tes_irre_2_pre=="fit" and ver_tes_irre_2_pas=="fit" and ver_tes_irre_2_par=="fit"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5224,7 +5231,7 @@ def test_verbs_irregulars():
     ver_tes_irre_3_par=input("renunciar/dejar/abandonar in past participle in english?: ")
     if(ver_tes_irre_3_pre=="quit" and ver_tes_irre_3_pas=="quit" and ver_tes_irre_3_par=="quit"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5237,7 +5244,7 @@ def test_verbs_irregulars():
     ver_tes_irre_4_par=input("dividir/apartar/partir in past participle in english?: ")
     if(ver_tes_irre_4_pre=="split" and ver_tes_irre_4_pas=="split" and ver_tes_irre_4_par=="split"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")    
     print()
@@ -5250,7 +5257,7 @@ def test_verbs_irregulars():
     ver_tes_irre_5_par=input("cortar in past participle in english?: ")
     if(ver_tes_irre_5_pre=="slit" and ver_tes_irre_5_pas=="slit" and ver_tes_irre_5_par=="slit"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")    
     print()
@@ -5263,7 +5270,7 @@ def test_verbs_irregulars():
     ver_tes_irre_6_par=input("deshacerse in past participle in english?: ")
     if(ver_tes_irre_6_pre=="rid" and ver_tes_irre_6_pas=="rid" and ver_tes_irre_6_par=="rid"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")    
     print()
@@ -5276,7 +5283,7 @@ def test_verbs_irregulars():
     ver_tes_irre_7_par=input("ofrecer/pujar(en una subasta) in past participle in english?: ")
     if(ver_tes_irre_7_pre=="bid" and ver_tes_irre_7_pas=="bid" and ver_tes_irre_7_par=="bid"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")    
     print()
@@ -5289,7 +5296,7 @@ def test_verbs_irregulars():
     ver_tes_irre_8_par=input("dejar in past participle in english?: ")
     if(ver_tes_irre_8_pre=="let" and ver_tes_irre_8_pas=="let" and ver_tes_irre_8_par=="let"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")    
     print()
@@ -5303,7 +5310,7 @@ def test_verbs_irregulars():
     ver_tes_irre_9_par=input("ubicar/ajustar/cuadremos una cosa in past participle in english?: ")
     if(ver_tes_irre_9_pre=="set" and ver_tes_irre_9_pas=="set" and ver_tes_irre_9_par=="set"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")    
     print()
@@ -5316,7 +5323,7 @@ def test_verbs_irregulars():
     ver_tes_irre_10_par=input("mojar in past participle in english?: ")
     if(ver_tes_irre_10_pre=="wet" and ver_tes_irre_10_pas=="wet" and ver_tes_irre_10_par=="wet"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")    
     print()
@@ -5329,7 +5336,7 @@ def test_verbs_irregulars():
     ver_tes_irre_11_par=input("apostar in past participle in english?: ")
     if(ver_tes_irre_11_pre=="bet" and ver_tes_irre_11_pas=="bet" and ver_tes_irre_11_par=="bet"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5337,12 +5344,15 @@ def test_verbs_irregulars():
     print("apostar-->bet-->bet-->bet")
     print()
 
+def verb_irregular_group1_10_3_1():
+    print("#10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D]")
+    print()
     ver_tes_irre_12_pre=input("esparcir in present in english?: ")
     ver_tes_irre_12_pas=input("esparcir in past in english?: ")
     ver_tes_irre_12_par=input("esparcir in past participle in english?: ")
     if(ver_tes_irre_12_pre=="spread" and ver_tes_irre_12_pas=="spread" and ver_tes_irre_12_par=="spread"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5355,7 +5365,7 @@ def test_verbs_irregulars():
     ver_tes_irre_13_par=input("sudar in past participle in english?: ")
     if(ver_tes_irre_13_pre=="sweat" and ver_tes_irre_13_pas=="sweat" and ver_tes_irre_13_par=="sweat"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5368,7 +5378,7 @@ def test_verbs_irregulars():
     ver_tes_irre_14_par=input("golpear in past participle in english?: ")
     if(ver_tes_irre_14_pre=="beat" and ver_tes_irre_14_pas=="beat" and ver_tes_irre_14_par=="beat/beaten"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5381,7 +5391,7 @@ def test_verbs_irregulars():
     ver_tes_irre_15_par=input("poner in past participle in english?: ")
     if(ver_tes_irre_15_pre=="put" and ver_tes_irre_15_pas=="put" and ver_tes_irre_15_par=="put"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5395,7 +5405,7 @@ def test_verbs_irregulars():
     ver_tes_irre_16_par=input("cortar in past participle in english?: ")
     if(ver_tes_irre_16_pre=="cut" and ver_tes_irre_16_pas=="cut" and ver_tes_irre_16_par=="cut"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5408,7 +5418,7 @@ def test_verbs_irregulars():
     ver_tes_irre_17_par=input("cerrar in past participle in english?: ")
     if(ver_tes_irre_17_pre=="shut" and ver_tes_irre_17_pas=="shut" and ver_tes_irre_17_par=="shut"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5421,7 +5431,7 @@ def test_verbs_irregulars():
     ver_tes_irre_18_par=input("introducir/insertar/meter/penetrar in past participle in english?: ")
     if(ver_tes_irre_18_pre=="thrust" and ver_tes_irre_18_pas=="thrust" and ver_tes_irre_18_par=="thrust"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5434,7 +5444,7 @@ def test_verbs_irregulars():
     ver_tes_irre_19_par=input("costar in past participle in english?: ")
     if(ver_tes_irre_19_pre=="cost" and ver_tes_irre_19_pas=="cost" and ver_tes_irre_19_par=="cost"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5447,7 +5457,7 @@ def test_verbs_irregulars():
     ver_tes_irre_20_par=input("herir in past participle in english?: ")
     if(ver_tes_irre_20_pre=="hurt" and ver_tes_irre_20_pas=="hurt" and ver_tes_irre_20_par=="hurt"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5460,7 +5470,7 @@ def test_verbs_irregulars():
     ver_tes_irre_21_par=input("reventar in past participle in english?: ")
     if(ver_tes_irre_21_pre=="burst" and ver_tes_irre_21_pas=="burst" and ver_tes_irre_21_par=="burst"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5473,7 +5483,7 @@ def test_verbs_irregulars():
     ver_tes_irre_22_par=input("arrojar/lanzar in past participle in english?: ")
     if(ver_tes_irre_22_pre=="cast" and ver_tes_irre_22_pas=="cast" and ver_tes_irre_22_par=="cast"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5486,7 +5496,7 @@ def test_verbs_irregulars():
     ver_tes_irre_23_par=input("transmitir in past participle in english?: ")
     if(ver_tes_irre_23_pre=="broadcast" and ver_tes_irre_23_pas=="broadcast" and ver_tes_irre_23_par=="broadcast"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5499,7 +5509,7 @@ def test_verbs_irregulars():
     ver_tes_irre_24_par=input("predecir in past participle in english?: ")
     if(ver_tes_irre_24_pre=="forecast" and ver_tes_irre_24_pas=="forecast" and ver_tes_irre_24_par=="forecast"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5507,12 +5517,15 @@ def test_verbs_irregulars():
     print("predecir-->forecast-->forecast-->forecast")
     print()
 
+def verb_irregular_group2_10_3_2():
+    print("#10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L]")
+    print()
     ver_tes_irre_25_pre=input("mantener/guardar in present in english?: ")
     ver_tes_irre_25_pas=input("mantener/guardar in past in english?: ")
     ver_tes_irre_25_par=input("mantener/guardar in past participle in english?: ")
     if(ver_tes_irre_25_pre=="keep" and ver_tes_irre_25_pas=="kept" and ver_tes_irre_25_par=="kept"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5526,7 +5539,7 @@ def test_verbs_irregulars():
     ver_tes_irre_26_par=input("dormir in past participle in english?: ")
     if(ver_tes_irre_26_pre=="sleep" and ver_tes_irre_26_pas=="slept" and ver_tes_irre_26_par=="slept"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5539,7 +5552,7 @@ def test_verbs_irregulars():
     ver_tes_irre_27_par=input("barrer in past participle in english?: ")
     if(ver_tes_irre_27_pre=="sweep" and ver_tes_irre_27_pas=="swept" and ver_tes_irre_27_par=="swept"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5552,7 +5565,7 @@ def test_verbs_irregulars():
     ver_tes_irre_28_par=input("llorar in past participle in english?: ")
     if(ver_tes_irre_28_pre=="weep" and ver_tes_irre_28_pas=="wept" and ver_tes_irre_28_par=="wept"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5565,7 +5578,7 @@ def test_verbs_irregulars():
     ver_tes_irre_29_par=input("sentir in past participle in english?: ")
     if(ver_tes_irre_29_pre=="feel" and ver_tes_irre_29_pas=="felt" and ver_tes_irre_29_par=="felt"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5578,7 +5591,7 @@ def test_verbs_irregulars():
     ver_tes_irre_30_par=input("arrodillarse in past participle in english?: ")
     if(ver_tes_irre_30_pre=="kneel" and ver_tes_irre_30_pas=="knelt" and ver_tes_irre_30_par=="knelt"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5586,12 +5599,15 @@ def test_verbs_irregulars():
     print("arrodillarse-->kneel-->knelt-->knelt")
     print()
 
+def verb_irregular_group2_10_3_3():
+    print("#10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding")
+    print()
     ver_tes_irre_31_pre=input("alimentar in present in english?: ")
     ver_tes_irre_31_pas=input("alimentar in past in english?: ")
     ver_tes_irre_31_par=input("alimentar in past participle in english?: ")
     if(ver_tes_irre_31_pre=="feed" and ver_tes_irre_31_pas=="fed" and ver_tes_irre_31_par=="fed"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5604,7 +5620,7 @@ def test_verbs_irregulars():
     ver_tes_irre_32_par=input("sangrar in past participle in english?: ")
     if(ver_tes_irre_32_pre=="bleed" and ver_tes_irre_32_pas=="bled" and ver_tes_irre_32_par=="bled"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5617,7 +5633,7 @@ def test_verbs_irregulars():
     ver_tes_irre_33_par=input("crear/procrear in past participle in english?: ")
     if(ver_tes_irre_33_pre=="breed" and ver_tes_irre_33_pas=="bred" and ver_tes_irre_33_par=="bred"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5631,7 +5647,7 @@ def test_verbs_irregulars():
     ver_tes_irre_34_par=input("acelerar in past participle in english?: ")
     if(ver_tes_irre_34_pre=="speed" and ver_tes_irre_34_pas=="sped" and ver_tes_irre_34_par=="sped"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5644,7 +5660,7 @@ def test_verbs_irregulars():
     ver_tes_irre_35_par=input("conocer in past participle in english?: ")
     if(ver_tes_irre_35_pre=="meet" and ver_tes_irre_35_pas=="met" and ver_tes_irre_35_par=="met"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5652,13 +5668,15 @@ def test_verbs_irregulars():
     print("conocer-->meet-->met-->met")
     print()
 
-
+def verb_irregular_group2_10_3_4():
+    print("#10.3.4: list: verbs that have [ea] and end in [d]")
+    print()
     ver_tes_irre_36_pre=input("guiar in present in english?: ")
     ver_tes_irre_36_pas=input("guiar in past in english?: ")
     ver_tes_irre_36_par=input("guiar in past participle in english?: ")
     if(ver_tes_irre_36_pre=="lead" and ver_tes_irre_36_pas=="let" and ver_tes_irre_36_par=="let"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5666,13 +5684,15 @@ def test_verbs_irregulars():
     print("guiar-->lead-->let-->let")
     print()
 
-
+def verb_irregular_group2_10_3_5():
+    print("#10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M]")
+    print()
     ver_tes_irre_37_pre=input("repartir/dar in present in english?: ")
     ver_tes_irre_37_pas=input("repartir/dar in past in english?: ")
     ver_tes_irre_37_par=input("repartir/dar in past participle in english?: ")
     if(ver_tes_irre_37_pre=="deal" and ver_tes_irre_37_pas=="dealt" and ver_tes_irre_37_par=="dealt"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5685,7 +5705,7 @@ def test_verbs_irregulars():
     ver_tes_irre_38_par=input("inclinarse in past participle in english?: ")
     if(ver_tes_irre_38_pre=="lean" and ver_tes_irre_38_pas=="leant" and ver_tes_irre_38_par=="leant"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5698,7 +5718,7 @@ def test_verbs_irregulars():
     ver_tes_irre_39_par=input("aprender/memorizar in past participle in english?: ")
     if(ver_tes_irre_39_pre=="learn" and ver_tes_irre_39_pas=="learnt/learned" and ver_tes_irre_39_par=="learnt/learned"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5711,7 +5731,7 @@ def test_verbs_irregulars():
     ver_tes_irre_40_par=input("querer decir/significar in past participle in english?: ")
     if(ver_tes_irre_40_pre=="mean" and ver_tes_irre_40_pas=="meant" and ver_tes_irre_40_par=="meant"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5724,7 +5744,7 @@ def test_verbs_irregulars():
     ver_tes_irre_41_par=input("saltar/brincar in past participle in english?: ")
     if(ver_tes_irre_41_pre=="leap" and ver_tes_irre_41_pas=="leapt" and ver_tes_irre_41_par=="leapt"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5737,7 +5757,7 @@ def test_verbs_irregulars():
     ver_tes_irre_42_par=input("soñar in past participle in english?: ")
     if(ver_tes_irre_42_pre=="dream" and ver_tes_irre_42_pas=="dreamt" and ver_tes_irre_42_par=="dreamt"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5745,12 +5765,15 @@ def test_verbs_irregulars():
     print("soñar-->dream-->dreamt-->dreamt")
     print()
 
+def verb_irregular_group2_10_3_6():
+    print("#10.3.6: list: verbs that have the vowels [ea] and end with [R]")
+    print()
     ver_tes_irre_43_pre=input("oir/escuchar in present in english?: ")
     ver_tes_irre_43_pas=input("oir/escuchar in past in english?: ")
     ver_tes_irre_43_par=input("oir/escuchar in past participle in english?: ")
     if(ver_tes_irre_43_pre=="hear" and ver_tes_irre_43_pas=="heard" and ver_tes_irre_43_par=="heard"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5758,12 +5781,15 @@ def test_verbs_irregulars():
     print("oir/escuchar-->hear-->heard-->heard")
     print()
 
+def verb_irregular_group2_10_3_7():
+    print("#10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d]")
+    print()
     ver_tes_irre_44_pre=input("leer in present in english?: ")
     ver_tes_irre_44_pas=input("leer in past in english?: ")
     ver_tes_irre_44_par=input("leer in past participle in english?: ")
     if(ver_tes_irre_44_pre=="read" and ver_tes_irre_44_pas=="read" and ver_tes_irre_44_par=="read"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5771,12 +5797,15 @@ def test_verbs_irregulars():
     print("leer-->read-->read-->read")
     print()
 
+def verb_irregular_group2_10_3_8():
+    print("#10.3.8: list: verbs that end in [-ind]")
+    print()
     ver_tes_irre_45_pre=input("encontrar in present in english?: ")
     ver_tes_irre_45_pas=input("encontrar in past in english?: ")
     ver_tes_irre_45_par=input("encontrar in past participle in english?: ")
     if(ver_tes_irre_45_pre=="find" and ver_tes_irre_45_pas=="found" and ver_tes_irre_45_par=="found"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5789,7 +5818,7 @@ def test_verbs_irregulars():
     ver_tes_irre_46_par=input("atar in past participle in english?: ")
     if(ver_tes_irre_46_pre=="bind" and ver_tes_irre_46_pas=="bound" and ver_tes_irre_46_par=="bound"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5802,7 +5831,7 @@ def test_verbs_irregulars():
     ver_tes_irre_47_par=input("moler in past participle in english?: ")
     if(ver_tes_irre_47_pre=="grind" and ver_tes_irre_47_pas=="ground" and ver_tes_irre_47_par=="ground"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5815,7 +5844,7 @@ def test_verbs_irregulars():
     ver_tes_irre_48_par=input("darle cuerda in past participle in english?: ")
     if(ver_tes_irre_48_pre=="wind" and ver_tes_irre_48_pas=="wound" and ver_tes_irre_48_par=="wound"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5828,7 +5857,7 @@ def test_verbs_irregulars():
     ver_tes_irre_49_par=input("desenrollar in past participle in english?: ")
     if(ver_tes_irre_49_pre=="unwind" and ver_tes_irre_49_pas=="unwound" and ver_tes_irre_49_par=="unwound"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5841,7 +5870,7 @@ def test_verbs_irregulars():
     ver_tes_irre_50_par=input("desatar/desabrochar in past participle in english?: ")
     if(ver_tes_irre_50_pre=="unbind" and ver_tes_irre_50_pas=="unbound" and ver_tes_irre_50_par=="unbound"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5849,12 +5878,15 @@ def test_verbs_irregulars():
     print("desatar/desabrochar-->unbind-->unbound-->unbound")
     print()
 
+def verb_irregular_group2_10_3_9():
+    print("#10.3.9: list: verbs that end in [-end]")
+    print()
     ver_tes_irre_51_pre=input("enviar in present in english?: ")
     ver_tes_irre_51_pas=input("enviar in past in english?: ")
     ver_tes_irre_51_par=input("enviar in past participle in english?: ")
     if(ver_tes_irre_51_pre=="send" and ver_tes_irre_51_pas=="sent" and ver_tes_irre_51_par=="sent"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5867,7 +5899,7 @@ def test_verbs_irregulars():
     ver_tes_irre_52_par=input("gastar in past participle in english?: ")
     if(ver_tes_irre_52_pre=="spend" and ver_tes_irre_52_pas=="spent" and ver_tes_irre_52_par=="spent"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5880,7 +5912,7 @@ def test_verbs_irregulars():
     ver_tes_irre_53_par=input("doblar in past participle in english?: ")
     if(ver_tes_irre_53_pre=="bend" and ver_tes_irre_53_pas=="bent" and ver_tes_irre_53_par=="bent"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5893,7 +5925,7 @@ def test_verbs_irregulars():
     ver_tes_irre_54_par=input("mezclar in past participle in english?: ")
     if(ver_tes_irre_54_pre=="blend" and ver_tes_irre_54_pas=="blent" and ver_tes_irre_54_par=="blent"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5906,7 +5938,7 @@ def test_verbs_irregulars():
     ver_tes_irre_55_par=input("prestar in past participle in english?: ")
     if(ver_tes_irre_55_pre=="lend" and ver_tes_irre_55_pas=="lent" and ver_tes_irre_55_par=="lent"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5914,12 +5946,15 @@ def test_verbs_irregulars():
     print("prestar-->lend-->lent-->lent")
     print()
 
+def verb_irregular_group2_10_3_10():
+    print("#10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig]")
+    print()
     ver_tes_irre_56_pre=input("picar/arder in present in english?: ")
     ver_tes_irre_56_pas=input("picar/arder in past in english?: ")
     ver_tes_irre_56_par=input("picar/arder in past participle in english?: ")
     if(ver_tes_irre_56_pre=="sting" and ver_tes_irre_56_pas=="stung" and ver_tes_irre_56_par=="stung"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5932,7 +5967,7 @@ def test_verbs_irregulars():
     ver_tes_irre_57_par=input("pegachento in past participle in english?: ")
     if(ver_tes_irre_57_pre=="cling" and ver_tes_irre_57_pas=="clung" and ver_tes_irre_57_par=="clung"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5945,7 +5980,7 @@ def test_verbs_irregulars():
     ver_tes_irre_58_par=input("mecerse in past participle in english?: ")
     if(ver_tes_irre_58_pre=="swing" and ver_tes_irre_58_pas=="swung" and ver_tes_irre_58_par=="swung"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5958,7 +5993,7 @@ def test_verbs_irregulars():
     ver_tes_irre_59_par=input("escaparse/escabullirse in past participle in english?: ")
     if(ver_tes_irre_59_pre=="slink" and ver_tes_irre_59_pas=="slunk" and ver_tes_irre_59_par=="slunk"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5971,7 +6006,7 @@ def test_verbs_irregulars():
     ver_tes_irre_60_par=input("pegar in past participle in english?: ")
     if(ver_tes_irre_60_pre=="stick" and ver_tes_irre_60_pas=="stuck" and ver_tes_irre_60_par=="stuck"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5984,7 +6019,7 @@ def test_verbs_irregulars():
     ver_tes_irre_61_par=input("cavar in past participle in english?: ")
     if(ver_tes_irre_61_pre=="dig" and ver_tes_irre_61_pas=="dug" and ver_tes_irre_61_par=="dug"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -5997,7 +6032,7 @@ def test_verbs_irregulars():
     ver_tes_irre_62_par=input("colgar in past participle in english?: ")
     if(ver_tes_irre_62_pre=="hang" and ver_tes_irre_62_pas=="hung" and ver_tes_irre_62_par=="hung"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6005,12 +6040,15 @@ def test_verbs_irregulars():
     print("colgar-->hang-->hung-->hung")
     print()
 
+def verb_irregular_group2_10_3_11():
+    print("#10.3.11: list: verbs that end in [-ay]")
+    print()
     ver_tes_irre_63_pre=input("decir in present in english?: ")
     ver_tes_irre_63_pas=input("decir in past in english?: ")
     ver_tes_irre_63_par=input("decir in past participle in english?: ")
     if(ver_tes_irre_63_pre=="say" and ver_tes_irre_63_pas=="said" and ver_tes_irre_63_par=="said"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6023,7 +6061,7 @@ def test_verbs_irregulars():
     ver_tes_irre_64_par=input("pagar in past participle in english?: ")
     if(ver_tes_irre_64_pre=="pay" and ver_tes_irre_64_pas=="paid" and ver_tes_irre_64_par=="paid"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6036,7 +6074,7 @@ def test_verbs_irregulars():
     ver_tes_irre_65_par=input("extender/poner in past participle in english?: ")
     if(ver_tes_irre_65_pre=="lay" and ver_tes_irre_65_pas=="laid" and ver_tes_irre_65_par=="laid"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6049,20 +6087,23 @@ def test_verbs_irregulars():
     ver_tes_irre_66_par=input("incrustar in past participle in english?: ")
     if(ver_tes_irre_66_pre=="inlay" and ver_tes_irre_66_pas=="inlaid" and ver_tes_irre_66_par=="inlaid"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
     print("incrustar-->inlay-->inlaid-->inlaid")
     print()
-
+    
+def verb_irregular_group2_10_3_12():
+    print("#10.3.12: list: verbs that end in [-ell]")
+    print()
     ver_tes_irre_67_pre=input("decir/contar in present in english?: ")
     ver_tes_irre_67_pas=input("decir/contar in past in english?: ")
     ver_tes_irre_67_par=input("decir/contar in past participle in english?: ")
     if(ver_tes_irre_67_pre=="tell" and ver_tes_irre_67_pas=="told" and ver_tes_irre_67_par=="told"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6075,7 +6116,7 @@ def test_verbs_irregulars():
     ver_tes_irre_68_par=input("vender in past participle in english?: ")
     if(ver_tes_irre_68_pre=="sell" and ver_tes_irre_68_pas=="sold" and ver_tes_irre_68_par=="sold"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6083,13 +6124,15 @@ def test_verbs_irregulars():
     print("vender-->sell-->sold-->sold")
     print()
 
-
+def verb_irregular_group2_10_3_13():
+    print("#10.3.13: list: verbs that end in [-old]")
+    print()
     ver_tes_irre_69_pre=input("agarrar in present in english?: ")
     ver_tes_irre_69_pas=input("agarrar in past in english?: ")
     ver_tes_irre_69_par=input("agarrar in past participle in english?: ")
     if(ver_tes_irre_69_pre=="hold" and ver_tes_irre_69_pas=="held" and ver_tes_irre_69_par=="held"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6102,7 +6145,7 @@ def test_verbs_irregulars():
     ver_tes_irre_70_par=input("observar in past participle in english?: ")
     if(ver_tes_irre_70_pre=="behold" and ver_tes_irre_70_pas=="beheld" and ver_tes_irre_70_par=="beheld"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6115,7 +6158,7 @@ def test_verbs_irregulars():
     ver_tes_irre_71_par=input("sostener in past participle in english?: ")
     if(ver_tes_irre_71_pre=="uphold" and ver_tes_irre_71_pas=="upheld" and ver_tes_irre_71_par=="upheld"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6128,7 +6171,7 @@ def test_verbs_irregulars():
     ver_tes_irre_72_par=input("retener in past participle in english?: ")
     if(ver_tes_irre_72_pre=="withhold" and ver_tes_irre_72_pas=="withheld" and ver_tes_irre_72_par=="withheld"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6136,12 +6179,15 @@ def test_verbs_irregulars():
     print("retener-->withhold-->withheld-->withheld")
     print()
 
+def verb_irregular_group2_10_3_14():
+    print("#10.3.14: list: verbs that end in [-and]")
+    print()
     ver_tes_irre_73_pre=input("estar de pie/aguantar in present in english?: ")
     ver_tes_irre_73_pas=input("estar de pie/aguantar in past in english?: ")
     ver_tes_irre_73_par=input("estar de pie/aguantar in past participle in english?: ")
     if(ver_tes_irre_73_pre=="stand" and ver_tes_irre_73_pas=="stood" and ver_tes_irre_73_par=="stood"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6154,7 +6200,7 @@ def test_verbs_irregulars():
     ver_tes_irre_74_par=input("entender in past participle in english?: ")
     if(ver_tes_irre_74_pre=="understand" and ver_tes_irre_74_pas=="understood" and ver_tes_irre_74_par=="understood"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6167,7 +6213,7 @@ def test_verbs_irregulars():
     ver_tes_irre_75_par=input("soportar in past participle in english?: ")
     if(ver_tes_irre_75_pre=="withstand" and ver_tes_irre_75_pas=="withstood" and ver_tes_irre_75_par=="withstood"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6175,13 +6221,15 @@ def test_verbs_irregulars():
     print("soportar-->withstand-->withstood-->withstood")
     print()
 
-
+def verb_irregular_group2_10_3_15():
+    print("#10.3.15: list: verbs that end in [-se]")
+    print()
     ver_tes_irre_76_pre=input("perder in present in english?: ")
     ver_tes_irre_76_pas=input("perder in past in english?: ")
     ver_tes_irre_76_par=input("perder in past participle in english?: ")
     if(ver_tes_irre_76_pre=="lose" and ver_tes_irre_76_pas=="lost" and ver_tes_irre_76_par=="lost"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6189,12 +6237,15 @@ def test_verbs_irregulars():
     print("perder-->lose-->lost-->lost")
     print()
 
+def verb_irregular_group2_10_3_16():
+    print("#10.3.16: list: verbs that end in [-oot]")
+    print()
     ver_tes_irre_77_pre=input("disparar in present in english?: ")
     ver_tes_irre_77_pas=input("disparar in past in english?: ")
     ver_tes_irre_77_par=input("disparar in past participle in english?: ")
     if(ver_tes_irre_77_pre=="shoot" and ver_tes_irre_77_pas=="shot" and ver_tes_irre_77_par=="shot"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6202,12 +6253,15 @@ def test_verbs_irregulars():
     print("disparar-->shoot-->shot-->shot")
     print()
 
+def verb_irregular_group2_10_3_17():
+    print("#10.3.17: list: the verbs [ught]")
+    print()
     ver_tes_irre_78_pre=input("comprar in present in english?: ")
     ver_tes_irre_78_pas=input("comprar in past in english?: ")
     ver_tes_irre_78_par=input("comprar in past participle in english?: ")
     if(ver_tes_irre_78_pre=="buy" and ver_tes_irre_78_pas=="bought" and ver_tes_irre_78_par=="bought"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6220,7 +6274,7 @@ def test_verbs_irregulars():
     ver_tes_irre_79_par=input("llevar/traer/jalar/mover/trasladar/transportar in past participle in english?: ")
     if(ver_tes_irre_79_pre=="bring" and ver_tes_irre_79_pas=="brought" and ver_tes_irre_79_par=="brought"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6233,7 +6287,7 @@ def test_verbs_irregulars():
     ver_tes_irre_80_par=input("pensar/considerar/reflexionar/creer in past participle in english?: ")
     if(ver_tes_irre_80_pre=="think" and ver_tes_irre_80_pas=="thought" and ver_tes_irre_80_par=="thought"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6246,7 +6300,7 @@ def test_verbs_irregulars():
     ver_tes_irre_81_par=input("luchar/pelear in past participle in english?: ")
     if(ver_tes_irre_81_pre=="fight" and ver_tes_irre_81_pas=="fought" and ver_tes_irre_81_par=="fought"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6259,7 +6313,7 @@ def test_verbs_irregulars():
     ver_tes_irre_82_par=input("enseñar in past participle in english?: ")
     if(ver_tes_irre_82_pre=="teach" and ver_tes_irre_82_pas=="taught" and ver_tes_irre_82_par=="taught"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6272,7 +6326,7 @@ def test_verbs_irregulars():
     ver_tes_irre_83_par=input("coger/pillar/cachar/atrapar in past participle in english?: ")
     if(ver_tes_irre_83_pre=="catch" and ver_tes_irre_83_pas=="caught" and ver_tes_irre_83_par=="caught"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6280,12 +6334,15 @@ def test_verbs_irregulars():
     print("coger/pillar/cachar/atrapar-->catch-->caught-->caught")
     print()
 
+def verb_irregular_group2_10_3_18():
+    print("#10.3.18: list: verbs without keys")
+    print()
     ver_tes_irre_84_pre=input("escupir in present in english?: ")
     ver_tes_irre_84_pas=input("escupir in past in english?: ")
     ver_tes_irre_84_par=input("escupir in past participle in english?: ")
     if(ver_tes_irre_84_pre=="spit" and ver_tes_irre_84_pas=="spit" and ver_tes_irre_84_par=="spit"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6298,7 +6355,7 @@ def test_verbs_irregulars():
     ver_tes_irre_85_par=input("tener in past participle in english?: ")
     if(ver_tes_irre_85_pre=="have" and ver_tes_irre_85_pas=="had" and ver_tes_irre_85_par=="had"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6311,20 +6368,23 @@ def test_verbs_irregulars():
     ver_tes_irre_86_par=input("hacer in past participle in english?: ")
     if(ver_tes_irre_86_pre=="make" and ver_tes_irre_86_pas=="made" and ver_tes_irre_86_par=="made"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
     print("hacer-->make-->made-->made")
     print()
-
+    
+def verb_irregular_group3_10_3_19():
+    print("#10.3.19: list: verbs ending in [i-consonant-e]")
+    print()
     ver_tes_irre_87_pre=input("escribir in present in english?: ")
     ver_tes_irre_87_pas=input("escribir in past in english?: ")
     ver_tes_irre_87_par=input("escribir in past participle in english?: ")
     if(ver_tes_irre_87_pre=="write" and ver_tes_irre_87_pas=="wrote" and ver_tes_irre_87_par=="written"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6337,7 +6397,7 @@ def test_verbs_irregulars():
     ver_tes_irre_88_par=input("ir en/montar en/conducir/manejar in past participle in english?: ")
     if(ver_tes_irre_88_pre=="ride" and ver_tes_irre_88_pas=="rode" and ver_tes_irre_88_par=="ridden"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6350,7 +6410,7 @@ def test_verbs_irregulars():
     ver_tes_irre_89_par=input("conducir/manejar in past participle in english?: ")
     if(ver_tes_irre_89_pre=="drive" and ver_tes_irre_89_pas=="drove" and ver_tes_irre_89_par=="driven"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6363,7 +6423,7 @@ def test_verbs_irregulars():
     ver_tes_irre_90_par=input("subir in past participle in english?: ")
     if(ver_tes_irre_90_pre=="rise" and ver_tes_irre_90_pas=="rose" and ver_tes_irre_90_par=="risen"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6376,7 +6436,7 @@ def test_verbs_irregulars():
     ver_tes_irre_91_par=input("tratar de/esforzarse por in past participle in english?: ")
     if(ver_tes_irre_91_pre=="strive" and ver_tes_irre_91_pas=="strove" and ver_tes_irre_91_par=="striven"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6389,7 +6449,7 @@ def test_verbs_irregulars():
     ver_tes_irre_92_par=input("dar zancadas/caminar con pasos largos in past participle in english?: ")
     if(ver_tes_irre_92_pre=="stride" and ver_tes_irre_92_pas=="strode" and ver_tes_irre_92_par=="stridden"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6402,7 +6462,7 @@ def test_verbs_irregulars():
     ver_tes_irre_93_par=input("aniquilar/destruir/golpear/batir in past participle in english?: ")
     if(ver_tes_irre_93_pre=="smite" and ver_tes_irre_93_pas=="smote" and ver_tes_irre_93_par=="smitten"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6410,12 +6470,15 @@ def test_verbs_irregulars():
     print("aniquilar/destruir/golpear/batir-->smite-->smote-->smitten")
     print()
 
+def verb_irregular_group3_10_3_20():
+    print("#10.3.20: list: verbs containing the vowels [ea,e and a]")
+    print()
     ver_tes_irre_94_pre=input("hablar in present in english?: ")
     ver_tes_irre_94_pas=input("hablar in past in english?: ")
     ver_tes_irre_94_par=input("hablar in past participle in english?: ")
     if(ver_tes_irre_94_pre=="speak" and ver_tes_irre_94_pas=="spoke" and ver_tes_irre_94_par=="spoken"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6428,7 +6491,7 @@ def test_verbs_irregulars():
     ver_tes_irre_95_par=input("robar in past participle in english?: ")
     if(ver_tes_irre_95_pre=="steal" and ver_tes_irre_95_pas=="stole" and ver_tes_irre_95_par=="stolen"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6441,7 +6504,7 @@ def test_verbs_irregulars():
     ver_tes_irre_96_par=input("romper/quebrar in past participle in english?: ")
     if(ver_tes_irre_96_pre=="break" and ver_tes_irre_96_pas=="broke" and ver_tes_irre_96_par=="broken"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6454,7 +6517,7 @@ def test_verbs_irregulars():
     ver_tes_irre_97_par=input("despertarse in past participle in english?: ")
     if(ver_tes_irre_97_pre=="wake" and ver_tes_irre_97_pas=="woke" and ver_tes_irre_97_par=="woken"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6462,12 +6525,14 @@ def test_verbs_irregulars():
     print("despertarse-->wake-->woke-->woken")
     print()
 
+def verb_irregular_group3_10_3_21():
+    print("#10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un]")
+    print()
     ver_tes_irre_98_pre=input("empezar/comenzar/iniciar in present in english?: ")
     ver_tes_irre_98_pas=input("empezar/comenzar/iniciar in past in english?: ")
     ver_tes_irre_98_par=input("empezar/comenzar/iniciar in past participle in english?: ")
     if(ver_tes_irre_98_pre=="begin" and ver_tes_irre_98_pas=="began" and ver_tes_irre_98_par=="begun"):
         print("correct")
-        var_tes_ver_irre+=1
     else:
         print("incorrect")
     print()
@@ -6480,7 +6545,7 @@ def test_verbs_irregulars():
     ver_tes_irre_99_par=input("tomar/beber in past participle in english?: ")
     if(ver_tes_irre_99_pre=="drink" and ver_tes_irre_99_pas=="drank" and ver_tes_irre_99_par=="drunk"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6493,7 +6558,7 @@ def test_verbs_irregulars():
     ver_tes_irre_100_par=input("hundir in past participle in english?: ")
     if(ver_tes_irre_100_pre=="sink" and ver_tes_irre_100_pas=="sank" and ver_tes_irre_100_par=="sunk"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6506,7 +6571,7 @@ def test_verbs_irregulars():
     ver_tes_irre_101_par=input("apestar in past participle in english?: ")
     if(ver_tes_irre_101_pre=="stink" and ver_tes_irre_101_pas=="stank" and ver_tes_irre_101_par=="stunk"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6519,7 +6584,7 @@ def test_verbs_irregulars():
     ver_tes_irre_102_par=input("nadar in past participle in english?: ")
     if(ver_tes_irre_102_pre=="swim" and ver_tes_irre_102_pas=="swam" and ver_tes_irre_102_par=="swum"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6532,7 +6597,7 @@ def test_verbs_irregulars():
     ver_tes_irre_103_par=input("brotar/florecer in past participle in english?: ")
     if(ver_tes_irre_103_pre=="spring" and ver_tes_irre_103_pas=="sprang" and ver_tes_irre_103_par=="sprung"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6545,7 +6610,7 @@ def test_verbs_irregulars():
     ver_tes_irre_104_par=input("encogido in past participle in english?: ")
     if(ver_tes_irre_104_pre=="shrink" and ver_tes_irre_104_pas=="shrank" and ver_tes_irre_104_par=="shrunk"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6558,7 +6623,7 @@ def test_verbs_irregulars():
     ver_tes_irre_105_par=input("llamar a/hacer sonar/sonar/timbrar/repicar in past participle in english?: ")
     if(ver_tes_irre_105_pre=="ring" and ver_tes_irre_105_pas=="rang" and ver_tes_irre_105_par=="rung"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6571,7 +6636,7 @@ def test_verbs_irregulars():
     ver_tes_irre_106_par=input("recorrer/correr/operar/hacer funcionar/ejecutar in past participle in english?: ")
     if(ver_tes_irre_106_pre=="run" and ver_tes_irre_106_pas=="ran" and ver_tes_irre_106_par=="run"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6579,12 +6644,15 @@ def test_verbs_irregulars():
     print("recorrer/correr/operar/hacer funcionar/ejecutar-->run-->ran-->run")
     print()
 
+def verb_irregular_group3_10_3_22():
+    print("#10.3.22: list: verbs ending in [-ear]")
+    print()
     ver_tes_irre_107_pre=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in present in english?: ")
     ver_tes_irre_107_pas=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in past in english?: ")
     ver_tes_irre_107_par=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in past participle in english?: ")
     if(ver_tes_irre_107_pre=="wear" and ver_tes_irre_107_pas=="wore" and ver_tes_irre_107_par=="worn"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6597,7 +6665,7 @@ def test_verbs_irregulars():
     ver_tes_irre_108_par=input("maldecir/jurar/decir groserias/decir malas palabras in past participle in english?: ")
     if(ver_tes_irre_108_pre=="swear" and ver_tes_irre_108_pas=="swore" and ver_tes_irre_108_par=="sworn"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6610,7 +6678,7 @@ def test_verbs_irregulars():
     ver_tes_irre_109_par=input("tolerar in past participle in english?: ")
     if(ver_tes_irre_109_pre=="bear" and ver_tes_irre_109_pas=="bore" and ver_tes_irre_109_par=="born"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6623,7 +6691,7 @@ def test_verbs_irregulars():
     ver_tes_irre_110_par=input("rasgar in past participle in english?: ")
     if(ver_tes_irre_110_pre=="tear" and ver_tes_irre_110_pas=="tore" and ver_tes_irre_110_par=="torn"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6631,12 +6699,15 @@ def test_verbs_irregulars():
     print("rasgar-->tear-->tore-->torn")
     print()
 
+def verb_irregular_group3_10_3_23():
+    print("#10.3.22: list: verbs ending in [-ake]")
+    print()
     ver_tes_irre_111_pre=input("agarrar/coger in present in english?: ")
     ver_tes_irre_111_pas=input("agarrar/coger in past in english?: ")
     ver_tes_irre_111_par=input("agarrar/coger in past participle in english?: ")
     if(ver_tes_irre_111_pre=="take" and ver_tes_irre_111_pas=="took" and ver_tes_irre_111_par=="taken"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6649,7 +6720,7 @@ def test_verbs_irregulars():
     ver_tes_irre_112_par=input("emprender/comenzar/empezar in past participle in english?: ")
     if(ver_tes_irre_112_pre=="undertake" and ver_tes_irre_112_pas=="undertook" and ver_tes_irre_112_par=="undertaken"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6662,7 +6733,7 @@ def test_verbs_irregulars():
     ver_tes_irre_113_par=input("participar in past participle in english?: ")
     if(ver_tes_irre_113_pre=="partake" and ver_tes_irre_113_pas=="partook" and ver_tes_irre_113_par=="partaken"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6675,7 +6746,7 @@ def test_verbs_irregulars():
     ver_tes_irre_114_par=input("menear in past participle in english?: ")
     if(ver_tes_irre_114_pre=="shake" and ver_tes_irre_114_pas=="shook" and ver_tes_irre_114_par=="shaken"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6683,12 +6754,15 @@ def test_verbs_irregulars():
     print("menear-->shake-->shook-->shaken")
     print()
 
+def verb_irregular_group3_10_3_24():
+    print("#10.3.23: list: verbs ending in [-get]")
+    print()
     ver_tes_irre_115_pre=input("conseguir in present in english?: ")
     ver_tes_irre_115_pas=input("conseguir in past in english?: ")
     ver_tes_irre_115_par=input("conseguir in past participle in english?: ")
     if(ver_tes_irre_115_pre=="get" and ver_tes_irre_115_pas=="got" and ver_tes_irre_115_par=="gotten"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6701,20 +6775,22 @@ def test_verbs_irregulars():
     ver_tes_irre_116_par=input("olvidar in past participle in english?: ")
     if(ver_tes_irre_116_pre=="forget" and ver_tes_irre_116_pas=="forgot" and ver_tes_irre_116_par=="forgotten"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
-    print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
     print("olvidar-->forget-->forgot-->forgotten")
     print()
 
+def verb_irregular_group3_10_3_25():
+    print("#10.3.24: list: verbs ending in [-ive, -id]")
+    print()
     ver_tes_irre_117_pre=input("dar in present in english?: ")
     ver_tes_irre_117_pas=input("dar in past in english?: ")
     ver_tes_irre_117_par=input("dar in past participle in english?: ")
     if(ver_tes_irre_117_pre=="give" and ver_tes_irre_117_pas=="gave" and ver_tes_irre_117_par=="given"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6727,7 +6803,7 @@ def test_verbs_irregulars():
     ver_tes_irre_118_par=input("perdoname in past participle in english?: ")
     if(ver_tes_irre_118_pre=="forgive" and ver_tes_irre_118_pas=="forgave" and ver_tes_irre_118_par=="forgiven"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6740,7 +6816,7 @@ def test_verbs_irregulars():
     ver_tes_irre_119_par=input("prohibir in past participle in english?: ")
     if(ver_tes_irre_119_pre=="forbid" and ver_tes_irre_119_pas=="forbade" and ver_tes_irre_119_par=="forbidden"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6748,12 +6824,15 @@ def test_verbs_irregulars():
     print("prohibir-->forbid-->forbade-->forbidden")
     print()
 
+def verb_irregular_group3_10_3_26():
+    print("#10.3.25: list: verbs ending in [-ow, -aw, -ly]")
+    print()
     ver_tes_irre_120_pre=input("conocer/saber in present in english?: ")
     ver_tes_irre_120_pas=input("conocer/saber in past in english?: ")
     ver_tes_irre_120_par=input("conocer/saber in past participle in english?: ")
     if(ver_tes_irre_120_pre=="know" and ver_tes_irre_120_pas=="knew" and ver_tes_irre_120_par=="known"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6766,7 +6845,7 @@ def test_verbs_irregulars():
     ver_tes_irre_121_par=input("crecer/hacerse más alto/expandirse/aumentar/desarrollarse in past participle in english?: ")
     if(ver_tes_irre_121_pre=="grow" and ver_tes_irre_121_pas=="grew" and ver_tes_irre_121_par=="grown"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6779,7 +6858,7 @@ def test_verbs_irregulars():
     ver_tes_irre_122_par=input("tirar/lanzar in past participle in english?: ")
     if(ver_tes_irre_122_pre=="throw" and ver_tes_irre_122_pas=="threw" and ver_tes_irre_122_par=="thrown"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6792,7 +6871,7 @@ def test_verbs_irregulars():
     ver_tes_irre_123_par=input("soplar/explotar in past participle in english?: ")
     if(ver_tes_irre_123_pre=="blow" and ver_tes_irre_123_pas=="blew" and ver_tes_irre_123_par=="blown"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6805,7 +6884,7 @@ def test_verbs_irregulars():
     ver_tes_irre_124_par=input("dibujar in past participle in english?: ")
     if(ver_tes_irre_124_pre=="draw" and ver_tes_irre_124_pas=="drew" and ver_tes_irre_124_par=="drawn"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6818,7 +6897,7 @@ def test_verbs_irregulars():
     ver_tes_irre_125_par=input("retirar(de un cajero) in past participle in english?: ")
     if(ver_tes_irre_125_pre=="withdraw" and ver_tes_irre_125_pas=="withdrew" and ver_tes_irre_125_par=="withdrawn"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6831,7 +6910,7 @@ def test_verbs_irregulars():
     ver_tes_irre_126_par=input("excederse in past participle in english?: ")
     if(ver_tes_irre_126_pre=="overdraw" and ver_tes_irre_126_pas=="overdrew" and ver_tes_irre_126_par=="overdrawn"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6844,7 +6923,7 @@ def test_verbs_irregulars():
     ver_tes_irre_127_par=input("volar in past participle in english?: ")
     if(ver_tes_irre_127_pre=="fly" and ver_tes_irre_127_pas=="flew" and ver_tes_irre_127_par=="flown"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6852,12 +6931,15 @@ def test_verbs_irregulars():
     print("volar-->fly-->flew-->flown")
     print()
 
+def verb_irregular_group3_10_3_27():
+    print("#10.3.26: list: verbs ending in [-ome]")
+    print()
     ver_tes_irre_128_pre=input("llego/vengo in present in english?: ")
     ver_tes_irre_128_pas=input("llego/vengo in past in english?: ")
     ver_tes_irre_128_par=input("llego/vengo in past participle in english?: ")
     if(ver_tes_irre_128_pre=="come" and ver_tes_irre_128_pas=="came" and ver_tes_irre_128_par=="come"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6870,7 +6952,7 @@ def test_verbs_irregulars():
     ver_tes_irre_129_par=input("volverse/convertirse en/hacerse in past participle in english?: ")
     if(ver_tes_irre_129_pre=="become" and ver_tes_irre_129_pas=="became" and ver_tes_irre_129_par=="become"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6883,7 +6965,7 @@ def test_verbs_irregulars():
     ver_tes_irre_130_par=input("superar/vencer in past participle in english?: ")
     if(ver_tes_irre_130_pre=="overcome" and ver_tes_irre_130_pas=="overcame" and ver_tes_irre_130_par=="overcome"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6891,12 +6973,15 @@ def test_verbs_irregulars():
     print("superar/vencer-->overcome-->overcame-->overcome")
     print()
 
+def verb_irregular_group3_10_3_28():
+    print("#10.3.27: list: verbs ending in [-see]")
+    print()
     ver_tes_irre_131_pre=input("ver in present in english?: ")
     ver_tes_irre_131_pas=input("ver in past in english?: ")
     ver_tes_irre_131_par=input("ver in past participle in english?: ")
     if(ver_tes_irre_131_pre=="see" and ver_tes_irre_131_pas=="saw" and ver_tes_irre_131_par=="seen"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6909,7 +6994,7 @@ def test_verbs_irregulars():
     ver_tes_irre_132_par=input("predecir/prever/anticipar in past participle in english?: ")
     if(ver_tes_irre_132_pre=="foresee" and ver_tes_irre_132_pas=="foresaw" and ver_tes_irre_132_par=="foreseen"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6922,7 +7007,7 @@ def test_verbs_irregulars():
     ver_tes_irre_133_par=input("supervisar/monitorear/monitorizar in past participle in english?: ")
     if(ver_tes_irre_133_pre=="oversee" and ver_tes_irre_133_pas=="oversaw" and ver_tes_irre_133_par=="overseen"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6930,12 +7015,15 @@ def test_verbs_irregulars():
     print("supervisar/monitorear/monitorizar-->oversee-->oversaw-->overseen")
     print()
 
+def verb_irregular_group3_10_3_29():
+    print("#10.3.28: list: verbs ending in [-do, -go]")
+    print()
     ver_tes_irre_134_pre=input("termine in present in english?: ")
     ver_tes_irre_134_pas=input("termine in past in english?: ")
     ver_tes_irre_134_par=input("termine in past participle in english?: ")
     if(ver_tes_irre_134_pre=="do" and ver_tes_irre_134_pas=="did" and ver_tes_irre_134_par=="done"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6948,7 +7036,7 @@ def test_verbs_irregulars():
     ver_tes_irre_135_par=input("irse/partir in past participle in english?: ")
     if(ver_tes_irre_135_pre=="go" and ver_tes_irre_135_pas=="went" and ver_tes_irre_135_par=="gone"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6961,7 +7049,7 @@ def test_verbs_irregulars():
     ver_tes_irre_136_par=input("deshacer in past participle in english?: ")
     if(ver_tes_irre_136_pre=="undo" and ver_tes_irre_136_pas=="undid" and ver_tes_irre_136_par=="undone"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6974,7 +7062,7 @@ def test_verbs_irregulars():
     ver_tes_irre_137_par=input("hacer de mas in past participle in english?: ")
     if(ver_tes_irre_137_pre=="overdo" and ver_tes_irre_137_pas=="overdid" and ver_tes_irre_137_par=="overdone"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6987,7 +7075,7 @@ def test_verbs_irregulars():
     ver_tes_irre_138_par=input("pasar por dificultades/sufrir in past participle in english?: ")
     if(ver_tes_irre_138_pre=="undergo" and ver_tes_irre_138_pas=="underwent" and ver_tes_irre_138_par=="undergone"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -6995,12 +7083,15 @@ def test_verbs_irregulars():
     print("pasar por dificultades/sufrir-->undergo-->underwent-->undergone")
     print()
 
+def verb_irregular_group3_10_3_30():
+    print("#10.3.29: list: verbs without patterns")
+    print()
     ver_tes_irre_139_pre=input("comer/alimentarse in present in english?: ")
     ver_tes_irre_139_pas=input("comer/alimentarse in past in english?: ")
     ver_tes_irre_139_par=input("comer/alimentarse in past participle in english?: ")
     if(ver_tes_irre_139_pre=="eat" and ver_tes_irre_139_pas=="ate" and ver_tes_irre_139_par=="eaten"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -7013,7 +7104,7 @@ def test_verbs_irregulars():
     ver_tes_irre_140_par=input("caerse/caer in past participle in english?: ")
     if(ver_tes_irre_140_pre=="fall" and ver_tes_irre_140_pas=="fell" and ver_tes_irre_140_par=="fallen"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -7026,7 +7117,7 @@ def test_verbs_irregulars():
     ver_tes_irre_141_par=input("ser/estar/tener in past participle in english?: ")
     if(ver_tes_irre_141_pre=="be" and ver_tes_irre_141_pas=="was/were" and ver_tes_irre_141_par=="been"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
@@ -7039,117 +7130,17 @@ def test_verbs_irregulars():
     ver_tes_irre_142_par=input("cantar in past participle in english?: ")
     if(ver_tes_irre_142_pre=="sing" and ver_tes_irre_142_pas=="sang" and ver_tes_irre_142_par=="sung"):
         print("correct")
-        var_tes_ver_irre+=1
+        
     else:
         print("incorrect")
     print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
     print("cantar-->sing-->sang-->sung")
 
-    if(var_tes_ver_irre==142):
-        cor_or_inc_irre=True
-        print("Test irregular correct")
-    else:
-        print("Test irregular incorrect")
-
-    print()
-
-def verb_irregular_group1_10_3_0():
-    print("#10.3.0: list: These verbs are one syllable and end in [T] or [D]")
-
-def verb_irregular_group1_10_3_1():
-    print("#10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D]")
-
-def verb_irregular_group2_10_3_2():
-    print("#10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L]")
-
-def verb_irregular_group2_10_3_3():
-    print("#10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding")
-
-def verb_irregular_group2_10_3_4():
-    print("#10.3.4: list: verbs that have [ea] and end in [d]")
-
-def verb_irregular_group2_10_3_5():
-    print("#10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M]")
-
-def verb_irregular_group2_10_3_6():
-    print("#10.3.6: list: verbs that have the vowels [ea] and end with [R]")
-
-def verb_irregular_group2_10_3_7():
-    print("#10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d]")
-
-def verb_irregular_group2_10_3_8():
-    print("#10.3.8: list: verbs that end in [-ind]")
-
-def verb_irregular_group2_10_3_9():
-    print("#10.3.9: list: verbs that end in [-end]")
-
-def verb_irregular_group2_10_3_10():
-    print("#10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig]")
-
-def verb_irregular_group2_10_3_11():
-    print("#10.3.11: list: verbs that end in [-ay]")
-
-def verb_irregular_group2_10_3_12():
-    print("#10.3.12: list: verbs that end in [-ell]")
-
-def verb_irregular_group2_10_3_13():
-    print("#10.3.13: list: verbs that end in [-old]")
-
-def verb_irregular_group2_10_3_14():
-    print("#10.3.14: list: verbs that end in [-and]")
-
-def verb_irregular_group2_10_3_15():
-    print("#10.3.15: list: verbs that end in [-se]")
-
-def verb_irregular_group2_10_3_16():
-    print("#10.3.16: list: verbs that end in [-oot]")
-
-def verb_irregular_group2_10_3_17():
-    print("#10.3.17: list: the verbs [ught]")
-
-def verb_irregular_group2_10_3_18():
-    print("#10.3.18: list: verbs without keys")
-
-def verb_irregular_group3_10_3_19():
-    print("#10.3.19: list: verbs ending in [i-consonant-e]")
-
-def verb_irregular_group3_10_3_20():
-    print("#10.3.20: list: verbs containing the vowels [ea,e and a]")
-
-def verb_irregular_group3_10_3_21():
-    print("#10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un]")
-
-def verb_irregular_group3_10_3_22():
-    print("#10.3.22: list: verbs ending in [-ake]")
-
-def verb_irregular_group3_10_3_23():
-    print("#10.3.23: list: verbs ending in [-get]")
-
-def verb_irregular_group3_10_3_24():
-    print("#10.3.24: list: verbs ending in [-ive, -id]")
-
-def verb_irregular_group3_10_3_25():
-    print("#10.3.25: list: verbs ending in [-ow, -aw, -ly]")
-
-def verb_irregular_group3_10_3_26():
-    print("#10.3.26: list: verbs ending in [-ome]")
-
-def verb_irregular_group3_10_3_27():
-    print("#10.3.27: list: verbs ending in [-see]")
-
-def verb_irregular_group3_10_3_28():
-    print("#10.3.28: list: verbs ending in [-do, -go]")
-
-def verb_irregular_group3_10_3_29():
-    print("#10.3.29: list: verbs without patterns")
-
 def verb():
     wh_ver=input("what is verb?: ")
     if(wh_ver=="a verb is a word expressing action or state"):
         print("correct")
-        var_verb+=1
-        vec_verb[0]="what is a verb"
     else:
         print("incorrect")
     print()
