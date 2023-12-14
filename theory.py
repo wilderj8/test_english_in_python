@@ -6778,6 +6778,7 @@ def verb_irregular_group3_10_3_24():
         
     else:
         print("incorrect")
+    print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
     print("olvidar-->forget-->forgot-->forgotten")
     print()
