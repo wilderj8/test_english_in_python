@@ -1,0 +1,18 @@
+INTENTO #1:
+    THEORY(Quede: Numbers):
+        Fallidas:
+            -Abecedary:
+                -->
+                
+            -Numbers:
+                -->
+
+            -Months:
+                -->
+
+            -Basic Sentence structure:
+                -->
+
+        Solucionadas:
+            -
+            -

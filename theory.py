@@ -1628,6 +1628,7 @@ def list_correct_verbs_regular():
     print("Grabar-->record-->recorded-->recorded")
     
 def abecedary():
+    print("#1: Abecedary -------------------------------------------------------------------------------------")
     good=0
     vec_abe=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
     print()
@@ -1826,6 +1827,7 @@ def abecedary():
     print()
 
 def numbers():
+    print("#2: Numbers -------------------------------------------------------------------------------------")
     print()
     var_num=0
     vec_num=["----","----","----","----""----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
@@ -2605,6 +2607,7 @@ def numbers():
     print()
 
 def months():
+    print("#3: Months -------------------------------------------------------------------------------------")
     good=0
     vec_mon=["------","------","------","------","------","------","------","------","------","------","------","------"]
     print()
@@ -2731,6 +2734,7 @@ def months():
     print()
 
 def noun_subject():
+    print("#6: Noun Subject -------------------------------------------------------------------------------------")
     print()
     answer_wh_sub=input("what is a subject?: ")
     if(answer_wh_sub=="a subject is a part of a sentence that contains the person or thing performing the action in a sentence"):
@@ -3327,6 +3331,7 @@ def noun_subject():
     print()
 
 def pronouns():    
+    print("#7: Pronouns -------------------------------------------------------------------------------------")
     print()
     answer_wh_ar_pro=input("what are pronouns?: ")
     if(answer_wh_ar_pro=="pronouns are the words we often use to talk about a person when we are not using their name"):
@@ -4234,6 +4239,7 @@ def examples_articles_def():
     return example
 
 def articles():
+    print("#8: Article -------------------------------------------------------------------------------------")
     articles_var=False
     var_art=0
     vec_art=["----","----","----","----","----","----","----"]
@@ -4334,6 +4340,7 @@ def articles():
     print()
 
 def adjective():
+    print("#9: Adjective -------------------------------------------------------------------------------------")
     print()
     answer_wh_adj=input("what is a adjective?: ")
     if(answer_wh_adj=="an adjective is a word that describes the traits,qualities or number of a noun"):
@@ -4865,6 +4872,7 @@ def adjective_example():
     return point
 
 def test_verbs():
+    print("#10.1: Test verbs -------------------------------------------------------------------------------------")
     print("test verbs")
     var_tes_ver=0
     cor_or_inc=False
@@ -5175,6 +5183,7 @@ def test_verbs():
     print()
 
 def test_verbs_regular():
+    print("#10.2: Test verb regular -------------------------------------------------------------------------------------")
     print("test verbs regulars")
     var_tes_ver_reg=0
     cor_or_inc_reg=False
@@ -6755,7 +6764,7 @@ def verb_irregular_group3_10_3_23():
     print()
 
 def verb_irregular_group3_10_3_24():
-    print("#10.3.23: list: verbs ending in [-get]")
+    print("#10.3.24: list: verbs ending in [-get]")
     print()
     ver_tes_irre_115_pre=input("conseguir in present in english?: ")
     ver_tes_irre_115_pas=input("conseguir in past in english?: ")
@@ -6784,7 +6793,7 @@ def verb_irregular_group3_10_3_24():
     print()
 
 def verb_irregular_group3_10_3_25():
-    print("#10.3.24: list: verbs ending in [-ive, -id]")
+    print("#10.3.25: list: verbs ending in [-ive, -id]")
     print()
     ver_tes_irre_117_pre=input("dar in present in english?: ")
     ver_tes_irre_117_pas=input("dar in past in english?: ")
@@ -6826,7 +6835,7 @@ def verb_irregular_group3_10_3_25():
     print()
 
 def verb_irregular_group3_10_3_26():
-    print("#10.3.25: list: verbs ending in [-ow, -aw, -ly]")
+    print("#10.3.26: list: verbs ending in [-ow, -aw, -ly]")
     print()
     ver_tes_irre_120_pre=input("conocer/saber in present in english?: ")
     ver_tes_irre_120_pas=input("conocer/saber in past in english?: ")
@@ -6933,7 +6942,7 @@ def verb_irregular_group3_10_3_26():
     print()
 
 def verb_irregular_group3_10_3_27():
-    print("#10.3.26: list: verbs ending in [-ome]")
+    print("#10.3.27: list: verbs ending in [-ome]")
     print()
     ver_tes_irre_128_pre=input("llego/vengo in present in english?: ")
     ver_tes_irre_128_pas=input("llego/vengo in past in english?: ")
@@ -6975,7 +6984,7 @@ def verb_irregular_group3_10_3_27():
     print()
 
 def verb_irregular_group3_10_3_28():
-    print("#10.3.27: list: verbs ending in [-see]")
+    print("#10.3.28: list: verbs ending in [-see]")
     print()
     ver_tes_irre_131_pre=input("ver in present in english?: ")
     ver_tes_irre_131_pas=input("ver in past in english?: ")
@@ -7017,7 +7026,7 @@ def verb_irregular_group3_10_3_28():
     print()
 
 def verb_irregular_group3_10_3_29():
-    print("#10.3.28: list: verbs ending in [-do, -go]")
+    print("#10.3.29: list: verbs ending in [-do, -go]")
     print()
     ver_tes_irre_134_pre=input("termine in present in english?: ")
     ver_tes_irre_134_pas=input("termine in past in english?: ")
@@ -7085,7 +7094,7 @@ def verb_irregular_group3_10_3_29():
     print()
 
 def verb_irregular_group3_10_3_30():
-    print("#10.3.29: list: verbs without patterns")
+    print("#10.3.30: list: verbs without patterns")
     print()
     ver_tes_irre_139_pre=input("comer/alimentarse in present in english?: ")
     ver_tes_irre_139_pas=input("comer/alimentarse in past in english?: ")
@@ -7139,6 +7148,7 @@ def verb_irregular_group3_10_3_30():
     print("cantar-->sing-->sang-->sung")
 
 def verb():
+    print("#10: Verb -------------------------------------------------------------------------------------")
     wh_ver=input("what is verb?: ")
     if(wh_ver=="a verb is a word expressing action or state"):
         print("correct")
@@ -7301,15 +7311,18 @@ def perfect_test():
     return tru_or_fal
 
 def aux_verb():
+    print("#11: Auxiliary verb  -------------------------------------------------------------------------------------")
     good_aux_verb=0
     tru_or_fal_aux_ver=False
-
+    print()
+    
     tim_ver=input("tell me the tenses in english: ")
     if(tim_ver=="past/present/future"):
         print("correct")
         good_aux_verb+=1
     else:
         print("incorrect")
+    print("tell me the tenses in english: past/present/future")
     print()
 
     asp_ver=input("what are the aspects of each tense: ")
@@ -7318,6 +7331,9 @@ def aux_verb():
         good_aux_verb+=1
     else:
         print("incorrect")
+    print("what are the aspects of each tense: simple/continuous/perfect/continuous perfect ")
+    print()
+
     print()
 
     aux_sim_str=input("how is the structure of the simple: ")
@@ -7326,6 +7342,7 @@ def aux_verb():
         good_aux_verb+=1
     else:
         print("incorrect")
+    print("how is the structure of the simple: to do")
     print()
 
     aux_con_str=input("how is the structure of the continuo: ")
@@ -7334,6 +7351,7 @@ def aux_verb():
         good_aux_verb+=1
     else:
         print("incorrect")
+    print("how is the structure of the continuo: to-be+gerundio")
     print()
 
     aux_per_str=input("how is the structure of the perfect: ")
@@ -7342,6 +7360,7 @@ def aux_verb():
         good_aux_verb+=1
     else:
         print("incorrect")
+    print("how is the structure of the perfect: to have+past participle")
     print()
 
     aux_con_per_str=input("how is the structure of the continuo perfect: ")
@@ -7350,16 +7369,6 @@ def aux_verb():
         good_aux_verb+=1
     else:
         print("incorrect")
-    print()
-
-    
-    #RESPUESTAS
-    print("Answers: ")
-    print("tell me the tenses in english: past/present/future")
-    print("what are the aspects of each tense: simple/continuous/perfect/continuous perfect ")
-    print("how is the structure of the simple: to do")
-    print("how is the structure of the continuo: to-be+gerundio")
-    print("how is the structure of the perfect: to have+past participle")
     print("how is the structure of the continuo perfect: to-be+to have")
     print()
 
@@ -7782,6 +7791,7 @@ def adverb():
     return point
             
 def simple_rules():
+    print("#5: Simple rules -------------------------------------------------------------------------------------")
     print("SIMPLE RULES")
     vec_sim_rul=["------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------","------"]
     good_sim_rul=0
@@ -8093,6 +8103,7 @@ def simple_rules():
     list_correct_simple_rules()
 
 def basic_sentence_structure():
+    print("#4: Basic sentence Structure -------------------------------------------------------------------------------------")
     print()
     print("BASIC SENTENCE STRUCTURE")
     answer_bas_sen_str=input("what the basic sentence structure?: ")
