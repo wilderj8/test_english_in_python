@@ -1,5 +1,5 @@
 INTENTO #1:
-    THEORY(Quede: Numbers):
+    THEORY(Quede: #6 Noun subject):
         Fallidas:
             -Abecedary:
                 -->
@@ -10,7 +10,7 @@ INTENTO #1:
             -Months:
                 -->
 
-            -Basic Sentence structure:
+            -Simple rules:
                 -->
 
         Solucionadas:

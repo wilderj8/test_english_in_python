@@ -8101,6 +8101,7 @@ def simple_rules():
     
     print()
     list_correct_simple_rules()
+    print()
 
 def basic_sentence_structure():
     print("#4: Basic sentence Structure -------------------------------------------------------------------------------------")
