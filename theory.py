@@ -5207,8 +5207,8 @@ def test_verbs_regular():
     list_correct_verbs_regular()
     print()
     
-def verb_irregular_group1_10_3_0():
-    print("#10.3.0: list: These verbs are one syllable and end in [T] or [D]")
+def verb_irregular_group1_10_3_0():     
+    print("#10.3.0: list: These verbs are one syllable and end in [T] or [D] ---------------------------")
     print()
     ver_tes_irre_1_pre=input("golpear in present in english?: ")
     ver_tes_irre_1_pas=input("golpear in past in english?: ")
@@ -5354,7 +5354,7 @@ def verb_irregular_group1_10_3_0():
     print()
 
 def verb_irregular_group1_10_3_1():
-    print("#10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D]")
+    print("#10.3.1: list: These verbs are made up of one syllable except 2 and end in [T] or [D] ---------------------------")
     print()
     ver_tes_irre_12_pre=input("esparcir in present in english?: ")
     ver_tes_irre_12_pas=input("esparcir in past in english?: ")
@@ -5527,7 +5527,7 @@ def verb_irregular_group1_10_3_1():
     print()
 
 def verb_irregular_group2_10_3_2():
-    print("#10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L]")
+    print("#10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L] ---------------------------")
     print()
     ver_tes_irre_25_pre=input("mantener/guardar in present in english?: ")
     ver_tes_irre_25_pas=input("mantener/guardar in past in english?: ")
@@ -5609,7 +5609,7 @@ def verb_irregular_group2_10_3_2():
     print()
 
 def verb_irregular_group2_10_3_3():
-    print("#10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding")
+    print("#10.3.3: list: verbs that end in [d,t] and have the double e(ee) without adding ---------------------------")
     print()
     ver_tes_irre_31_pre=input("alimentar in present in english?: ")
     ver_tes_irre_31_pas=input("alimentar in past in english?: ")
@@ -5678,7 +5678,7 @@ def verb_irregular_group2_10_3_3():
     print()
 
 def verb_irregular_group2_10_3_4():
-    print("#10.3.4: list: verbs that have [ea] and end in [d]")
+    print("#10.3.4: list: verbs that have [ea] and end in [d] ---------------------------")
     print()
     ver_tes_irre_36_pre=input("guiar in present in english?: ")
     ver_tes_irre_36_pas=input("guiar in past in english?: ")
@@ -5694,7 +5694,7 @@ def verb_irregular_group2_10_3_4():
     print()
 
 def verb_irregular_group2_10_3_5():
-    print("#10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M]")
+    print("#10.3.5: list: verbs that have the vowels [ea] and end with [L,N,P,M] ---------------------------")
     print()
     ver_tes_irre_37_pre=input("repartir/dar in present in english?: ")
     ver_tes_irre_37_pas=input("repartir/dar in past in english?: ")
@@ -5775,7 +5775,7 @@ def verb_irregular_group2_10_3_5():
     print()
 
 def verb_irregular_group2_10_3_6():
-    print("#10.3.6: list: verbs that have the vowels [ea] and end with [R]")
+    print("#10.3.6: list: verbs that have the vowels [ea] and end with [R] ---------------------------")
     print()
     ver_tes_irre_43_pre=input("oir/escuchar in present in english?: ")
     ver_tes_irre_43_pas=input("oir/escuchar in past in english?: ")
@@ -5791,7 +5791,7 @@ def verb_irregular_group2_10_3_6():
     print()
 
 def verb_irregular_group2_10_3_7():
-    print("#10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d]")
+    print("#10.3.7: list: verbs that begin wiht [R], have the vowels [ea] and end with [d] ---------------------------")
     print()
     ver_tes_irre_44_pre=input("leer in present in english?: ")
     ver_tes_irre_44_pas=input("leer in past in english?: ")
@@ -5807,7 +5807,7 @@ def verb_irregular_group2_10_3_7():
     print()
 
 def verb_irregular_group2_10_3_8():
-    print("#10.3.8: list: verbs that end in [-ind]")
+    print("#10.3.8: list: verbs that end in [-ind] ---------------------------")
     print()
     ver_tes_irre_45_pre=input("encontrar in present in english?: ")
     ver_tes_irre_45_pas=input("encontrar in past in english?: ")
@@ -5888,7 +5888,7 @@ def verb_irregular_group2_10_3_8():
     print()
 
 def verb_irregular_group2_10_3_9():
-    print("#10.3.9: list: verbs that end in [-end]")
+    print("#10.3.9: list: verbs that end in [-end] ---------------------------")
     print()
     ver_tes_irre_51_pre=input("enviar in present in english?: ")
     ver_tes_irre_51_pas=input("enviar in past in english?: ")
@@ -5956,7 +5956,7 @@ def verb_irregular_group2_10_3_9():
     print()
 
 def verb_irregular_group2_10_3_10():
-    print("#10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig]")
+    print("#10.3.10: list: verbs that end in [-ing, -ink, -ick, -ig] ---------------------------")
     print()
     ver_tes_irre_56_pre=input("picar/arder in present in english?: ")
     ver_tes_irre_56_pas=input("picar/arder in past in english?: ")
@@ -6050,7 +6050,7 @@ def verb_irregular_group2_10_3_10():
     print()
 
 def verb_irregular_group2_10_3_11():
-    print("#10.3.11: list: verbs that end in [-ay]")
+    print("#10.3.11: list: verbs that end in [-ay] ---------------------------")
     print()
     ver_tes_irre_63_pre=input("decir in present in english?: ")
     ver_tes_irre_63_pas=input("decir in past in english?: ")
@@ -6105,7 +6105,7 @@ def verb_irregular_group2_10_3_11():
     print()
     
 def verb_irregular_group2_10_3_12():
-    print("#10.3.12: list: verbs that end in [-ell]")
+    print("#10.3.12: list: verbs that end in [-ell] ---------------------------")
     print()
     ver_tes_irre_67_pre=input("decir/contar in present in english?: ")
     ver_tes_irre_67_pas=input("decir/contar in past in english?: ")
@@ -6134,7 +6134,7 @@ def verb_irregular_group2_10_3_12():
     print()
 
 def verb_irregular_group2_10_3_13():
-    print("#10.3.13: list: verbs that end in [-old]")
+    print("#10.3.13: list: verbs that end in [-old] ---------------------------")
     print()
     ver_tes_irre_69_pre=input("agarrar in present in english?: ")
     ver_tes_irre_69_pas=input("agarrar in past in english?: ")
@@ -6189,7 +6189,7 @@ def verb_irregular_group2_10_3_13():
     print()
 
 def verb_irregular_group2_10_3_14():
-    print("#10.3.14: list: verbs that end in [-and]")
+    print("#10.3.14: list: verbs that end in [-and] ---------------------------")
     print()
     ver_tes_irre_73_pre=input("estar de pie/aguantar in present in english?: ")
     ver_tes_irre_73_pas=input("estar de pie/aguantar in past in english?: ")
@@ -6231,7 +6231,7 @@ def verb_irregular_group2_10_3_14():
     print()
 
 def verb_irregular_group2_10_3_15():
-    print("#10.3.15: list: verbs that end in [-se]")
+    print("#10.3.15: list: verbs that end in [-se] ---------------------------")
     print()
     ver_tes_irre_76_pre=input("perder in present in english?: ")
     ver_tes_irre_76_pas=input("perder in past in english?: ")
@@ -6247,7 +6247,7 @@ def verb_irregular_group2_10_3_15():
     print()
 
 def verb_irregular_group2_10_3_16():
-    print("#10.3.16: list: verbs that end in [-oot]")
+    print("#10.3.16: list: verbs that end in [-oot] ---------------------------")
     print()
     ver_tes_irre_77_pre=input("disparar in present in english?: ")
     ver_tes_irre_77_pas=input("disparar in past in english?: ")
@@ -6263,7 +6263,7 @@ def verb_irregular_group2_10_3_16():
     print()
 
 def verb_irregular_group2_10_3_17():
-    print("#10.3.17: list: the verbs [ught]")
+    print("#10.3.17: list: the verbs [ught] ---------------------------")
     print()
     ver_tes_irre_78_pre=input("comprar in present in english?: ")
     ver_tes_irre_78_pas=input("comprar in past in english?: ")
@@ -6344,7 +6344,7 @@ def verb_irregular_group2_10_3_17():
     print()
 
 def verb_irregular_group2_10_3_18():
-    print("#10.3.18: list: verbs without keys")
+    print("#10.3.18: list: verbs without keys ---------------------------")
     print()
     ver_tes_irre_84_pre=input("escupir in present in english?: ")
     ver_tes_irre_84_pas=input("escupir in past in english?: ")
@@ -6386,7 +6386,7 @@ def verb_irregular_group2_10_3_18():
     print()
     
 def verb_irregular_group3_10_3_19():
-    print("#10.3.19: list: verbs ending in [i-consonant-e]")
+    print("#10.3.19: list: verbs ending in [i-consonant-e] ---------------------------")
     print()
     ver_tes_irre_87_pre=input("escribir in present in english?: ")
     ver_tes_irre_87_pas=input("escribir in past in english?: ")
@@ -6480,7 +6480,7 @@ def verb_irregular_group3_10_3_19():
     print()
 
 def verb_irregular_group3_10_3_20():
-    print("#10.3.20: list: verbs containing the vowels [ea,e and a]")
+    print("#10.3.20: list: verbs containing the vowels [ea,e and a] ---------------------------")
     print()
     ver_tes_irre_94_pre=input("hablar in present in english?: ")
     ver_tes_irre_94_pas=input("hablar in past in english?: ")
@@ -6535,7 +6535,7 @@ def verb_irregular_group3_10_3_20():
     print()
 
 def verb_irregular_group3_10_3_21():
-    print("#10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un]")
+    print("#10.3.21: list: verbs ending in [-in, -ink, -im, -ing, -un] ---------------------------")
     print()
     ver_tes_irre_98_pre=input("empezar/comenzar/iniciar in present in english?: ")
     ver_tes_irre_98_pas=input("empezar/comenzar/iniciar in past in english?: ")
@@ -6654,7 +6654,7 @@ def verb_irregular_group3_10_3_21():
     print()
 
 def verb_irregular_group3_10_3_22():
-    print("#10.3.22: list: verbs ending in [-ear]")
+    print("#10.3.22: list: verbs ending in [-ear] ---------------------------")
     print()
     ver_tes_irre_107_pre=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in present in english?: ")
     ver_tes_irre_107_pas=input("usar/tener/llevar puesto/tener puesto/ponerse/vestir/usar in past in english?: ")
@@ -6709,7 +6709,7 @@ def verb_irregular_group3_10_3_22():
     print()
 
 def verb_irregular_group3_10_3_23():
-    print("#10.3.22: list: verbs ending in [-ake]")
+    print("#10.3.22: list: verbs ending in [-ake] ---------------------------")
     print()
     ver_tes_irre_111_pre=input("agarrar/coger in present in english?: ")
     ver_tes_irre_111_pas=input("agarrar/coger in past in english?: ")
@@ -6764,7 +6764,7 @@ def verb_irregular_group3_10_3_23():
     print()
 
 def verb_irregular_group3_10_3_24():
-    print("#10.3.24: list: verbs ending in [-get]")
+    print("#10.3.24: list: verbs ending in [-get] ---------------------------")
     print()
     ver_tes_irre_115_pre=input("conseguir in present in english?: ")
     ver_tes_irre_115_pas=input("conseguir in past in english?: ")
@@ -6793,7 +6793,7 @@ def verb_irregular_group3_10_3_24():
     print()
 
 def verb_irregular_group3_10_3_25():
-    print("#10.3.25: list: verbs ending in [-ive, -id]")
+    print("#10.3.25: list: verbs ending in [-ive, -id] ---------------------------")
     print()
     ver_tes_irre_117_pre=input("dar in present in english?: ")
     ver_tes_irre_117_pas=input("dar in past in english?: ")
@@ -6835,7 +6835,7 @@ def verb_irregular_group3_10_3_25():
     print()
 
 def verb_irregular_group3_10_3_26():
-    print("#10.3.26: list: verbs ending in [-ow, -aw, -ly]")
+    print("#10.3.26: list: verbs ending in [-ow, -aw, -ly] ---------------------------")
     print()
     ver_tes_irre_120_pre=input("conocer/saber in present in english?: ")
     ver_tes_irre_120_pas=input("conocer/saber in past in english?: ")
@@ -6942,7 +6942,7 @@ def verb_irregular_group3_10_3_26():
     print()
 
 def verb_irregular_group3_10_3_27():
-    print("#10.3.27: list: verbs ending in [-ome]")
+    print("#10.3.27: list: verbs ending in [-ome] ---------------------------")
     print()
     ver_tes_irre_128_pre=input("llego/vengo in present in english?: ")
     ver_tes_irre_128_pas=input("llego/vengo in past in english?: ")
@@ -6984,7 +6984,7 @@ def verb_irregular_group3_10_3_27():
     print()
 
 def verb_irregular_group3_10_3_28():
-    print("#10.3.28: list: verbs ending in [-see]")
+    print("#10.3.28: list: verbs ending in [-see] ---------------------------")
     print()
     ver_tes_irre_131_pre=input("ver in present in english?: ")
     ver_tes_irre_131_pas=input("ver in past in english?: ")
@@ -7026,7 +7026,7 @@ def verb_irregular_group3_10_3_28():
     print()
 
 def verb_irregular_group3_10_3_29():
-    print("#10.3.29: list: verbs ending in [-do, -go]")
+    print("#10.3.29: list: verbs ending in [-do, -go] ---------------------------")
     print()
     ver_tes_irre_134_pre=input("termine in present in english?: ")
     ver_tes_irre_134_pas=input("termine in past in english?: ")
@@ -7094,7 +7094,7 @@ def verb_irregular_group3_10_3_29():
     print()
 
 def verb_irregular_group3_10_3_30():
-    print("#10.3.30: list: verbs without patterns")
+    print("#10.3.30: list: verbs without patterns ---------------------------")
     print()
     ver_tes_irre_139_pre=input("comer/alimentarse in present in english?: ")
     ver_tes_irre_139_pas=input("comer/alimentarse in past in english?: ")
