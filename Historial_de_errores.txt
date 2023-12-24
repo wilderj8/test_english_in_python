@@ -1,5 +1,5 @@
 INTENTO #1:
-    THEORY(Quede: #6 Noun subject):
+    THEORY(Quede: #10 Verb):
         Fallidas:
             -Abecedary:
                 -->
@@ -11,6 +11,18 @@ INTENTO #1:
                 -->
 
             -Simple rules:
+                -->
+
+            -Noun subject:
+                -->
+
+            -Pronouns:
+                -->
+
+            -Article:
+                -->
+
+            Adjective:
                 -->
 
         Solucionadas:

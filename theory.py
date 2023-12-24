@@ -4340,6 +4340,7 @@ def articles():
     print()
 
 def adjective():
+    print()
     print("#9: Adjective -------------------------------------------------------------------------------------")
     print()
     answer_wh_adj=input("what is a adjective?: ")
@@ -7148,6 +7149,7 @@ def verb_irregular_group3_10_3_30():
     print("cantar-->sing-->sang-->sung")
 
 def verb():
+    print()
     print("#10: Verb -------------------------------------------------------------------------------------")
     wh_ver=input("what is verb?: ")
     if(wh_ver=="a verb is a word expressing action or state"):
