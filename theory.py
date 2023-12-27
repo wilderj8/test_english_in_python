@@ -1608,7 +1608,7 @@ def list_correct_verbs():
     print("dejar/permitir-->let")
     print("registrar/anotar/talar/loguearse-->log")
     print("mirar-->look")
-    print("hacer-->make")
+    print("hacer (Construir)-->make")
     print("pasar-->pass")
     print("correr/recorrer-->run")
     print("ponerse/poner/colocar/ajustar-->set")
@@ -5079,7 +5079,7 @@ def test_verbs():
         print("incorrect")
     print()
 
-    ver_tes_27=input("hacer in english:? ")
+    ver_tes_27=input("hacer(Construir) in english:? ")
     if(ver_tes_27=="make"):
         print("correct")
         var_tes_ver+=1
@@ -5184,6 +5184,7 @@ def test_verbs():
     print()
 
 def test_verbs_regular():
+    print()
     print("#10.2: Test verb regular -------------------------------------------------------------------------------------")
     print("test verbs regulars")
     var_tes_ver_reg=0
@@ -5208,7 +5209,9 @@ def test_verbs_regular():
     list_correct_verbs_regular()
     print()
     
-def verb_irregular_group1_10_3_0():     
+def verb_irregular_group1_10_3_0():  
+    print()
+    print("#10.3: Test verb irregular -------------------------------------------------------------------------------------")
     print("#10.3.0: list: These verbs are one syllable and end in [T] or [D] ---------------------------")
     print()
     ver_tes_irre_1_pre=input("golpear in present in english?: ")
@@ -5528,6 +5531,8 @@ def verb_irregular_group1_10_3_1():
     print()
 
 def verb_irregular_group2_10_3_2():
+    print()
+    print("Grouo 2")
     print("#10.3.2: list: Verbs that have a double e(ee) and end in the consonants [P,L] ---------------------------")
     print()
     ver_tes_irre_25_pre=input("mantener/guardar in present in english?: ")
@@ -6387,6 +6392,8 @@ def verb_irregular_group2_10_3_18():
     print()
     
 def verb_irregular_group3_10_3_19():
+    print()
+    print("Group 3")
     print("#10.3.19: list: verbs ending in [i-consonant-e] ---------------------------")
     print()
     ver_tes_irre_87_pre=input("escribir in present in english?: ")
@@ -6710,7 +6717,7 @@ def verb_irregular_group3_10_3_22():
     print()
 
 def verb_irregular_group3_10_3_23():
-    print("#10.3.22: list: verbs ending in [-ake] ---------------------------")
+    print("#10.3.23: list: verbs ending in [-ake] ---------------------------")
     print()
     ver_tes_irre_111_pre=input("agarrar/coger in present in english?: ")
     ver_tes_irre_111_pas=input("agarrar/coger in past in english?: ")

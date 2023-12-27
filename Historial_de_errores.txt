@@ -1,5 +1,5 @@
-INTENTO #1:
-    THEORY(Quede: #10 Verb):
+INTENTO #1 (Quede: WORDS  ):
+    THEORY:
         Fallidas:
             -Abecedary:
                 -->
@@ -25,6 +25,55 @@ INTENTO #1:
             Adjective:
                 -->
 
-        Solucionadas:
-            -
-            -
+            Verb:
+                -->
+
+            Test verbs:
+                -->
+
+                Test verb irregular:
+
+                    #10.3.0 These verbs are one sillable and end in [T] or [D]
+
+                    #10.3.1 these verbs are made up of one syllable except 2 and end in [T] or [D]
+
+                    #10.3.2 Verbs that have a double e (ee) and end in the consonant [P,L]
+
+                    #10.3.4 Verbs that have (ea) and end in (d)
+
+                    #10.3.5 Vebs that have the vowels (ea) and end with (L,N,P,M)
+
+                    #10.3.8 Vebrs that end in [-ind]
+
+                    #10.3.9 Vebs that end in [-end]
+
+                    #10.3.10 Vebs that end in [-ing, -ink, -ick, -ig ]
+
+                    #10.3.13 Vebs that end in [-old]
+
+                    #10.3.14 Vebrs that end in [-and]
+
+                    #10.3.17 The verbs [ught]
+
+                    #10.3.18 Verbs without keys
+
+                    #10.3.19 verbs ending in [i-consonant-e]
+
+                    #10.3.21 Verbs ending in [-in, -ink, -im, -ing, -un]
+
+                    #10.3.22 Verbs ending in [-ear] 
+
+                    #10.3.23 Verbs ending in [-ake]
+
+                    #10.3.25 Verbs ending in [-ive, -id]
+
+                    #10.3.26 Verbs ending in [-ow, -aw, -ly]
+
+                    #10.3.28 Verbs ending in [-see]
+
+                    #10.3.29 Verbs ending in [-do, -go]
+
+            -Auxiliary verbs
+                -->    
+
+    WORDS():
