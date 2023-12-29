@@ -1,4 +1,4 @@
-INTENTO #1 (Quede: WORDS  ):
+INTENTO #1 (Quede: Leer documentation):
     THEORY:
         Fallidas:
             -Abecedary:
@@ -77,3 +77,18 @@ INTENTO #1 (Quede: WORDS  ):
                 -->    
 
     WORDS():
+
+        - Test 1:
+            -->
+        
+        - Test 2:
+            -->
+
+        - Test 3:
+            -->
+
+        - Test 5:
+
+    MONTH GAME():
+
+    PRACTICE_ABECEDARY():
