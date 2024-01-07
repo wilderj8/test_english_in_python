@@ -1883,6 +1883,7 @@ def numbers():
     print("what is the structure of round numbers?: number+ty")
     print("what is the structure of the numbers from 100 to 999?: number+hundred")
     print("what is the structure of the numbers from 1.000 to 999.000?: number+thousand")
+    print("what is the structure of the numbers from 1.000.000 to 999.000.000?: number+million")
     print()
     
     num_zer=input("0 in english: ")
@@ -2588,7 +2589,7 @@ def numbers():
     print()
 
     num_bill=input("1.000.000.000 in english: ")
-    if(num_bill=="billion"):
+    if(num_bill=="billion" or num_bill=="one billion"):
         print("correct")
         vec_num[83]="1.000.000.000"
         var_num+=1

@@ -1,11 +1,19 @@
-INTENTO #1 (Quede: Leer documentation):
+INTENTO #1 (Quede: Months):
     THEORY:
-        Fallidas:
-            -Abecedary:
-                -->
+        Fallidas:            
                 
             -Numbers:
-                -->
+                -->(creo)Structure: Number million: 1.000.000 ||| (Puse)Billion
+                    Respuesta correcta:
+
+                -->(creo)Fourteen:14 ||| (puse)Forteen
+                    Respuesta correcta:
+                
+                -->(creo)Twenty-five:25 ||| (Problemas con la velocidad)
+                    Respuesta correcta:
+
+                -->(creo)Forty:40 ||| (puse)Fourty
+                    Respuesta correcta:
 
             -Months:
                 -->
