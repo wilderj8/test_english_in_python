@@ -1,4 +1,4 @@
-INTENTO #1 (Quede: Months):
+INTENTO #1 (Quede: #7 pronouns):
     THEORY:
         Fallidas:            
                 
@@ -16,13 +16,60 @@ INTENTO #1 (Quede: Months):
                     Respuesta correcta:
 
             -Months:
-                -->
+                -->(creo)February:30 days and leap year 31 days ||| (Puse) 29 days and leap year 30 days
+                    Respuesta correcta:
 
             -Simple rules:
-                -->
+                -->How to identify adjective?/What are the those characteristics and qualities ||| (Creo) quality/characteristic -- Form/size/color/origin ||| (Puse) en la primera pregunta Form/size/color/origin
+                    Respuesta correcta:
 
+                -->What is the rule of noun and article? ||| (Creo) Article+noun=subject ||| (puse) Article+noun (descuido)
+                    Respuesta Correcta:
+
+                -->what are the auxiliary verbs? ||| (creo) be/do/modals/have(perfect tenses)/to-be ||| (puse) be/do/modals/have(perfect tenses) (se me olvido el to-be)
+                    Respuesta correcta:
+
+                -->How to identify adverbs? ||| (Creo) describe the verbs ||| (puse) describes
+                    Respuesta Correcta:
+
+                -->How to identify prepositions?/What are the prepositions? ||| (Creo) time/place -- at/in/on/that/than/with/against ||| (Pues) time/place at/in/on/of/that/with
+                    Respuesta Correcta:
+
+                -->What are the connectors? ||| (Creo) preposition/conjunctions-coordinators ||| (Puse) prepositions
+                    Respuesta Correcta:
+
+                -->What are the separe strutures? ||| (Creo) Preposition/conjunctions-coordinators/me falta ||| Me falto uno(no recurdo)
+                    Respuesta Correcta:
+
+                -->Rule: voz pasiva --><-- voz activa ||| (Creo) voice passive to voice active or voice active to voice passive ||| (Puse) un and
+                    Respuesta Correcta:
+
+                -->What is the structure of the simple present ||| (Creo) is/am/are+verb ||| (puse) to-be
+                    Respuesta Correcta:
+
+                -->What is the structure of the simple past  ||| (creo) was/were+verb ||| (puse) was/were
+                    Respuesta Correcta:
+                
+                -->What is the structure of the simple future ||| (Creo) will+verb ||| (puse) will
+                    Respuesta Correcta:
+                
+                -->What is the structure of the perfect present ||| (Creo) have/had+verb ||| (puse) have/had
+                    Respuesta Correcta:
+                
             -Noun subject:
-                -->
+                -->What is a subject? ||| (totalmente perdido)
+                    Respuesta Correcta:
+
+                -->Write matiz/tonalidad ||| (Creo) nuance |||(Puse) nounce
+                    Respuesta Correcta:
+
+                -->Write caracteristica/distintivo/rasgo in english ||| (creo) feature ||| (puse) deal
+                    Respuesta Correcta:
+
+                -->Write racismo/agrupar/amontonar in english ||| (Creo) bunch ||| (puse) brunch
+                    Respuesta Correcta:
+
+                
 
             -Pronouns:
                 -->
