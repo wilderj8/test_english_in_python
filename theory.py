@@ -3793,7 +3793,7 @@ def pronouns():
         print("incorrect")
 
     print()
-    print("what are reflexives pronouns--these pronouns are used whe we want to refer to ourselves or to something itself")
+    print("what are reflexives pronouns--these pronouns are used when we want to refer to ourselves or to something itself")
     print()
 
     print("write reflexives pronouns")

@@ -1,4 +1,4 @@
-INTENTO #1 (Quede: #7 pronouns):
+INTENTO #1 (Quede: #8 article):
     THEORY:
         Fallidas:            
                 
@@ -72,7 +72,17 @@ INTENTO #1 (Quede: #7 pronouns):
                 
 
             -Pronouns:
-                -->
+                -->Object pronouns
+                    -->write a eso/esa  ||| (creo) it |||(puse) its
+                        Respuesta Correcta:
+
+                -->Possessive adjective
+                    -->what is the possessive adjective? ||| (Creo) a possessive adjective is an adjective that modifies a noun identifying who has ownership or possession of it ||| (Puse) a possessive adjective is an adjective that modifies a noun by identify ownership or possession of it
+                        Respuesta Correcta:
+
+                -->Reflexible pronouns
+                    -->what are the reflexible pronouns? ||| (creo) these pronouns are used when we want to refer to ourselves or to something itself ||| (puse) these pronouns are used when we want to refer to ourselves or something itself
+                        Respuesta Correcta:
 
             -Article:
                 -->
