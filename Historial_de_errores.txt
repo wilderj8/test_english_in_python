@@ -1,4 +1,4 @@
-INTENTO #1 (Quede: #8 article):
+INTENTO #1 (Quede: #10.3.8 Verbs_irregular):
     THEORY:
         Fallidas:            
                 
@@ -67,9 +67,7 @@ INTENTO #1 (Quede: #8 article):
                     Respuesta Correcta:
 
                 -->Write racismo/agrupar/amontonar in english ||| (Creo) bunch ||| (puse) brunch
-                    Respuesta Correcta:
-
-                
+                    Respuesta Correcta:         
 
             -Pronouns:
                 -->Object pronouns
@@ -85,38 +83,117 @@ INTENTO #1 (Quede: #8 article):
                         Respuesta Correcta:
 
             -Article:
-                -->
+                -->Rule #1 when should it used the (a)? ||| (Creo) is used when the noun begins with consonant ||| (puse) when a noun begins a consonant
+                    Respuesta Correcta:
+
+                -->Rule #2 When should it used the (an)? ||| (Creo) the (an) is used when the noun begins with a vowel(a/e/i/o/u) ||| (Puse) When a noun begins with a vowel
+                    Respuesta Correcta:
+
+                -->Rule #3 where is put the article indefinited? ||| (creo) is put before of the noun ||| (puse) where before of the noun-
+                    Respuesta Correcta:
+
+                -->tell me europeo in english ||| (Creo) an european ||| (puse) an european
+                    Respuesta Correcta:
+
+                -->tell me euro in english ||| (Creo) (puse) an euro
+                    Respuesta Correcta:
+
+                -->tell me agujero in english ||| (ni idea)
+                    Respuesta Correcta:
+
+                -->tell me un/una honest@ in english ||| (creo) (puse) an honestly
+                    Respuesta Correcta:
 
             Adjective:
-                -->
+                -->What is the adjective? ||| (creo) an adjective is a word that describes the traits,qualities or number of a noun ||| (puse) an adjective is a word that describes thes traits or quialities of a noun
+                    -->Respuesta Correcta:
+
+                -->write inuficiente/deficiente in english ||| (Creo) enough ||| (puse) enought
+                    -->Respuesta Correcta:
+
+                -->write suficiente/bastante in english ||| (No tengo la idea)
+                    -->Respuesta Correcta:
+
+                -->Write viable/factible in english ||| (Creo) feature ||| (puse) readable
+                    -->Respuesta correcta:
+
+                -->Write valiente/audaz/atrevido in english ||| (creo) bond ||| (Puse) readable
+                    -->Respuesta correcta:
+
+                -->Write complicado/sensible in english ||| (Creo) tricky ||| (puse) complex
+                    -->Respuesta correcta:
 
             Verb:
-                -->
-
+                -->what is a verb? ||| (Creo) a verb es a word that expressing the action or state ||| (puse) a verb es a word that describe the action in a sentence
+                    Respuesta Correcta:
+                
             Test verbs:
-                -->
+                -->write cortar in english ||| (creo) cut ||| (Puse) split
+                    Respuesta Correcta:
+
+                --> write caer/dejarse caer/resbalar in english ||| (creo) drop ||| (puse) Fallidas
+                    Respuesta Correcta:
+
+                -->write agarrar/coger/tomar in english ||| (creo) take ||| (Puse) put
+                    Respuesta Correcta:
+
+                -->write hablar in english ||| (Creo) talk ||| (puse) speak
+                    Respuesta Correcta:            
 
                 Test verb irregular:
 
                     #10.3.0 These verbs are one sillable and end in [T] or [D]
+                        --> write denunciar/dejar in english presente/past/past perfert ||| (creo) quit/quit/quit ||| (hice) let/let/let
+                            Respuesta Correcta:
+
+                        -->Write cortar in present/past/past perfect in english ||| (creo) slit/slit/slit ||| (hice) cut/cut/cut
+                            Respuesta Correcta:
 
                     #10.3.1 these verbs are made up of one syllable except 2 and end in [T] or [D]
+                        -->Golpear in present/past/past perfect in english ||| (creo) beat/beat/beat-beaten ||| (hice) beat/beat/beat
+                            Respuesta correcta:
 
-                    #10.3.2 Verbs that have a double e (ee) and end in the consonant [P,L]
+                        -->Cerra in presente/past/past perfect ||| (creo) shut/shut/shut ||| (puse) spit/spit/spit/
+                            Respuesta Correcta:
+
+                        -->transmitir in presente/past/past perfect in english ||| (creo) broadcast/broadcast/broadcast ||| (puse) forecast/forecast/forecast
+                            Respuesta Correcat:
+
+                        -->predecir in present/past/past perfect ||| (creo) forecast/forecast/forecast ||| (puse) spread/spread/spread (No me concentre y ví esparcir)
+                            Respuesta Correcta:
 
                     #10.3.4 Verbs that have (ea) and end in (d)
 
+                        -->Guiar en present/past/past perfect in english ||| (Creo) lead/let/let ||| (puse) lead/leat/leat
+                            Respuesta Correcta:
+
                     #10.3.5 Vebs that have the vowels (ea) and end with (L,N,P,M)
+                       
+                        -->Aprender/memorizar in present/past/past perfect in english ||| (creo) learn/learnt-learned/learnt-learned ||| (Puse) learn/learnt/learnt
+                            Respuesta Correcta:
 
                     #10.3.8 Vebrs that end in [-ind]
+                        
+                        -->desenrollar in present/past/past perfect in english ||| (creo) unwind/unwound/unwound ||| (puse) unbind/unbound/unbound
+                            Respuesta Correcta:
 
                     #10.3.9 Vebs that end in [-end]
+                        -->Doblar in present/past/past perfect in english ||| (creo) bend/bent/bent ||| (puse) blend/blent/blent
+                            Respuesta Correcta:                        
 
                     #10.3.10 Vebs that end in [-ing, -ink, -ick, -ig ]
+                        -->picar/arder in present/past/past perfect in english ||| (creo) sting/stung/stung ||| (Puse) sting/stang/stung
+                            Respuesta Correcta:
 
-                    #10.3.13 Vebs that end in [-old]
+                        -->pegachento in present/past/past perfect in english ||| (creo) cling/clung/clung ||| (puse) stick/stuck/stuck
+                            Respuesta correcta:
+
+                        -->Escaparse/escabullirce in present/past/past perfect in english ||| (creo) slink/slunk/slunk ||| (puse)(ni idea)
+                            Respuesta Correcta:
 
                     #10.3.14 Vebrs that end in [-and]
+                        -->Estar de pie/aguantar in present/past/past perfect ||| (creo) stand/stood/stood ||| (puse) stand/stend/stend
+                            Respuesta Correcta:
 
                     #10.3.17 The verbs [ught]
 
