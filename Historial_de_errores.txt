@@ -1,4 +1,4 @@
-INTENTO #1 (Quede: #10.3.8 Verbs_irregular):
+INTENTO #1 (Quede: words()):
     THEORY:
         Fallidas:            
                 
@@ -128,17 +128,19 @@ INTENTO #1 (Quede: #10.3.8 Verbs_irregular):
                     Respuesta Correcta:
                 
             Test verbs:
-                -->write cortar in english ||| (creo) cut ||| (Puse) split
-                    Respuesta Correcta:
 
-                --> write caer/dejarse caer/resbalar in english ||| (creo) drop ||| (puse) Fallidas
-                    Respuesta Correcta:
+                Verbs:
+                    -->write cortar in english ||| (creo) cut ||| (Puse) split
+                        Respuesta Correcta:
 
-                -->write agarrar/coger/tomar in english ||| (creo) take ||| (Puse) put
-                    Respuesta Correcta:
+                    --> write caer/dejarse caer/resbalar in english ||| (creo) drop ||| (puse) Fallidas
+                        Respuesta Correcta:
 
-                -->write hablar in english ||| (Creo) talk ||| (puse) speak
-                    Respuesta Correcta:            
+                    -->write agarrar/coger/tomar in english ||| (creo) take ||| (Puse) put
+                        Respuesta Correcta:
+
+                    -->write hablar in english ||| (Creo) talk ||| (puse) speak
+                        Respuesta Correcta:            
 
                 Test verb irregular:
 
@@ -196,27 +198,90 @@ INTENTO #1 (Quede: #10.3.8 Verbs_irregular):
                             Respuesta Correcta:
 
                     #10.3.17 The verbs [ught]
+                        -->Enseñar in present/past/past perfect in english ||| (creo) teach/taught/taught ||| (puse) teach/tought/tought
+                            Respuesta Correcta:
+
+                        -->Cachar/coger/pillar in present/past/past perfect in english ||| (creo) catch/caught/caught ||| (puse) cath/caught/caught
+                            Respuesta Correcta:                
 
                     #10.3.18 Verbs without keys
+                        -->hacer in present/past/past perfect in english ||| (creo) make/made/made ||| (puse) di/did/did
+                            Respuesta correcta:
 
                     #10.3.19 verbs ending in [i-consonant-e]
+                        -->Esforzarse in present/past/past participe in english ||| (creo) strive/strove/striven ||| (puse) stride/strode/striden
+                            Respuesta correcta:
+
+                        -->Dar pasos largos/zancadas in present/past/past participe ||| (creo) stride/strode/stridden ||| (puse) stride/strode/stridden
+                            Respuesta correcta:
+
+                        -->Destrozar/aniquilar in present/past/past perfect ||| (creo) smite/smote/smitten ||| (puse) smite/smote/smitten
+                            Respuesta Correcta:
 
                     #10.3.21 Verbs ending in [-in, -ink, -im, -ing, -un]
+                        -->Encogido in present/past/past participle in english ||| (creo) shrink/shrank/shrunk ||| (puse) ring/rang/rung
+                            Respuesta Correcta:
 
                     #10.3.22 Verbs ending in [-ear] 
+                        -->Maldecir/decir malas palabra/groserías in present/past/past participe ||| (creo) swear/swore/sworn/ ||| (puse) swore/swore/sworn
+                            Respuesta Correcta:
+
+                        -->Rasgar in present/past/past perfect in english ||| (creo) tear/tore/torn ||| (puse) ni idea
+                            Respuesta Correcta:
 
                     #10.3.23 Verbs ending in [-ake]
-
-                    #10.3.25 Verbs ending in [-ive, -id]
+                        -->emprender/comenzar in present/past/past participle in english ||| (creo) undertake/undertook/undertaken ||| (puse) fortake/fortook/fortaken
+                            Respuesta Correcta:
+                        
+                        -->Participlar in present/past/past participle in english ||| (creo) partake/partook/partaken ||| (puse) partake/partook/partaken
+                            Respuesta correcta:
 
                     #10.3.26 Verbs ending in [-ow, -aw, -ly]
+                        -->Dibujar in present/past/past participle ||| (creo) draw/drew/drawn ||| (puse) draw/drew/drown
+                            Respuesta Correcta:
+
+                        -->Excederse in present/past/past participle ||| (creo) overdraw/overdrew/overdrawn ||| (puse) ni idea
+                            Respuesta Correcta:
+
+                        -->Volar in present/past/past participle ||| (creo) fly/flew/flown ||| (puse) fly/flow/flown
+                            Respuesta Correcta:
 
                     #10.3.28 Verbs ending in [-see]
-
-                    #10.3.29 Verbs ending in [-do, -go]
+                        -->Predecir in present/past/past participle in english ||| (Creo) foresee/foresaw/foreseen ||| (puse) forsee/forsaw/foreseen
+                            Respuesta Correcta:                    
 
             -Auxiliary verbs
-                -->    
+                -->Tell me the sentences in english ||| (creo) past/present/future ||| (puse) past/present/continuos/perfect continuos
+                    Respuesta Correcta:
+
+                -->what are aspect of each sentence ||| (creo) simple/perfect/continuous/continuous perfect ||| (puse) simple/continuos/perfect/continuous perfect
+                    Respuesta Correcta:
+
+                -->What is the estructure of the simple ||| (creo) to do ||| (puse) to-do
+                    Respuesta Correcta:
+
+                -->What is the estructure of the continuous ||| (creo)to-do+gerundio ||| (puse) verb+ing
+                    Respuesta Correcta:
+
+                -->waht is the structure of the perfect ||| (creo) have+past participle ||| (puse) to have
+                    Respuesta Correcta:
+
+                -->What is the structure of the continuous perfect ||| (creo) to-be+to-have ||| (puse) to-have+been+past participle
+                    Respuesta Correcta:
+
+                    Continuos test:
+                        -->estaré comiendo in future and continuous ||| (creo) i will be eating ||| (puse) i will eating
+                            Respuesta correcta:
+
+                        -->Tuve(past)/tengo(present)/tendre(future) in perfect ||| (creo) i had/i have/i will have ||| (puse) i was have/i have/i will have
+                            Respuesta Correcta:
+
+                    Perfect test:
+                        -->Yo he comido in affirmative and present perfect ||| (creo) i have eaten ||| (puse) i have eaten
+                            Respuesta Correcta:
+
+                        -->nosotros hemos comido in affirmative and present perfect ||| (creo)we have eaten ||| (puse)we have eat
+                            Respuesta Correcta:
 
     WORDS():
 
