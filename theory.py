@@ -1440,7 +1440,7 @@ def list_correct_adjective():
     print("bold--vailiente/audaz/atrevido/")
     print("paid--pagado/pago(a)/remunerado")
     print("nested--anidado/dentro de una cosa/alojado")
-    print("tricky--complicado(a)/delicado(a)/que tiene su maña/difícil/complicado(a)/tramposo(a)/falso(a)")
+    print("tricky(proceso/situación/persona)--complicado(a)/delicado(a)/que tiene su maña/difícil/complicado(a)/tramposo(a)/falso(a)")
     print("fixed--fijo(a)/inamovible/inalterable/reparado/areglado(a)/")    
     print("desired--deseado/anhelado/apropiado(a)")
     print("overlapping--superpuesto/solapado(a)")
@@ -1592,7 +1592,7 @@ def list_correct_verbs():
     print("chequear/verificar/comprobar/revisar-->check")
     print("cortar-->cut")
     print("venir/llegar/entrar/acercarse-->come")
-    print("hacer-->do")
+    print("hacer (metodo pregunta)-->do")
     print("caerse/dejar/caer-->drop")
     print("caerse/caer-->fall")
     print("llenar/rellenar/llenarse-->fill")
@@ -1618,7 +1618,7 @@ def list_correct_verbs():
     print("decir/contar-->tell")
     print("girar/rotar-->turn")
     print("agarrar/coger/tomar-->take")
-    print("hablar-->talk")
+    print("hablar (con alguien)-->talk")
     print("trabajar-->work")
     print()
 
@@ -1830,7 +1830,7 @@ def numbers():
     print("#2: Numbers -------------------------------------------------------------------------------------")
     print()
     var_num=0
-    vec_num=["----","----","----","----""----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
+    vec_num=["----","----","----","----""----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----","----"]
     print("The numbers")
     str_13_to_19=input("What is structure of the numbers from 13 to 19?: ")
     if(str_13_to_19=="number+teen"):
@@ -4617,7 +4617,7 @@ def adjective():
         print('incorrect')
     print('')
 
-    print('write complicado(a)/delicado(a)/que tiene su maña/difícil/complicado(a)/tramposo(a)/falso(a) in english')
+    print('write complicado(a)/delicado(a)/que tiene su maña/difícil/complicado(a)/tramposo(a)/falso(a) (proceso/situación/persona) in english')
     tricky_word=input()
     if(tricky_word=='tricky'):
         print('correct')
@@ -4952,7 +4952,7 @@ def test_verbs():
         print("incorrect")
     print()
 
-    ver_tes_10=input("hacer in english:? ")
+    ver_tes_10=input("hacer (metodo pregunta) in english:? ")
     if(ver_tes_10=="do"):
         print("correct")
         var_tes_ver+=1
@@ -5160,7 +5160,7 @@ def test_verbs():
         print("incorrect")
     print()
 
-    ver_tes_38=input("hablar in english:? ")
+    ver_tes_38=input("hablar (con alguien) in english:? ")
     if(ver_tes_38=="talk"):
         print("correct")
         var_tes_ver+=1
@@ -5215,9 +5215,9 @@ def verb_irregular_group1_10_3_0():
     print("#10.3: Test verb irregular -------------------------------------------------------------------------------------")
     print("#10.3.0: list: These verbs are one syllable and end in [T] or [D] ---------------------------")
     print()
-    ver_tes_irre_1_pre=input("golpear in present in english?: ")
-    ver_tes_irre_1_pas=input("golpear in past in english?: ")
-    ver_tes_irre_1_par=input("golpear in past participle in english?: ")
+    ver_tes_irre_1_pre=input("golpear (a hit) in present in english?: ")
+    ver_tes_irre_1_pas=input("golpear (a hit) in past in english?: ")
+    ver_tes_irre_1_par=input("golpear (a hit) in past participle in english?: ")
     if(ver_tes_irre_1_pre=="hit" and ver_tes_irre_1_pas=="hit" and ver_tes_irre_1_par=="hit"):
         print("correct")        
     else:
@@ -5266,9 +5266,9 @@ def verb_irregular_group1_10_3_0():
     print("Dividir/apartar/partir-->split-->split-->split")
     print()
 
-    ver_tes_irre_5_pre=input("cortar in present in english?: ")
-    ver_tes_irre_5_pas=input("cortar in past in english?: ")
-    ver_tes_irre_5_par=input("cortar in past participle in english?: ")
+    ver_tes_irre_5_pre=input("cortar (2° method) in present in english?: ")
+    ver_tes_irre_5_pas=input("cortar (2° method) in past in english?: ")
+    ver_tes_irre_5_par=input("cortar (2° method) in past participle in english?: ")
     if(ver_tes_irre_5_pre=="slit" and ver_tes_irre_5_pas=="slit" and ver_tes_irre_5_par=="slit"):
         print("correct")
         
@@ -5387,9 +5387,9 @@ def verb_irregular_group1_10_3_1():
     print("sudar-->sweat-->sweat-->sweat")
     print()
 
-    ver_tes_irre_14_pre=input("golpear in present in english?: ")
-    ver_tes_irre_14_pas=input("golpear in past in english?: ")
-    ver_tes_irre_14_par=input("golpear in past participle in english?: ")
+    ver_tes_irre_14_pre=input("golpear (hit repeatedly) in present in english?: ")
+    ver_tes_irre_14_pas=input("golpear (hit repeatedly) in past in english?: ")
+    ver_tes_irre_14_par=input("golpear (hit repeatedly) in past participle in english?: ")
     if(ver_tes_irre_14_pre=="beat" and ver_tes_irre_14_pas=="beat" and ver_tes_irre_14_par=="beat/beaten"):
         print("correct")
         
@@ -6379,9 +6379,9 @@ def verb_irregular_group2_10_3_18():
     print("tener-->have-->had-->had")
     print()
 
-    ver_tes_irre_86_pre=input("hacer in present in english?: ")
-    ver_tes_irre_86_pas=input("hacer in past in english?: ")
-    ver_tes_irre_86_par=input("hacer in past participle in english?: ")
+    ver_tes_irre_86_pre=input("hacer (Construir/preparar) in present in english?: ")
+    ver_tes_irre_86_pas=input("hacer (Construir/preparar) in past in english?: ")
+    ver_tes_irre_86_par=input("hacer (Construir/preparar) in past participle in english?: ")
     if(ver_tes_irre_86_pre=="make" and ver_tes_irre_86_pas=="made" and ver_tes_irre_86_par=="made"):
         print("correct")
         
@@ -6389,7 +6389,7 @@ def verb_irregular_group2_10_3_18():
         print("incorrect")
     print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
-    print("hacer-->make-->made-->made")
+    print("hacer (Construir/preparar)-->make-->made-->made")
     print()
     
 def verb_irregular_group3_10_3_19():
@@ -6491,9 +6491,9 @@ def verb_irregular_group3_10_3_19():
 def verb_irregular_group3_10_3_20():
     print("#10.3.20: list: verbs containing the vowels [ea,e and a] ---------------------------")
     print()
-    ver_tes_irre_94_pre=input("hablar in present in english?: ")
-    ver_tes_irre_94_pas=input("hablar in past in english?: ")
-    ver_tes_irre_94_par=input("hablar in past participle in english?: ")
+    ver_tes_irre_94_pre=input("hablar (habilidad) in present in english?: ")
+    ver_tes_irre_94_pas=input("hablar (habilidad) in past in english?: ")
+    ver_tes_irre_94_par=input("hablar (habilidad) in past participle in english?: ")
     if(ver_tes_irre_94_pre=="speak" and ver_tes_irre_94_pas=="spoke" and ver_tes_irre_94_par=="spoken"):
         print("correct")
         
@@ -6501,7 +6501,7 @@ def verb_irregular_group3_10_3_20():
         print("incorrect")
     print()
     print("verbo --> verb in present --> verb in past --> verb in past participle")
-    print("hablar-->speak-->spoke-->spoken")
+    print("hablar (habilidad) -->speak-->spoke-->spoken")
     print()
 
     ver_tes_irre_95_pre=input("robar in present in english?: ")

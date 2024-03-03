@@ -1,301 +1,358 @@
-INTENTO #1 (Quede: words()):
+PREUCUPACIÓN BASIC (Quede: Solution):
     THEORY:
         Fallidas:            
                 
             -Numbers:
-                -->(creo)Structure: Number million: 1.000.000 ||| (Puse)Billion
-                    Respuesta correcta:
-
-                -->(creo)Fourteen:14 ||| (puse)Forteen
-                    Respuesta correcta:
+                -->3 (creo) three ||| (puse) tree **
+                    Respuesta Correcta: Three ||| Tree es arbol                
                 
-                -->(creo)Twenty-five:25 ||| (Problemas con la velocidad)
-                    Respuesta correcta:
+                -->20 (creo) twenty ||| (puse) twenty **
+                    Respuesta correcta: twenty ||| debistes peliar                                                
 
-                -->(creo)Forty:40 ||| (puse)Fourty
-                    Respuesta correcta:
+                -->50 (puse)fivety |||(creo)fifty ||| No me fije bien
+                    Respuesta Correcta: fifty
+                
+                -->110 (creo)one hundred thousand ten ||| (puse) one thousand hundred ten ||| problemas con la rapidez **
+                    Respuesta Correcta: one hundred ten ||| Cuál thousand, si thousand es para cuando hay puntos ósea mil
 
             -Months:
-                -->(creo)February:30 days and leap year 31 days ||| (Puse) 29 days and leap year 30 days
-                    Respuesta correcta:
+                -->(creo)February:30 days and leap year 31 days ||| (Puse) 29 days and leap year 30 days **
+                    Respuesta correcta: 28 days or 29 days with if is leap-year.
 
             -Simple rules:
-                -->How to identify adjective?/What are the those characteristics and qualities ||| (Creo) quality/characteristic -- Form/size/color/origin ||| (Puse) en la primera pregunta Form/size/color/origin
-                    Respuesta correcta:
 
-                -->What is the rule of noun and article? ||| (Creo) Article+noun=subject ||| (puse) Article+noun (descuido)
-                    Respuesta Correcta:
+                -->How to identify the noun? ||| (creo) object/place/animal/person/personal name ||| (puse) object/place/animal/person
+                    Respuesta Correcta: object/place/animal/personal name ||| no es person, es personal name
 
-                -->what are the auxiliary verbs? ||| (creo) be/do/modals/have(perfect tenses)/to-be ||| (puse) be/do/modals/have(perfect tenses) (se me olvido el to-be)
-                    Respuesta correcta:
+                -->what are the pronouns in 2nd person plural: (puse) you/they ||| (creo) ni idea
+                    Respuesta correcta: you
 
-                -->How to identify adverbs? ||| (Creo) describe the verbs ||| (puse) describes
-                    Respuesta Correcta:
+                -->how to identify the article? what are the artilces? ||| (creo)define the noun /// a/an/the |||(puse) describes the noun /// a/an/the                    
+                    Respuesta Correcta: define the noun /// a/an/the ||| El define no describes
 
-                -->How to identify prepositions?/What are the prepositions? ||| (Creo) time/place -- at/in/on/that/than/with/against ||| (Pues) time/place at/in/on/of/that/with
-                    Respuesta Correcta:
+                -->What is the rule of noun and article? ||| (Creo) Article+noun=subject ||| (puse) Article+noun (descuido) *
+                    Respuesta Correcta: article+noun=subject ||| Tomarnos nuestro tiempo en pensar y reflexionar 
 
-                -->What are the connectors? ||| (Creo) preposition/conjunctions-coordinators ||| (Puse) prepositions
-                    Respuesta Correcta:
+                -->write #1 rule of the verb in the past? ||| (creo)verb+ed ||| (puse) ed         
+                    Respuesta Correcta: ed is never pronounced ||| solo es una regla de pronunciación no de gramatica
 
-                -->What are the separe strutures? ||| (Creo) Preposition/conjunctions-coordinators/me falta ||| Me falto uno(no recurdo)
-                    Respuesta Correcta:
+                -->How to identify adverbs? ||| (Creo) describe the verbs ||| (puse) describes *
+                    Respuesta Correcta: describe the verb ||| ojo el problema no está solo en describes sino en verb, no es verbs
 
-                -->Rule: voz pasiva --><-- voz activa ||| (Creo) voice passive to voice active or voice active to voice passive ||| (Puse) un and
-                    Respuesta Correcta:
+                -->How to identify frecuency adverbs? what are the frecuency adverbs? |||(creo)intensity/quantity 
+                                                                                      |||(puse) frecuency/insensity // always/often/normally/sometimes/never
+                    Respuesta Correcta: intensity/quantity /// always/often/normally/sometimes/never                                                                                      
 
-                -->What is the structure of the simple present ||| (Creo) is/am/are+verb ||| (puse) to-be
-                    Respuesta Correcta:
-
-                -->What is the structure of the simple past  ||| (creo) was/were+verb ||| (puse) was/were
-                    Respuesta Correcta:
                 
-                -->What is the structure of the simple future ||| (Creo) will+verb ||| (puse) will
-                    Respuesta Correcta:
-                
-                -->What is the structure of the perfect present ||| (Creo) have/had+verb ||| (puse) have/had
-                    Respuesta Correcta:
-                
-            -Noun subject:
-                -->What is a subject? ||| (totalmente perdido)
-                    Respuesta Correcta:
+            -Noun subject:    
 
-                -->Write matiz/tonalidad ||| (Creo) nuance |||(Puse) nounce
-                    Respuesta Correcta:
+                -->write hermanos in english |||(creo)ni idea   |||(puse) brether
 
-                -->Write caracteristica/distintivo/rasgo in english ||| (creo) feature ||| (puse) deal
-                    Respuesta Correcta:
+                -->Write caracteristica/distintivo/rasgo in english ||| (creo) feature ||| (puse) deal *
+                    Respuesta Correcta: feature ||| deal es acuerdo o trato
 
-                -->Write racismo/agrupar/amontonar in english ||| (Creo) bunch ||| (puse) brunch
-                    Respuesta Correcta:         
+                -->Write racismo/agrupar/amontonar in english ||| (Creo) bunch ||| (puse) brunch *
+                    Respuesta Correcta: bunch ||| sin la r      
 
             -Pronouns:
                 -->Object pronouns
                     -->write a eso/esa  ||| (creo) it |||(puse) its
-                        Respuesta Correcta:
+                        Respuesta Correcta: it
 
                 -->Possessive adjective
-                    -->what is the possessive adjective? ||| (Creo) a possessive adjective is an adjective that modifies a noun identifying who has ownership or possession of it ||| (Puse) a possessive adjective is an adjective that modifies a noun by identify ownership or possession of it
-                        Respuesta Correcta:
+                    -->what is the possessive adjective? ||| (Creo) a possessive adjective is an adjective that modifies a noun identifying who has ownership or possession of it 
+                                                         ||| (Puse) a possessive adjective is an adjective that modifies a noun by identify ownership or possession of it
+                        Respuesta Correcta: a possessive adjective is an adjective that modifies a noun by identifying who has ownership or possession of it. 
 
                 -->Reflexible pronouns
-                    -->what are the reflexible pronouns? ||| (creo) these pronouns are used when we want to refer to ourselves or to something itself ||| (puse) these pronouns are used when we want to refer to ourselves or something itself
-                        Respuesta Correcta:
+                    -->what are the reflexible pronouns? ||| (creo) these pronouns are used when we want to refer to ourselves or to something itself 
+                                                         ||| (puse) these pronouns are used when we want to refer to ourselves or something itself
+                        Respuesta Correcta: these pronouns are used when we want to refer to ourselves or to something itself ||| no se le olvide el to something
 
             -Article:
                 -->Rule #1 when should it used the (a)? ||| (Creo) is used when the noun begins with consonant ||| (puse) when a noun begins a consonant
-                    Respuesta Correcta:
+                    Respuesta Correcta: the (a) is used when the noun begins with a consonant.
 
-                -->Rule #2 When should it used the (an)? ||| (Creo) the (an) is used when the noun begins with a vowel(a/e/i/o/u) ||| (Puse) When a noun begins with a vowel
-                    Respuesta Correcta:
+                -->Rule #2 When should it used the (an)? ||| (Creo) the (an) is used when the noun begins with a vowel(a/e/i/o/u) 
+                                                         ||| (Puse) When a noun begins with a vowel
+                    Respuesta Correcta: the (an) is used when the noun begins with a vowel (a/e/i/o/u)
 
                 -->Rule #3 where is put the article indefinited? ||| (creo) is put before of the noun ||| (puse) where before of the noun-
-                    Respuesta Correcta:
+                    Respuesta Correcta: the article is put before singular nouns.
 
                 -->tell me europeo in english ||| (Creo) an european ||| (puse) an european
-                    Respuesta Correcta:
+                    Respuesta Correcta: a european ||| recuerda que se pronuncia yerupean
 
                 -->tell me euro in english ||| (Creo) (puse) an euro
-                    Respuesta Correcta:
+                    Respuesta Correcta: a euro ||| recuerda que se pronuncia yeuro
 
                 -->tell me agujero in english ||| (ni idea)
-                    Respuesta Correcta:
+                    Respuesta Correcta: a hole
 
                 -->tell me un/una honest@ in english ||| (creo) (puse) an honestly
-                    Respuesta Correcta:
+                    Respuesta Correcta: an honest ||| no hay que ponerle el ly
 
             Adjective:
-                -->What is the adjective? ||| (creo) an adjective is a word that describes the traits,qualities or number of a noun ||| (puse) an adjective is a word that describes thes traits or quialities of a noun
-                    -->Respuesta Correcta:
+                -->What is the adjective? ||| (creo) an adjective is a word that describes the traits,qualities or number of a noun 
+                                          ||| (puse) an adjective is a word that describes thes traits or quialities of a noun
+                    -->Respuesta Correcta: an adjective is a word that describes the traits, qualities or number of a noun.
 
                 -->write inuficiente/deficiente in english ||| (Creo) enough ||| (puse) enought
-                    -->Respuesta Correcta:
+                    -->Respuesta Correcta: wanting ||| primero que todo se escribe enough y significa suficiente y bastante.
 
                 -->write suficiente/bastante in english ||| (No tengo la idea)
-                    -->Respuesta Correcta:
+                    -->Respuesta Correcta: enough
 
                 -->Write viable/factible in english ||| (Creo) feature ||| (puse) readable
-                    -->Respuesta correcta:
+                    -->Respuesta correcta: feasible ||| feature es rasgos/distintivo/caracteristicas y readable es ameno/entretenido/legible
 
                 -->Write valiente/audaz/atrevido in english ||| (creo) bond ||| (Puse) readable
-                    -->Respuesta correcta:
+                    -->Respuesta correcta:bold ||| bond es vinculo o está pesando en james bond y readable es entretenido/legible
 
-                -->Write complicado/sensible in english ||| (Creo) tricky ||| (puse) complex
-                    -->Respuesta correcta:
+                -->Write complicado/sensible (proceso/situación/persona) in english ||| (Creo) tricky ||| (puse) complex
+                    -->Respuesta correcta: tricky
 
             Verb:
-                -->what is a verb? ||| (Creo) a verb es a word that expressing the action or state ||| (puse) a verb es a word that describe the action in a sentence
-                    Respuesta Correcta:
+                -->what is a verb? ||| (Creo) a verb es a word that expressing the action or state 
+                                   ||| (puse) a verb es a word that describe the action in a sentence
+                    Respuesta Correcta: a verb is a word expressing action or state ||| Cómo así que es
                 
             Test verbs:
 
                 Verbs:
                     -->write cortar in english ||| (creo) cut ||| (Puse) split
-                        Respuesta Correcta:
+                        Respuesta Correcta: cut ||| Split es dividir 
 
                     --> write caer/dejarse caer/resbalar in english ||| (creo) drop ||| (puse) Fallidas
-                        Respuesta Correcta:
+                        Respuesta Correcta: drop
 
                     -->write agarrar/coger/tomar in english ||| (creo) take ||| (Puse) put
-                        Respuesta Correcta:
+                        Respuesta Correcta: take ||| put es poner/colocar
 
-                    -->write hablar in english ||| (Creo) talk ||| (puse) speak
-                        Respuesta Correcta:            
+                    -->write hablar (con alguien) in english ||| (Creo) talk ||| (puse) speak
+                        Respuesta Correcta: talk            
 
                 Test verb irregular:
 
                     #10.3.0 These verbs are one sillable and end in [T] or [D]
-                        --> write denunciar/dejar in english presente/past/past perfert ||| (creo) quit/quit/quit ||| (hice) let/let/let
-                            Respuesta Correcta:
+                        --> write renunciar/dejar in english presente/past/past perfert ||| (creo) quit/quit/quit ||| (hice) let/let/let
+                            Respuesta Correcta: quit/quit/quit ||| let es solamente dejar
 
-                        -->Write cortar in present/past/past perfect in english ||| (creo) slit/slit/slit ||| (hice) cut/cut/cut
-                            Respuesta Correcta:
+                        -->Write cortar (2° method) in present/past/past perfect in english ||| (creo) slit/slit/slit ||| (hice) cut/cut/cut
+                            Respuesta Correcta: slit/slit/slit ||| Puse 2° método ya qué para mi el primero siempre será cut
 
                     #10.3.1 these verbs are made up of one syllable except 2 and end in [T] or [D]
-                        -->Golpear in present/past/past perfect in english ||| (creo) beat/beat/beat-beaten ||| (hice) beat/beat/beat
-                            Respuesta correcta:
+                        -->Golpear (hit repeatedly) in present/past/past perfect in english ||| (creo) beat/beat/beat-beaten ||| (hice) beat/beat/beat
+                            Respuesta correcta: beat/beat/ (beat/beaten) ||| Beat es como golpear repetidamente
 
-                        -->Cerra in presente/past/past perfect ||| (creo) shut/shut/shut ||| (puse) spit/spit/spit/
-                            Respuesta Correcta:
+                        -->Cerrar in presente/past/past perfect ||| (creo) shut/shut/shut ||| (puse) spit/spit/spit/
+                            Respuesta Correcta: shut/shut/shut ||| spit significa escupir
 
                         -->transmitir in presente/past/past perfect in english ||| (creo) broadcast/broadcast/broadcast ||| (puse) forecast/forecast/forecast
-                            Respuesta Correcat:
+                            Respuesta Correcat: broadcast/broadcast/broadcast ||| forecast es predecir
 
-                        -->predecir in present/past/past perfect ||| (creo) forecast/forecast/forecast ||| (puse) spread/spread/spread (No me concentre y ví esparcir)
-                            Respuesta Correcta:
+                        -->predecir in present/past/past perfect ||| (creo) forecast/forecast/forecast 
+                                                                 ||| (puse) spread/spread/spread (No me concentre y ví esparcir)            
+                            Respuesta Correcta: forecast/forecast/forecast ||| Más atento y con más paciencia pleased
 
                     #10.3.4 Verbs that have (ea) and end in (d)
 
                         -->Guiar en present/past/past perfect in english ||| (Creo) lead/let/let ||| (puse) lead/leat/leat
-                            Respuesta Correcta:
+                            Respuesta Correcta: lead/let/let ||| para past and past perfect no hay que agregar ningun at
 
                     #10.3.5 Vebs that have the vowels (ea) and end with (L,N,P,M)
                        
-                        -->Aprender/memorizar in present/past/past perfect in english ||| (creo) learn/learnt-learned/learnt-learned ||| (Puse) learn/learnt/learnt
-                            Respuesta Correcta:
+                        -->Aprender/memorizar in present/past/past perfect in english ||| (creo) learn/learnt-learned/learnt-learned 
+                                                                                      ||| (Puse) learn/learnt/learnt
+                            Respuesta Correcta: learn / (learnt/learned) / (learnt/learned) ||| Primero la t y después el ed
 
                     #10.3.8 Vebrs that end in [-ind]
                         
                         -->desenrollar in present/past/past perfect in english ||| (creo) unwind/unwound/unwound ||| (puse) unbind/unbound/unbound
-                            Respuesta Correcta:
+                            Respuesta Correcta: unwind/unwound/unwound ||| unbind es desatar/desabrochar
 
                     #10.3.9 Vebs that end in [-end]
                         -->Doblar in present/past/past perfect in english ||| (creo) bend/bent/bent ||| (puse) blend/blent/blent
-                            Respuesta Correcta:                        
+                            Respuesta Correcta: bend/bent/bent ||| blend es mezclar                        
 
                     #10.3.10 Vebs that end in [-ing, -ink, -ick, -ig ]
                         -->picar/arder in present/past/past perfect in english ||| (creo) sting/stung/stung ||| (Puse) sting/stang/stung
-                            Respuesta Correcta:
+                            Respuesta Correcta: sting/stung/stung ||| No es con el metódo i-a-u
 
                         -->pegachento in present/past/past perfect in english ||| (creo) cling/clung/clung ||| (puse) stick/stuck/stuck
-                            Respuesta correcta:
+                            Respuesta correcta: cling/clung/clung ||| stick significa pegar, pegachento es como la persona que siempre está ahí pegada
 
                         -->Escaparse/escabullirce in present/past/past perfect in english ||| (creo) slink/slunk/slunk ||| (puse)(ni idea)
-                            Respuesta Correcta:
+                            Respuesta Correcta: slink/slunk/slunk
 
                     #10.3.14 Vebrs that end in [-and]
                         -->Estar de pie/aguantar in present/past/past perfect ||| (creo) stand/stood/stood ||| (puse) stand/stend/stend
-                            Respuesta Correcta:
+                            Respuesta Correcta: stand/stood/stood ||| No existe ningun stend
 
                     #10.3.17 The verbs [ught]
                         -->Enseñar in present/past/past perfect in english ||| (creo) teach/taught/taught ||| (puse) teach/tought/tought
-                            Respuesta Correcta:
+                            Respuesta Correcta: teach/taught/taught ||| Cuál tought, ¿está pensando en celulares?
 
                         -->Cachar/coger/pillar in present/past/past perfect in english ||| (creo) catch/caught/caught ||| (puse) cath/caught/caught
-                            Respuesta Correcta:                
+                            Respuesta Correcta: catch/caught/caught ||| si debe tener el ch                
 
                     #10.3.18 Verbs without keys
-                        -->hacer in present/past/past perfect in english ||| (creo) make/made/made ||| (puse) di/did/did
-                            Respuesta correcta:
+                        -->hacer (construir) in present/past/past perfect in english ||| (creo) make/made/made ||| (puse) do/did/did
+                            Respuesta correcta: make/made/made 
 
                     #10.3.19 verbs ending in [i-consonant-e]
                         -->Esforzarse in present/past/past participe in english ||| (creo) strive/strove/striven ||| (puse) stride/strode/striden
-                            Respuesta correcta:
+                            Respuesta correcta: strive/strove/striven ||| stride es dar zancadas/dar pasos largos
 
                         -->Dar pasos largos/zancadas in present/past/past participe ||| (creo) stride/strode/stridden ||| (puse) stride/strode/stridden
-                            Respuesta correcta:
+                            Respuesta correcta: stride/strode/stridden ||| Hubo algún error en el programa
 
                         -->Destrozar/aniquilar in present/past/past perfect ||| (creo) smite/smote/smitten ||| (puse) smite/smote/smitten
-                            Respuesta Correcta:
+                            Respuesta Correcta: smite/smote/smitten ||| Hubo algún error en el programa
 
                     #10.3.21 Verbs ending in [-in, -ink, -im, -ing, -un]
                         -->Encogido in present/past/past participle in english ||| (creo) shrink/shrank/shrunk ||| (puse) ring/rang/rung
-                            Respuesta Correcta:
+                            Respuesta Correcta: shrink/shrank/shrunk ||| ring significa llamar/hacer sonar/timbrar
 
                     #10.3.22 Verbs ending in [-ear] 
                         -->Maldecir/decir malas palabra/groserías in present/past/past participe ||| (creo) swear/swore/sworn/ ||| (puse) swore/swore/sworn
-                            Respuesta Correcta:
+                            Respuesta Correcta: swear/swore/sworn ||| No entiendo la logica de poner swore
 
                         -->Rasgar in present/past/past perfect in english ||| (creo) tear/tore/torn ||| (puse) ni idea
-                            Respuesta Correcta:
+                            Respuesta Correcta: tear/tore/torn
 
                     #10.3.23 Verbs ending in [-ake]
-                        -->emprender/comenzar in present/past/past participle in english ||| (creo) undertake/undertook/undertaken ||| (puse) fortake/fortook/fortaken
-                            Respuesta Correcta:
+                        -->emprender/comenzar in present/past/past participle in english ||| (creo) undertake/undertook/undertaken 
+                                                                                         ||| (puse) fortake/fortook/fortaken
+                            Respuesta Correcta: undertake/undertook/undertaken ||| fortake no existe jajaj demás que me confundi por el for
                         
                         -->Participlar in present/past/past participle in english ||| (creo) partake/partook/partaken ||| (puse) partake/partook/partaken
-                            Respuesta correcta:
+                            Respuesta correcta: partake/partook/partaken ||| tuvo que haber algún error
 
                     #10.3.26 Verbs ending in [-ow, -aw, -ly]
                         -->Dibujar in present/past/past participle ||| (creo) draw/drew/drawn ||| (puse) draw/drew/drown
-                            Respuesta Correcta:
+                            Respuesta Correcta: draw/drew/drawn ||| no es drown
 
                         -->Excederse in present/past/past participle ||| (creo) overdraw/overdrew/overdrawn ||| (puse) ni idea
-                            Respuesta Correcta:
+                            Respuesta Correcta: overdraw/overdrew/overdrawn 
 
                         -->Volar in present/past/past participle ||| (creo) fly/flew/flown ||| (puse) fly/flow/flown
-                            Respuesta Correcta:
+                            Respuesta Correcta: fly/flew/flown ||| No hay ningun flow, ¿el flow de trueno?
 
                     #10.3.28 Verbs ending in [-see]
                         -->Predecir in present/past/past participle in english ||| (Creo) foresee/foresaw/foreseen ||| (puse) forsee/forsaw/foreseen
-                            Respuesta Correcta:                    
+                            Respuesta Correcta: foresee/foresaw/foreseen ||| hay que poner el fore                    
 
             -Auxiliary verbs
                 -->Tell me the sentences in english ||| (creo) past/present/future ||| (puse) past/present/continuos/perfect continuos
-                    Respuesta Correcta:
+                    Respuesta Correcta: past/present/future ||| No son los aspectos
 
-                -->what are aspect of each sentence ||| (creo) simple/perfect/continuous/continuous perfect ||| (puse) simple/continuos/perfect/continuous perfect
-                    Respuesta Correcta:
+                -->what are aspect of each sentence ||| (creo) simple/perfect/continuous/continuous perfect 
+                                                    ||| (puse) simple/continuos/perfect/continuous perfect
+                    Respuesta Correcta: simple/continuous/perfect/continuous perfect
 
                 -->What is the estructure of the simple ||| (creo) to do ||| (puse) to-do
-                    Respuesta Correcta:
+                    Respuesta Correcta: to do ||| No hay que poner el [-]
 
                 -->What is the estructure of the continuous ||| (creo)to-do+gerundio ||| (puse) verb+ing
-                    Respuesta Correcta:
+                    Respuesta Correcta: to-be+gerundio ||| Ing está bien pero hace falta el to-be y que es mejor decir gerundio que ing.
 
                 -->waht is the structure of the perfect ||| (creo) have+past participle ||| (puse) to have
-                    Respuesta Correcta:
+                    Respuesta Correcta: to have+past participle ||| Que no se olvide el to y el past participle
 
                 -->What is the structure of the continuous perfect ||| (creo) to-be+to-have ||| (puse) to-have+been+past participle
-                    Respuesta Correcta:
+                    Respuesta Correcta: to-be+to have ||| Ojo con ese to have, es más sencillo ya que no hay que poner past participle ni been
 
                     Continuos test:
                         -->estaré comiendo in future and continuous ||| (creo) i will be eating ||| (puse) i will eating
-                            Respuesta correcta:
+                            Respuesta correcta:i will be eating ||| Qué no se olvide el eating
 
                         -->Tuve(past)/tengo(present)/tendre(future) in perfect ||| (creo) i had/i have/i will have ||| (puse) i was have/i have/i will have
-                            Respuesta Correcta:
+                            Respuesta Correcta: i had/ i have / i will have ||| no es was have 
 
                     Perfect test:
                         -->Yo he comido in affirmative and present perfect ||| (creo) i have eaten ||| (puse) i have eaten
-                            Respuesta Correcta:
+                            Respuesta Correcta: i have eaten ||| Puede ser un error del programa
 
                         -->nosotros hemos comido in affirmative and present perfect ||| (creo)we have eaten ||| (puse)we have eat
-                            Respuesta Correcta:
+                            Respuesta Correcta: we have eaten
 
     WORDS():
 
-        - Test 1:
-            -->
-        
-        - Test 2:
-            -->
-
         - Test 3:
-            -->
+            -->Ejecutando ||| (creo) ni idea ||| (puse) performing/performance 
+                Respuesta correcta: performing/per-for-ming ||| Ojo con la sintaxis de la pronunciación 
 
+            -->Muebles/finca/bienes ||| (creo) ni idea ||| (puse) state/steit 
+                Respuesta Correcta: estate/steit ||| Le falto la e.
+ 
         - Test 5:
+            -->Llegada/aterrizaje ||| (creo) arrived/arai-bol ||| (puse) arrived/a-rai-bol
+                Respuesta correcta: arrival/a-rai-bol ||| es arrival y pon cuidado en la sepraración de la pronunciación.
 
-    MONTH GAME():
+            -->Algo de/alguna/cualquiera ||| Ni idea
+                Respuesta Correcta: any/eny
+
+            -->expedir/emitir/publicar/problema ||| (creo) issue/i-shu ||| (puse) assets/i-shu
+                Respuesta Correcta: issue/i-shu ||| No se que putas estabas pensandos assets son activos
 
     PRACTICE_ABECEDARY():
+        --> i ||| (creo) ai ||| (puse) ei
+            Respuesta Correcta: ai 
+
+PREOCUPACIÓN MEDIUM (Quedamos en numbers -- one million):
+    THEORY:
+        -Numbers:
+            -->Structure: Number million: 1.000.000 (creo) one million ||| (Puse)Billion **
+                Respuesta correcta: number+million ||| Recordemos que es la estructura y me confundo porque me digo que los gringos ven el million 
+                                                       con menos ceros.
+                Analogía: En esté caso los gringos| no son tan especiales lo ven igual y un millón tiene 6 ceros porqué seis es el numero de baloto y quíen
+                no quiere ganarselo.
+
+        -Simple rules:
+            -->How to identify adjective?/What are the those characteristics and qualities ||| (Creo) quality/characteristic -- Form/size/color/origin 
+                                                                                               ||| (Puse) en la primera pregunta Form/size/color/origin
+                Respuesta correcta: quality/characteristic ||| form/size/color/origin ||| No es characteristics es characteristic
+            
+            -->what are the auxiliary verbs? ||| (creo) be/do/modals/have(perfect tenses)/to-be 
+                                                 ||| (puse) be/do/modals/have(perfect tenses) (se me olvido el to-be)
+                Respuesta correcta: be/do/madals/have(perfect tenses)/verb to-be
+            
+            -->How to identify prepositions?/What are the prepositions? ||| (Creo) time/place -- at/in/on/that/than/with/against 
+                                                                            ||| (Puse) time/place at/in/on/of/that/with
+                Respuesta Correcta: time/place ||| at/in/on/of/with/that/than/against
+
+            -->What are the connectors? ||| (Creo) preposition/conjunctions-coordinators ||| (Puse) prepositions
+                Respuesta Correcta: preposition/conjunctions-coordinators(fanboys) ||| es preposition y al final (fanboys)
+
+            -->What are the separe strutures? ||| (Creo) Preposition/conjunctions-coordinators/me falta ||| Me falto uno(no recuerdo)
+                Respuesta Correcta: ,/preposition/conjunctions-coordinators(fanboys)
+
+            -->Rule: voz pasiva --><-- voz activa ||| (Creo) voice passive to voice active or voice active to voice passive ||| (Puse) un and
+                Respuesta Correcta: Passive voice to active voice and active voice to passive voice ||| Puede ser un prroblema del programa
+
+            -->What is the structure of the simple present ||| (Creo) is/am/are+verb ||| (puse) to-be
+                Respuesta Correcta: is/am/are+p.p(verb past participle)
+
+            -->What is the structure of the simple past  ||| (creo) was/were+verb ||| (puse) was/were
+                Respuesta Correcta: was/were+p.p(verb past participle)
+
+            -->What is the structure of the simple future ||| (Creo) will+verb ||| (puse) will
+                    Respuesta Correcta: will be+p.p(verb past participle)
+                
+            -->What is the structure of the perfect present ||| (Creo) have/had+verb ||| (puse) have/had
+                Respuesta Correcta: have/has been+p.p(verb past participle) ||| no es had es has
+        
+        -Noun subject:
+
+            -->What is a subject? ||| (totalmente perdido)
+                Respuesta Correcta: a subject is a part of a sentence that contains the person or thing performing the action in a sentence.
+
+            -->Write matiz/tonalidad ||| (Creo) nuance |||(Puse) nounce
+                    Respuesta Correcta: nuance
+            
+
+            
+
+PREUCUPACIÓN ():
+            
